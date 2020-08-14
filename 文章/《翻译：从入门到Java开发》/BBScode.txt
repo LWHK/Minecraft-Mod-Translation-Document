@@ -3,56 +3,58 @@
 [#2]如何找到模组中的语言文件？
 [#3]如何搭建一个适合翻译工作的工作区域？
 *[#4]文本编辑器
-[#5]汉化提交的多种途径
-*[#6]通过GitHub进行汉化工作
-**[#7]GitHub入门
-***[#8]申请账号
-***[#9]相关概念以及工作流程
-*****[#10]fork
-*****[#11]将仓库clone到本地（可选）
-*****[#12]pull request
-*****[#13]review（比较重要的可选项）
-*****[#14]与原仓库同步
-**[#15]原库提交（不推荐新手）
-**[#16]CFPA提交
-***[#17]CFPA仓库地址以及项目存放位置
-**[#18]通过Weblate进行汉化工作（暂缓更新）
+*[#5]进阶小技巧
+[#6]汉化提交的多种途径
+*[#7]通过GitHub进行汉化工作
+**[#8]GitHub入门
+***[#9]申请账号
+***[#10]相关概念以及工作流程
+*****[#11]fork
+*****[#12]将仓库clone到本地（可选）
+*****[#13]pull request
+*****[#14]review（比较重要的可选项）
+*****[#15]与原仓库同步
+**[#16]原库提交（不推荐新手）
+**[#17]CFPA提交
+***[#18]CFPA仓库地址以及项目存放位置
+**[#19]通过Weblate进行汉化工作（暂缓更新）
 
 [/index]
 
 
 [size=32px][b]前言[/b][/size]
 
-[size=16px]粗略查了查，似乎目前站内还没有一个当前版本（指1.12.2以后）的汉化流程教学。其实很多时候不是没有人翻译，而是很多人自己做了翻译，也想共享出来，却找不到门路；找到人之后，还需要引路人手把手的教学。但其实这些可能都不是完全必要的，如果有足够详细且系统的帖子能够写明一些规范化处理的流程（或者说，正是在书写的过程中，这一过程被规范化了），那么想要参与到汉化工作之中来的人就能很快的上手，并充分输出自身的生产力了（悲）。[/size]
+[size=16px]粗略查了查，似乎目前站内还没有一个当前版本（指1.12.2以后）的汉化流程教学。其实很多时候不是没有人翻译，而是很多人自己做了个翻译，也想共享出来，却找不到门路，找到人之后，还需要手把手的教学。但其实这些可能都不是完全必要的，如果有足够详细且系统的帖子能够写明一些规范化处理的流程（或者说，正是在书写的过程中，这一过程被规范化了），那么想要参与到汉化工作之中来的人就能很快的上手并充分输出自身的生产力了（悲）。[/size]
 
 [size=16px]总而言之，以上所说的就是本帖的目的——当前版本下的汉化流程，以及提交流程，我会尽量将我所知道的流程尽可能的写清楚，方便之后的人查阅和学习。[/size]
 
 [size=16px]但在这之前要注意，如果你的英语水平还很差，那么我还是不建议你参与到汉化工作中来。有些人可能觉得，翻译的工作不是查一查词典，找一找语法书就好了吗？这样想的人，都还too young，想法也非常的naive，我们可以引用一段本雅明的《译者的任务》中的文段，来阐明这一问题：[/size]
 
 [quote][size=16px]文学作品的基本特性并不是陈述事实或发布信息。然而任何执行传播功能的翻译所传播的只能是信息，也就是说，它传播的只是非本质的东西。这是拙劣译文的特征。但是人们普遍认为为文学作品的实质是信息之外的东西。就连拙劣的译者也承认，文学作品的精髓是某种深不可测的、神秘的、“诗意的”东西；翻译家如要再现这种东西，自己必须也是一个诗人。[/size][/quote]
-[size=16px]模组翻译明显不是文学作品，然而它们总有着部分的相似之处。所以这里也很明显的说出了一些问题，这些问题至今在大部分翻译者那里都存在着——如果你的句子仅仅是纯粹的词语+语法的堆砌，那么你的译文毫无疑问就是拙劣的译文。而那些甚至连最基本的中文语序以及逻辑都把握不到的翻译者，翻译出来的东西简直惨不忍睹，不忍直视，甚至称不上这里所说的“拙劣的译文”。毫无疑问，这里所说的两种不好的译文，都是由于经验的不足而导致的，这一经验指的不是英语阅读的经验，而是将其从英语转变为中文的经验，这同时考校了你双边的实力。[/size]
+[size=16px]mod翻译明显不是文学作品，然而它们总有着部分的相似之处。所以这里也很明显的说出了一些问题，这些问题至今在大部分翻译者那里都存在着——如果你的句子仅仅是纯粹的词语+语法的堆砌，那么你的译文毫无疑问就是拙劣的译文。而那些甚至连最基本的中文语序以及逻辑都把握不到的翻译者，翻译出来的东西简直惨不忍睹，不忍直视，甚至称不上这里所说的“拙劣的译文”。毫无疑问，这里所说的两种不好的译文，都是由于经验的不足而导致的，这一经验指的不是英语阅读的经验，而是将其从英语转变为中文的经验，这同时考校了你双边的实力。[/size]
 
-[size=16px]话不多说，我们开始正题。 [/size][size=16px]
-[/size]
-[size=16px]来自 [/size][url=https://github.com/LWHK]LWHK Organization[/url]
-[size=16px][page][/size]
+[size=16px]话不多说，我们开始正题。 [page][/size]
 
 [size=32px][b]如何找到模组中的语言文件？[/b][/size]
 
 [size=16px]右键你的模组，使用压缩软件的方式进行打开。例如，我使用的是360压缩，那么右键模组文件之后，会出现如下提示：[/size]
 
-[size=16px][img]http://img.stu-huangxinyu.cn/2020/08/13/4c3cc7d2035ee.jpg[/img][/size]
+[url=https://i.loli.net/2020/08/13/Hg3AtWLTCj1lzs2.jpg][img]https://i.loli.net/2020/08/13/Hg3AtWLTCj1lzs2.jpg[/img][/url]
 
 [size=16px]点开之后是这个样子：[/size]
 
-[size=16px][img]http://img.stu-huangxinyu.cn/2020/08/13/3707cee7c5d5b.jpg[/img][/size]
+[url=https://i.loli.net/2020/08/13/lQYnw4gOu85SHXC.jpg][img]https://i.loli.net/2020/08/13/lQYnw4gOu85SHXC.jpg[/img][/url]
 
-[size=16px]依次进入：assets\模组 IDt\lang，就会发现：[/size]
+[size=16px]依次进入：assets\模组 ID\lang，就会发现：[/size]
 
-[size=16px][img]http://img.stu-huangxinyu.cn/2020/08/13/3efd2d6be5c8e.jpg[/img][/size]
+[url=https://i.loli.net/2020/08/13/Drq6WykR9pYsfJ1.jpg][img]https://i.loli.net/2020/08/13/Drq6WykR9pYsfJ1.jpg[/img][/url]
 
 [size=16px]1是英文的语言文件，2是中文的语言文件，如果没有2，就说明这一个模组没有中文的翻译，你可以按照其英语文本进行翻译，翻译完之后，把文件改名为2，也就是zh_cn.lang，然后将其放进上述的目录，这样，这样你在游戏中就可以读取到翻译了！[/size]
-[page]
+
+[size=16px]但要注意！！编码格式一定得是UTF-8，不能是其它的！！有些模组自带手册，但是忘记定义了调用字符集，如果使用UTF-8进入游戏，则会通篇全为乱码。[b]但是这不是你的问题[/b]！！！你要做的就是在他的仓库那里贴上这个[url=https://github.com/Electroblob77/Wizardry/pull/479]pr[/url]，作者自然就会明白了！[/size]
+
+[size=16px][page][/size]
+
 [size=32px][b]如何搭建一个适合翻译工作的工作区域？[/b][/size]
 
 [size=16px]如果上述都还是一些人尽皆知的小技巧，那么，接下来的内容就只有翻译工们才会知道了，而且每位汉化者都有自己的舒服的一些工具，有些工具性能较好，有些工具则是功能取胜，这些全看个人选择，所以，以下只是我个人的经验之谈。[/size]
@@ -93,6 +95,24 @@
 
 [size=16px][page][/size]
 
+[size=24px][b]进阶小技巧[/b][/size]
+
+[size=16px]汉化中总是会遇上那种重复率很高，已经定番的词，比如red，green这种颜色，而且这种词往往不会是单个出现，而是一次性出现17个，也就是原版所有颜色的合集。而且，如果一次性出现很多次（比如在装饰类mod里），那给人带来极强的烦躁感。
+
+这时候我们就需要一些小工具了，我个人推荐的是Quicker：[url=https://getquicker.net/]https://getquicker.net/[/url] 
+ 
+我不负责从头教，你可以自己去搜一搜相关的使用教程。这个小工具用处很大，这里只是列举出其中的一种。[/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/7NrBnyK9QxpcCLS.jpg[/img][/size]
+
+[size=16px]这是我自己写出来的一个小的替换颜色的脚本，难度不高，可以自己尝试一下。[/size]
+
+[size=16px]或者复制这个，然后粘贴在quicker上：[/size]
+
+[size=16px][url=https://getquicker.net/sharedaction?code=73bfacbd-69c8-41b8-1a2a-08d83f7686c1]https://getquicker.net/sharedaction?code=73bfacbd-69c8-41b8-1a2a-08d83f7686c1[/url][/size]
+
+[size=16px][page][/size]
+
 [size=32px][b]汉化提交的多种途径[/b][/size]
 
 [size=16px]在mc中，汉化提交可以以多种途径进行，但大体上分为：[/size]
@@ -119,9 +139,7 @@
 
 [size=16px][b]申请账号[/b][/size]
 
-[size=16px]这是进入GitHub的第一步。首先打开网址：[url=https://github.com/，然后你大概会看见如下的网页：]https://github.com/[/url][/size][size=16px]
-[/size]
-[size=16px]然后你大概会看见如下的网页：[/size]
+[size=16px]这是进入GitHub的第一步。首先打开网址：[url=https://github.com/，然后你大概会看见如下的网页：]https://github.com/，然后你大概会看见如下的网页：[/url][/size]
 
 [size=16px][img]https://i.loli.net/2020/08/14/hIRCSKYHpFiw29D.jpg[/img][/size]
 
@@ -135,7 +153,9 @@
 
 [size=16px]可能在一些小细节上有出入，但无伤大雅，大体一致即可。[/size]
 
-[size=16px]到了这里，你就拥有了一个GitHub账号了！ [page][/size]
+[size=16px]到了这里，你就拥有了一个GitHub账号了！[/size]
+
+[page]
 
 [size=16px][b]相关概念以及工作流程[/b][/size]
 
@@ -146,7 +166,7 @@
 [size=16px]接下来是详细讲解：[/size]
 
 [size=16px][list=1]
-[*]在[url=https://www.curseforge.com/minecraft/mc-模组s]curseforge[/url]上找到自己想要汉化的模组，这里随便以一个模组为例：
+[*]在[url=https://www.curseforge.com/minecraft/mc-mods]curseforge[/url]上找到自己想要汉化的mod，这里随便以一个mod为例：
 [/list][/size]
 [size=16px][img]https://i.loli.net/2020/08/14/PzqieXIyL6cna2D.jpg[/img][/size]
 
@@ -154,7 +174,7 @@
 
 [size=16px][img]https://i.loli.net/2020/08/14/fSArFdPxZcRE5Hu.jpg[/img][/size]
 
-[size=16px]点进这个图标，就可以跳转到这个模组对应的GitHub仓库，这样我们就找到了可以提交汉化的模组的GitHub仓库了。[/size]
+[size=16px]点进这个图标，就可以跳转到这个mod对应的GitHub仓库，这样我们就找到了可以提交汉化的模组的GitHub仓库了。[/size]
 
 [size=16px][list=1]
 [*]Fork
@@ -172,7 +192,7 @@
 
 [size=16px]一番查找之后：[/size]
 
-[url=https://i.loli.net/2020/08/14/LnxI7BCZjqRuMGk.jpg][img]https://i.loli.net/2020/08/14/LnxI7BCZjqRuMGk.jpg[/img][/url]
+[size=16px][img]https://i.loli.net/2020/08/14/lxRb3eGyh4W9CZj.jpg[/img][/size]
 
 [size=16px]记住这个位置，你的文件应该上传到lang文件夹里，就和在模组里一样！其中的几个文件夹名字是不固定的，取决于模组的名字，相信你一眼就能明白哪些是不固定的了。[/size]
 
@@ -187,11 +207,17 @@
 
 [size=16px]我们先回到原仓库，依次点击：[/size]
 
-[size=16px][img]https://i.loli.net/2020/08/14/bCso5nykqIFQ3pU.jpg[/img] [img]https://i.loli.net/2020/08/14/WEsk6LD8jHNifAt.jpg[/img] [img]https://i.loli.net/2020/08/14/m8W74nEaV1bHfUP.jpg[/img] [img]https://i.loli.net/2020/08/14/xVdDraEycZeXMkU.jpg[/img][/size]
+[size=16px][img]https://i.loli.net/2020/08/14/bCso5nykqIFQ3pU.jpg[/img] 
+
+[img]https://i.loli.net/2020/08/14/WEsk6LD8jHNifAt.jpg[/img] 
+
+[img]https://i.loli.net/2020/08/14/m8W74nEaV1bHfUP.jpg[/img]
+
+[img]https://i.loli.net/2020/08/14/xVdDraEycZeXMkU.jpg[/img][/size]
 
 [size=16px]然后你会在页面的下方看到你和原仓库的对比，游览且发现没问题之后，点击Create pull request，然后填上一些你想说的就好了。[/size]
 
-[size=16px]注意，在pr的信息填写里，不要给欧美的作者发中文，他们是看不懂。你的目的是给他们发送汉化文件，[b]不是使用中文和他们聊天！[/b][/size]
+[size=16px]注意，在pr的信息填写里，不要给欧美的作者发中文，他们是看不懂的。你的目的是给他们发送汉化文件，[b]不是使用中文和他们聊天！[/b][/size]
 
 [size=16px]遵照上述的流程，你就可以顺利将你的汉化提交至作者那边了！但是你还是需要稍微等待，毕竟作者也不可能一直守着电脑，等到作者有空的时候，他会回复你，并决定是否采用你的汉化文件。 [page][/size]
 
@@ -260,11 +286,11 @@
 
 [size=20px][b]原库提交（不推荐新手）[/b][/size]
 
-[size=16px]原库提交，指的就是向模组的原仓库提交你的汉化。这一行为无异于宣称你开始负责本模组的汉化，所以不推荐新人这样做，逐步积攒经验之后，才有能力承担一个模组的官中。[/size]
+[size=16px]原库提交，指的就是向mod的原仓库提交你的汉化。这一行为无异于宣称你开始负责本模组的汉化，所以不推荐新人这样做，逐步积攒经验之后，才有能力承担一个mod的官中。[/size]
 
 [size=16px]官库提交的流程与以上提到的提交流程是一个流程，按着操作即可。[/size]
 
-[size=16px]注意，原库提交意味着模组作者不会帮助你review，你必须自行找人，@他过来帮助你review才行。 [page][/size]
+[size=16px]注意，原库提交意味着mod作者不会帮助你review，你必须自行找人，@他过来帮助你review才行。 [page][/size]
 
 [size=20px][b]CFPA提交[/b][/size]
 
@@ -272,23 +298,16 @@
 
 [size=16px][b]CFPA仓库地址以及项目存放位置[/b][/size]
 
-[size=16px]CFPA仓库地址：[url=https://github.com/CFPAOrg/Minecraft-模组-Language-Package]https://github.com/CFPAOrg/Minecraft-模组-Language-Package[/url][/size]
+[size=16px]CFPA仓库地址：[url=https://github.com/CFPAOrg/Minecraft-Mod-Language-Package]https://github.com/CFPAOrg/Minecraft-Mod-Language-Package[/url][/size]
 
 [size=16px]注意，所有的汉化项目 应该被放置到该路径下：[/size]
 
 [size=16px][img]https://i.loli.net/2020/08/14/89ACU1aY3XFGDhW.jpg[/img][/size]
 
-[size=16px]点进这里后，你会发现成吨的已经汉化过了的项目（感谢各位的辛勤付出），你需要将你的文件上传至此处，但你必须适当的存放你的文件。还记得第一节中的模组的压缩包结构吗？即 assets\模组 IDt\lang ，你会发现，这里的每个项目也都是这样存放的，你需要手动为你的文件创建一个新的文件夹，并将文件夹命名为模组id，然后在其中再次创建一个名为lang的文件夹，然后再把你的汉化文件放进去。这一操作本质上就是将模组文件夹的结构复刻到仓库里，只不过这一次，多了你新放进去的汉化文件。[/size]
+[size=16px]点进这里后，你会发现成吨的已经汉化过了的项目（感谢各位的辛勤付出），你需要将你的文件上传至此处，但你必须适当的存放你的文件。还记得第一节中的mod的压缩包结构吗？即 assets\模组 ID\lang ，你会发现，这里的每个项目也都是这样存放的，你需要手动为你的文件创建一个新的文件夹，并将文件夹命名为模组id，然后在其中再次创建一个名为lang的文件夹，然后再把你的汉化文件放进去。这一操作本质上就是将模组文件夹的结构复刻到仓库里，只不过这一次，多了你新放进去的汉化文件。[/size]
 
 [size=16px]注意，你最好把你所翻译的对应英语文本同样放进去，这样会方便后来者查看。其它语言的则不用。 [page][/size]
 
 [size=24px][b]通过Weblate进行汉化工作（暂缓更新）[/b][/size]
-
-
-
-
-
-
-
 
 
