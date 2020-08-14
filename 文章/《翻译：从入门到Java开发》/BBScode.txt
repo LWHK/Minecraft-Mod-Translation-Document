@@ -3,21 +3,29 @@
 [#2]如何找到模组中的语言文件？
 [#3]如何搭建一个适合翻译工作的工作区域？
 *[#4]文本编辑器
-*[#5]进阶小技巧
-[#6]汉化提交的多种途径
-*[#7]通过GitHub进行汉化工作
-**[#8]GitHub入门
-***[#9]申请账号
-***[#10]相关概念以及工作流程
-*****[#11]fork
-*****[#12]将仓库clone到本地（可选）
-*****[#13]pull request
+*[#5]词典以及在线词典网站
+*[#6]进阶小技巧
+[#7]汉化提交的多种途径
+*[#8]通过GitHub进行汉化工作
+**[#9]GitHub入门
+***[#10]申请账号
+***[#11]相关概念以及工作流程
+*****[#12]fork
+*****[#13]将仓库clone到本地（可选）
+*****[#14]pull request
 *****[#14]review（比较重要的可选项）
-*****[#15]与原仓库同步
-**[#16]原库提交（不推荐新手）
-**[#17]CFPA提交
-***[#18]CFPA仓库地址以及项目存放位置
-**[#19]通过Weblate进行汉化工作（暂缓更新）
+*****[#16]与原仓库同步
+**[#17]原库提交（不推荐新手）
+**[#18]CFPA提交
+***[#19]CFPA仓库地址以及项目存放位置
+**[#20]通过Weblate进行汉化工作（暂缓更新）
+[#21]汉化的一些注意事项
+*[#22]每天一个机翻小技巧，有手就能学废
+*[#23]意外情况
+**[#24]不加载
+***[#25]完全不加载
+***[#26]部分不加载
+**[#27]文字乱码
 
 [/index]
 
@@ -33,25 +41,29 @@
 [quote][size=16px]文学作品的基本特性并不是陈述事实或发布信息。然而任何执行传播功能的翻译所传播的只能是信息，也就是说，它传播的只是非本质的东西。这是拙劣译文的特征。但是人们普遍认为为文学作品的实质是信息之外的东西。就连拙劣的译者也承认，文学作品的精髓是某种深不可测的、神秘的、“诗意的”东西；翻译家如要再现这种东西，自己必须也是一个诗人。[/size][/quote]
 [size=16px]mod翻译明显不是文学作品，然而它们总有着部分的相似之处。所以这里也很明显的说出了一些问题，这些问题至今在大部分翻译者那里都存在着——如果你的句子仅仅是纯粹的词语+语法的堆砌，那么你的译文毫无疑问就是拙劣的译文。而那些甚至连最基本的中文语序以及逻辑都把握不到的翻译者，翻译出来的东西简直惨不忍睹，不忍直视，甚至称不上这里所说的“拙劣的译文”。毫无疑问，这里所说的两种不好的译文，都是由于经验的不足而导致的，这一经验指的不是英语阅读的经验，而是将其从英语转变为中文的经验，这同时考校了你双边的实力。[/size]
 
-[size=16px]话不多说，我们开始正题。 [page][/size]
+[size=16px]话不多说，我们开始正题。[/size]
+
+[size=16px]来自 [url=https://github.com/LWHK]LWHK organization[/url][/size]
+
+[size=16px][page][/size]
 
 [size=32px][b]如何找到模组中的语言文件？[/b][/size]
 
 [size=16px]右键你的模组，使用压缩软件的方式进行打开。例如，我使用的是360压缩，那么右键模组文件之后，会出现如下提示：[/size]
 
-[url=https://i.loli.net/2020/08/13/Hg3AtWLTCj1lzs2.jpg][img]https://i.loli.net/2020/08/13/Hg3AtWLTCj1lzs2.jpg[/img][/url]
+[size=16px][img]https://i.loli.net/2020/08/13/Hg3AtWLTCj1lzs2.jpg[/img][/size]
 
 [size=16px]点开之后是这个样子：[/size]
 
-[url=https://i.loli.net/2020/08/13/lQYnw4gOu85SHXC.jpg][img]https://i.loli.net/2020/08/13/lQYnw4gOu85SHXC.jpg[/img][/url]
+[size=16px][img]https://i.loli.net/2020/08/13/lQYnw4gOu85SHXC.jpg[/img][/size]
 
 [size=16px]依次进入：assets\模组 ID\lang，就会发现：[/size]
 
-[url=https://i.loli.net/2020/08/13/Drq6WykR9pYsfJ1.jpg][img]https://i.loli.net/2020/08/13/Drq6WykR9pYsfJ1.jpg[/img][/url]
+[size=16px][img]https://i.loli.net/2020/08/13/Drq6WykR9pYsfJ1.jpg[/img][/size]
 
 [size=16px]1是英文的语言文件，2是中文的语言文件，如果没有2，就说明这一个模组没有中文的翻译，你可以按照其英语文本进行翻译，翻译完之后，把文件改名为2，也就是zh_cn.lang，然后将其放进上述的目录，这样，这样你在游戏中就可以读取到翻译了！[/size]
 
-[size=16px]但要注意！！编码格式一定得是UTF-8，不能是其它的！！有些模组自带手册，但是忘记定义了调用字符集，如果使用UTF-8进入游戏，则会通篇全为乱码。[b]但是这不是你的问题[/b]！！！你要做的就是在他的仓库那里贴上这个[url=https://github.com/Electroblob77/Wizardry/pull/479]pr[/url]，作者自然就会明白了！[/size]
+[size=16px]顺带一提，在1.12.2中，语言文件为.lang文件，但在1.12.2以上的版本中，则是.json文件。[/size]
 
 [size=16px][page][/size]
 
@@ -66,15 +78,13 @@
 [size=16px]对我而言，我装的文本编辑器有两个：[/size]
 
 [size=16px][list=1]
-[*]轻量编辑器：Notepad++（不再推荐）
-[/list][/size]
+[*]轻量编辑器：Notepad++（不再推荐）[/list][/size]
 [size=16px]原本我是想着说，如果不谈zz，那么这款软件其实完全是可以推荐的。但是自从我上了它的官网，我发现作者已经到了非常嚣张的地步，所以还是不推荐了，如果想用轻量编辑，换一个[b]Notepad3[/b]可能会好一些。[/size]
 
 [size=16px]之所以我会说你需要一款轻量编辑器，是因为有时候其实你根本不需要这么多的功能，你只需要一定的语法高亮，看看排版，查查错误，仔细看看翻译质量。这时候，如果再搬出一些庞然大物，那有点杀鸡用牛刀的意味。[/size]
 
 [size=16px][list=1]
-[*]主力军：[b]VSCode[/b]
-[/list][/size]
+[*]主力军：[b]VSCode[/b][/list][/size]
 [size=16px]这位就是我们汉化工作的主要工作区域，这是它的下载地址：[url=https://code.visualstudio.com/]https://code.visualstudio.com/[/url][/size]
 
 [size=16px]下载完成后，界面是这样的：[/size]
@@ -89,19 +99,42 @@
 
 [size=16px][list=1]
 [*]Minecraft Lang Colorizer（必装）
-[*]Minecraft JSON Schemas（自选）
-[/list][/size]
+[*]Minecraft JSON Schemas（自选）[/list][/size]
 [size=16px]基本上，安装了这些之后，你就可以畅通无阻的进行你的汉化工作了！[/size]
+
+[size=16px][page][/size]
+
+[size=24px][b]词典以及在线词典网站[/b][/size]
+
+[size=16px]如果你的词汇量足够丰富，那么你在进行翻译的过程中肯定可以畅通无阻。但是实际上很多人根本做不到这样，因此词典软件就必不可少了。[/size]
+
+[size=16px]我个人使用的词典是欧路词典：[url=https://dict.eudic.net/]https://dict.eudic.net/[/url][/size]
+
+[size=16px]还是不错的，安装了桌面版之后，打开划词翻译，打开vsc，只需要选中你想查询的词，即可查出意思，非常好用。[/size]
+
+[size=16px]有道词典的桌面版也不错，然而和我的电脑有bug，所以卸了，但是有道的划词检索很快，不像欧陆，有时候划词检索不出来，还会卡住，但这些情况还是较少的。[/size]
+
+[size=16px]长句子翻译非常推荐DeepL，令人惊叹的翻译准度，以至于我的哲学论文有很大一部分的内容都是它帮助我翻译的：[/size]
+
+[size=16px][url=https://www.deepl.com/]https://www.deepl.com/[/url][/size]
+
+[size=16px]顺带一些在线词典网站推荐：[/size]
+
+[size=16px][url=https://dict.mcmod.cn/]https://dict.mcmod.cn/[/url]  mcmod词典[/size]
+
+[size=16px][url=https://translate.google.cn/]https://translate.google.cn/[/url]  谷歌翻译[/size]
+
+[size=16px]如果你有苹果移动端设备并且使用方便，直接打开手机，在主屏幕下滑打开搜索栏，输入英语词汇即可翻译。词典种类很丰富，甚至部分支持其它几个印欧语系的语言、日语及汉语。[/size]
 
 [size=16px][page][/size]
 
 [size=24px][b]进阶小技巧[/b][/size]
 
-[size=16px]汉化中总是会遇上那种重复率很高，已经定番的词，比如red，green这种颜色，而且这种词往往不会是单个出现，而是一次性出现17个，也就是原版所有颜色的合集。而且，如果一次性出现很多次（比如在装饰类mod里），那给人带来极强的烦躁感。
+[size=16px]汉化中总是会遇上那种重复率很高，已经定番的词，比如red，green这种颜色，而且这种词往往不会是单个出现，而是一次性出现17个，也就是原版所有颜色的合集。而且，如果一次性出现很多次（比如在装饰类mod里），那给人带来极强的烦躁感。[/size]
 
-这时候我们就需要一些小工具了，我个人推荐的是Quicker：[url=https://getquicker.net/]https://getquicker.net/[/url] 
- 
-我不负责从头教，你可以自己去搜一搜相关的使用教程。这个小工具用处很大，这里只是列举出其中的一种。[/size]
+[size=16px]这时候我们就需要一些小工具了，我个人推荐的是Quicker：[url=https://getquicker.net/]https://getquicker.net/[/url][/size]
+
+[size=16px]我不负责从头教，你可以自己去搜一搜相关的使用教程。这个小工具用处很大，这里只是列举出其中的一种。[/size]
 
 [size=16px][img]https://i.loli.net/2020/08/14/7NrBnyK9QxpcCLS.jpg[/img][/size]
 
@@ -111,6 +144,26 @@
 
 [size=16px][url=https://getquicker.net/sharedaction?code=73bfacbd-69c8-41b8-1a2a-08d83f7686c1]https://getquicker.net/sharedaction?code=73bfacbd-69c8-41b8-1a2a-08d83f7686c1[/url][/size]
 
+[size=16px]========================================================================================================[/size]
+
+[size=16px]如果你想实时与同伴一同汉化一个项目，该怎么操作呢？[/size]
+
+[size=16px]vsc有个拓展，叫做Live share，登陆之后就可以分享你当前的工作区了！只需以链接的形式发送给朋友，朋友点击，然后接受，就可以实时翻译了！[/size]
+
+[size=16px]装了拓展之后，会在vsc的下方显示这个东西：[/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/mjipLV2nzDTHhl8.jpg[/img][/size]
+
+[size=16px]点击之后，就会提示你登录，登陆之后，按着提示最后点击OK，右下角就会提示，已经将连接置入剪贴板。[/size]
+
+[size=16px]发送到朋友那里之后，朋友点进去，将会是这样：[/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/nMzhFQiCbmGxZPp.jpg[/img][/size]
+
+[size=16px]注意，你的朋友也需要登录！！[/size]
+
+[size=16px]然后只需点击“打开 Live Share for Vs Code”，就可以完成了！[/size]
+
 [size=16px][page][/size]
 
 [size=32px][b]汉化提交的多种途径[/b][/size]
@@ -119,15 +172,16 @@
 
 [size=16px][list=1]
 [*]使用GitHub进行汉化工作。
-[*]使用Weblate进行汉化工作（暂缓更新）
-[/list][/size]
+[*]使用Weblate进行汉化工作（暂缓更新）[/list][/size]
 [size=16px]本文主要围绕1进行讲解，2的讲解暂且搁置，因为目前wl出于维护阶段，暂不可用，目前最稳妥的方法就是走GitHub进行汉化提交、[/size]
 
 [size=16px]注意，如果你只是想单纯的进行汉化工作，自己使用或是给周围有限的人使用，那么提交汉化是完全没有必要的，这一部分只是写给那些想要融入当前模组翻译汉化圈子的人。 [page][/size]
 
 [size=24px][b]通过GitHub进行汉化工作[/b][/size]
 
-[size=16px]如果你想通过GitHub来进行你的汉化流程，那么首先你得了解GitHub是什么，以及它的相关操作。 [page][/size]
+[size=16px]如果你想通过GitHub来进行你的汉化流程，那么首先你得了解GitHub是什么，以及它的相关操作。[/size]
+
+[size=16px][page][/size]
 
 [size=20px][b]GitHub入门[/b][/size]
 
@@ -153,9 +207,7 @@
 
 [size=16px]可能在一些小细节上有出入，但无伤大雅，大体一致即可。[/size]
 
-[size=16px]到了这里，你就拥有了一个GitHub账号了！[/size]
-
-[page]
+[size=16px]到了这里，你就拥有了一个GitHub账号了！ [page][/size]
 
 [size=16px][b]相关概念以及工作流程[/b][/size]
 
@@ -166,8 +218,7 @@
 [size=16px]接下来是详细讲解：[/size]
 
 [size=16px][list=1]
-[*]在[url=https://www.curseforge.com/minecraft/mc-mods]curseforge[/url]上找到自己想要汉化的mod，这里随便以一个mod为例：
-[/list][/size]
+[*]在[url=https://www.curseforge.com/minecraft/mc-mods]curseforge[/url]上找到自己想要汉化的mod，这里随便以一个mod为例：[/list][/size]
 [size=16px][img]https://i.loli.net/2020/08/14/PzqieXIyL6cna2D.jpg[/img][/size]
 
 [size=16px]这里以JEI做个例子，点进去之后，我们可以找到这个图标：[/size]
@@ -177,8 +228,7 @@
 [size=16px]点进这个图标，就可以跳转到这个mod对应的GitHub仓库，这样我们就找到了可以提交汉化的模组的GitHub仓库了。[/size]
 
 [size=16px][list=1]
-[*]Fork
-[/list][/size]
+[*]Fork[/list][/size]
 [size=16px]这是JEI的仓库：[/size]
 
 [size=16px][img]https://i.loli.net/2020/08/14/l9HDhCnoPpJmx7g.jpg[/img][/size]
@@ -186,8 +236,7 @@
 [size=16px]我们点击右上角的Fork，将这份仓库Fork为自己的。（如果你不明白为什么需要这样做，你可以跳转到相应的章节查看解释）。[/size]
 
 [size=16px][list=1]
-[*]修改仓库的内容
-[/list][/size]
+[*]修改仓库的内容[/list][/size]
 [size=16px]到了这一步，你就可以将你之前的汉化提交到 GitHub上了。首先你需要找出你汉化过后的文件，然后将你的文件上传到GitHub。如何上传呢？首先你得找到藏在仓库中的对应文件。还记得第一小节里的那个zh_cn.,lang吗？我们已经知道了这一文件在模组文件的哪个位置，而GitHub仓库储存了这一模组的全部文件，那么我们只需要找到仓库中同样的位置就好了。[/size]
 
 [size=16px]一番查找之后：[/size]
@@ -201,19 +250,12 @@
 [size=16px][img]https://i.loli.net/2020/08/14/rt6PKXvByfM1LVI.jpg[/img][/size]
 
 [size=16px][list=1]
-[*]拉取请求
-[/list][/size]
+[*]拉取请求[/list][/size]
 [size=16px]这个仓库是你的，但是你的仓库知识原仓库的一个副本，如果你想要把你的修改合并到原仓库，那么你应该怎么做？这时候我们就需要发送[b]Pull Request[/b]（拉取请求，简称PR）到原仓库。[/size]
 
 [size=16px]我们先回到原仓库，依次点击：[/size]
 
-[size=16px][img]https://i.loli.net/2020/08/14/bCso5nykqIFQ3pU.jpg[/img] 
-
-[img]https://i.loli.net/2020/08/14/WEsk6LD8jHNifAt.jpg[/img] 
-
-[img]https://i.loli.net/2020/08/14/m8W74nEaV1bHfUP.jpg[/img]
-
-[img]https://i.loli.net/2020/08/14/xVdDraEycZeXMkU.jpg[/img][/size]
+[size=16px][img]https://i.loli.net/2020/08/14/bCso5nykqIFQ3pU.jpg[/img] [img]https://i.loli.net/2020/08/14/WEsk6LD8jHNifAt.jpg[/img] [img]https://i.loli.net/2020/08/14/m8W74nEaV1bHfUP.jpg[/img] [img]https://i.loli.net/2020/08/14/xVdDraEycZeXMkU.jpg[/img][/size]
 
 [size=16px]然后你会在页面的下方看到你和原仓库的对比，游览且发现没问题之后，点击Create pull request，然后填上一些你想说的就好了。[/size]
 
@@ -232,7 +274,34 @@
 [quote][size=16px]如果你 “fork” 一个仓库，则是指[b]复制它[/b]。特别是当你 fork 属于别人的仓库时，你将制作他们[b]仓库的完全一样的副本[/b]，之后[b]这个副本便变成你的[/b]。[/size][/quote]
 [size=16px]注意这里的用词，“[b]变成你的[/b]”意味着你对于这个仓库有着完全的控制权，包括删除仓库，所以修改你自己的仓库也自然不在话下了。 [page][/size]
 
-[size=14px][b]将仓库clone到本地（可选）[/b][/size]
+[size=14px][b]将仓库clone到本地（可选，较为重要）[/b][/size]
+
+[size=16px]当你同时参与了多个项目的汉化之后，你会遇到一个严峻的事实：每天打开游览器，登上GitHub，一旦作者们更新勤奋，你就要开始手忙脚乱的跳网页，找位置。pr自己的仓库，打开自己的仓库。有时候要连续开4、5个页面，才能到你想要的那个仓库位置。一个仓库还好，如果是十多个，那就太累人了，况且GitHub的网页加载速度并不快。[/size]
+
+[size=16px]这个时候，最好的解决方案就是将你负责的仓库拉取到本地，你只需要在你的本地就能够将一切任务处理完毕，无需上GitHub的网页版，极为的方便。[/size]
+
+[size=16px]这是利用GitHub桌面版将仓库clone到本地的教程：[/size]
+
+[size=16px][url=https://www.jianshu.com/p/1e45b93bd593]https://www.jianshu.com/p/1e45b93bd593[/url][/size]
+
+[size=16px]只需进行下载并安装了桌面版GitHub之后，执行教程的第二步，就可以将仓库拉取到本地了！接下来的任务就是进一步把你的仓库clone到本地，这样就根本无需打开网页端的GitHub，本地一站式解决！[/size]
+
+[size=16px]这是一个clone好的仓库：[/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/aYhFyzlTfZCwMc4.jpg[/img][/size]
+
+[size=16px]更改之后的操作：[/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/17qjE2IdklZN6Kb.jpg[/img][/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/ZwgON6jv9pqBRun.jpg[/img][/size]
+
+[size=16px]如果你想要更加完善你的本地Git操作，那么这两个扩展必不可少：[/size]
+
+[size=16px][list=1]
+[*]GitHub Pull Requests and Issues
+[*]GitLens-Git supercharged[/list][/size]
+[size=16px]安装之后，只要你熟悉GitHub的操作，你将很快明白这两个扩展如何使用。[/size]
 
 [size=16px][page][/size]
 
@@ -280,9 +349,15 @@
 
 [size=14px][b]与原仓库同步[/b][/size]
 
-[size=16px]请参考：[url=https://www.cnblogs.com/jjliu/p/11775845.html]https://www.cnblogs.com/jjliu/p/11775845.html[/url][/size]
+[size=16px]很多时候，作者更新了仓库，然后你发现他新加入了一些物品，理所当然的，语言文件里也多出了这些新物品的条目。你很快就意识到了这一点：你的仓库落后于作者的仓库，如果你想翻译这些新的内容，那么，你必须把新的内容拉取到你的仓库。最简单的方法就是在你的仓库发起一个反向pr，不是你pr他，而是他pr你。[/size]
 
-[size=16px]（其实是因为懒） [page][/size]
+[size=16px]如果使用命令行的话，请参考：[/size]
+
+[size=16px][url=https://www.cnblogs.com/jjliu/p/11775845.html]https://www.cnblogs.com/jjliu/p/11775845.html[/url][/size]
+
+[size=16px]命令行在本地仓库极为有用，建议认真在网上找教程学习。[/size]
+
+[size=16px][page][/size]
 
 [size=20px][b]原库提交（不推荐新手）[/b][/size]
 
@@ -292,7 +367,7 @@
 
 [size=16px]注意，原库提交意味着mod作者不会帮助你review，你必须自行找人，@他过来帮助你review才行。 [page][/size]
 
-[size=20px][b]CFPA提交[/b][/size]
+[size=20px][b]CFPA提交（仅限1.12.2）[/b][/size]
 
 [size=16px]自动汉化模组的提交途径是我最推荐新手使用的，因为自动汉化的维护者会帮你review（逃）。提交手段与上述的并无二致，唯一要注意的是文件存放的位置。 [page][/size]
 
@@ -309,5 +384,60 @@
 [size=16px]注意，你最好把你所翻译的对应英语文本同样放进去，这样会方便后来者查看。其它语言的则不用。 [page][/size]
 
 [size=24px][b]通过Weblate进行汉化工作（暂缓更新）[/b][/size]
+
+[size=16px][page][/size]
+
+[size=32px][b]汉化的一些注意事项[/b][/size]
+
+[size=16px]考虑到可能看这篇的大部分都是新手翻译者（废话，大佬本来就不多），所以，除了一些硬件上的需求，还得提前说好一些mc翻译圈内的规矩，避免冲塔/自爆卡车，然后怪我在贴内没有说清楚。 [page][/size]
+
+[size=24px][b]每天一个机翻小技巧，有手就能学废[/b][/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/pFscVL4zKCMxZHB.jpg[/img][/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/rJKecbwDQ6nFYBU.jpg[/img][/size]
+
+[size=16px]机翻是一种极为严重的错误行为，任何在模组翻译圈中的机翻行为都必须完全抵制。在这里我要谨慎的区分开我前面谈到的，利用Quicker帮助替换颜色文本和机翻具有[b]本质性区别[/b]。我们抵制机翻不是为了证明某种由人翻译所产生的抽象本质的威严性，而是为了抵制由机翻带来的不通顺的，错误的，乃至于离谱的翻译。这种抵制建立在纯粹的[b]实用层面[/b]上，而不是在抽象的行为区分上。这里可以引出一个非常明显的悖谬：面对着一个翻译的比人更像人的机器，我们是应该抵制呢？还是支持呢？如果一个人不使用这样的机器生产翻译，而是自己翻译（质量上肯定差于机器翻译），那么，站在用户的角度，我们是应该支持，还是抵制呢？[/size]
+
+[size=16px]我个人不愿意从纯粹的行为角度区分机翻和人翻，这样子似乎走入了某种[b]本质性幻觉[/b]之中，我们试图在人翻和机翻之间找到某种本质性裂缝，这一裂缝展开了价值上的区分。然而，这样的裂缝真的存在吗？我认为这是需要辩驳的。[/size]
+
+[size=16px]抛开纯粹的思辨，如果我们站在实用的立场上，我们就可以发现，在颜色替换这样的例子上，其与机翻有[b]实用层面的本质区别[/b]。在这种情境下，人翻和机翻在[b]纯粹语词[/b]的层面没有差别，这意味着在[b]纯粹实用[/b]的层面也没有区别，你根本无从分辨哪个是机翻哪个是人翻，你只能凭借[b]非实用层面[/b]的因素进行区分。但是这样的区分在我看来，构不成价值上的判断，所以无须批判颜色替换的问题，需要批判的是由机翻带来的坏翻译。 [page][/size]
+
+[size=24px][b]意外情况[/b][/size]
+
+[size=16px]有时你会发现，你翻译出来的文本出现了奇怪的问题：明明把翻译文件放进了模组文件内，但游戏中不加载；加载了，居然是乱码；又或者只有单独的一些东西没有加载。这些情况我会在本节中为你们梳理一下，避免被坑。 [page][/size]
+
+[size=20px][b]不加载[/b][/size]
+
+[size=16px]不加载又分为两种情况：完全不加载和部分不加载。[/size]
+
+[size=16px][page][/size]
+
+[size=16px][b]完全不加载[/b][/size]
+
+[size=16px]首先检查文件名是否正确，一般而言，在1.12.2中，中文文件可能会有两种名字 ，一种为zh_cn.lang，一种为zh_CN.lang，看似只有尾巴的大小写差异，但你实际上，如果英语文件的尾巴是大写的，然后你放了一个小写尾巴的中文文件进去，它是[b]不会加载的[/b]。中文文件的尾巴的大小写必须跟随英文文件尾巴的大小写。[/size]
+
+[size=16px]1.12.2以上则不是lang文件，而是.json文件。[/size]
+
+[size=16px]第二个就是检查文件位置，这个不用我多说。[/size]
+
+[size=16px][page][/size]
+
+[size=16px][b]部分不加载[/b][/size]
+
+[size=16px]部分不加载，则有可能是因为key错误，所谓的key错误，就是语言文件中每一行的左边部分，1.12.2的lang是以 = 为界，1.12.2以上的json文件则为 : 为界，你需要单独检查一下那些有了翻译，但是游戏中没有加载的词条的key。[/size]
+
+[size=16px]也有一些情况，那就是根本没有key，作者把文本写进了代码中，这个情况你就需要较高的技术力了。如果你懂代码，那么你就能明白怎么改；如果你不懂代码，在issue界面和作者反馈问题就好了，不必勉强自己。[/size]
+
+[size=16px][page][/size]
+
+[size=20px][b]文字乱码[/b][/size]
+
+[size=16px]文本都会涉及到一个问题，那就是编码问题。如果你的文本是UTF-8的编码，然而你的游戏使用了GBK的编码方式，那么自然只能出现乱码。详细的可以去网上搜一搜。[/size]
+
+[size=16px]注意，无论是lang还是手册，编码格式一定得是UTF-8，不能是其它的。有些模组自带手册，但是忘记定义了调用Java解码的字符集，此时Java就会调用你的系统默认的字符集进行解码。如果使用UTF-8进入游戏，则会通篇全为乱码。[b]但是这不是你的问题[/b]。你要做的就是在他的仓库的issue那里贴上这个[url=https://github.com/Electroblob77/Wizardry/pull/479]pr[/url]，作者自然就会明白了。[/size]
+
+
+
 
 
