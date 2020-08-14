@@ -1,0 +1,294 @@
+[index]
+[#1]前言
+[#2]如何找到模组中的语言文件？
+[#3]如何搭建一个适合翻译工作的工作区域？
+*[#4]文本编辑器
+[#5]汉化提交的多种途径
+*[#6]通过GitHub进行汉化工作
+**[#7]GitHub入门
+***[#8]申请账号
+***[#9]相关概念以及工作流程
+*****[#10]fork
+*****[#11]将仓库clone到本地（可选）
+*****[#12]pull request
+*****[#13]review（比较重要的可选项）
+*****[#14]与原仓库同步
+**[#15]原库提交（不推荐新手）
+**[#16]CFPA提交
+***[#17]CFPA仓库地址以及项目存放位置
+**[#18]通过Weblate进行汉化工作（暂缓更新）
+
+[/index]
+
+
+[size=32px][b]前言[/b][/size]
+
+[size=16px]粗略查了查，似乎目前站内还没有一个当前版本（指1.12.2以后）的汉化流程教学。其实很多时候不是没有人翻译，而是很多人自己做了翻译，也想共享出来，却找不到门路；找到人之后，还需要引路人手把手的教学。但其实这些可能都不是完全必要的，如果有足够详细且系统的帖子能够写明一些规范化处理的流程（或者说，正是在书写的过程中，这一过程被规范化了），那么想要参与到汉化工作之中来的人就能很快的上手，并充分输出自身的生产力了（悲）。[/size]
+
+[size=16px]总而言之，以上所说的就是本帖的目的——当前版本下的汉化流程，以及提交流程，我会尽量将我所知道的流程尽可能的写清楚，方便之后的人查阅和学习。[/size]
+
+[size=16px]但在这之前要注意，如果你的英语水平还很差，那么我还是不建议你参与到汉化工作中来。有些人可能觉得，翻译的工作不是查一查词典，找一找语法书就好了吗？这样想的人，都还too young，想法也非常的naive，我们可以引用一段本雅明的《译者的任务》中的文段，来阐明这一问题：[/size]
+
+[quote][size=16px]文学作品的基本特性并不是陈述事实或发布信息。然而任何执行传播功能的翻译所传播的只能是信息，也就是说，它传播的只是非本质的东西。这是拙劣译文的特征。但是人们普遍认为为文学作品的实质是信息之外的东西。就连拙劣的译者也承认，文学作品的精髓是某种深不可测的、神秘的、“诗意的”东西；翻译家如要再现这种东西，自己必须也是一个诗人。[/size][/quote]
+[size=16px]模组翻译明显不是文学作品，然而它们总有着部分的相似之处。所以这里也很明显的说出了一些问题，这些问题至今在大部分翻译者那里都存在着——如果你的句子仅仅是纯粹的词语+语法的堆砌，那么你的译文毫无疑问就是拙劣的译文。而那些甚至连最基本的中文语序以及逻辑都把握不到的翻译者，翻译出来的东西简直惨不忍睹，不忍直视，甚至称不上这里所说的“拙劣的译文”。毫无疑问，这里所说的两种不好的译文，都是由于经验的不足而导致的，这一经验指的不是英语阅读的经验，而是将其从英语转变为中文的经验，这同时考校了你双边的实力。[/size]
+
+[size=16px]话不多说，我们开始正题。 [/size][size=16px]
+[/size]
+[size=16px]来自 [/size][url=https://github.com/LWHK]LWHK Organization[/url]
+[size=16px][page][/size]
+
+[size=32px][b]如何找到模组中的语言文件？[/b][/size]
+
+[size=16px]右键你的模组，使用压缩软件的方式进行打开。例如，我使用的是360压缩，那么右键模组文件之后，会出现如下提示：[/size]
+
+[size=16px][img]http://img.stu-huangxinyu.cn/2020/08/13/4c3cc7d2035ee.jpg[/img][/size]
+
+[size=16px]点开之后是这个样子：[/size]
+
+[size=16px][img]http://img.stu-huangxinyu.cn/2020/08/13/3707cee7c5d5b.jpg[/img][/size]
+
+[size=16px]依次进入：assets\模组 IDt\lang，就会发现：[/size]
+
+[size=16px][img]http://img.stu-huangxinyu.cn/2020/08/13/3efd2d6be5c8e.jpg[/img][/size]
+
+[size=16px]1是英文的语言文件，2是中文的语言文件，如果没有2，就说明这一个模组没有中文的翻译，你可以按照其英语文本进行翻译，翻译完之后，把文件改名为2，也就是zh_cn.lang，然后将其放进上述的目录，这样，这样你在游戏中就可以读取到翻译了！[/size]
+[page]
+[size=32px][b]如何搭建一个适合翻译工作的工作区域？[/b][/size]
+
+[size=16px]如果上述都还是一些人尽皆知的小技巧，那么，接下来的内容就只有翻译工们才会知道了，而且每位汉化者都有自己的舒服的一些工具，有些工具性能较好，有些工具则是功能取胜，这些全看个人选择，所以，以下只是我个人的经验之谈。[/size]
+
+[size=16px]在这里，必要的部分只有文本编辑器，在必要的部分之后，我会列出可选的软件，这些软件有一些可以提升你的工作效率，有些则关乎你接下来提交汉化的路径。 [page][/size]
+
+[size=24px][b]文本编辑器[/b][/size]
+
+[size=16px]对我而言，我装的文本编辑器有两个：[/size]
+
+[size=16px][list=1]
+[*]轻量编辑器：Notepad++（不再推荐）
+[/list][/size]
+[size=16px]原本我是想着说，如果不谈zz，那么这款软件其实完全是可以推荐的。但是自从我上了它的官网，我发现作者已经到了非常嚣张的地步，所以还是不推荐了，如果想用轻量编辑，换一个[b]Notepad3[/b]可能会好一些。[/size]
+
+[size=16px]之所以我会说你需要一款轻量编辑器，是因为有时候其实你根本不需要这么多的功能，你只需要一定的语法高亮，看看排版，查查错误，仔细看看翻译质量。这时候，如果再搬出一些庞然大物，那有点杀鸡用牛刀的意味。[/size]
+
+[size=16px][list=1]
+[*]主力军：[b]VSCode[/b]
+[/list][/size]
+[size=16px]这位就是我们汉化工作的主要工作区域，这是它的下载地址：[url=https://code.visualstudio.com/]https://code.visualstudio.com/[/url][/size]
+
+[size=16px]下载完成后，界面是这样的：[/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/GJAH54rwMs16q7u.jpg[/img][/size]
+
+[size=16px]在上面我分别标注出了几个需要注意的地方。然后你就可以开始你的工作区搭建了！[/size]
+
+[size=16px]首先是点进扩展管理，在上面搜索"Chinese (Simplified) Language Pack for Visual Studio Code"，然后安装第一个跳出的插件，你就会发现你的界面已经变成了中文。[/size]
+
+[size=16px]然后你还需要安装以下扩展：[/size]
+
+[size=16px][list=1]
+[*]Minecraft Lang Colorizer（必装）
+[*]Minecraft JSON Schemas（自选）
+[/list][/size]
+[size=16px]基本上，安装了这些之后，你就可以畅通无阻的进行你的汉化工作了！[/size]
+
+[size=16px][page][/size]
+
+[size=32px][b]汉化提交的多种途径[/b][/size]
+
+[size=16px]在mc中，汉化提交可以以多种途径进行，但大体上分为：[/size]
+
+[size=16px][list=1]
+[*]使用GitHub进行汉化工作。
+[*]使用Weblate进行汉化工作（暂缓更新）
+[/list][/size]
+[size=16px]本文主要围绕1进行讲解，2的讲解暂且搁置，因为目前wl出于维护阶段，暂不可用，目前最稳妥的方法就是走GitHub进行汉化提交、[/size]
+
+[size=16px]注意，如果你只是想单纯的进行汉化工作，自己使用或是给周围有限的人使用，那么提交汉化是完全没有必要的，这一部分只是写给那些想要融入当前模组翻译汉化圈子的人。 [page][/size]
+
+[size=24px][b]通过GitHub进行汉化工作[/b][/size]
+
+[size=16px]如果你想通过GitHub来进行你的汉化流程，那么首先你得了解GitHub是什么，以及它的相关操作。 [page][/size]
+
+[size=20px][b]GitHub入门[/b][/size]
+
+[size=16px]本节将会告诉你如何注册GitHub账号，以及GitHub的一些你需要认识的术语，以及这些术语所代表的操作如何进行，这些都是重中之重，很多汉化者被卡在了这一步。所以在这一节里，我会尽可能的配上图片，这样讲解的更为清晰明了。先申明，本人没有编程经验，对于GitHub的操作难免也有疏漏的地方，所以也恳请各位看官斧正一二，感激不尽。[/size]
+
+[size=16px]提前声明，对于某些地区的用户来说，GitHub的速度奇慢无比，很多时候无法正常加载，这种情况下往往需要隧穿术穿墙而过才能正常加载。然而本帖不负责教授你隧穿术。对于那些有需求但是不知道去哪里学习隧穿术的年轻秘法巫师们，我建议你多去造访一些巫师塔，譬如知乎等。[/size]
+
+[size=16px]顺便提醒一下，自行搭建隧穿法阵可能会被圣祠收容。 [page][/size]
+
+[size=16px][b]申请账号[/b][/size]
+
+[size=16px]这是进入GitHub的第一步。首先打开网址：[url=https://github.com/，然后你大概会看见如下的网页：]https://github.com/[/url][/size][size=16px]
+[/size]
+[size=16px]然后你大概会看见如下的网页：[/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/hIRCSKYHpFiw29D.jpg[/img][/size]
+
+[size=16px]如果你始终加载不出来，那可能你需要隧穿术来帮助你穿过这道墙，但这一精深的课题已经超出了本帖的范围，不再详述。[/size]
+
+[size=16px]接着你需要注册一个账号，只需要遵循着引导流程，即可注册一个属于你自己的账号了。如果在注册过程中出现了验证等加载不出来的情况，那么可能也需要使用隧穿术进行网页加载。（最近墙有点厚，忍着吧）。[/size]
+
+[size=16px]注册完毕后，你的界面将会变成这样：[/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/pHBjKSRUNaE7IOC.jpg[/img][/size]
+
+[size=16px]可能在一些小细节上有出入，但无伤大雅，大体一致即可。[/size]
+
+[size=16px]到了这里，你就拥有了一个GitHub账号了！ [page][/size]
+
+[size=16px][b]相关概念以及工作流程[/b][/size]
+
+[size=16px]在这一小节中，我会先介绍汉化提交的流程，然后再流程之中抓出相应的概念进行讲解。[/size]
+
+[size=16px]工作流程大体为找到仓库→Fork→修改Fork过来的仓库→发送Pull Request（拉取请求）到原仓库。[/size]
+
+[size=16px]接下来是详细讲解：[/size]
+
+[size=16px][list=1]
+[*]在[url=https://www.curseforge.com/minecraft/mc-模组s]curseforge[/url]上找到自己想要汉化的模组，这里随便以一个模组为例：
+[/list][/size]
+[size=16px][img]https://i.loli.net/2020/08/14/PzqieXIyL6cna2D.jpg[/img][/size]
+
+[size=16px]这里以JEI做个例子，点进去之后，我们可以找到这个图标：[/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/fSArFdPxZcRE5Hu.jpg[/img][/size]
+
+[size=16px]点进这个图标，就可以跳转到这个模组对应的GitHub仓库，这样我们就找到了可以提交汉化的模组的GitHub仓库了。[/size]
+
+[size=16px][list=1]
+[*]Fork
+[/list][/size]
+[size=16px]这是JEI的仓库：[/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/l9HDhCnoPpJmx7g.jpg[/img][/size]
+
+[size=16px]我们点击右上角的Fork，将这份仓库Fork为自己的。（如果你不明白为什么需要这样做，你可以跳转到相应的章节查看解释）。[/size]
+
+[size=16px][list=1]
+[*]修改仓库的内容
+[/list][/size]
+[size=16px]到了这一步，你就可以将你之前的汉化提交到 GitHub上了。首先你需要找出你汉化过后的文件，然后将你的文件上传到GitHub。如何上传呢？首先你得找到藏在仓库中的对应文件。还记得第一小节里的那个zh_cn.,lang吗？我们已经知道了这一文件在模组文件的哪个位置，而GitHub仓库储存了这一模组的全部文件，那么我们只需要找到仓库中同样的位置就好了。[/size]
+
+[size=16px]一番查找之后：[/size]
+
+[url=https://i.loli.net/2020/08/14/LnxI7BCZjqRuMGk.jpg][img]https://i.loli.net/2020/08/14/LnxI7BCZjqRuMGk.jpg[/img][/url]
+
+[size=16px]记住这个位置，你的文件应该上传到lang文件夹里，就和在模组里一样！其中的几个文件夹名字是不固定的，取决于模组的名字，相信你一眼就能明白哪些是不固定的了。[/size]
+
+[size=16px]这里换了一个仓库，点击圈内按钮，选择upload file，就可以上传文件了！[/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/rt6PKXvByfM1LVI.jpg[/img][/size]
+
+[size=16px][list=1]
+[*]拉取请求
+[/list][/size]
+[size=16px]这个仓库是你的，但是你的仓库知识原仓库的一个副本，如果你想要把你的修改合并到原仓库，那么你应该怎么做？这时候我们就需要发送[b]Pull Request[/b]（拉取请求，简称PR）到原仓库。[/size]
+
+[size=16px]我们先回到原仓库，依次点击：[/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/bCso5nykqIFQ3pU.jpg[/img] [img]https://i.loli.net/2020/08/14/WEsk6LD8jHNifAt.jpg[/img] [img]https://i.loli.net/2020/08/14/m8W74nEaV1bHfUP.jpg[/img] [img]https://i.loli.net/2020/08/14/xVdDraEycZeXMkU.jpg[/img][/size]
+
+[size=16px]然后你会在页面的下方看到你和原仓库的对比，游览且发现没问题之后，点击Create pull request，然后填上一些你想说的就好了。[/size]
+
+[size=16px]注意，在pr的信息填写里，不要给欧美的作者发中文，他们是看不懂。你的目的是给他们发送汉化文件，[b]不是使用中文和他们聊天！[/b][/size]
+
+[size=16px]遵照上述的流程，你就可以顺利将你的汉化提交至作者那边了！但是你还是需要稍微等待，毕竟作者也不可能一直守着电脑，等到作者有空的时候，他会回复你，并决定是否采用你的汉化文件。 [page][/size]
+
+[size=14px][b]fork[/b][/size]
+
+[size=16px]为什么需要fork？[/size]
+
+[size=16px]你应该注意到，你其实对别人的仓库是没有修改的权限的（废话）。所以Fork的操作就相当于，你将他的仓库抄了一遍，然后你在这个抄本上进行修改，这是可以的，[b]因为这是你的抄本[/b]。[/size]
+
+[size=16px]我们引一段资料：[/size]
+
+[quote][size=16px]如果你 “fork” 一个仓库，则是指[b]复制它[/b]。特别是当你 fork 属于别人的仓库时，你将制作他们[b]仓库的完全一样的副本[/b]，之后[b]这个副本便变成你的[/b]。[/size][/quote]
+[size=16px]注意这里的用词，“[b]变成你的[/b]”意味着你对于这个仓库有着完全的控制权，包括删除仓库，所以修改你自己的仓库也自然不在话下了。 [page][/size]
+
+[size=14px][b]将仓库clone到本地（可选）[/b][/size]
+
+[size=16px][page][/size]
+
+[size=14px][b]pull request[/b][/size]
+
+[size=16px]什么是[b]Pull Request[/b]？[/size]
+
+[size=16px]翻译过来就是“拉取请求”。我们在Fork的仓库里做的修改都只是自己的，和原仓库没有什么关系。但是如果你想把你的修改合并到原仓库，那么，你需要问一问作者，“我能不能把我的修改合并到你的仓库呢？”，这一过程就被叫做“拉取请求”。这一过程实质上[b]就是把你做的修改同步到原仓库那边[/b]，但这一过程必须询问过仓库主人，因为“私闯民宅”是[b]犯法的[/b]。[/size]
+
+[size=16px]网上有极多的pr教程，如果觉得我说的不够清晰，那么请自行百度。只需输入“GitHub pull request”即可。 [page][/size]
+
+[size=14px][b]review（比较重要的可选项）[/b][/size]
+
+[size=16px]这是一个看上去可以被忽视的过程，但实际上，如果你不想被[b]其它的翻译者锤[/b]，你最好做这一道流程。[/size]
+
+[size=16px]具体该如何做呢？这里放出[url=https://github.com/LWHK]LWHK[/url]的一个[url=https://github.com/LWHK/Create/pull/1]pr[/url]，来供大家作为讲解例子。[/size]
+
+[size=16px]打开pr页面之后，我们点击此处：[/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/mXl5HjDuRLFNnEW.jpg[/img][/size]
+
+[size=16px]进入到如下界面：[/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/QzmunFbEdf6pTtw.jpg[/img][/size]
+
+[size=16px]在本页面中，本次pr的所有文件更改内容都会显示出来。将鼠标移至每一行前面，可以发现多了一个小加号：[/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/nemCb9WsfaMh4P2.jpg[/img][/size]
+
+[size=16px]点击这个+，你就可以针对于这一行的内容进行评论，评论完之后，点击start a review即可，如果你只是单纯的想发表一下对于这一行的一些想法，那么你可以点击Add single comment，如果突然间没意见了，可以点击cancel。[/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/1NycTqx657zrELv.jpg[/img][/size]
+
+[size=16px]完成了所有文件的查看之后，你可以点击屏幕右上角的这个。如果你觉得有很多地方需要更改，那么就点击Request changes（请求修改），如果你发现没有什么好改的，你就点击approve（批准，赞成），如果你只是来划水的，你可以点击comment。 [img]https://i.loli.net/2020/08/14/zG7aLPug1VXnxlI.jpg[/img][/size]
+
+[size=16px]有时候你需要特定的人帮助你review你的pr，这时候你可以在pr里发送@信息，或者在右边的这里指定他帮助你pr（注意，这一操作只有仓库主人才可以进行！如果你没有该仓库的权限，那么你是无法在右边专门指定人为你review的，此时你只能@他过来）：[/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/Q6DW2eMJPCmAUGS.jpg[/img][/size]
+
+[size=16px]这是@的例子：[/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/1bB2rZh4ivnKfud.jpg[/img][/size]
+
+[size=16px]再次警告：无论你觉得你的实力多强，只要你不是神，你就会犯错误，而且往往是低级的错误，这些时候如果没有人帮助你review，那么你的错误将会被别人看到，被别的汉化者锤，如果你不想这样，请你一定要找人帮助你review！！ [page][/size]
+
+[size=14px][b]与原仓库同步[/b][/size]
+
+[size=16px]请参考：[url=https://www.cnblogs.com/jjliu/p/11775845.html]https://www.cnblogs.com/jjliu/p/11775845.html[/url][/size]
+
+[size=16px]（其实是因为懒） [page][/size]
+
+[size=20px][b]原库提交（不推荐新手）[/b][/size]
+
+[size=16px]原库提交，指的就是向模组的原仓库提交你的汉化。这一行为无异于宣称你开始负责本模组的汉化，所以不推荐新人这样做，逐步积攒经验之后，才有能力承担一个模组的官中。[/size]
+
+[size=16px]官库提交的流程与以上提到的提交流程是一个流程，按着操作即可。[/size]
+
+[size=16px]注意，原库提交意味着模组作者不会帮助你review，你必须自行找人，@他过来帮助你review才行。 [page][/size]
+
+[size=20px][b]CFPA提交[/b][/size]
+
+[size=16px]自动汉化模组的提交途径是我最推荐新手使用的，因为自动汉化的维护者会帮你review（逃）。提交手段与上述的并无二致，唯一要注意的是文件存放的位置。 [page][/size]
+
+[size=16px][b]CFPA仓库地址以及项目存放位置[/b][/size]
+
+[size=16px]CFPA仓库地址：[url=https://github.com/CFPAOrg/Minecraft-模组-Language-Package]https://github.com/CFPAOrg/Minecraft-模组-Language-Package[/url][/size]
+
+[size=16px]注意，所有的汉化项目 应该被放置到该路径下：[/size]
+
+[size=16px][img]https://i.loli.net/2020/08/14/89ACU1aY3XFGDhW.jpg[/img][/size]
+
+[size=16px]点进这里后，你会发现成吨的已经汉化过了的项目（感谢各位的辛勤付出），你需要将你的文件上传至此处，但你必须适当的存放你的文件。还记得第一节中的模组的压缩包结构吗？即 assets\模组 IDt\lang ，你会发现，这里的每个项目也都是这样存放的，你需要手动为你的文件创建一个新的文件夹，并将文件夹命名为模组id，然后在其中再次创建一个名为lang的文件夹，然后再把你的汉化文件放进去。这一操作本质上就是将模组文件夹的结构复刻到仓库里，只不过这一次，多了你新放进去的汉化文件。[/size]
+
+[size=16px]注意，你最好把你所翻译的对应英语文本同样放进去，这样会方便后来者查看。其它语言的则不用。 [page][/size]
+
+[size=24px][b]通过Weblate进行汉化工作（暂缓更新）[/b][/size]
+
+
+
+
+
+
+
+
+
