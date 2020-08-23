@@ -7,7 +7,7 @@
   - [词典与网站](#词典与网站)
   - [进阶小技巧](#进阶小技巧)
 - [汉化提交途径](#汉化提交途径)
-  - [通过 GitHub](#通过_github)
+  - [通过 GitHub](#https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#%E9%80%9A%E8%BF%87-github)
     - [GitHub 入门](#GitHub_入门)
       - [注册账号](#注册账号)
       - [相关概念与工作流程](#相关概念与工作流程)
