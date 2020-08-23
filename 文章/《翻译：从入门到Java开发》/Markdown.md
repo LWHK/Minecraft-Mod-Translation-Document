@@ -13,7 +13,7 @@
       - [相关概念与工作流程](#相关概念与工作流程)
         - [Fork](#Fork)
         - [将仓库 clone 到本地（可选，较为重要）](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81)
-        - [Pull Request](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#pull-request)
+        - [Pull request](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#pull-request)
         - [Review](#Review)
         - [与原仓库同步](#与原仓库同步)
     - [向原库提交（不推荐新手）](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#%E5%90%91%E5%8E%9F%E5%BA%93%E6%8F%90%E4%BA%A4%E4%B8%8D%E6%8E%A8%E8%8D%90%E6%96%B0%E6%89%8B)
@@ -55,8 +55,6 @@
 话不宜多，我们开始正题。
 
 来自 [LWHK Organization](https://github.com/LWHK)，本文作者：[清秋](https://github.com/TUsama)，[轩辕](https://github.com/WuzgXY-GitHub)
-
-致歉：清秋的文字并不是很严谨，此外也并没有在英文与中文之间适当地加入空格，所以图片的阅读体验与文本的阅读体验之间可能有差异，敬请谅解！
 
 ## 找到语言文件
 
@@ -102,7 +100,7 @@
 
     这位就是我们汉化工作的主要工作区域。
 
-    安装完成后，界面是这样的：
+    下载完成后，界面是这样的：
 
 
     ![剪贴板图片 _3_.jpg](https://i.loli.net/2020/08/14/GJAH54rwMs16q7u.jpg)
@@ -165,7 +163,7 @@
 
 2. 与同伴一起汉化一个项目
 
-    VSC 有个扩展，叫做 Live Share，可以通过分享链接来共享工作区。以链接的形式发送给同伴，让同伴单击并接受，就可以实时共享翻译进程了！
+    VSC 有个扩展，叫做 Live Share，可以通过分享链接来共享工作区。以链接的形式发送给同伴，让同伴点击并接受，就可以实时共享翻译进程了！
 
     装了扩展之后，会在 VSC 的下方显示这个内容：
 
@@ -209,8 +207,6 @@
 
 对于某些地区的用户来说，GitHub 的速度奇慢无比。这时候必须通过其它手段解决这一问题，具体方法见 [下一节](#注册账号)。
 
-GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水平不足的人自行考量是否要请他人协助提交汉化。
-
 <a name="注册账号">**注册账号**</a>
 
 这是进入 GitHub 的第一步。首先打开 [GitHub](https://github.com)。
@@ -239,7 +235,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 在本节中，我们会先介绍汉化提交的流程，然后再在流程之中抓出相应的概念进行详细讲解。
 
-工作流程大体为找到仓库 → Fork → 修改 Fork 过来的仓库 → 发送 Pull Request（拉取请求）到原仓库。
+工作流程大体为找到仓库 → Fork → 修改 fork 过来的仓库 → 发送 pull request（拉取请求）到原仓库。
 
 接下来是详细讲解：
 
@@ -255,7 +251,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
     ![剪贴板图片 (7).jpg](https://i.loli.net/2020/08/14/fSArFdPxZcRE5Hu.jpg)
 
 
-    点进这个图标，就可以跳转到这个模组对应的源码仓库了。一般情况下这个仓库位于 GitHub，但也有一些开发者会采用 GitLab 或 Gitee 这种其它与 GitHub 相似的代码托管网站。除非你已经大致摸清了 GitHub 的运作方式，否则不要轻易将 GitHub 的流程套用至其它的托管网站上；遇到了 GitLab 等其它平台时请考虑不作汉化或向他人寻求帮助。
+    点进这个图标，就可以跳转到这个模组对应的源码仓库了。一般情况下这个仓库位于 GitHub，但也有一些开发者会采用 GitLab 等其它与 GitHub 相似的代码托管网站。除非你已经大致摸清了 GitHub 的运作方式，否则不要轻易将 GitHub 的流程套用至其它的托管网站上；遇到了 GitLab 等其它平台时请考虑不作汉化或向他人寻求帮助。
 
 2. Fork
 
@@ -265,7 +261,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
     ![剪贴板图片 (21).jpg](https://i.loli.net/2020/08/14/l9HDhCnoPpJmx7g.jpg)
 
 
-    我们单击右上角的 fork，将这份仓库 Fork 为自己的。如果你不明白为什么需要这样做，你可以在阅读完成后到 [下一节](#Fork) 查看解释。
+    我们点击右上角的 fork，将这份仓库 fork 为自己的。如果你不明白为什么需要这样做，你可以在阅读完成后到 [下一节](#Fork) 查看解释。
 
 3. 修改仓库的内容
 
@@ -279,7 +275,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
     记住这个位置，你的文件应该上传到 lang 文件夹里，就和在模组里一样！其中的几个文件夹名字是不固定的，取决于模组的名字，相信你一眼就能明白哪些是不固定的了。
 
-    这里换了一个仓库作例子，单击圈内按钮，选择 upload file，就可以上传文件了！
+    这里换了一个仓库作例子，点击圈内按钮，选择 upload file，就可以上传文件了！
 
 
     ![剪贴板图片 _9_.jpg](https://i.loli.net/2020/08/14/rt6PKXvByfM1LVI.jpg)
@@ -287,9 +283,9 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 4. 拉取请求
 
-    这个仓库是你的，但是你的仓库只是原仓库的一个副本，如果你想要把你的修改合并到原仓库，那么你应该怎么做？这时候我们就需要发送 **Pull Request**（拉取请求，简称 PR）到原仓库。
+    这个仓库是你的，但是你的仓库只是原仓库的一个副本，如果你想要把你的修改合并到原仓库，那么你应该怎么做？这时候我们就需要发送 **pull request**（拉取请求，简称 PR）到原仓库。
 
-    我们先回到原仓库，依次单击：
+    我们先回到原仓库，依次点击：
 
     
     ![剪贴板图片 (10).jpg](https://i.loli.net/2020/08/14/bCso5nykqIFQ3pU.jpg)
@@ -301,7 +297,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
     ![剪贴板图片 (13).jpg](https://i.loli.net/2020/08/14/xVdDraEycZeXMkU.jpg)
 
     
-    然后你会在页面的下方看到你和原仓库的对比，浏览且发现没问题之后，单击 create Pull Request，然后填上一些你想说的就好了。
+    然后你会在页面的下方看到你和原仓库的对比，游览且发现没问题之后，点击 create pull request，然后填上一些你想说的就好了。
 
     注意，在 PR 的信息填写里，不要给国外的作者发中文，他们是看不懂的。你的目的是给他们发送汉化文件，**不是使用中文和他们聊天！**（不过可以用英文和他们聊.jpg）
 
@@ -311,31 +307,39 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 为什么需要 fork？
 
-你应该注意到，你其实对别人的仓库是没有修改权限的~~（废话）~~。所以 Fork 的操作就相当于，你将他的仓库抄了一遍，然后你在这个抄本上进行修改，这是可以的，因为这是你**自己**的抄本。
+你应该注意到，你其实对别人的仓库是没有修改的权限的（废话）。所以 fork 的操作就相当于，你将他的仓库抄了一遍，然后你在这个抄本上进行修改，这是可以的，因为这是你**自己**的抄本。
 
 我们引一段 [资料](https://blog.csdn.net/moduRooKie/article/details/82219255)：
 
-> ……你 Fork 一个仓库，指的是**复制**它。特别是当你 Fork 属于别人的仓库时，你将制作他们仓库的**完全一样的**副本，之后这个副本便变成**你的**了。
+> ……你 fork 一个仓库，指的是**复制**它。特别是当你 fork 属于别人的仓库时，你将制作他们仓库的**完全一样的**副本，之后这个副本便变成**你的**了。
 
 注意这里的用词，“变成**你的**”意味着你对于这个仓库有着完全的控制权，包括删除仓库，所以修改你自己的仓库也自然不在话下了。
 
-如果仍然未能理解这部分内容，请务必自行搜索并弄通这部分的概念与含义，因为此后的诸多行为都要以这部分为基础，如果未理解就去接着进行翻译工作很有可能误操作。建议阅读[《Git 工作流指南》](https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorials)当中的 [fork](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/workflow-forking.md) 与 [Pull Request](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/pull-request.md)（见下面的 [Pull Request](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#pull-request)）两节。
+如果仍然未能理解这部分内容，请务必自行搜索并弄通这部分的概念与含义，因为此后的诸多行为都要以这部分为基础，如果未理解就去接着进行翻译工作很有可能误操作。建议阅读[《Git 工作流指南》](https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorials)当中的 [fork](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/workflow-forking.md) 与 [pull request](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/pull-request.md) 两节。
 
 <a name="%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81">将仓库 clone 到本地（可选，较为重要）</a>
 
-在你同时参与了多个项目的汉化之后，你会遇到一个严峻的事实：一旦作者们更新勤奋，每天打开游览器、登上 GitHub 时，你就得开始手忙脚乱的跳网页、找位置了。打开自己的仓库、做好跟进、发 Pull Request，等等，这有时候要你开四五个页面，才能开到你想要的那个仓库位置。一个仓库还好，如果有十多个乃至更多，那就太累人了；此外 GitHub 网页版在部分地区的加载速度并不快。
+当你同时参与了多个项目的汉化之后，你会遇到一个严峻的事实：每天打开游览器，登上GitHub，一旦作者们更新勤奋，你就要开始手忙脚乱的跳网页，找位置。pr自己的仓库，打开自己的仓库。有时候要连续开4、5个页面，才能到你想要的那个仓库位置。一个仓库还好，如果是十多个，那就太累人了，况且GitHub的网页加载速度并不快。
 
-这个时候，最好的解决方案就是将你负责的仓库拉取到本地，你只需要在你的本地就能够将一切任务处理完毕，无须上 GitHub 网页版，极为方便。
+这个时候，最好的解决方案就是将你负责的仓库拉取到本地，你只需要在你的本地就能够将一切任务处理完毕，无需上GitHub的网页版，极为的方便。
 
-这里有一份利用 [GitHub Desktop](https://desktop.github.com/) 将仓库 clone 到本地的 [教程](https://www.jianshu.com/p/1e45b93bd593)，只要安装了 GitHub 桌面版，执行教程的第二步，就可以将仓库拉取到本地了！接下来的任务就是进一步把你的仓库 clone 到本地，这样就根本无须打开 GitHub 网页版了，完全可以做到本地一站式解决！
+这是利用GitHub桌面版将仓库clone到本地的教程：
 
-但是这里还有一个极为严重的问题：一般而言，只有早上八九点的时候才能以很快的速度进行 clone，一旦不在这个时间区域内，clone 的速度就只能听天由命了，而且绝大部分时候都慢的犹如龟爬，速度不高于 10 KiB/s。
+https://www.jianshu.com/p/1e45b93bd593
 
-这里有一些别人写过的方法，可以用于参考：[修改 host 以及使用码云的教程](https://zhuanlan.zhihu.com/p/144016106)。
+只需进行下载并安装了桌面版GitHub之后，执行教程的第二步，就可以将仓库拉取到本地了！接下来的任务就是进一步把你的仓库clone到本地，这样就根本无需打开网页端的GitHub，本地一站式解决！
 
-在我（清秋）的情况下改 host 时灵时不灵，大部分情况下没什么用；而码云我们尚未尝试过，读者可以自行决定是否使用一下看看效果。
+但是这里还有一个极为严重的问题：一般而言，只有早上八九点的时候才能以很快的速度进行clone，一旦不在这个时间区域内，clone的速度就只能听天由命了，而且绝大部分时候都慢的犹如龟爬，仅有 几K/s 的速度。
 
-这是一个成功 clone 的仓库在 GitHub 桌面版的样子：
+这里有一些别人写过的方法，可以供你参考：
+
+https://zhuanlan.zhihu.com/p/144016106
+
+改Host时灵时不灵，大部分情况下没什么用。
+
+码云没试过，可以稍微尝试一下。
+
+这是一个成功clone的仓库在GitHub桌面版的样子：
 
 
 ![剪贴板图片 (27).jpg](https://i.loli.net/2020/08/14/aYhFyzlTfZCwMc4.jpg)
@@ -349,38 +353,44 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 ![剪贴板图片 (29).jpg](https://i.loli.net/2020/08/14/ZwgON6jv9pqBRun.jpg)
 
 
-如果你想要完善你的本地 Git 操作，那么这两个扩展必不可少：
+如果你想要更加完善你的本地Git操作，那么这两个扩展必不可少：
 
 1. GitHub Pull Requests and Issues
 2. GitLens-Git supercharged
 
-安装之后，只要你熟悉 GitHub 的操作，你将很快摸索清楚这两个扩展的使用方法。
+安装之后，只要你熟悉GitHub的操作，你将很快明白这两个扩展如何使用。
 
-如果你并不想花时间熟悉 GitHub 桌面版的操作，你可以简单地将需要跟进汉化的仓库添加至浏览器的书签栏，这样也可以在一定程度上提高效率。
 
-<a name="pull-request">**_Pull Request_**</a>
+<a name="pull-request">**_Pull request_**</a>
 
-什么是 **Pull Request**？
+什么是**Pull request**？
 
-这里有一个比较清晰的 [介绍](https://www.zhihu.com/question/21682976)。
+这是一个比较清晰的介绍：
 
-Pull request 翻译过来就是“拉取请求”。我们在 Fork 的仓库里作的修改都只是自己的，和原仓库关系不大。但是如果你想把你的修改合并到原仓库，那么，你需要问一问作者自己能否把自己的修改合并到对方的仓库，而询问这一过程就被成为“拉取请求”。这一过程实质上就是**把你作的修改同步到原仓库**这一点。但这一过程必须过问仓库主人，因为“未经许可修改仓库”是**不被允许的**~~（废话）~~。
+https://www.zhihu.com/question/21682976
 
-网上有极多的相关教程，如果觉得我们描述得不够清晰，那么请自行搜索。上述的[《Git 工作流指南》](https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorials)当中也有 [Pull Request](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/pull-request.md) 一节。
+Pull Request 翻译过来就是“拉取请求”。我们在Fork的仓库里做的修改都只是自己的，和原仓库没有什么关系。但是如果你想把你的修改合并到原仓库，那么，你需要问一问作者，“我能不能把我的修改合并到你的仓库呢？”，这一过程就被叫做“拉取请求”。这一过程实质上**就是把你做的修改同步到原仓库那边**，但这一过程必须询问过仓库主人，因为“未经许可修改仓库”是**不被允许**。
 
-这里还有一个比较清晰的 [教程](https://www.cnblogs.com/zhangjianbin/p/7774073.html)。
+网上有极多的pr教程，如果觉得我说的不够清晰，那么请自行百度。只需输入“GitHub Pull Request”即可。
 
-在熟练之后，我们很快就能发现在这里涉及的工作流程的实际样貌：Fork → 修改自己的仓库 → 发送 Pull Request。
+这是一个比较清晰的教程：
 
-有些新手可能会有疑问：我直接试图修改作者仓库里的内容，它也会提示我发起 PR，那为什么一定要先 Fork 再 PR 呢？
+https://www.cnblogs.com/zhangjianbin/p/7774073.html
 
-实际上，这样做确实可以发起 PR，但是这并不意味着你没有 Fork 作者的仓库，我们可以看一个例子（保密起见，已隐去作者用户名，但这确实是同一个人）：
+在熟练之后，我们很快就能发现在这里涉及的工作流程的实际样貌：Fork→修改自己的仓库→发送pr。
+
+有些新手可能会有疑问：我直接修改作者仓库里的内容，它也会提示我发起pr，那为什么一定要先Fork再pr呢？
+
+实际上，这样子做确实可以发起pr，但是这并不意味着你没有Fork作者的仓库，我们可以看一个例子（保密起见，我把名字掩去，但这确实是同一个人）：
+
 
 
 ![剪贴板图片 (35).jpg](https://i.loli.net/2020/08/15/lsM8gC2kircKzJo.jpg)
 
 
-这是一个新手对一个原作者仓库连续发起的三个 PR，可以肯定，这个新手肯定直接修改了原作者的仓库，并且修改了两次，还在自己 Fork 来的仓库中修改了一次，最终一共发起了三次 PR。我们可以看看这三个 PR 都是从哪里发起的：
+
+这是一个新手对一个原作者仓库连续发起的三个pr，可以肯定，这个新手肯定是直接修改了原作者的仓库，并且连续修改了三次，导致发起了三次pr。我们可以看看这三个pr都是从哪里发起的：
+
 
 
 ![剪贴板图片 (36).jpg](https://i.loli.net/2020/08/15/gchlAGPHXVQJ1Ib.jpg)
@@ -390,67 +400,84 @@ Pull request 翻译过来就是“拉取请求”。我们在 Fork 的仓库里�
 ![剪贴板图片 (38).jpg](https://i.loli.net/2020/08/15/ELXPKZp8DTnmIi6.jpg)
 
 
-可以看到，这位新手对着原作者仓库的分支，连续用三个不同的分支向其发起了 PR，而这些分支其实都是来源于他 Fork 的仓库的：
+
+可以看到，这位新手对着原作者仓库的分支，连续用三个不同的分支向其发起了pr，而这些分支其实都是来源于他Fork的仓库的：
+
 
 
 ![剪贴板图片 (39).jpg](https://i.loli.net/2020/08/15/GmjbJysNzXLUvAE.jpg)
 
 
-也就是说，你在修改原作者仓库的时候，GitHub 自动为你 Fork 了原作者的仓库，并将你的改动应用到你的 Fork 仓库的不同分支上（然而，改动的应用规则对新手而言略有些不明确），然后再从这些分支发起 PR 到原作者的仓库那里。这样做实际上没有能够理解 PR 的本质：对 PR 的 merge 是实际上是两个分支之间的合并，而不仅仅是两个仓库之间的合并，即便在同一个仓库，你也可以用一个分支对另一个分支发起 PR，这是完全可以的。
+也就是说，你在修改原作者仓库的时候，GitHub自动的为你Fork了原作者的仓库，并将你的改动应用到你的Fork仓库的不同分支上（然而，改动的转移规则有点不明确），然后再从这些分支发起pr到原作者的仓库那里。这样做实际上没有能够理解pr的本质：pr是实际上是两个分支之间的合并，不仅仅是两个仓库之间的合并，即便在同一个仓库，你也可以用A分支 pr B分支，这是完全可以。
 
-这种连开的 PR 有什么不好的地方？其实从操作层面上来说，没有太多的问题，但事实上这种行为说明其实 PR 发起者根本就没有理解 PR 的意义，并且也不了解 GitHub 的 PR 机制，以及这里谈及的 Git 工作流程。一个最显而易见的问题是：如果你根本不能理解 PR 是如何运作的，那么，你应该如何为你的 PR 追加新的改动呢？正确的操作是：你得在你 PR 对应的分支上再继续 commit，这些 commit 会自动推送到这个分支开启的 PR 上，然后你的追加改动就可以成功的被原作者看到了。如果你不了解 PR 的机制，你可能就会为追加后的内容再开一个 PR，这样子的效率十分低下，并且有碍观瞻。
+而这种连开三个pr有什么不好的地方？其实从操作层面上来说，没有太多的不好的地方，但这里批判这种连开三个pr的行为不是说他不好，而是在说，这种行为其实说明pr发起者没有理解pr的意义，不仅如此，也不了解GitHub的pr机制，以及这里谈及的Git的工作流程。一个最显而易见的问题是：如果你根本不能理解pr是如何运作的，那么，你应该如何为你的pr追加新的改动？正确的操作是：你得在你pr对应的分支上再继续commit，这些commit会自动推送到这个分支开启的pr上，然后你的追加改动就可以成功的被原作者看到了。如果你不了解pr的机制，你可能就会把追加过后的内容再开一个pr，这样子效率十分低下。
+
+
 
 <a name="Review">**_Review_**</a>
 
-这是一个看上去可以被忽视的过程，但实际上，如果你不想被**其它的翻译者~~锤~~石锤，铁锤，钻石锤**然后以泪洗面，你最好完成这一道“工序”。
+这是一个看上去可以被忽视的过程，但实际上，如果你不想被**其它的翻译者锤**，你最好做这一道流程。
 
-具体该如何做呢？这里放出 [LWHK](https://github.com/LWHK) 的一个 [PR](https://github.com/LWHK/Create/pull/1) ，来给大家解释说明。
+具体该如何做呢？这里放出[LWHK](https://github.com/LWHK)的一个[pr](https://github.com/LWHK/Create/pull/1)，来供大家作为讲解例子。
 
-打开 PR 页面之后，我们单击此处：
+打开pr页面之后，我们点击此处：
+
 
 
 ![剪贴板图片 (14).jpg](https://i.loli.net/2020/08/14/mXl5HjDuRLFNnEW.jpg)
 
 
+
 进入到如下界面：
+
 
 
 ![剪贴板图片 (15).jpg](https://i.loli.net/2020/08/14/QzmunFbEdf6pTtw.jpg)
 
 
-在本页面中，本次 PR 的所有更改内容都会显示出来。将鼠标移至每一行前面，你将会发现多了一个小加号：
+在本页面中，本次pr的所有文件更改内容都会显示出来。将鼠标移至每一行前面，可以发现多了一个小加号：
+
+
 
 
 ![剪贴板图片 (16).jpg](https://i.loli.net/2020/08/14/nemCb9WsfaMh4P2.jpg)
 
 
-单击这个加号，你就可以针对于这一行的内容进行评论，评论完之后，单击 start a review 即可.如果你只是单纯的想发表一下对于这一行的一些想法，那么你可以单击 add single comment，如果突然间没意见了，可以单击 cancel。如果你想对多行的内容进行评论，按住一个加号并上下拖拽即可选择多行内容。
+
+点击这个+，你就可以针对于这一行的内容进行评论，评论完之后，点击start a Review即可，如果你只是单纯的想发表一下对于这一行的一些想法，那么你可以点击Add single comment，如果突然间没意见了，可以点击cancel。
+
 
 
 ![剪贴板图片 (17).jpg](https://i.loli.net/2020/08/14/1NycTqx657zrELv.jpg)
 
 
-完成了所有文件的查看之后，你可以单击屏幕右上角的这个。如果你觉得有很多地方需要更改，那么就选择 request changes（请求修改），如果你发现需要改的不多或者基本没得要改，你就选择 approve（赞成修改），如果你只是来划水的或者你觉得你的意见并不很重要，你可以选择 comment。
+
+完成了所有文件的查看之后，你可以点击屏幕右上角的这个。如果你觉得有很多地方需要更改，那么就点击Request changes（请求修改），如果你发现没有什么好改的，你就点击approve（批准，赞成），如果你只是来划水或者你觉得你的意见其实不是非常大，你可以点击comment。
+
 
 
 ![剪贴板图片 (18).jpg](https://i.loli.net/2020/08/14/zG7aLPug1VXnxlI.jpg)
 
 
-有时候你需要特定的人帮助你 review 你的 PR ，这时候你可以在 PR 里发送 @ 信息，或者在右侧指定他帮助你 PR（注意，这一操作只有仓库主人才可以进行！如果你没有该仓库的权限，那么你是无法在右侧专门指定他人为你 review 的，此时你只能 @ 他过来；@ 的方式即输入 @ 后在后面跟上你要 @ 的人的 GitHub ID 并再在后面空一格）：
+
+有时候你需要特定的人帮助你Review你的pr，这时候你可以在pr里发送@信息，或者在右边的这里指定他帮助你pr（注意，这一操作只有仓库主人才可以进行！如果你没有该仓库的权限，那么你是无法在右边专门指定人为你Review的，此时你只能@他过来）：
+
 
 
 ![剪贴板图片 (19).jpg](https://i.loli.net/2020/08/14/Q6DW2eMJPCmAUGS.jpg)
 
 
-这是 @ 的例子：
+
+这是@的例子：
+
 
 
 ![剪贴板图片 (22).jpg](https://i.loli.net/2020/08/14/1bB2rZh4ivnKfud.jpg)
 
 
-再次警告：无论你觉得你的实力多强，只要你不是神，你就会犯错误，而且往往是低级的错误，这些时候如果没有人帮助你 review，那么你的错误将会被别人看到，被别的汉化者锤，如果你不想这样，请你一定要找人帮助你 review！！
+再次警告：无论你觉得你的实力多强，只要你不是神，你就会犯错误，而且往往是低级的错误，这些时候如果没有人帮助你Review，那么你的错误将会被别人看到，被别的汉化者锤，如果你不想这样，请你一定要找人帮助你Review！！
 
-最后贴上一些例子，都是我们自己的：
+最后贴上一些例子，都是我自己的：
 
 https://github.com/CFPAOrg/Minecraft-mod-Language-Package/pull/768
 
@@ -462,19 +489,21 @@ https://github.com/Phylogeny/JEIEnchantmentInfo/pull/1
 
 前段时间的匠魂事件我就不说了，改动大，可以，你只要把理由给出来，你说的有理由，说的人信服，那我就能同意你修改这些历史遗留的翻译问题。哪怕你全是自造的词，只要你能给出理由说服我，并且把翻译的词典写出来，**我都会赞同**。但是，如果你的翻译仅仅是保持了一种形式上的美观，而没有考察到具体的内容，以及玩家对于历史翻译的认知粘性，那么我会认为你就是在乱翻译，瞎翻译。我不是说你翻译得有问题，而是说你这个翻译**不是为了大家翻译，是为了自己而翻译**。如果你的翻译，在形式上就是为了大众而翻译的，但是这些翻译有没有经过社区、群众的讨论，那么这些翻译就**丧失了自己的本质**。一份本真的的翻译不仅是字词上的优美，意义上的准确；还应该包括群众的意见，社区的反馈。这一意见和反馈就是Review的所代表的内容，这也是我希望每个做翻译的人都要找人帮助自己Review的原因。
 
+
+
 优雅（或者说保证眼睛不瞎）地 review 有两种办法：
 
 1. 在网页端Review
 
-    GitHub的网页端是亮色的，简直就是文本查阅的噩梦环境。在GitHub上保持亮色Review不出10分钟，我就开始意识模糊了。为了保护自己的眼睛，我必须找到一种适合我这种变成外行的方法，来改变GitHub的主题颜色。
+    GitHub的网页端是亮色的，简直就是文本查阅的噩梦环境。在GitHub上保持亮色Review不出10分钟，我就开始意识模糊了。为了保护自己的眼睛，我必须找到一种适合我这种编程外行的方法，来改变GitHub的主题颜色。
 
-    我个人的解决方法是使用扩展[stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)。教程我就不讲了，自行搜索。目标的主题是[material-github](https://raw.githubusercontent.com/CharlieEtienne/material-github/master/material-github.user.css)，单击链接即可进行安装。安装之后，你就会发现，你的GitHub变成暗色的啦！
+    我个人的解决方法是使用扩展[stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)。教程我就不讲了，自行搜索。目标的主题是[material-github](https://raw.githubusercontent.com/CharlieEtienne/material-github/master/material-github.user.css)，点击链接即可进行安装。安装之后，你就会发现，你的GitHub变成暗色的啦！
 
     在GitHub网页端进行Review，在功能上会比在本地Review要更加丰富。一个是一些复杂的语法，在网页端只需点一点按钮就可以唤出了，另一个是一些扩展，可以更好地帮助你说明Review的内容。譬如这款[PR Review Priority](https://chrome.google.com/webstore/detail/pr-Review-priority/mcngolehbdnjjdgbcafgkgigjmplbmhb?utm_source=chrome-ntp-icon)，你可以迅速的为你的每一条Review标注你对于这一Review的态度，这里是一个大规模运用的例子：https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/pull/779
 
     在这一例子里，我大量运用了优先度的描述，这样PR递交者就能够明白那些Review是比较重要的，哪些Review是可以与我讨论的，不会出现误会的情况。
 
-    在遇到更改了大量文件的PR时，你会需要用到[Github Turbo PR](https://chrome.google.com/webstore/detail/github-turbo-pr/bajlfgjogojcoiijmmjeppgmppcdbbfb?utm_source=chrome-ntp-icon)，安装之后，只要在File changes页面单击扩展进行优化，你就会发现页面的流畅度可以得到大幅提升。然而 这个扩展有一些bug，可以在安装页面上查询到，这里就不复述了。
+    在遇到更改了大量文件的PR时，你会需要用到[Github Turbo PR](https://chrome.google.com/webstore/detail/github-turbo-pr/bajlfgjogojcoiijmmjeppgmppcdbbfb?utm_source=chrome-ntp-icon)，安装之后，只要在File changes页面点击扩展进行优化，你就会发现页面的流畅度可以得到大幅提升。然而 这个扩展有一些bug，可以在安装页面上查询到，这里就不复述了。
 
 2. 本地Review
 
@@ -490,7 +519,7 @@ https://github.com/Phylogeny/JEIEnchantmentInfo/pull/1
 
     
 
-    按下图的顺序单击之后，扩展会专门拉出一条分支，这条分支会与你网页端的PR页面实时同步（虽然会因为网络原因而有一些延迟）。以下是图片：
+    按下图的顺序点击之后，扩展会专门拉出一条分支，这条分支会与你网页端的PR页面实时同步（虽然会因为网络原因而有一些延迟）。以下是图片：
 
     
 
@@ -516,7 +545,7 @@ https://github.com/Phylogeny/JEIEnchantmentInfo/pull/1
 
 <a name="与原仓库同步">**_与原仓库同步_**</a>
 
-很多时候，作者更新了仓库，然后你发现他新加入了一些物品，理所当然的，语言文件里也多出了这些新物品的条目。你很快就意识到了这一点：你的仓库落后于作者的仓库，如果你想翻译这些新的内容，那么，你必须把新的内容拉取到你的仓库。最简单的方法就是在你的仓库发起一个反向PR，不是你PR他，而是他PR你。
+很多时候，作者更新了仓库，然后你发现他新加入了一些物品，理所当然的，语言文件里也多出了这些新物品的条目。你很快就意识到了这一点：你的仓库落后于作者的仓库，如果你想翻译这些新的内容，那么，你必须把新的内容拉取到你的仓库。最简单的方法就是在你的仓库发起一个反向pr，不是你pr他，而是他pr你。
 
 如果使用是本地操作，就得使用命令行进行fetch + merge了，请参考：
 
@@ -680,7 +709,7 @@ https://github.com/TUsama/Roots/commit/a12922af9aa8b1a17e756444749e4c11bfd6022b
 
 
 
-注意，无论是lang还是手册，编码格式一定得是UTF-8，不能是其它的。有些模组自带手册，但是忘记定义了调用Java解码的字符集，此时Java就会调用你的系统默认的字符集进行解码。如果使用UTF-8进入游戏，则会通篇全为乱码。**但是这不是你的问题**。你要做的就是在他的仓库的issue那里贴上这个[PR](https://github.com/Electroblob77/Wizardry/pull/479)，作者自然就会明白了。
+注意，无论是lang还是手册，编码格式一定得是UTF-8，不能是其它的。有些模组自带手册，但是忘记定义了调用Java解码的字符集，此时Java就会调用你的系统默认的字符集进行解码。如果使用UTF-8进入游戏，则会通篇全为乱码。**但是这不是你的问题**。你要做的就是在他的仓库的issue那里贴上这个[pr](https://github.com/Electroblob77/Wizardry/pull/479)，作者自然就会明白了。
 
 # 本文格式指引（一级标题）
 
