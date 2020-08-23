@@ -12,7 +12,7 @@
       - [注册账号](#注册账号)
       - [相关概念与工作流程](#相关概念与工作流程)
         - [Fork](#Fork)
-        - [将仓库 clone 到本地（可选，较为重要）](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81)
+        - [将仓库 clone 到本地（可选，较为重要）](../%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81)
         - [Pull request](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#pull-request)
         - [Review](#Review)
         - [与原仓库同步](#与原仓库同步)
