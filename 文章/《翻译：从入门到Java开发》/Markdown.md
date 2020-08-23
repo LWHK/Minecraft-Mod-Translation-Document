@@ -8,23 +8,22 @@
   - [进阶小技巧](#进阶小技巧)
 - [汉化提交途径](#汉化提交途径)
   - [通过 GitHub](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#%E9%80%9A%E8%BF%87-github)
-    - [GitHub 入门](#GitHub_入门)
+    - [GitHub 入门](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#github-%E5%85%A5%E9%97%A8)
       - [注册账号](#注册账号)
       - [相关概念与工作流程](#相关概念与工作流程)
         - [Fork](#Fork)
-        - [将仓库 clone 到本地（可选，较为重要）](#将仓库_clone_到本地（可选，较为重要）)
-        - [Pull request](#Pull_request)
+        - [将仓库 clone 到本地（可选，较为重要）](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81)
+        - [Pull request](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#pull-request)
         - [Review](#Review)
-          - [优雅（或者说保证眼睛不瞎）地 review](#优雅（或者说保证眼睛不瞎）地_review)
         - [与原仓库同步](#与原仓库同步)
-    - [向原库提交（不推荐新手）](#向原库提交（不推荐新手）)
-    - [向 CFPA 提交（仅限 1.12.2）](#向_CFPA_提交（仅限_1.12.2）)
-      - [CFPA 仓库地址以及项目存放位置](#CFPA_仓库地址以及项目存放位置)
-    - [通过 GitHub 建立翻译团体并进行翻译管理](#通过_GitHub_建立翻译团体并进行翻译管理)
-  - [通过 Weblate](#通过_Weblate)
-  - [通过 CurseForge 或其它途径](通过_CurseForge_或其它途径)
+    - [向原库提交（不推荐新手）](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#%E5%90%91%E5%8E%9F%E5%BA%93%E6%8F%90%E4%BA%A4%E4%B8%8D%E6%8E%A8%E8%8D%90%E6%96%B0%E6%89%8B)
+    - [向 CFPA 提交（仅限 1.12.2）](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#%E5%90%91-cfpa-%E6%8F%90%E4%BA%A4%E4%BB%85%E9%99%90-1122)
+      - [CFPA 仓库地址以及项目存放位置](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)
+    - [通过 GitHub 建立翻译团体并进行翻译管理](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#%E9%80%9A%E8%BF%87-github-%E5%BB%BA%E7%AB%8B%E7%BF%BB%E8%AF%91%E5%9B%A2%E4%BD%93%E5%B9%B6%E8%BF%9B%E8%A1%8C%E7%BF%BB%E8%AF%91%E7%AE%A1%E7%90%86)
+  - [通过 Weblate](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#%E9%80%9A%E8%BF%87-weblate)
+  - [通过 CurseForge 或其它途径](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#%E9%80%9A%E8%BF%87-curseforge-%E6%88%96%E5%85%B6%E5%AE%83%E9%80%94%E5%BE%84)
 - [一些注意事项](#一些注意事项)
-  - [每天一个机翻小技巧，有手就能学废](#每天一个机翻小技巧，有手就能学废)
+  - [每天一个机翻小技巧，有手就能学废](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E3%80%8A%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0Java%E5%BC%80%E5%8F%91%E3%80%8B/Markdown.md#%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%9C%BA%E7%BF%BB%E5%B0%8F%E6%8A%80%E5%B7%A7%E6%9C%89%E6%89%8B%E5%B0%B1%E8%83%BD%E5%AD%A6%E5%BA%9F)
   - [意外情况](#意外情况)
     - [不加载](#不加载)
       - [完全不加载](#完全不加载)
@@ -678,7 +677,7 @@ weblate是由业界知名人士酒石酸菌所带领的CFPAorg所搭建的一个
 
 抛开纯粹的思辨，如果我们站在实用的立场上，我们就可以发现，在颜色替换这样的例子上，其与机翻有**实用层面的本质区别**。在这种情境下，人翻和机翻在**纯粹语词**的层面没有差别，这意味着在**纯粹实用**的层面也没有区别，你根本无从分辨哪个是机翻哪个是人翻，你只能凭借**非实用层面**的因素进行区分。但是这样的区分在我看来，构不成价值上的判断，所以无须批判颜色替换的问题，需要批判的是由机翻带来的坏翻译。
 
-如果你的翻译当中包含了机翻的内容，请读读土球的一篇 [小文章](https://www.mcbbs.net/thread-899249-1-1.html)，或许会对你有一些帮助；蝙蝠的一篇 [文章](https://www.mcbbs.net/thread-899199-1-1.html) 也很好。无论如何，机翻都应是被抵制的，除非你时间不足或者能力不够，尽量不要使用机翻。如果实在需要机器的辅助，请使用 [DeepL](deepl.com) 作为自己的首选工具。
+如果你的翻译当中包含了机翻的内容，请读读土球的一篇 [小文章](https://www.mcbbs.net/thread-899249-1-1.html)，或许会对你有一些帮助；蝙蝠的一篇 [文章](https://www.mcbbs.net/thread-899199-1-1.html) 也很好。无论如何，机翻都应是被抵制的，除非你时间不足或者能力不够，尽量不要使用机翻。如果实在需要机器的辅助，请使用 [DeepL](https://www.deepl.com) 作为自己的首选工具。
 
 ### 意外情况
 
