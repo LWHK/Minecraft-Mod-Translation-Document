@@ -315,7 +315,7 @@
 
 注意这里的用词，“变成**你的**”意味着你对于这个仓库有着完全的控制权，包括删除仓库，所以修改你自己的仓库也自然不在话下了。
 
-如果仍然未能理解这部分内容，请务必自行搜索并弄通这部分的概念与含义，因为此后的诸多行为都要以这部分为基础，如果未理解就去接着进行翻译工作很有可能误操作。
+如果仍然未能理解这部分内容，请务必自行搜索并弄通这部分的概念与含义，因为此后的诸多行为都要以这部分为基础，如果未理解就去接着进行翻译工作很有可能误操作。建议阅读[《Git 工作流指南》](https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorials)当中的 [fork](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/workflow-forking.md) 与 [pull request](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/pull-request.md) 两节。
 
 <a name="%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81">将仓库 clone 到本地（可选，较为重要）</a>
 
@@ -342,19 +342,15 @@ https://zhuanlan.zhihu.com/p/144016106
 这是一个成功clone的仓库在GitHub桌面版的样子：
 
 
-
 ![剪贴板图片 (27).jpg](https://i.loli.net/2020/08/14/aYhFyzlTfZCwMc4.jpg)
-
 
 
 更改之后的操作：
 
 
-
 ![剪贴板图片 (28).jpg](https://i.loli.net/2020/08/14/17qjE2IdklZN6Kb.jpg)
 
 ![剪贴板图片 (29).jpg](https://i.loli.net/2020/08/14/ZwgON6jv9pqBRun.jpg)
-
 
 
 如果你想要更加完善你的本地Git操作，那么这两个扩展必不可少：
