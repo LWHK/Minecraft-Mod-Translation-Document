@@ -110,12 +110,12 @@
 
     在上面我分别标注出了几个需要注意的地方。
 
-    工作区的搭建首先需要你点进扩展管理，在顶部搜索栏中搜索“Chinese (Simplified) Language Pack for Visual Studio Code”，单击第一个扩展，再单击 Install，稍待一会你就会发现你的界面已经变成了中文。
+    工作区的搭建首先需要你点进 Extension（扩展）管理，在顶部搜索栏中搜索“Chinese (Simplified) Language Pack for Visual Studio Code”，单击第一个扩展，再单击 Install，稍待一会你就会发现你的界面已经变成了中文。
 
     你还需要安装以下扩展：
 
-    1. Minecraft Lang Colorizer（必装）
-    2. Minecraft JSON Schemas（自选）
+    1. Minecraft Lang Colorizer（zz5840.minecraft-lang-colorizer）（必装）
+    2. Minecraft JSON Schemas（levertion.mcjson）（可选）
 
     第一个能使得 VSC 支持 .lang 文件的读取，第二个则能支持 .json 文件的显示。这是对比图：
 
@@ -165,7 +165,7 @@
 
 2. 与同伴一起汉化一个项目
 
-    VSC 有个扩展，叫做 Live Share，可以通过分享链接来共享工作区。以链接的形式发送给同伴，让同伴单击并接受，就可以实时共享翻译进程了！
+    VSC 有个名为 Live Share（ms-vsliveshare.vsliveshare）的扩展，可以通过分享链接来共享工作区。以链接的形式发送给同伴，让同伴单击并接受，就可以实时共享翻译进程了！
 
     装了扩展之后，会在 VSC 的下方显示这个内容：
 
@@ -351,8 +351,8 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 如果你想要完善你的本地 git 操作，那么这两个扩展必不可少：
 
-1. GitHub Pull Requests and Issues
-2. GitLens-Git supercharged
+1. GitHub Pull Requests and Issues（github.vscode-pull-request-github）
+2. GitLens-Git supercharged（eamodio.gitlens）
 
 安装之后，只要你熟悉 GitHub 的操作，你将很快摸索清楚这两个扩展的使用方法。
 
@@ -468,7 +468,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 2. 本地 review
 
-    需要使用到之前提到的 VSC 插件（按：或许其它的编辑器也有，但是我们都没用过）Github Pull Reguests and Issues。
+    需要使用到之前提到的 VSC 扩展（按：或许其它的编辑器也有，但是我们都没用过）Github Pull Reguests and Issues。
 
     安装了之后，你就可以在本地访问到远程仓库的 pull request 了：
 
