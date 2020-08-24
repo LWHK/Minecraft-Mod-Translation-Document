@@ -211,7 +211,7 @@
 
 GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水平不足的人自行考量是否要请他人协助提交汉化。
 
-<a name="注册账号">**注册账号**</a>
+<a name="注册账号">**注册账号**</a>（[本节链接](#注册账号)）
 
 这是进入 GitHub 的第一步。首先打开 [GitHub](https://github.com)。
 
@@ -235,7 +235,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 到了这里，你就拥有一个 GitHub 账号了！
 
-<a name="相关概念与工作流程">**相关概念与工作流程**</a>
+<a name="相关概念与工作流程">**相关概念与工作流程**</a>（[本节链接](#相关概念与工作流程)）
 
 在本节中，我们会先介绍汉化提交的流程，然后再在流程之中抓出相应的概念进行详细讲解。
 
@@ -307,7 +307,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
     遵照上述的流程，你就可以顺利将你的汉化提交至作者那边了！但是你还是需要稍微等待，毕竟作者也不可能一直守着电脑；等到作者有空的时候，他会回复你，并决定是否采用你的汉化文件。
 
-<a name="Fork">**_Fork_**</a>
+<a name="Fork">**_Fork_**</a>（[本节链接](#Fork)）
 
 为什么需要 fork？
 
@@ -321,7 +321,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 如果仍然未能理解这部分内容，请务必自行搜索并弄通这部分的概念与含义，因为此后的诸多行为都要以这部分为基础，如果未理解就去接着进行翻译工作很有可能误操作。建议阅读[《Git 工作流指南》](https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorials)当中的 [fork](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/workflow-forking.md) 与 [pull request](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/pull-request.md)（见下面的 [Pull request](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%20Java%20%E5%BC%80%E5%8F%91/Markdown.md#pull-request)）两节。
 
-<a name="%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81">将仓库 clone 到本地（可选，较为重要）</a>
+<a name="%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81">将仓库 clone 到本地（可选，较为重要）</a>（[本节链接](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%20Java%20%E5%BC%80%E5%8F%91/Markdown.md#%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81)）
 
 在你同时参与了多个项目的汉化之后，你会遇到一个严峻的事实：一旦作者们更新勤奋，每天打开游览器、登上 GitHub 时，你就得开始手忙脚乱的跳网页、找位置了。打开自己的仓库、做好跟进、发 pull request，等等，这有时候要你开四五个页面，才能开到你想要的那个仓库位置。一个仓库还好，如果有十多个乃至更多，那就太累人了；此外 GitHub 网页版在部分地区的加载速度并不快。
 
@@ -358,7 +358,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 如果你并不想花时间熟悉 GitHub 桌面版的操作，你可以简单地将需要跟进汉化的仓库添加至浏览器的书签栏，这样也可以在一定程度上提高效率。
 
-<a name="pull-request">**_Pull request_**</a>
+<a name="pull-request">**_Pull request_**</a>（[本节链接](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%20Java%20%E5%BC%80%E5%8F%91/Markdown.md#pull-request)）
 
 什么是 **pull request**？
 
@@ -400,7 +400,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 这种连开的 pull request 有什么不好的地方？其实从操作层面上来说，没有太多的问题，但事实上这种行为说明其实 pull request 发起者根本就没有理解 pull request 的意义，并且也不了解 GitHub 的 pull request 机制，以及这里谈及的 git 工作流程。一个最显而易见的问题是：如果你根本不能理解 pull request 是如何运作的，那么，你应该如何为你的 pull request 追加新的改动呢？正确的操作是：你得在你 pull request 对应的分支上再继续 commit，这些 commit 会自动推送到这个分支开启的 pull request 上，然后你的追加改动就可以成功的被原作者看到了。如果你不了解 pull request 的机制，你可能就会为追加后的内容再开一个 pull request，这样子的效率十分低下，并且有碍观瞻。
 
-<a name="Review">**_Review_**</a>
+<a name="Review">**_Review_**</a>（[本节链接](#Review)）
 
 这是一个看上去可以被忽视的过程，但实际上，如果你不想被**其它的翻译者~~锤~~石锤，铁锤，钻石锤**然后以泪洗面，你最好完成这一道“工序”。
 
@@ -496,7 +496,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
     如果网页端有文件的更新，扩展会提示你将这些改动 pull 到本地。
 
-<a name="与原仓库同步">**_与原仓库同步_**</a>
+<a name="与原仓库同步">**_与原仓库同步_**</a>（[本节链接](#与原仓库同步)）
 
 很多时候，作者更新了仓库，然后你发现他新加入了一些物品，理所当然的，语言文件里也多出了这些新物品的条目。你很快就意识到了这一点：你的仓库落后于作者的仓库，如果你想翻译这些新的内容，那么，你必须把新的内容拉取到你的仓库。最简单的方法就是在你的仓库发起一个反向 pull request，不是你 pull request 对方，而是对方 pull request 你。如果你没能了解如何这么做，在**保证**你的修改已经**完全**被上交了的情况下，可以删掉自己的仓库再重新 fork。
 
@@ -516,7 +516,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 自动汉化模组的提交途径是我们最推荐新手使用的，因为自动汉化的维护者会帮你 review（逃）。提交手段与上述的并无二致，唯一要注意的是文件存放的位置。
 
-<a name="cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE">**[CFPA 仓库地址](https://github.com/CFPAOrg/Minecraft-mod-Language-Package) 以及项目存放位置**</a>
+<a name="cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE">**[CFPA 仓库地址](https://github.com/CFPAOrg/Minecraft-mod-Language-Package) 以及项目存放位置**</a>（[本节链接](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%20Java%20%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)）
 
 注意，所有的汉化项目都应该被放置到此路径下：
 
@@ -584,7 +584,7 @@ WIP
 
 不加载又分为两种情况：完全不加载和部分不加载。
 
-<a name="完全不加载">**完全不加载**</a>
+<a name="完全不加载">**完全不加载**</a>（[本节链接](#完全不加载)）
 
 1. 检查文件名是否正确。
    
@@ -614,7 +614,7 @@ WIP
 
     > "_comment": "注释文本",
 
-<a name="部分不加载">**部分不加载**</a>
+<a name="部分不加载">**部分不加载**</a>（[本节链接](#部分不加载)）
 
 部分不加载，则有可能是因为 translation key 发生了错误，所谓的 key，就是语言文件中每一行的左边部分，1也即 .12.2 .lang 的 = 左侧或 1.12.2 以上 .json 的 : 左侧的部分，你需要单独检查一下那些尽管填了翻译，但是游戏中没有加载的词条的 key。
 
@@ -653,4 +653,4 @@ https://github.com/LWHK/LWHK-Simplified-Chinese-Translation/commit/0c8a8914f5f01
 
 <a name="本文格式指引（五级标题）">**本文格式指引（五级标题）**</a>（[本节链接](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%20Java%20%E5%BC%80%E5%8F%91/Markdown.md#%E6%9C%AC%E6%96%87%E6%A0%BC%E5%BC%8F%E6%8C%87%E5%BC%95%EF%BC%88%E4%BA%94%E7%BA%A7%E6%A0%87%E9%A2%98%EF%BC%89)）
 
-<a name="本文格式指引（六级标题）">**_本文格式指引（六级标题）_**</a>（[本节链接](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%20Java%20%E5%BC%80%E5%8F%91/Markdown.md#本文格式指引（六级标题）)）
+<a name="本文格式指引（六级标题）">**_本文格式指引（六级标题）_**</a>（[本节链接](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%20Java%20%E5%BC%80%E5%8F%91/Markdown.md#%E6%9C%AC%E6%96%87%E6%A0%BC%E5%BC%8F%E6%8C%87%E5%BC%95%EF%BC%88%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98%EF%BC%89)）
