@@ -528,7 +528,11 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 #### 通过 GitHub 建立翻译团体并进行翻译管理
 
-WIP
+GitHub 有一个 Organization 的设定，单击右上角的加号可以发起组织。组织的功能很多，你可以使用组织来建立仓库，也可以以组织的名义 fork 或发起 pull request。组织本身还有一个 project board，在那里建立的 project 可以让所有组织成员编辑。
+
+通过以组织之名建立中转仓库（我们的 [例子](https://github.com/LWHK/LWHK-Simplified-Chinese-Translation/)）管理需要帮助的汉化会变得轻松许多。你可以 fork 中转仓库至自己的账号下并在 fork 后的仓库中作修改，然后再发起面向中转仓库的 pull request。直接向作者的仓库 pull request 会带来一些问题，比如 review 过长时作者阅读不便、无法 review 完成后立刻 commit、需要控制及压缩 commit 数量、无法不通过 @ 来邀请他人 review 等等，而在中转仓库下这些问题都能得到解决。
+
+除此之外，组织页面还可以作为一个向外界展示自己所在的翻译团体的平台使用。
 
 ### 通过 Weblate
 
