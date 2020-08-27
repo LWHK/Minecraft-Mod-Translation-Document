@@ -321,7 +321,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 如果仍然未能理解这部分内容，请务必自行搜索并弄通这部分的概念与含义，因为此后的诸多行为都要以这部分为基础，如果未理解就去接着进行翻译工作很有可能误操作。建议阅读[《Git 工作流指南》](https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorials)当中的 [fork](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/workflow-forking.md) 与 [pull request](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/pull-request.md)（见下面的 [Pull request](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%20Java%20%E5%BC%80%E5%8F%91/Markdown.md#pull-request)）两节。
 
-<a name="%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81">将仓库 clone 到本地（可选，较为重要）</a>（[本节链接](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%20Java%20%E5%BC%80%E5%8F%91/Markdown.md#%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81)）
+<a name="%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81">*将仓库 clone 到本地（可选，较为重要）*</a>（[本节链接](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%20Java%20%E5%BC%80%E5%8F%91/Markdown.md#%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81)）
 
 在你同时参与了多个项目的汉化之后，你会遇到一个严峻的事实：一旦作者们更新勤奋，每天打开游览器、登上 GitHub 时，你就得开始手忙脚乱的跳网页、找位置了。打开自己的仓库、做好跟进、发 pull request，等等，这有时候要你开四五个页面，才能开到你想要的那个仓库位置。一个仓库还好，如果有十多个乃至更多，那就太累人了；此外 GitHub 网页版在部分地区的加载速度并不快。
 
@@ -329,7 +329,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 这里有一份利用 [GitHub Desktop](https://desktop.github.com/) 将仓库 clone 到本地的 [教程](https://www.jianshu.com/p/1e45b93bd593)，只要安装了 GitHub 桌面版，执行教程的第二步，就可以将仓库拉取到本地了！接下来的任务就是进一步把你的仓库 clone 到本地，这样就根本无须打开 GitHub 网页版了，完全可以做到本地一站式解决！
 
-但是这里还有一个极为严重的问题：一般而言，只有早上八九点的时候才能以很快的速度进行 clone，一旦不在这个时间区域内，clone 的速度就只能听天由命了，而且绝大部分时候都慢的犹如龟爬，速度不高于 10 KiB/s。
+但是对于网络环境不好的人而言，这里还有一个极为严重的问题：一般情况下，只有早上八九点的时候才能以很快的速度进行 clone，一旦不在这个时间区域内，clone 的速度就只能听天由命了，而且绝大部分时候都慢得犹如龟爬，速度不高于 10 KiB/s。
 
 这里有一些别人写过的方法，可以用于参考：[修改 host 以及使用码云的教程](https://zhuanlan.zhihu.com/p/144016106)。
 
