@@ -630,7 +630,7 @@ GitHub 有一个 Organization 的设定，单击右上角的加号可以发起�
 
 <a name="部分不加载">**部分不加载**</a>（[本节链接](#部分不加载)）
 
-部分不加载，则有可能是因为 translation key 发生了错误，所谓的 key，就是语言文件中每一行的左边部分，1也即 .12.2 .lang 的 = 左侧或 1.12.2 以上 .json 的 : 左侧的部分，你需要单独检查一下那些尽管填了翻译，但是游戏中没有加载的词条的 key。
+部分不加载，则有可能是因为 translation key 发生了错误，所谓的 key，就是语言文件中每一行的左边部分，也即1.12.2的.lang文件中，每一行条目的 = 的左侧或 1.12.2 以上 .json 的 : 左侧的部分，你需要单独检查一下那些尽管填了翻译，但是游戏中没有加载的词条的 key。
 
 这是一个修复了 key 错误的 [commit](
 https://github.com/LWHK/LWHK-Simplified-Chinese-Translation/commit/0c8a8914f5f0124fa31c521997b983d8c556c877#diff-306fabd320470aaa7a1f902a579b1a4a)。
