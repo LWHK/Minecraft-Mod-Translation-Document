@@ -360,7 +360,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 安装之后，只要你熟悉 GitHub 的操作，你将很快摸索清楚这两个扩展的使用方法。
 
-如果你并不想花时间熟悉 GitHub 桌面版的操作，你可以简单地将需要跟进汉化的仓库添加至浏览器的书签栏，这样也可以在一定程度上提高效率。但是应注意，如果你参与了帕秋莉手册或其它多目录多文本的翻译工作，使用网页端进行翻译是相当不明智的。
+如果你并不想花时间熟悉 GitHub 桌面版的操作，你可以简单地将需要跟进汉化的仓库添加至浏览器的书签栏，这样也可以在一定程度上提高效率。但是应注意，如果你参与了帕秋莉手册或其它多目录多文本的翻译工作，使用网页端进行翻译是相当不明智的，因为巨量的页面变动将会让你感到手忙脚乱。
 
 <a name="pull-request">**_Pull request_**</a>（[本节链接](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%20Java%20%E5%BC%80%E5%8F%91/Markdown.md#pull-request)）
 
@@ -402,7 +402,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 也就是说，你在修改原作者仓库的时候，GitHub 自动为你 fork 了原作者的仓库，并将你的改动应用到你的 fork 仓库的不同分支上（然而，改动的应用规则对新手而言略有些不明确），然后再从这些分支发起 pull request 到原作者的仓库那里。这样做实际上没有能够理解 pull request 的本质：对 pull request 的 merge 是实际上是两个分支之间的合并，而不仅仅是两个仓库之间的合并，即便在同一个仓库，你也可以用一个分支对另一个分支发起 pull request，这是完全可以的。
 
-这种连开的 pull request 有什么不好的地方？其实从操作层面上来说，没有太多的问题，但事实上这种行为说明其实 pull request 发起者根本就没有理解 pull request 的意义，并且也不了解 GitHub 的 pull request 机制，以及这里谈及的 git 工作流程。一个最显而易见的问题是：如果你根本不能理解 pull request 是如何运作的，那么，你应该如何为你的 pull request 追加新的改动呢？正确的操作是：你得在你 pull request 对应的分支上再继续 commit，这些 commit 会自动推送到这个分支开启的 pull request 上，然后你的追加改动就可以成功的被原作者看到了。如果你不了解 pull request 的机制，你可能就会为追加后的内容再开一个 pull request，这样子的效率十分低下，并且有碍观瞻。
+这种连开的 pull request 有什么不好的地方？其实从操作层面上来说，没有太多的问题，但事实上这种行为说明其实 pull request 发起者根本就没有理解 pull request 的意义，并且也不了解 GitHub 的 pull request 机制，以及这里谈及的 git 工作流程。一个最显而易见的问题是：如果你根本不能理解 pull request 是如何运作的，那么，你应该如何为你的 pull request 追加新的改动呢？正确的操作是：你得在你 pull request 对应的分支上再继续 commit，这些 commit 会自动推送到这个分支开启的 pull request 上，然后你的追加改动就可以成功的被原作者看到了。如果你不了解 pull request 的机制，你可能就会为追加后的内容再开一个 pull request，这样子的效率十分低下，有碍观瞻且会让仓库的作者摸不清楚你的真正用意。
 
 <a name="Review">**_Review_**</a>（[本节链接](#Review)）
 
@@ -496,9 +496,15 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
     ![剪贴板图片 _48_.jpg](https://i.loli.net/2020/08/22/7PvIdqZAxCQekTX.jpg)
 
 
-    但是要注意，review 的结束似乎还是要在网页端进行的，你得在网页端声明，这次的 review 的类型是 comment，request changes 还是 approve。
+    想要结束review，必须得声明这一次的 review 的类型是 comment，request changes 还是 approve。我们可以通过下载 [GITHUB CLI](https://cli.github.com/) 在本地的bash内进行 review 声明。具体方法请参看 [GitHub CLI 手册](https://cli.github.com/manual/)。
+
+    当然，手动前往网页端声明 review 类型也是可以的。
 
     如果网页端有文件的更新，扩展会提示你将这些改动 pull 到本地。
+
+    我们很快就能发现，本地编辑器在语法难度上比网页端高了不止一点，比如我们常用的"suggest"语法，在网页端只需点一点按钮即可唤出，但在本地端极为麻烦，因为目前插件还没有推出这种简易输入的功能。
+
+    这个时候就要发挥出本地的优势了。你可以借助第三方软件进行快速的为你输出特定的语法，我个人使用的是Quicker，在上文中亦有提及。我个人编写出了一个快速添加建议的脚本，只需选中你想要提出建议的行，然后使用动作，带有建议语法的文本就会写入你的剪贴板，你只需在review的输入框内粘贴这一文本即可，非常的快捷方便。
 
 <a name="与原仓库同步">**_与原仓库同步_**</a>（[本节链接](#与原仓库同步)）
 
@@ -506,7 +512,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 如果使用是本地操作，就得使用命令行进行 fetch + merge 了，请参考这篇 [教程](https://www.cnblogs.com/jjliu/p/11775845.html)。
 
-命令行在本地仓库极为有用，建议认真在网上找教程学习。
+命令行在本地仓库的相关控制中极为有用，建议认真在网上找教程学习。但是，首先你得为你的PC安装上 [Git](https://git-scm.com/download/win) 。
 
 #### 向原库提交（不推荐新手）
 
@@ -580,11 +586,11 @@ GitHub 有一个 Organization 的设定，单击右上角的加号可以发起�
 
 ### 每天一个机翻小技巧，有手就能学废
 
-![1](https://i.loli.net/2020/08/14/pFscVL4zKCMxZHB.jpg)
+![机翻对联.png](https://i.loli.net/2020/09/18/mjyGc2KEdYNMDBT.png)
 
-![2](https://i.loli.net/2020/08/14/rJKecbwDQ6nFYBU.jpg)
+![机翻1.png](https://i.loli.net/2020/09/18/rmPsH53tKNicloa.png)
 
-![7](https://i.loli.net/2020/08/15/jhS4zIUgc5btfPu.png)
+![机翻2.png](https://i.loli.net/2020/09/18/78PG2qhmRQelHWu.png)
 
 **不允许机翻！！！**
 
