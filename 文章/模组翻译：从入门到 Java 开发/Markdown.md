@@ -119,7 +119,7 @@
     1. Minecraft Lang Colorizer（zz5840.minecraft-lang-colorizer）（必装）
     2. Minecraft JSON Schemas（levertion.mcjson）（可选；目前用处不大）
 
-    第一个能使得 VSC 支持 .lang 文件的读取，第二个则能支持 .json 文件的显示。这是对比图：
+    第一个能使得 VSC 支持 .lang 文件的读取，第二个则能支持一些 minecraft 独有的类 .json 文件的显示（譬如pack.mcmeta）。这是对比图：
 
     
     ![剪贴板图片 (33).jpg](https://i.loli.net/2020/08/15/ntAk6flIHih2BU8.jpg)
@@ -165,7 +165,7 @@
     ![剪贴板图片 (23).jpg](https://i.loli.net/2020/08/14/7NrBnyK9QxpcCLS.jpg)
 
 
-    这是我（清秋）自己写出来的一个替换颜色的 [小脚本](https://getquicker.net/sharedaction?code=73bfacbd-69c8-41b8-1a2a-08d83f7686c1)，你可以将其复制至 Quicker。难度不高，你也可以自己尝试编写一下拥有类似功能的脚本。
+    这是我（清秋）自己写出来的一个替换颜色的[小脚本](https://getquicker.net/sharedaction?code=62f16959-296c-4df6-9ee2-08d85d9ed340)，你可以将其复制至 Quicker。难度不高，你也可以自己尝试编写一下拥有类似功能的脚本。
 
 2. 与同伴一起汉化一个项目
 
@@ -454,7 +454,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 再次警告：无论你觉得你的实力多强，只要你不是神，你就会犯错误，而且往往是低级的错误，这些时候如果没有人帮助你 review，那么你的错误将会被别人看到，被别的汉化者锤，如果你不想这样，请你一定要找人帮助你 review！！
 
-最后放上一些例子，基本都是我们自己的：[根源魔法](https://github.com/CFPAOrg/Minecraft-mod-Language-Package/pull/768)丨[Crossroads](https://github.com/CFPAOrg/Minecraft-mod-Language-Package/pull/779)丨[JEI 附魔信息](https://github.com/Phylogeny/JEIEnchantmentInfo/pull/1)丨[匠魂 2](https://github.com/SlimeKnights/TinkersConstruct/pull/4173)
+最后放上一些例子，基本都是我们参与过的：[根源魔法](https://github.com/CFPAOrg/Minecraft-mod-Language-Package/pull/768)丨[Crossroads](https://github.com/CFPAOrg/Minecraft-mod-Language-Package/pull/779)丨[JEI 附魔信息](https://github.com/Phylogeny/JEIEnchantmentInfo/pull/1)丨[匠魂 2](https://github.com/SlimeKnights/TinkersConstruct/pull/4173)
 
 需要指出的是，无论你是属于某个翻译团体的合作者，还是单干的独行侠，抑或只是来看一看尝试一下的新手，对于含有大量非定番内容的汉化，你**都**应该叫人来 review；就算是不考验你能力的定番内容，你也照样有可能翻译出错别字，因此，除非你对自己的汉化有着完全的信心，或者汉化文本总共只有数行，review 都是必要的。前段时间匠魂的汉化发生了大的改动，我们两位也都去 review 了。我们想说的是，如果不考虑对使用范围极广的错误汉化作出修改可能带来的不便，如果你能给出你自己的完善的解释与说明，让我们搞得明白你作的修改都有什么含义，那就可以改，即使你生造出词来，让我们能理解得了，那也都可以改；但是如果你的翻译让人无法信服或是完全看不懂，你将有必要向 review 者作出有关你修改原因的解释。
 
@@ -505,6 +505,10 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
     我们很快就能发现，本地编辑器在语法难度上比网页端高了不止一点，比如我们常用的 suggest 语法，在网页端只需点一点按钮即可唤出，但在本地端极为麻烦，因为目前插件还没有推出这种简易输入的功能。
 
     这个时候就要发挥出本地的优势了。你可以借助第三方软件进行快速的为你输出特定的语法，我（清秋）个人使用的是 Quicker（在上文中亦有提及），我个人编写出了一个快速添加建议的脚本，只需选中你想要提出建议的行，然后使用动作，带有建议语法的文本就会写入你的剪贴板，你只需在 review 的输入框内粘贴这一文本即可，非常快捷方便。
+
+    这是[快速添加 suggest 的脚本](https://getquicker.net/sharedaction?code=6c5136c4-0748-41ca-9ee0-08d85d9ed340)，选中文本后直接执行动作，相应的带语法的文本会被添加到剪贴板中。
+
+    这是三个用于替换原版中特定词的脚本，分别为[替换原木](https://getquicker.net/sharedaction?code=5717e95f-c12e-43db-9ee1-08d85d9ed340)和[替换石质方块](https://getquicker.net/sharedaction?code=73bfacbd-69c8-41b8-1a2a-08d83f7686c1)，加上上文提及的脚本，共三个脚本。
 
 <a name="与原仓库同步">**_与原仓库同步_**</a>（[本节链接](#与原仓库同步)）
 
