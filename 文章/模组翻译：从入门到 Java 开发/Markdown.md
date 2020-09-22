@@ -119,7 +119,7 @@
     1. Minecraft Lang Colorizer（zz5840.minecraft-lang-colorizer）（必装）
     2. Minecraft JSON Schemas（levertion.mcjson）（可选；目前用处不大）
 
-    第一个能使得 VSC 支持 .lang 文件的读取，第二个则能支持一些 minecraft 独有的类 .json 文件的显示（譬如pack.mcmeta）。这是对比图：
+    第一个能使得 VSC 支持 .lang 文件的读取，第二个则还能支持一些 Minecraft 独有的类 .json 文件的显示（譬如 .mcmeta 文件）。这是对比图：
 
     
     ![剪贴板图片 (33).jpg](https://i.loli.net/2020/08/15/ntAk6flIHih2BU8.jpg)
@@ -259,7 +259,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
     ![剪贴板图片 (7).jpg](https://i.loli.net/2020/08/14/fSArFdPxZcRE5Hu.jpg)
 
 
-    点进这个图标，就可以跳转到这个模组对应的源码仓库了。一般情况下这个仓库位于 GitHub，但也有一些开发者会采用 GitLab 或 Gitee 这种其它与 GitHub 相似的代码托管网站。除非你已经大致摸清了 GitHub 的运作方式，否则不要轻易将 GitHub 的流程套用至其它的托管网站上；遇到了 GitLab 等其它平台时请考虑不作汉化或向他人寻求帮助，如果真的很想翻译这一模组，你可以将它的英文文本发送至 CFPA 的 GitHub 仓库，然后在 weblate 上进行翻译；又或者在本地翻译完毕后，将翻译文本和你所使用的英文文本一同发送到 CFPA 的仓库中，这样可以最大限度的让玩家使用到你的翻译文本。
+    点进这个图标，就可以跳转到这个模组对应的源码仓库了。一般情况下这个仓库位于 GitHub，但也有一些开发者会采用 GitLab 或 Gitee 这种其它与 GitHub 相似的代码托管网站。除非你已经大致摸清了 GitHub 的运作方式，否则不要轻易将 GitHub 的流程套用至其它的托管网站上，并且在遇到了 GitLab 等其它平台时请考虑不作汉化或向他人寻求帮助，如果真的很想翻译这一模组，你可以将它的英文文本发送至 CFPA 的 GitHub 仓库，然后在 Weblate 上进行翻译；也可在本地翻译完毕后，将翻译文本和你所使用的英文文本一同发送到 CFPA 的仓库中，这样可以最大限度地让玩家使用到你的翻译文本。
 
 2. Fork
 
@@ -291,7 +291,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 4. 拉取请求
 
-    你做出修改的这个仓库是你的，然而你的仓库只是原仓库的一个副本，如果你想要把你的修改合并到原仓库，那么你应该怎么做？这时候我们就需要发送 **pull request**（拉取请求，简称 RR）到原仓库。
+    你进行修改的这个仓库是你的，然而你的仓库只是原仓库的一个副本，如果你想要把你的修改合并到原仓库，那么你应该怎么做呢？这时候就需要发送 **pull request**（拉取请求，简称 PR）到原仓库了。
 
     我们先回到原仓库，依次单击：
 
@@ -333,7 +333,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 这里有一份利用 [GitHub Desktop](https://desktop.github.com/) 将仓库 clone 到本地的 [教程](https://www.jianshu.com/p/1e45b93bd593)，只要安装了 GitHub 桌面版，执行教程的第二步，就可以将仓库拉取到本地了！接下来的任务就是进一步把你的仓库 clone 到本地，这样就根本无须打开 GitHub 网页版了，完全可以做到本地一站式解决！
 
-但是对于网络环境不好的人而言，这里还有一个极为严重的问题：在将仓库拉取到本地的过程中涉及到 clone 的操作，这一操作的 实质就是将你挂载在 GitHub 上的仓库复制到本地上。一般情况下，只有早上八九点的时候才能以很快的速度进行 clone，一旦不在这个时间区域内，clone 的速度就只能听天由命了，而且绝大部分时候都慢得犹如龟爬，速度不高于 10 KiB/s。
+但是对于网络环境不好的人而言，这里还有一个极为严重的问题：在将仓库拉取到本地的过程中涉及到 clone 的操作，这一操作的实质就是将你挂载在 GitHub 上的仓库复制到本地上。一般情况下，只有早上八九点的时候才能以很快的速度进行 clone，一旦不在这个时间区域内，clone 的速度就只能听天由命了，而且绝大部分时候都慢得犹如龟爬，速度不高于 10 KiB/s。
 
 这里有一些别人写过的方法，可以用于参考：[修改 host 以及使用码云的教程](https://zhuanlan.zhihu.com/p/144016106)。
 
@@ -506,9 +506,9 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
     这个时候就要发挥出本地的优势了。你可以借助第三方软件进行快速的为你输出特定的语法，我（清秋）个人使用的是 Quicker（在上文中亦有提及），我个人编写出了一个快速添加建议的脚本，只需选中你想要提出建议的行，然后使用动作，带有建议语法的文本就会写入你的剪贴板，你只需在 review 的输入框内粘贴这一文本即可，非常快捷方便。
 
-    这是[快速添加 suggest 的脚本](https://getquicker.net/sharedaction?code=6c5136c4-0748-41ca-9ee0-08d85d9ed340)，选中文本后直接执行动作，相应的带语法的文本会被添加到剪贴板中。
+    这是 [快速添加 suggest 的脚本](https://getquicker.net/sharedaction?code=6c5136c4-0748-41ca-9ee0-08d85d9ed340)，选中文本后直接执行动作，相应的带语法的文本会被添加到剪贴板中。
 
-    这是三个用于替换原版中特定词的脚本，分别为[替换原木](https://getquicker.net/sharedaction?code=5717e95f-c12e-43db-9ee1-08d85d9ed340)和[替换石质方块](https://getquicker.net/sharedaction?code=73bfacbd-69c8-41b8-1a2a-08d83f7686c1)，加上上文提及的脚本，共三个脚本。
+    以下是用于替换原版中特定词的脚本，分别为 [替换原木](https://getquicker.net/sharedaction?code=5717e95f-c12e-43db-9ee1-08d85d9ed340) 和 [替换石质方块](https://getquicker.net/sharedaction?code=73bfacbd-69c8-41b8-1a2a-08d83f7686c1)，加上上文提及的共三个。
 
 <a name="与原仓库同步">**_与原仓库同步_**</a>（[本节链接](#与原仓库同步)）
 
@@ -671,7 +671,7 @@ https://github.com/LWHK/LWHK-Simplified-Chinese-Translation/commit/0c8a8914f5f01
 ![剪贴板图片 (32).jpg](https://i.loli.net/2020/08/15/lkprt6uXONJfVmh.jpg)
 
 
-注意，无论是语言文件还是手册，编码格式一定得是 UTF-8，不能是其它的编码（这里体现出了记事本的弱点：不仅默认格式不是 UTF-8，就算调整为了 UTF-8 也可能是 with BOM 版本的）。有些模组自带手册，但是忘记定义了调用 Java 解码的字符集，此时 Java 就会调用你的系统默认的字符集进行解码。如果使用 UTF-8 进入游戏，则会通篇全为乱码。**但是这不是你的问题**。你所要做的就是在他的仓库的 issue 那里放上这个 [pull request](https://github.com/Electroblob77/Wizardry/pull/479)，并说明乱码问题可能与这个PR相关，作者自然就会明白了。
+注意，无论是语言文件还是手册，编码格式一定得是 UTF-8，不能是其它的编码（这里体现出了记事本的弱点：不仅默认格式不是 UTF-8，就算调整为了 UTF-8 也可能是 with BOM 版本的）。有些模组自带手册，但是忘记定义了调用 Java 解码的字符集，此时 Java 就会调用你的系统默认的字符集进行解码。如果使用 UTF-8 进入游戏，则会通篇全为乱码。但是这**不是**你的问题。你所要做的就是在他的仓库的 issue 那里放上这个 [pull request](https://github.com/Electroblob77/Wizardry/pull/479)，并说明乱码问题可能与这个 pull request 相关，作者自然就会明白了。
 
 # 本文格式指引（一级标题）
 
