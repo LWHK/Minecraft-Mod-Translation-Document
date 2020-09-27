@@ -92,7 +92,7 @@
 
 ### 文本编辑器
 
-对我而言，我装的文本编辑器有两个：
+我（清秋）使用的文本编辑器有两个：
 
 1. 轻量编辑器：[Notepad++（Np++）](https://notepad-plus-plus.org/downloads/)（不再推荐）
 
@@ -112,7 +112,7 @@
 
     在上面我分别标注出了几个需要注意的地方。
 
-    工作区的搭建首先需要你点进 Extension（扩展）管理，在顶部搜索栏中搜索“Chinese (Simplified) Language Pack for Visual Studio Code”，单击第一个扩展，再单击 Install，稍待一会你就会发现你的界面已经变成了中文。
+    工作区的搭建首先需要你点进 Extension（扩展）管理，在顶部搜索栏中搜索 "Chinese (Simplified) Language Pack for Visual Studio Code"，单击第一个扩展，再单击 Install，稍待一会你就会发现你的界面已经变成了中文。
 
     你还需要安装以下扩展：
 
@@ -147,7 +147,7 @@
 
 顺带一些其它的在线词典网站推荐：
 
-[**模组词典**](https://dict.mcmod.cn/)，可以查出 MC 一些专有名词的翻译
+[**模组词典**](https://dict.mcmod.cn/)（可以查出 MC 一些既定专有名词的翻译）
 
 [**谷歌翻译**](https://translate.google.cn/)
 
