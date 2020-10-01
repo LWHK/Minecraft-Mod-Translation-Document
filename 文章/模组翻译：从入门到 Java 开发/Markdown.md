@@ -646,7 +646,7 @@ GitHub 有一个 Organization 的设定，单击右上角的加号可以发起�
 
 <a name="部分不加载">**部分不加载**</a>（[本节链接](#部分不加载)）
 
-部分不加载，则有可能是因为 translation key 发生了错误，所谓的 key，就是语言文件中每一行的左边部分，也即1.12.2的.lang文件中，每一行条目的 = 的左侧或 1.12.2 以上 .json 的 : 左侧的部分，你需要单独检查一下那些尽管填了翻译，但是游戏中没有加载的词条的 key。
+部分不加载，则有可能是因为 translation key 发生了错误，所谓的 key，就是语言文件中每一行的左边部分，也即 1.12.2 的 .lang 文件中，每一行条目的 = 的左侧或 1.12.2 以上 .json 的 : 左侧的部分，你需要单独检查一下那些尽管填了翻译，但是游戏中没有加载的词条的 key。
 
 这是一个修复了 key 错误的 [commit](
 https://github.com/LWHK/LWHK-Simplified-Chinese-Translation/commit/0c8a8914f5f0124fa31c521997b983d8c556c877#diff-306fabd320470aaa7a1f902a579b1a4a)。
@@ -655,7 +655,7 @@ https://github.com/LWHK/LWHK-Simplified-Chinese-Translation/commit/0c8a8914f5f01
 
 这是一个相关的 [issue 反馈](https://github.com/Mysticmods/MysticalWorld/issues/126)（@NoName德里奇 的例子；为了避免误会，提前声明：他本人懂代码）。
 
-这个是比较特殊的情况，一般而言，你只需要说清楚哪里没有 key，希望作者改进就好了。
+这个是比较特殊的情况，一般而言，你只需要说清楚哪里没有 key，说希望作者改进就好了。
 
 如果你确实不精通英语，甚至书面表达都颇为吃力，那么你可以使用这一套 [issue 模板](https://github.com/0999312/Sakura_mod/issues/new)，填写入相应的信息之后，将中文删掉即可（由 @NoName德里奇 友情提供）。
 
