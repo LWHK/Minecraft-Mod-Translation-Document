@@ -653,7 +653,7 @@ GitHub 有一个 Organization 的设定，单击右上角的加号可以发起�
 这是一个修复了 key 错误的 [commit](
 https://github.com/LWHK/LWHK-Simplified-Chinese-Translation/commit/0c8a8914f5f0124fa31c521997b983d8c556c877#diff-306fabd320470aaa7a1f902a579b1a4a)。
 
-也有一些情况，那就是根本没有 key，而作者把文本写进了代码中，我们称这种文本为硬编码文本。这个情况你就需要较高的技术力了。如果你有能力且有时间且愿意协助作者进行修改，那么你可以直接进行修改之后发送 PR 到作者的仓库；如果没能力或者没时间进行协助，在 issue 界面和作者反馈问题就好了，不必勉强自己。
+也有一些情况，那就是根本没有 key，而作者把文本写进了代码中，我们称这种文本为硬编码文本。这个情况你就需要较高的技术力了。如果你有能力且有时间,，并且愿意协助作者进行修改，那么你可以直接进行修改之后发送 PR 到作者的仓库；如果没能力或者没时间进行协助，在 issue 界面和作者反馈问题就好了，不必勉强自己。
 
 这是一个相关的 [issue 反馈](https://github.com/Mysticmods/MysticalWorld/issues/126)（@RisingInIris2017 的例子；mcbbs名称：NoName德里奇）。
 
