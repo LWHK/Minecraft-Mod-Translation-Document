@@ -440,7 +440,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 ![剪贴板图片 (18).jpg](https://i.loli.net/2020/08/14/zG7aLPug1VXnxlI.jpg)
 
 
-有时候你需要特定的人帮助你 review 你的 pull request ，这时候你可以在 pull request 里发送 @ 信息，或者在右侧指定他帮助你 pull request（注意：这一操作只有仓库主人才可以进行！如果你没有该仓库的权限，那么你是无法在右侧专门指定他人为你 review 的，此时你只能 @ 他过来；@ 的方式即输入 @ 后在后面跟上你要 @ 的人的 GitHub ID 并再在后面空一格）：
+有时候你需要特定的人帮助你 review 你的 pull request ，这时候你可以在 pull request 里发送 @ 信息，或者在右侧指定他帮助你 pull request（注意：这一操作只有仓库主人才可以进行！如果你没有该仓库的权限，那么你是无法在右侧专门指定他人为你 review 的，此时你只能 @ 他过来；@ 的方式即输入 @ 后在后面跟上你要 @ 的人的 GitHub ID ，并再在后面空一格）：
 
 
 ![剪贴板图片 (19).jpg](https://i.loli.net/2020/08/14/Q6DW2eMJPCmAUGS.jpg)
