@@ -498,7 +498,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
     ![剪贴板图片 _48_.jpg](https://i.loli.net/2020/08/22/7PvIdqZAxCQekTX.jpg)
 
 
-    想要结束 review，必须得声明这一次的 review 的类型是 comment，request changes 还是 approve。我们可以通过下载 [GitHub CLI](https://cli.github.com/) 以在本地的命令行内进行 review 声明。具体方法请参考 [GitHub CLI 手册](https://cli.github.com/manual/)。
+    想要结束 review，必须得声明这一次的 review 的类型是 comment，request changes 还是 approve。也可以直接点进 PR 的 Description ，在其中也可以进行评论以及确认 review 的操作。
 
     当然，手动前往网页端声明 review 类型也是可以的。
 
