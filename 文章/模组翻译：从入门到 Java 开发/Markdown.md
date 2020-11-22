@@ -42,7 +42,7 @@
 > ……文学作品的基本特性并不是陈述事实或发布信息。然而任何执行传播功能的翻译所传播的只能是信息，也就是说，它传播的只是非本质的东西。
 > 这是拙劣译文的特征。但是人们普遍认为文学作品的实质是信息之外的东西。而即使拙劣的译者也承认，文学作品的精髓是某种深不可测的、神秘的、“诗意的”东西；翻译家若要再现这种东西，自己必须也是一个诗人。
 
-多数模组文本明显不是文学作品，然而对它的翻译却能与公认应追求的翻译之目标进行对照。对于文学作品的翻译而言，其基本特性并不是**陈述事实或发布信息**，但对于 MC 的翻译，精确描述和准确表达总是最重要的，因为若是缺失了这一要素，推进游戏进程就会因为各式各样差翻译的显示而举步维艰。因此在翻译中，“信”总是排在最先的，“达”是我们致力于追求的，“雅”则是力所能及者行之事，不能行则应退而求其次，无需强求。首先，“信”要求译者对原版词汇烂熟于心，避免在翻译时使用了错误的翻译而引人发笑，其次是一些约定俗成的词语的翻译，可于 [BWIKI](https://wiki.biligame.com/mcplayer/%E6%9A%B4%E5%BE%92%E4%BA%A7%E5%8D%B5) 查到相关资料，此处不多赘述。“达”则要求长文本翻译尽可能清新流畅，至少像是**人能说出来的**，而不是机器翻译的。我（轩辕）曾经见到过一份文本，这份文本的作者在进行过大量机翻以及其后的阅读后已经不再能清晰地把握中文文字的脉络了，导致他自己原创出的这份文本都被我误判为了机翻内容。毫无疑问，这种水平较低的译文是由于经验不足而导致的，而这一经验指的远不止英语阅读的经验，更是将英语文本转变为有逻辑关系的中文的经验。也就是说，翻译工作同时考校了你双边的实力。最后的“雅”则是那些有较高的语言素养的人才能够达到的，鉴于我们自身水平较差，此处就不多在网络上逼逼赖赖了。
+多数模组文本明显不是文学作品，然而对它的翻译追求却能与公认应追求的翻译之标准进行对照。对于文学作品的翻译而言，其基本特性并不是**陈述事实或发布信息**，但对于 MC 的翻译，精确描述和准确表达总是最重要的，因为若是缺失了这一要素，推进游戏进程就会因为各式各样差翻译的显示而举步维艰。因此在翻译中，“信”总是排在最先的，“达”是我们致力于追求的，“雅”则是力所能及者行之事，不能行则应退而求其次，无需强求。首先，“信”要求译者对原版词汇烂熟于心，避免在翻译时使用了错误的翻译而引人发笑，其次是一些约定俗成的词语的翻译，可于 [BWIKI](https://wiki.biligame.com/mcplayer/%E6%9A%B4%E5%BE%92%E4%BA%A7%E5%8D%B5) 查到相关资料，此处不多赘述。“达”则要求长文本翻译尽可能清新流畅，至少像是**人能说出来的**，而不是机器翻译的。我（轩辕）曾经见到过一份文本，这份文本的作者在进行过大量机翻以及其后的阅读后已经不再能清晰地把握中文文字的脉络了，导致他自己原创出的这份文本都被我误判为了机翻内容。毫无疑问，这种水平较低的译文是由于经验不足而导致的，而这一经验指的远不止英语阅读的经验，更是将英语文本转变为有逻辑关系的中文的经验。也就是说，翻译工作同时考校了你双边的实力。最后的“雅”则是那些有较高的语言素养的人才能够达到的，鉴于我们自身水平较差，此处就不多在网络上逼逼赖赖了。
 
 然而哔哩吧啦了一大堆，本篇教程和“**如何汉化**”并无关联。如何翻译一个句子、一个词，这些不在本文的指导范围之内。当今的九年义务教育制度普及效果良好，如果你因为年龄不大而翻译得很烂，你还有很多机会可以接受更好的教育以及自我训练。本篇真正希望解决的是那些类似于“**如何投交汉化文本**”以及“**除了自身的翻译水准，成为一个合格的 Minecraft 模组翻译者还需要学会哪些技能**”，甚至只是“**我对翻译有兴趣，我应该做哪些准备**”的问题。
 
@@ -62,7 +62,7 @@
 
 ## 找到语言文件
 
-右击你的模组文件（扩展名为 .jar 的压缩包），使用压缩软件打开。例如，我（清秋）使用的是 [Bandizip](https://www.bandizip.com/)（写教程的时候用的是 360 压缩）（亦可使用 [7-Zip](https://www.7-zip.org/)），那么右击模组文件之后，会出现如下提示：
+右击你的模组文件（扩展名为 .jar 的压缩包），使用压缩软件打开。例如，我（清秋）使用的是 [Bandizip](https://www.bandizip.com/)（写教程的时候使用的是 360 压缩）（亦可使用 [7-Zip](https://www.7-zip.org/)），那么右击模组文件之后，会出现如下提示：
 
 
 ![剪贴板图片 _1_.jpg](https://i.loli.net/2020/08/13/Hg3AtWLTCj1lzs2.jpg)
@@ -402,7 +402,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 也就是说，你在修改原作者仓库的时候，GitHub 自动为你 fork 了原作者的仓库，并将你的改动应用到你的 fork 仓库的不同分支上（然而，改动的应用规则对新手而言略有些不明确），然后再从这些分支发起 pull request 到原作者的仓库那里。这样做实际上没有能够理解 pull request 的本质：对 pull request 的 merge 是实际上是两个分支之间的合并，而不仅仅是两个仓库之间的合并，即便在同一个仓库，你也可以用一个分支对另一个分支发起 pull request，这是完全可以的。
 
-这种连开的 pull request 有什么不好的地方？其实从操作层面上来说，没有太多的问题，但事实上这种行为说明其实 pull request 发起者根本就没有理解 pull request 的意义，并且也不了解 GitHub 的 pull request 机制，以及这里谈及的 GitHub 工作流程。一个最显而易见的问题是：如果你根本不能理解 pull request 是如何运作的，那么，你应该如何为你的 pull request 追加新的改动呢？正确的操作是：你得在你 pull request 对应的分支上再继续 commit，这些 commit 会自动推送到这个分支开启的 pull request 上，然后你的追加改动就可以成功的被原作者看到了。如果你不了解 pull request 的机制，你可能就会为追加后的内容再开一个 pull request，这样的效率十分低下，不仅有碍观瞻，且会让仓库的作者搞不清楚你的真正用意。
+这种连开的 pull request 有什么不好的地方呢？其实从操作层面上来说，没有太多的问题，但事实上这种行为说明其实 pull request 发起者根本就没有理解 pull request 的意义，并且也不了解 GitHub 的 pull request 机制，以及这里谈及的 GitHub 工作流程。一个最显而易见的问题是：如果你根本不能理解 pull request 是如何运作的，那么，你应该如何为你的 pull request 追加新的改动呢？正确的操作是：你得在你 pull request 对应的分支上再继续 commit，这些 commit 会自动推送到这个分支开启的 pull request 上，然后你的追加改动就可以成功的被原作者看到了。如果你不了解 pull request 的机制，你可能就会为追加后的内容再开一个 pull request，这样的效率十分低下，不仅有碍观瞻，且会让仓库的作者搞不清楚你的真正用意。
 
 <a name="Review">**_Review_**</a>（[本节链接](#Review)）
 
@@ -440,7 +440,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 ![剪贴板图片 (18).jpg](https://i.loli.net/2020/08/14/zG7aLPug1VXnxlI.jpg)
 
 
-有时候你需要特定的人帮助你 review 你的 pull request ，这时候你可以在 pull request 里发送 @ 信息，或者在右侧指定他帮助你 pull request（注意：这一操作只有仓库主人才可以进行！如果你没有该仓库的权限，那么你是无法在右侧专门指定他人为你 review 的，此时你只能 @ 他过来；@ 的方式即输入 @ 后在后面跟上你要 @ 的人的 GitHub ID ，并再在后面空一格）：
+有时候你需要特定的人帮助你 review 你的 pull request ，这时候你可以在 pull request 里发送 @ 信息，或者在右侧指定他帮助你 pull request（注意：这一操作只有仓库主人才可以进行！如果你没有该仓库的权限，那么你是无法在右侧专门指定他人为你 review 的，此时你只能 @ 他过来；@ 的方式即输入 @ 后在后面跟上你要 @ 的人的 GitHub ID 并再在后面空一格）：
 
 
 ![剪贴板图片 (19).jpg](https://i.loli.net/2020/08/14/Q6DW2eMJPCmAUGS.jpg)
@@ -468,9 +468,9 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
     在 GitHub 网页端进行 review，在功能上会比在本地 review 要更加丰富。一个是一些复杂的语法，在网页端只需点一点按钮便可以唤出；另一个是一些扩展，可以更好地帮助你说明 review 的内容。譬如这个 PR Review Priority（[Chrome](https://chrome.google.com/webstore/detail/pr-Review-priority/mcngolehbdnjjdgbcafgkgigjmplbmhb?utm_source=chrome-ntp-icon)丨[Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/pr-review-priority/?src=search)），你可以迅速地为你的每一条 review 标注你对于这一 review 的态度，上文的 [对 Crossroads 汉化的 review](https://github.com/CFPAOrg/Minecraft-mod-Language-Package/pull/779) 就是一个大规模运用的例子。在这一例子里，我大量运用了优先度的描述，这样 pull request 递交者就能够明白哪些 review 是比较重要的，哪些 review 是可以与我讨论而不会出现误会的。遗憾的是，这个扩展一旦安装便不能选择无优先度的设定；此外至少在火狐方面为有多人的、种类不同的 review 添加评论时会出现数据错乱的现象，只能通过编辑功能手动修改。
 
-    在遇到更改了大量文件的 pull request 时，你会需要用到 [Github Turbo PR](https://chrome.google.com/webstore/detail/github-turbo-pr/bajlfgjogojcoiijmmjeppgmppcdbbfb?utm_source=chrome-ntp-icon)（很遗憾，并没有火狐的扩展）安装之后，只要在 file changes 页面单击扩展进行优化，你就会发现页面的流畅度可以得到大幅提升。然而这个扩展有一些问题，可以在安装页面上查询到，这里就不复述了。
+    在遇到了更改大量文件的 pull request 时，你会需要用到 [Github Turbo PR](https://chrome.google.com/webstore/detail/github-turbo-pr/bajlfgjogojcoiijmmjeppgmppcdbbfb?utm_source=chrome-ntp-icon)（很遗憾，并没有火狐的扩展）安装之后，只要在 file changes 页面单击扩展进行优化，你就会发现页面的流畅度可以得到大幅提升。然而这个扩展有一些问题，可以在安装页面上查询到，这里就不复述了。
 
-    但无论如何，在网页端 Review 总是有着各种各样的不便，所以我更为推荐在本地进行 Review 。
+    但无论如何，在网页端 review 总是有着各种各样的不便的，所以我（清秋）更推荐在本地进行 review 。
 
 2. 本地 review
 
@@ -498,7 +498,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
     ![剪贴板图片 _48_.jpg](https://i.loli.net/2020/08/22/7PvIdqZAxCQekTX.jpg)
 
 
-    想要结束 review，必须得声明这一次的 review 的类型是 comment，request changes 还是 approve。也可以直接点进 PR 的 Description ，在其中也可以进行评论以及确认 review 的操作。
+    想要结束 review，必须得声明这一次的 review 的类型是 comment，request changes 还是 approve。也可以直接点进 pull request 的 description 并在其中进行评论以及确认 review 的操作。
 
     当然，手动前往网页端声明 review 类型也是可以的。
 
@@ -506,11 +506,11 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
     我们很快就能发现，本地编辑器在语法难度上比网页端高了不止一点，比如我们常用的 suggest 语法，在网页端只需点一点按钮即可唤出，但在本地端极为麻烦，因为目前插件还没有推出这种简易输入的功能。
 
-    这个时候就要发挥出本地的优势了。你可以借助第三方软件进行快速的为你输出特定的语法，我（清秋）个人使用的是 Quicker（在上文中亦有提及），我个人编写出了一个快速添加建议的脚本，只需选中你想要提出建议的行，然后使用动作，带有建议语法的文本就会写入你的剪贴板，你只需在 review 的输入框内粘贴这一文本即可，虽然不似网页端快捷方便，但也算是比较顺手好用了。
+    这个时候就要发挥出本地的优势了。你可以借助第三方软件进行快速的为你输出特定的语法，我（清秋）个人使用的是 Quicker（在上文中亦有提及），我个人编写出了一个快速添加建议的脚本，只需选中你想要提出建议的行，然后使用动作，带有建议语法的文本就会写入你的剪贴板，你只需在 review 的输入框内粘贴这一文本即可，虽然不似网页端快捷方便，但也算是比较顺手好用的了。
 
     这是 [快速添加 suggest 的脚本](https://getquicker.net/sharedaction?code=6c5136c4-0748-41ca-9ee0-08d85d9ed340)，选中文本后直接执行动作，相应的带语法的文本会被添加到剪贴板中。
 
-    以下是用于替换原版中特定词的脚本，分别为 [替换原木](https://getquicker.net/sharedaction?code=5717e95f-c12e-43db-9ee1-08d85d9ed340) 和 [替换石质方块](https://getquicker.net/sharedaction?code=73bfacbd-69c8-41b8-1a2a-08d83f7686c1)，加上上文提及的[替换颜色](https://getquicker.net/sharedaction?code=62f16959-296c-4df6-9ee2-08d85d9ed340)脚本，共三个。
+    以下是用于替换原版中特定词的脚本，分别为 [替换原木](https://getquicker.net/sharedaction?code=5717e95f-c12e-43db-9ee1-08d85d9ed340) 和 [替换石质方块](https://getquicker.net/sharedaction?code=73bfacbd-69c8-41b8-1a2a-08d83f7686c1)，加上上文提及的 [替换颜色](https://getquicker.net/sharedaction?code=62f16959-296c-4df6-9ee2-08d85d9ed340) 脚本，共三个。
 
 <a name="与原仓库同步">**_与原仓库同步_**</a>（[本节链接](#与原仓库同步)）
 
@@ -653,13 +653,13 @@ GitHub 有一个 Organization 的设定，单击右上角的加号可以发起�
 这是一个修复了 key 错误的 [commit](
 https://github.com/LWHK/LWHK-Simplified-Chinese-Translation/commit/0c8a8914f5f0124fa31c521997b983d8c556c877#diff-306fabd320470aaa7a1f902a579b1a4a)。
 
-也有一些情况，那就是根本没有 key，而作者把文本写进了代码中，我们称这种文本为硬编码文本。这个情况你就需要较高的技术力了。如果你有能力且有时间，并且愿意协助作者进行修改，那么你可以直接进行修改之后发送 PR 到作者的仓库；如果没能力或者没时间进行协助，在 issue 界面和作者反馈问题就好了，不必勉强自己。
+也有一些情况，那就是根本没有 key，而作者把文本写进了代码中，我们称这种文本为硬编码文本。这个情况你就需要较高的技术力了。如果你有能力且有时间，并且愿意协助作者进行修改，那么你可以直接进行修改之后发送 pull request 到作者的仓库；如果没能力或者没时间进行协助，在 issue 界面和作者反馈问题就好了，不必勉强自己。
 
-这是一个相关的 [issue 反馈](https://github.com/Mysticmods/MysticalWorld/issues/126)（@RisingInIris2017 的例子；mcbbs名称：NoName德里奇）。
+这是一个相关的 [issue 反馈](https://github.com/Mysticmods/MysticalWorld/issues/126)（@RisingInIris2017 的例子，MCBBS 用户名 NoName德里奇）。
 
 这个是比较特殊的情况，一般而言，你只需要说清楚哪里没有 key，说希望作者改进就好了。
 
-如果你确实不精通英语，甚至书面表达都颇为吃力，那么你可以使用这一套 [issue 模板](https://github.com/0999312/Sakura_mod/issues/new)，填写入相应的信息之后，将中文删掉即可（由 德里奇 友情提供）。
+如果你确实不精通英语，甚至书面表达都颇为吃力，那么你可以使用这一套 [issue 模板](https://github.com/0999312/Sakura_mod/issues/new)，填写入相应的信息之后，将中文删掉即可（由德里奇友情提供）。
 
 这是一个手动改硬编码的 [例子](https://github.com/TUsama/Roots/commit/a12922af9aa8b1a17e756444749e4c11bfd6022b)（前提是你能看得懂作者的写法）。
 
