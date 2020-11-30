@@ -79,7 +79,7 @@
 ![剪贴板图片 _2_.jpg](https://i.loli.net/2020/08/13/Drq6WykR9pYsfJ1.jpg)
 
 
-1 是英文的语言文件，而 2 是中文的语言文件，如果没有 2，就基本说明这一个模组没有中文的翻译（例外：1.12.2 的情况下有可能 CFPA 有而模组本体没有，为了防止撞车，请先阅读底部的 [一节](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%20Java%20%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)），你可以按照其英语文本进行翻译（建议阅读本节 [教程](https://harbinger.covertdragon.team/chapter-13/)；如果这是你的第一份翻译，请先查看其它有汉化的模组的语言文件，对照着中文与英文文件查看具体应该替换的部分，以避免出现失误）。翻译完之后，把文件改名为 2，也就是 zh_cn.lang，然后再将其放进上述的目录。这样，理论上来说你在游戏中就可以读取到翻译了！
+1 是英文的语言文件，而 2 是中文的语言文件，如果没有 2 ，就基本说明这一个模组没有中文的翻译（例外：1.12.2 的情况下有可能 CFPA 有而模组本体没有，为了防止撞车，请先阅读底部的 [一节](https://github.com/LWHK/Passage/blob/master/%E6%96%87%E7%AB%A0/%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%20Java%20%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)），你可以按照其英语文本进行翻译（建议阅读本节 [教程](https://harbinger.covertdragon.team/chapter-13/)；如果这是你的第一份翻译，请先查看其它有汉化的模组的语言文件，对照着中文与英文文件查看具体应该替换的部分，以避免出现失误）。翻译完之后，把文件改名为 2，也就是 zh_cn.lang，然后再将其放进上述的目录。这样，理论上来说你在游戏中就可以读取到翻译了！
 
 顺带一提，在 1.12.2 中，语言文件为 .lang 文件，但在 1.12.2 以上的版本中，则是 .json 文件。
 
@@ -118,7 +118,7 @@
     1. Minecraft Lang Colorizer（zz5840.minecraft-lang-colorizer）（必装）
     2. Minecraft JSON Schemas（levertion.mcjson）（可选；目前用处不大）
 
-    第一个能使得 VSC 支持 .lang 文件的读取，第二个则还能支持一些 Minecraft 独有的类 .json 文件的显示（譬如 .mcmeta 文件）。这是对比图：
+    第一个能使得 VSC 支持 .lang 文件的读取，第二个则还能支持一些 Minecraft 独有的类 .json 文件的显示（譬如 .mcmeta 文件）。这是安装了第一个扩展之后的对比图：
 
     
     ![剪贴板图片 (33).jpg](https://i.loli.net/2020/08/15/ntAk6flIHih2BU8.jpg)
@@ -141,6 +141,8 @@
 个人感觉还是不错的，安装了桌面版之后，打开划词翻译，打开 VSC，只需要选中你想查询的词，即可查出释义，非常好用。
 
 [**有道词典**](http://cidian.youdao.com/) 的桌面版也不错，然而和我的电脑适配有困难，所以卸载了，但是有道的划词检索很快，不像欧陆，有时候划词检索不出来，还会卡住，不过卡住的还是较少的。
+
+如果你是重度开源受害者，那么可以考虑 [CopyTranslator](https://github.com/CopyTranslator/CopyTranslator/releases) ，复制即可搜索，快捷方便，不像其它的词典那样过于臃肿（对于纯粹的翻译而言，你并不需要例句，发音这些功能）。
 
 长句子翻译非常推荐 [**DeepL**](https://www.deepl.com)，它拥有着令人惊叹的翻译准度，以至于我的哲学论文有很大一部分的内容都是它帮助我翻译的。
 
@@ -399,9 +401,9 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 ![剪贴板图片 (39).jpg](https://i.loli.net/2020/08/15/GmjbJysNzXLUvAE.jpg)
 
 
-也就是说，你在修改原作者仓库的时候，GitHub 自动为你 fork 了原作者的仓库，并将你的改动应用到你的 fork 仓库的不同分支上（然而，改动的应用规则对新手而言略有些不明确），然后再从这些分支发起 pull request 到原作者的仓库那里。这样做实际上没有能够理解 pull request 的本质：对 pull request 的 merge 是实际上是两个分支之间的合并，而不仅仅是两个仓库之间的合并，即便在同一个仓库，你也可以用一个分支对另一个分支发起 pull request，这是完全可以的。
+也就是说，你在修改原作者仓库的时候，GitHub 自动为你 fork 了原作者的仓库，并将你的改动应用到你的 fork 仓库的不同分支上，然后再从这些分支发起 pull request 到原作者的仓库那里。这样做实际上没有能够理解 pull request 的本质：对 pull request 的 merge 是实际上是两个分支之间的合并，而不仅仅是两个仓库之间的合并，即便在同一个仓库，你也完全可以用一个分支对另一个分支发起 pull request，这在单独翻译某个项目的时候非常有用，因为你的工作进度常常不是连续性的，你有可能这个模组翻译一点，那个模组翻译一点，此时最好的方法就是创建不同的新分支，把你翻译的不同模组分别放入不同的分支内，这样在 PR 时可以**目标明确**地进行 PR ，而不至于在一次 PR 里塞入过多的，或者是不需要的内容，内容分离的工作应该在**工作开始前**就规划好。
 
-这种连开的 pull request 有什么不好的地方呢？其实从操作层面上来说，没有太多的问题，但事实上这种行为说明其实 pull request 发起者根本就没有理解 pull request 的意义，并且也不了解 GitHub 的 pull request 机制，以及这里谈及的 GitHub 工作流程。一个最显而易见的问题是：如果你根本不能理解 pull request 是如何运作的，那么，你应该如何为你的 pull request 追加新的改动呢？正确的操作是：你得在你 pull request 对应的分支上再继续 commit，这些 commit 会自动推送到这个分支开启的 pull request 上，然后你的追加改动就可以成功的被原作者看到了。如果你不了解 pull request 的机制，你可能就会为追加后的内容再开一个 pull request，这样的效率十分低下，不仅有碍观瞻，且会让仓库的作者搞不清楚你的真正用意。
+这种连开的 pull request 有什么不好的地方呢？其实从操作层面上来说，没有太多的问题，你爱开多少个 PR 没人管得了你，但事实上这种行为说明其实 pull request 发起者根本就没有理解 pull request 的意义，并且也不了解 GitHub 的 pull request 机制，以及这里谈及的 GitHub 工作流程。一个最显而易见的问题是：如果你根本不能理解 pull request 是如何运作的，那么，你应该如何为你的 pull request 追加新的改动呢？正确的操作是：你得在你 pull request 对应的分支上再继续 commit，这些 commit 会自动推送到这个分支开启的 pull request 上，然后你的追加改动就可以成功的被原作者看到了。如果你不了解 pull request 的机制，你可能就会为追加后的内容再开一个 pull request，这样的效率十分低下，不仅有碍观瞻，且会让仓库的作者搞不清楚你的真正用意。
 
 <a name="Review">**_Review_**</a>（[本节链接](#Review)）
 
