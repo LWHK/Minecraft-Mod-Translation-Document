@@ -199,7 +199,7 @@
 2. 通过 Weblate
 3. 通过 CurseForge 或其它途径
 
-如果你作为一个新手，确实想要参与到翻译工作中，最好直接阅读 [通过 Weblate](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-weblate) ，因为 CFPA 搭建的 Weblate 平台本身就是为新手设计的，使用它可以方便、快捷地进行翻译，不要浪费了 943 的一片良苦用心。
+如果你作为一个新手，确实想要参与到翻译工作中，最好直接阅读 [通过 Weblate](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-weblate)，因为 CFPA 搭建的 Weblate 平台本身就是为新手设计的，使用它可以方便、快捷地进行翻译，不要浪费了 943 的一片良苦用心。
 
 如果你只是想单纯地为自己或周围的人进行汉化，那么提交汉化是完全没有必要的。我们曾见过一个人只为了自己和朋友能看就把一个模组机翻后交给原作者，我认为这种行为相当不妥，首先机翻本身就没有值得赞赏的点，而你甚至在意识到了它不妥的情况下仍然把机翻文本交给作者，这不是什么好的行为。
 
@@ -410,7 +410,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 这是一个看上去可以被忽视的过程，但实际上，如果你不想被**其它的翻译者~~锤~~石锤，铁锤，钻石锤**然后以泪洗面，你最好完成这一道“工序”。
 
-具体该如何做呢？这里放出 [LWHK](https://github.com/LWHK) 的一个 [pull request](https://github.com/LWHK/Create/pull/1) ，来给大家解释说明。
+具体该如何做呢？这里放出 [LWHK](https://github.com/LWHK) 的一个 [pull request](https://github.com/LWHK/Create/pull/1)，来给大家解释说明。
 
 打开 pull request 页面之后，我们单击此处：
 
@@ -442,7 +442,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 ![剪贴板图片 (18).jpg](https://i.loli.net/2020/08/14/zG7aLPug1VXnxlI.jpg)
 
 
-有时候你需要特定的人帮助你 review 你的 pull request ，这时候你可以在 pull request 里发送 @ 信息，或者在右侧指定他帮助你 pull request（注意：这一操作只有仓库主人才可以进行！如果你没有该仓库的权限，那么你是无法在右侧专门指定他人为你 review 的，此时你只能 @ 他过来；@ 的方式即输入 @ 后在后面跟上你要 @ 的人的 GitHub ID 并再在后面空一格）：
+有时候你需要特定的人帮助你 review 你的 pull request，这时候你可以在 pull request 里发送 @ 信息，或者在右侧指定他帮助你 pull request（注意：这一操作只有仓库主人才可以进行！如果你没有该仓库的权限，那么你是无法在右侧专门指定他人为你 review 的，此时你只能 @ 他过来；@ 的方式即输入 @ 后在后面跟上你要 @ 的人的 GitHub ID 并再在后面空一格）：
 
 
 ![剪贴板图片 (19).jpg](https://i.loli.net/2020/08/14/Q6DW2eMJPCmAUGS.jpg)
@@ -464,7 +464,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 1. 在网页端 review
 
-    GitHub 的网页端是亮色的，简直就是文本查阅的噩梦环境。在 GitHub 上保持亮色 review 不出十分钟，我（清秋）就开始意识模糊了。为了保护自己的眼睛，我必须找到一种适合我这种编程外行的方法，来改变 GitHub 的主题颜色。
+    GitHub 网页端的默认主题是亮色的，简直就是文本查阅的噩梦环境。在 GitHub 上保持亮色 review 不出十分钟，我（清秋）就开始意识模糊了。为了保护自己的眼睛，我必须找到一种适合我这种编程外行的方法，来改变 GitHub 的主题颜色。
 
     我个人的解决方法是使用扩展 Stylus（[Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)丨[Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/styl-us/?src=search)）。教程我就不放了，如有需要请自行搜索。目标的主题是 [Material Dark GitHub](https://raw.githubusercontent.com/CharlieEtienne/material-github/master/material-github.user.css)，单击链接即可进行安装。安装之后你就会发现，你的 GitHub 变成暗色的啦！
 
@@ -472,7 +472,9 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
     在遇到了更改大量文件的 pull request 时，你会需要用到 [Github Turbo PR](https://chrome.google.com/webstore/detail/github-turbo-pr/bajlfgjogojcoiijmmjeppgmppcdbbfb?utm_source=chrome-ntp-icon)（很遗憾，并没有火狐的扩展）安装之后，只要在 file changes 页面单击扩展进行优化，你就会发现页面的流畅度可以得到大幅提升。然而这个扩展有一些问题，可以在安装页面上查询到，这里就不复述了。
 
-    但无论如何，在网页端 review 总是有着各种各样的不便的，所以我们更推荐在本地进行 review 。
+    但无论如何，在网页端 review 总是有着各种各样的不便的，所以我们更推荐在本地进行 review。
+
+    **更新：现在 GitHub 已经可以选择 dark mode 了，请前往 [设置](https://github.com/settings/appearance) 选择 theme。**
 
 2. 本地 review
 
@@ -628,7 +630,7 @@ GitHub 有一个 organization 的设定，单击右上角的加号可以发起�
 
 1. 检查文件名是否正确。
    
-   一般而言，在 1.12.2 中，中文文件可能会有两种名字 ，一种为 zh_cn.lang，一种为 zh_CN.lang。它们看似只有尾巴的大小写差异，但实际上，如果英语语言文件的尾巴是大写的，然后你放了一个小写尾巴的中文文件进去，它是**不会加载的**。中文文件的尾巴的大小写必须跟随英文文件尾巴的大小写。具体原因请参见 [本文](https://harbinger.covertdragon.team/chapter-13/)。
+   一般而言，在 1.12.2 中，中文文件可能会有两种名字，一种为 zh_cn.lang，一种为 zh_CN.lang。它们看似只有尾巴的大小写差异，但实际上，如果英语语言文件的尾巴是大写的，然后你放了一个小写尾巴的中文文件进去，它是**不会加载的**。中文文件的尾巴的大小写必须跟随英文文件尾巴的大小写。具体原因请参见 [本文](https://harbinger.covertdragon.team/chapter-13/)。
 
     这是一个错误的例子：
 
@@ -659,7 +661,7 @@ GitHub 有一个 organization 的设定，单击右上角的加号可以发起�
 这是一个修复了 key 错误的 [commit](
 https://github.com/LWHK/LWHK-Simplified-Chinese-Translation/commit/0c8a8914f5f0124fa31c521997b983d8c556c877#diff-306fabd320470aaa7a1f902a579b1a4a)。
 
-也有一些情况，那就是根本没有 key，而作者把文本写进了代码中，我们称这种文本为硬编码文本。这个情况你就需要较高的技术力了。如果你有能力且有时间，并且愿意协助作者进行修改，那么你可以直接进行修改之后发送 pull request 到作者的仓库；如果没能力或者没时间进行协助，在 issue 界面和作者反馈问题就好了，不必勉强自己。
+若是根本没有 key，而作者把文本写进了代码中（我们称这种文本为硬编码文本），要想处理这个情况你就需要较高的技术力了。如果你有能力且有时间，并且愿意协助作者进行修改，那么你可以直接进行修改之后发送 pull request 到作者的仓库；如果没能力或者没时间进行协助，在 issue 界面和作者反馈问题就好了，不必勉强自己。
 
 这是一个相关的 [issue 反馈](https://github.com/Mysticmods/MysticalWorld/issues/126)（@RisingInIris2017 的例子，MCBBS 用户名 NoName德里奇）。
 
