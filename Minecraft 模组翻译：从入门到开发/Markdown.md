@@ -191,6 +191,10 @@
 
     然后只需单击“打开 Live Share for VS Code”，就可以完成了！
 
+3. 适当地添加空格，使文本更美观
+
+    请阅读 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-CN.md)。
+
 ## 汉化提交途径
 
 模组的汉化提交可以以多种途径进行，但大体上分为以下几种：
@@ -572,7 +576,7 @@ GitHub 有一个 organization 的设定，单击右上角的加号可以发起�
 
 ### 通过 Weblate
 
-自动汉化更新模组的团队（CFPAOrg）以 [Weblate](https://weblate.org/is/) 为基础搭建了一个 [翻译平台](https://weblate.sayori.work/changes/)。上手难度极低，基本没有任何门槛，你只需要在对应的网站登录（账号请找管理员注册），选择自己想要翻译的模组，然后就可以开始轻松愉悦的翻译了！模组更新的新条目也会及时的被爬虫爬到库里，非常方便！
+自动汉化更新模组的团队（CFPAOrg）以 [Weblate](https://weblate.org/is/) 为基础搭建了一个 [翻译平台](http://weblate-cn.exz.me:54943/)。上手难度极低，基本没有任何门槛，你只需要在对应的网站登录（账号请找管理员注册），选择自己想要翻译的模组，然后就可以开始轻松愉悦的翻译了！模组更新的新条目也会及时的被爬虫爬到库里，非常方便！
 
 但是首先：
 
