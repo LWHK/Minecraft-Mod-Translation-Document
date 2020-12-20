@@ -94,9 +94,9 @@
 
 我们使用的文本编辑器有两个：
 
-1. 轻量编辑器：[Notepad++（Np++）](https://notepad-plus-plus.org/downloads/)（不再推荐）
+1. 轻量编辑器：[Notepad++（简称 Np++）](https://notepad-plus-plus.org/downloads/)（不再推荐）
 
-    原本我们想着说，如果不谈敏感话题，那么这款软件其实完全是可以推荐的，但是后来又发现作者在他的官网上已经到了非常嚣张的地步了，所以我们决定不再推荐。如果想使用轻量编辑器，换一个 [**Notepad3**](https://www.rizonesoft.com/downloads/notepad3/) 可能会好一些。（据传闻 [Sublime](https://www.sublimetext.com/) 也是一款不错的轻量编辑器，但我们都没有尝试过；如想查看 Notepad++ 的替代品及各替代品的差异，也可查看这篇 [文章](https://blog.csdn.net/leelight/article/details/103019863)）
+    原本我们想着说，如果不谈敏感话题，那么这款软件完全可以推荐，但是后来又发现作者在他的官网上已经到了非常嚣张的地步了，所以我们决定不再推荐。如果想使用轻量编辑器，换一个 [**Notepad3**](https://www.rizonesoft.com/downloads/notepad3/) 可能会好一些。（据传 [Sublime](https://www.sublimetext.com/) 也是一款不错的轻量编辑器，但我们都没有尝试过；如想查看 Np++ 的替代品及各替代品的差异，也可查看这篇 [文章](https://blog.csdn.net/leelight/article/details/103019863)）
 
     之所以我们认为你可能需要一款轻量编辑器，是因为有时候其实你根本不需要这么多的功能。你只需要一定的语法高亮来看看排版、查查错误，再了解了解翻译的文本质量，如果这时候再搬出一些庞然大物，那就未免有点杀鸡用牛刀的意味了。
 
@@ -190,6 +190,8 @@
     注意：你的同伴也需要登录！
 
     然后只需单击“打开 Live Share for VS Code”，就可以完成了！
+
+    与同伴一起进行相关工作时请务必注意统一性。统一性十分重要，而保证统一性在大型模组或协作的翻译进程中尤为困难，因此请做好校对工作。~~（题外话：我（轩辕）曾在 [提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md) 一文的翻译中为统一性作了 [一点贡献](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/pull/71/files) 以保证读者对文章的正常引用，却忽视了上下文标题格式的统一性，导致文中出现了突兀的格式差异，而我在 pull request 被合并后才意识到此问题，更使得重复发起 pull request 成为难为之事，因而进退两难）~~
 
 3. 适当地添加空格，使文本更美观
 
