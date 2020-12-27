@@ -21,7 +21,7 @@
       - [CFPA 仓库地址以及项目存放位置](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)
     - [通过 GitHub 建立翻译团体并进行翻译管理](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-github-%E5%BB%BA%E7%AB%8B%E7%BF%BB%E8%AF%91%E5%9B%A2%E4%BD%93%E5%B9%B6%E8%BF%9B%E8%A1%8C%E7%BF%BB%E8%AF%91%E7%AE%A1%E7%90%86)
   - [通过 Weblate](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-weblate)
-  - [通过 CurseForge 或其它途径](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-curseforge-%E6%88%96%E5%85%B6%E5%AE%83%E9%80%94%E5%BE%84)
+  - [通过 CurseForge 或其他途径](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-curseforge-%E6%88%96%E5%85%B6%E5%AE%83%E9%80%94%E5%BE%84)
 - [一些注意事项](#一些注意事项)
   - [每天一个机翻小技巧，有手就能学废](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%9C%BA%E7%BF%BB%E5%B0%8F%E6%8A%80%E5%B7%A7%E6%9C%89%E6%89%8B%E5%B0%B1%E8%83%BD%E5%AD%A6%E5%BA%9F)
   - [复杂文本格式翻译](#复杂文本格式翻译)
@@ -49,7 +49,7 @@
 
 对于那些只是对翻译有兴趣，想看看翻译需要做哪些准备然而有些怕麻烦的人而言，仅看前面两章（[找到语言文件](#找到语言文件) 和 [搭建工作区域](#搭建工作区域)）即可。当然，最后一章的第一小节（[关于机翻的部分](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%9C%BA%E7%BF%BB%E5%B0%8F%E6%8A%80%E5%B7%A7%E6%9C%89%E6%89%8B%E5%B0%B1%E8%83%BD%E5%AD%A6%E5%BA%9F)）也得看，以尽可能避免出问题。在这之后，你可以根据自己的兴趣决定是否继续阅读。
 
-如果你想要认真参与到社区的翻译工作中或已经开始了为社区服务的翻译工作，但仍觉得自己的专业性有待提高，那么你可以看看其它的章节。掌握了 GitHub 的相关技巧，你就可以比较专业地管理你自己的翻译长期项目，甚至与他人合作了。
+如果你想要认真参与到社区的翻译工作中或已经开始了为社区服务的翻译工作，但仍觉得自己的专业性有待提高，那么你可以看看其他的章节。掌握了 GitHub 的相关技巧，你就可以比较专业地管理你自己的翻译长期项目，甚至与他人合作了。
 
 提问之前，请先阅读[《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)。如果我们判断你的问题并未遵守此文中的建议，我们将不予回复。
 
@@ -80,7 +80,7 @@
 ![剪贴板图片 _2_.jpg](https://i.loli.net/2020/08/13/Drq6WykR9pYsfJ1.jpg)
 
 
-1 是英文的语言文件，而 2 是中文的语言文件，如果没有 2，就基本说明了这个模组没有中文的翻译（例外：1.12.2 的情况下有可能 CFPA 有而模组本体没有，为了防止撞车，请先阅读底部的 [一节](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)），你可以按照其英语文本进行翻译（建议阅读本节 [教程](https://harbinger.covertdragon.team/chapter-13/)；如果这是你的第一份翻译，请先查看其它有汉化的模组的语言文件，对照着中文与英文文件查看具体应该替换的部分，以避免出现失误）。翻译完之后，把文件改名为 2，也就是 zh_cn.lang，然后再将其放进上述的目录。这样，理论上来说你在游戏中就可以读取到翻译了！
+1 是英文的语言文件，而 2 是中文的语言文件，如果没有 2，就基本说明了这个模组没有中文的翻译（例外：1.12.2 的情况下有可能 CFPA 有而模组本体没有，为了防止撞车，请先阅读底部的 [一节](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)），你可以按照其英语文本进行翻译（建议阅读本节 [教程](https://harbinger.covertdragon.team/chapter-13/)；如果这是你的第一份翻译，请先查看其他有汉化的模组的语言文件，对照着中文与英文文件查看具体应该替换的部分，以避免出现失误）。翻译完之后，把文件改名为 2，也就是 zh_cn.lang，然后再将其放进上述的目录。这样，理论上来说你在游戏中就可以读取到翻译了！
 
 顺带一提，在 1.12.2 中，语言文件为 .lang 文件，但在 1.12.2 以上的版本中，则是 .json 文件。
 
@@ -143,17 +143,17 @@
 
 [**有道词典**](http://cidian.youdao.com/) 的桌面版也不错，然而和我的电脑适配有困难，出现了比较严重的 bug（无法进行文本复制），所以卸载了，但是有道的划词检索很快，不像欧陆词典有时候划词检索不出来，还会偶发地卡住。
 
-如果你是重度开源受害者，或者对于上述两款软件都不满意，那么可以考虑 [**CopyTranslator**](https://github.com/CopyTranslator/CopyTranslator/releases)，复制即可搜索，方便快捷，不像其它的词典那样过于臃肿（因为对于纯粹的翻译而言，你并不需要例句与发音这些功能）。
+如果你是重度开源受害者，或者对于上述两款软件都不满意，那么可以考虑 [**CopyTranslator**](https://github.com/CopyTranslator/CopyTranslator/releases)，复制即可搜索，方便快捷，不像其他的词典那样过于臃肿（因为对于纯粹的翻译而言，你并不需要例句与发音这些功能）。
 
 长句子翻译非常推荐 [**DeepL**](https://www.deepl.com)，它拥有着令人惊叹的翻译准度，以至于我的哲学论文有很大一部分的内容都是它帮助我翻译的。
 
-顺带一些其它的在线词典网站推荐：
+顺带一些其他的在线词典网站推荐：
 
 [**模组词典**](https://dict.mcmod.cn/)（可以查出 MC 一些既定专有名词的翻译）
 
 [**谷歌翻译**](https://translate.google.cn/)
 
-如果你有苹果移动端设备并且使用方便的话，直接打开设备，在主屏幕下滑打开搜索栏，输入英语词汇即可翻译。苹果支持的词典种类很丰富，甚至部分支持其它几个印欧语系的语言、日语以至汉语本身。似乎需要 iOS 12 及以上。
+如果你有苹果移动端设备并且使用方便的话，直接打开设备，在主屏幕下滑打开搜索栏，输入英语词汇即可翻译。苹果支持的词典种类很丰富，甚至部分支持其他几个印欧语系的语言、日语以至汉语本身。似乎需要 iOS 12 及以上。
 
 ### 进阶小技巧
 
@@ -203,7 +203,7 @@
 
 1. 通过 GitHub
 2. 通过 Weblate
-3. 通过 CurseForge 或其它途径
+3. 通过 CurseForge 或其他途径
 
 如果你作为一个新手，确实想要参与到翻译工作中，最好直接阅读 [通过 Weblate](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-weblate)，因为 CFPA 搭建的 Weblate 平台本身就是为新手设计的，使用它可以方便、快捷地进行翻译，不要浪费了 943 的一片良苦用心。
 
@@ -219,7 +219,7 @@
 
 本节将会告诉你如何注册 GitHub 账号，并带你了解 GitHub 的一些常用术语。本节的内容都是重中之重，很多汉化者都被卡在了这一步，所以在这一节里，我们会尽可能的配上图片，这样讲解的更为清晰明了。先申明，本人（清秋）没有编程经验，对于 GitHub 的操作难免也有疏漏的地方，所以也恳请各位看官斧正一二，感激不尽。
 
-对于某些地区的用户来说，GitHub 的速度奇慢无比。这时候必须通过其它手段解决这一问题，具体方法见 [下一节](#注册账号)。
+对于某些地区的用户来说，GitHub 的速度奇慢无比。这时候必须通过其他手段解决这一问题，具体方法见 [下一节](#注册账号)。
 
 GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水平不足的人自行考量是否要请他人协助提交汉化。
 
@@ -267,7 +267,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
     ![剪贴板图片 (7).jpg](https://i.loli.net/2020/08/14/fSArFdPxZcRE5Hu.jpg)
 
 
-    点进这个图标，就可以跳转到这个模组对应的源码仓库了。一般情况下这个仓库位于 GitHub，但也有一些开发者会采用 GitLab 或 Gitee 这种其它与 GitHub 相似的代码托管网站。除非你已经大致摸清了 GitHub 的运作方式，否则不要轻易将 GitHub 的流程套用至其它的托管网站上，并且在遇到了 GitLab 等其它平台时请考虑不作汉化或向他人寻求帮助，如果真的很想翻译这一模组，你可以将它的英文文本发送至 CFPA 的 GitHub 仓库，然后在 Weblate 上进行翻译；也可在本地翻译完毕后，将翻译文本和你所使用的英文文本一同发送到 CFPA 的仓库中，这样可以最大限度地让玩家使用到你的翻译文本。
+    点进这个图标，就可以跳转到这个模组对应的源码仓库了。一般情况下这个仓库位于 GitHub，但也有一些开发者会采用 GitLab 或 Gitee 这种其他与 GitHub 相似的代码托管网站。除非你已经大致摸清了 GitHub 的运作方式，否则不要轻易将 GitHub 的流程套用至其他的托管网站上，并且在遇到了 GitLab 等其他平台时请考虑不作汉化或向他人寻求帮助，如果真的很想翻译这一模组，你可以将它的英文文本发送至 CFPA 的 GitHub 仓库，然后在 Weblate 上进行翻译；也可在本地翻译完毕后，将翻译文本和你所使用的英文文本一同发送到 CFPA 的仓库中，这样可以最大限度地让玩家使用到你的翻译文本。
 
 2. Fork
 
@@ -368,7 +368,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 安装之后，只要你熟悉 GitHub 的操作，你将很快摸索清楚这两个扩展的使用方法。
 
-如果你并不想花时间熟悉 GitHub 桌面版的操作，你可以简单地将需要跟进汉化的仓库添加至浏览器的书签栏，这样也可以在一定程度上提高效率。但是应注意，如果你参与了帕秋莉手册或其它多目录多文本的翻译工作，使用网页端进行翻译是相当不明智的，因为巨量的页面变动将会让你感到手忙脚乱。
+如果你并不想花时间熟悉 GitHub 桌面版的操作，你可以简单地将需要跟进汉化的仓库添加至浏览器的书签栏，这样也可以在一定程度上提高效率。但是应注意，如果你参与了帕秋莉手册或其他多目录多文本的翻译工作，使用网页端进行翻译是相当不明智的，因为巨量的页面变动将会让你感到手忙脚乱。
 
 <a name="pull-request">**_Pull request_**</a>（[本节链接](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#pull-request)）
 
@@ -414,7 +414,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 <a name="Review">**_Review_**</a>（[本节链接](#Review)）
 
-这是一个看上去可以被忽视的过程，但实际上，如果你不想被**其它的翻译者~~锤~~石锤，铁锤，钻石锤**然后以泪洗面，你最好完成这一道“工序”。
+这是一个看上去可以被忽视的过程，但实际上，如果你不想被**其他的翻译者~~锤~~石锤，铁锤，钻石锤**然后以泪洗面，你最好完成这一道“工序”。
 
 具体该如何做呢？这里放出 [LWHK](https://github.com/LWHK) 的一个 [pull request](https://github.com/LWHK/Create/pull/1)，来给大家解释说明。
 
@@ -484,7 +484,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 2. 本地 review
 
-    需要使用到之前提到的 VSC 扩展（按：或许其它的编辑器也有，但是我们都没用过）Github Pull Requests and Issues。
+    需要使用到之前提到的 VSC 扩展（按：或许其他的编辑器也有，但是我们都没用过）Github Pull Requests and Issues。
 
     安装了之后，你就可以在本地访问到远程仓库的 pull request 了：
 
@@ -550,7 +550,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 点进这里后，你会发现成吨的已经汉化过了的项目（感谢各位的辛勤付出！），你需要将你的文件上传至此处，但你必须适当的存放你的文件。还记得第一节中的模组的压缩包结构吗？assets\ModID\lang，你会发现，这里的每个项目也都是这样存放的，你需要手动为你的文件创建一个新的文件夹，并将文件夹命名为 ModID，然后在其中再次创建一个名为 lang 的文件夹，然后再把你的汉化文件放进去。这一操作本质上就是将模组文件夹的结构复刻到仓库里，只不过这一次，多了你新放进去的汉化文件。
 
-注意，你最好把你所翻译的对应英语文本同样放进去，这样会方便后来者查看，而英语之外的其它语言文本则不用。
+注意，你最好把你所翻译的对应英语文本同样放进去，这样会方便后来者查看，而英语之外的其他语言文本则不用。
 
 以上演示的是旧版本的仓库，在新版本仓库里，主分支改名为 "main"，用于存放所有 1.12.2 的汉化文件，路径也有了些许改变，以下为演示：
 
@@ -562,7 +562,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 注意：一定要在正确的位置放置你的文件，添加 CF 相关的 ID 目录的这一步是为了之后的爬虫能够进行最新文本的爬取而进行的额外设置，如果 ID 错误，那么爬虫将无法正常工作！
 
-其余的分支存放的是其它版本的文件，切记不要传错分支！
+其余的分支存放的是其他版本的文件，切记不要传错分支！
 
 
 ![剪贴板图片 _51_.jpg](https://i.loli.net/2020/08/31/MuL5hB6WYjH1IDF.jpg)
@@ -590,9 +590,9 @@ GitHub 有一个 organization 的设定，单击右上角的加号可以发起�
 
 可以访问 QQ 群 630943368 进行相关事项的咨询，由于上手难度真的太低了，这里不再赘述。
 
-### 通过 CurseForge 或其它途径
+### 通过 CurseForge 或其他途径
 
-顾名思义，在作者不开源的情况下，你必须向作者私信汉化文本（注意：最好以文件形式发送！）。如果你的位置在中国大陆以外，你可以使用 Twitter 或 Discord 等内容与作者取得联系；如果你在大陆内而没能找到其它路径向作者发送文件，你将只能使用 CurseForge 自身的私信（又称 PM 或 DM）功能来发送文件。
+顾名思义，在作者不开源的情况下，你必须向作者私信汉化文本（注意：最好以文件形式发送！）。如果你的位置在中国大陆以外，你可以使用 Twitter 或 Discord 等内容与作者取得联系；如果你在大陆内而没能找到其他路径向作者发送文件，你将只能使用 CurseForge 自身的私信（又称 PM 或 DM）功能来发送文件。
 
 如果需要以本节提到的内容进行提交，并且你也有一个所属的翻译团体（CFPA 例外），你可以先将汉化文本以 pull request 的形式交至自己团体的库中让大家一起看一眼，顺便弄个 review 再将文件发给作者。这点将会在 [通过 GitHub 建立翻译团体并进行翻译管理](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-github-%E5%BB%BA%E7%AB%8B%E7%BF%BB%E8%AF%91%E5%9B%A2%E4%BD%93%E5%B9%B6%E8%BF%9B%E8%A1%8C%E7%BF%BB%E8%AF%91%E7%AE%A1%E7%90%86) 一节详细描述。
 
@@ -687,7 +687,7 @@ https://github.com/LWHK/LWHK-Simplified-Chinese-Translation/commit/0c8a8914f5f01
 ![剪贴板图片 (32).jpg](https://i.loli.net/2020/08/15/lkprt6uXONJfVmh.jpg)
 
 
-注意，无论是语言文件还是手册，编码格式一定得是 UTF-8，不能是其它的编码（这里体现出了记事本的弱点：不仅默认格式不是 UTF-8，就算调整为了 UTF-8 也可能是 with BOM 版本的）。有些模组自带手册，但是忘记定义了调用 Java 解码的字符集，此时 Java 就会调用你的系统默认的字符集进行解码。如果使用 UTF-8 进入游戏，则会通篇全为乱码。但是这**不是**你的问题。你所要做的就是在他的仓库的 issue 那里放上这个 [pull request](https://github.com/Electroblob77/Wizardry/pull/479)，并说明乱码问题可能与这个 pull request 相关，作者自然就会明白了。
+注意，无论是语言文件还是手册，编码格式一定得是 UTF-8，不能是其他的编码（这里体现出了记事本的弱点：不仅默认格式不是 UTF-8，就算调整为了 UTF-8 也可能是 with BOM 版本的）。有些模组自带手册，但是忘记定义了调用 Java 解码的字符集，此时 Java 就会调用你的系统默认的字符集进行解码。如果使用 UTF-8 进入游戏，则会通篇全为乱码。但是这**不是**你的问题。你所要做的就是在他的仓库的 issue 那里放上这个 [pull request](https://github.com/Electroblob77/Wizardry/pull/479)，并说明乱码问题可能与这个 pull request 相关，作者自然就会明白了。
 
 # 本文格式指引（一级标题）
 
