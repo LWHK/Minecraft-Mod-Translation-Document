@@ -16,7 +16,7 @@
         - [Pull request](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#pull-request)
         - [Review](#Review)
         - [与原仓库同步](#与原仓库同步)
-    - [向原库提交（不推荐新手）](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E5%90%91%E5%8E%9F%E5%BA%93%E6%8F%90%E4%BA%A4%E4%B8%8D%E6%8E%A8%E8%8D%90%E6%96%B0%E6%89%8B)
+    - [向官方仓库提交（不推荐新手）](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E5%90%91%E5%8E%9F%E5%BA%93%E6%8F%90%E4%BA%A4%E4%B8%8D%E6%8E%A8%E8%8D%90%E6%96%B0%E6%89%8B)
     - [向 CFPA 提交（仅限 1.12.2）](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E5%90%91-cfpa-%E6%8F%90%E4%BA%A4%E4%BB%85%E9%99%90-1122)
       - [CFPA 仓库地址以及项目存放位置](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)
     - [通过 GitHub 建立翻译团体并进行翻译管理](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-github-%E5%BB%BA%E7%AB%8B%E7%BF%BB%E8%AF%91%E5%9B%A2%E4%BD%93%E5%B9%B6%E8%BF%9B%E8%A1%8C%E7%BF%BB%E8%AF%91%E7%AE%A1%E7%90%86)
@@ -210,6 +210,8 @@
 如果你只是想单纯地为自己或周围的人进行汉化，那么提交汉化是完全没有必要的。我们曾见过一个人只为了自己和朋友能看就把一个模组机翻后交给原作者，我认为这种行为相当不妥，首先机翻本身就没有值得赞赏的点，而你甚至在意识到了它不妥的情况下仍然把机翻文本交给作者，这不是什么好的行为。
 
 当前的这一部分只写给那些想要融入模组翻译圈子的人。如果你翻译了一个看上去从未有人翻译的模组，而且你也不介意让更多的人使用到你的翻译，那么请**务必**将你的翻译通过各种渠道投递至官方仓库或交给 CFPA 的人员。重复造轮子是对资源的浪费，我们相当感谢愿意无私、无偿地将汉化放出来的好心人。
+
+而对于已经加入 weblate 翻译 QQ 群的人，如果你想要向自动汉化内投递当前未收录的翻译项目，只能够通过 GitHub 的方式向 CFPA 仓库中发送 PR ，而没有其他办法。同时，你也可以在仓库内查看当前所收录的所有翻译项目。
 
 ### 通过 GitHub
 
@@ -530,7 +532,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 命令行在本地仓库的相关控制中极为有用，建议认真在网上找教程学习。但是，首先你得为你的计算机安装上 [Git](https://git-scm.com/download/win)。
 
-#### 向原库提交（不推荐新手）
+#### 向官方仓库库提交（不推荐新手）
 
 原库提交，指的就是向模组的原仓库提交你的汉化。这一行为无异于宣称你开始负责本模组的汉化，所以不推荐新人这样做；只有在逐步积攒经验之后，一个人才有可能有能力承担起一个模组的官中负责者的任务。
 
