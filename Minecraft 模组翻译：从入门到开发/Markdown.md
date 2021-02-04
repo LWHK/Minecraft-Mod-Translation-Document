@@ -111,27 +111,29 @@
 
 
     在上面分别标注出了几个需要注意的地方。
-
+    
     现在开始进行工作区的搭建。你需要点进 Extension（扩展）管理，在顶部搜索栏中搜索 "Chinese (Simplified) Language Pack for Visual Studio Code"，单击第一个扩展，再单击 Install，稍待一会你就会发现你的界面已经变成了中文。
-
+    
     你还需要安装以下扩展：
-
+    
     1. Minecraft Lang Colorizer（zz5840.minecraft-lang-colorizer）（必装）
     2. Minecraft JSON Schemas（levertion.mcjson）（可选；目前用处不大）
-
+    
     第一个能使得 VSC 支持 .lang 文件的读取，第二个则还能支持一些 Minecraft 独有的类 .json 文件的显示（譬如 .mcmeta 文件）。这是安装了第一个扩展 Minecraft Lang Colorizer 之后的对比图：
 
-    
-    ![剪贴板图片 (33).jpg](https://i.loli.net/2020/08/15/ntAk6flIHih2BU8.jpg)
 
-    ![剪贴板图片 (34).jpg](https://i.loli.net/2020/08/15/jwGKPog1ubNRWlz.jpg)
+​    
+​    ![剪贴板图片 (33).jpg](https://i.loli.net/2020/08/15/ntAk6flIHih2BU8.jpg)
+​    
+​    ![剪贴板图片 (34).jpg](https://i.loli.net/2020/08/15/jwGKPog1ubNRWlz.jpg)
 
-    
-    考虑到很难找到一个能同时使 .lang 和 .json 文件的配色合适、文本易阅读的颜色主题，后期我们可能会在这里加入一些较好的现成主题。如果你有能力，当然也可以自己制作一个。建议安装 Material Icon Theme（pkief.material-icon-theme），它可以为你任务栏中的文件添加图标。
-    
-    需要注意的是，如果你安装了这个扩展而 .lang 文件配色等等并没有发生变化，你需要手动将一个 .lang 文件设置为 .lang 文件格式，之后 VSC 就会自动为你设置了。上方的图中圈出的位置就是修改文件读取格式的位置，如果你因为某些原因，想要以纯文本的形式读取 .lang 文件，那么你可以在图中被圈起的相应位置中进行修改。
 
-    基本上，安装了这些之后，你就可以~~畅通无阻地~~进行你的汉化工作了！
+​    
+​    考虑到很难找到一个能同时使 .lang 和 .json 文件的配色合适、文本易阅读的颜色主题，后期我们可能会在这里加入一些较好的现成主题。如果你有能力，当然也可以自己制作一个。建议安装 Material Icon Theme（pkief.material-icon-theme），它可以为你任务栏中的文件添加图标。
+​    
+​    需要注意的是，如果你安装了这个扩展而 .lang 文件配色等等并没有发生变化，你需要手动将一个 .lang 文件设置为 .lang 文件格式，之后 VSC 就会自动为你设置了。上方的图中圈出的位置就是修改文件读取格式的位置，如果你因为某些原因，想要以纯文本的形式读取 .lang 文件，那么你可以在图中被圈起的相应位置中进行修改。
+​    
+​    基本上，安装了这些之后，你就可以~~畅通无阻地~~进行你的汉化工作了！
 
 ### 词典与网站
 
@@ -158,7 +160,7 @@
 ### 进阶小技巧
 
 1. 替换重复率高的词
-    
+   
     汉化时你可能会遇上那种重复率很高，并且已经成为定番（几乎不可能更改）的词，例如 Red，Green 这种颜色词，并且这种词往往一次性出现 16 个（也就是原版的所有颜色）。这种一次性出现很多的重复词语，由人类进行手动翻译不仅浪费时间，还可能导致准确度的降低（例如 PHC 模组，数十种作物如果上下不统一就会闹出笑话来）。
 
     如果你不会代码，就有必要使用一些小工具来代劳了，我们推荐使用 [Quicker](https://getquicker.net/)，它的用处很大，这只是它的众多使用方法之一。如果不了解具体的使用方式可以自行搜索。
@@ -180,7 +182,7 @@
 
 
     单击之后就会提示你登录（请 [使用自己常用的 GitHub 账号](#注册账号) 登录，这样在安装有 git 相关的扩展后就可以以自己的账户来 commit 了），按提示一步步走并在最后单击 OK，右下角就会提示，已经将链接置入剪贴板。
-
+    
     发送给同伴后，同伴点进去，将会是这样的：
 
 
@@ -188,9 +190,9 @@
 
 
     注意：你的同伴也需要登录！
-
+    
     然后只需单击“打开 Live Share for VS Code”，就可以完成了！
-
+    
     与同伴一起进行相关工作时请务必注意统一性。统一性十分重要，而保证统一性在大型模组或协作的翻译进程中尤为困难，因此请做好校对工作。~~（题外话：我（轩辕）曾在 [提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md) 一文的翻译中为统一性作了 [一点贡献](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/pull/71/files) 以保证读者对文章的正常引用，却忽视了上下文标题格式的统一性，导致文中出现了突兀的格式差异，而我在 pull request 被合并后才意识到此问题，更使得重复发起 pull request 成为难为之事，因而进退两难）~~
 
 3. 适当地添加空格，使文本更美观
@@ -292,7 +294,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 
     记住这个位置，你的文件应该上传到 lang 文件夹里，就和在模组里一样！其中的几个文件夹名字是不固定的，取决于模组的名字，相信你一眼就能明白哪些是不固定的了。
-
+    
     这里换了一个仓库作例子，单击圈内按钮，选择 upload file，就可以上传文件了！
 
 
@@ -495,33 +497,35 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
     ![剪贴板图片 _45_.jpg](https://i.loli.net/2020/08/22/9kSoQPAJq8N4Mdw.jpg)
 
-    
-    按下图的顺序单击之后，扩展会专门拉出一条分支，这条分支会与你网页端的 pull request 页面实时同步（虽然会因为网络原因而有一些延迟）。以下是图片：
 
-    
-    ![剪贴板图片 _46_.jpg](https://i.loli.net/2020/08/22/5GLU8uCpmiAESnc.jpg)
+​    
+​    按下图的顺序单击之后，扩展会专门拉出一条分支，这条分支会与你网页端的 pull request 页面实时同步（虽然会因为网络原因而有一些延迟）。以下是图片：
+
+
+​    
+​    ![剪贴板图片 _46_.jpg](https://i.loli.net/2020/08/22/5GLU8uCpmiAESnc.jpg)
 
 
     一些注意事项，如下图：
-    
+
 
     ![剪贴板图片 _47_.jpg](https://i.loli.net/2020/08/22/7HoLBTj3a2NitvM.jpg)
-
+    
     ![剪贴板图片 _48_.jpg](https://i.loli.net/2020/08/22/7PvIdqZAxCQekTX.jpg)
 
 
     想要结束 review，必须得声明这一次的 review 的类型是 comment，request changes 还是 approve。也可以直接点进 pull request 的 description 并在其中进行评论以及确认 review 的操作。
-
+    
     当然，手动前往网页端声明 review 类型也是可以的。
-
+    
     如果网页端有文件的更新，扩展会提示你将这些改动 pull 到本地。
-
+    
     我们很快就能发现，本地编辑器在语法难度上比网页端高了不止一点，比如我们常用的 suggest 语法，在网页端只需点一点按钮即可唤出，但在本地端极为麻烦，因为目前插件还没有推出这种简易输入的功能。
-
+    
     这个时候就要发挥出本地的优势了。你可以借助第三方软件进行快速的为你输出特定的语法，我们个人使用的是 Quicker（在上文中亦有提及），我个人编写出了一个快速添加建议的脚本，只需选中你想要提出建议的行，然后使用动作，带有建议语法的文本就会写入你的剪贴板，你只需在 review 的输入框内粘贴这一文本即可，虽然不似网页端快捷方便，但也算是比较顺手好用的了。
-
+    
     这是 [快速添加 suggest 的脚本](https://getquicker.net/sharedaction?code=6c5136c4-0748-41ca-9ee0-08d85d9ed340)，选中文本后直接执行动作，相应的带语法的文本会被添加到剪贴板中。
-
+    
     以下是用于替换原版中特定词的脚本，分别为 [替换原木](https://getquicker.net/sharedaction?code=5717e95f-c12e-43db-9ee1-08d85d9ed340) 和 [替换石质方块](https://getquicker.net/sharedaction?code=73bfacbd-69c8-41b8-1a2a-08d83f7686c1)，加上上文提及的 [替换颜色](https://getquicker.net/sharedaction?code=62f16959-296c-4df6-9ee2-08d85d9ed340) 脚本，共三个。
 
 <a name="与原仓库同步">**_与原仓库同步_**</a>（[本节链接](#与原仓库同步)）
@@ -650,7 +654,6 @@ GitHub 有一个 organization 的设定，单击右上角的加号可以发起�
 
 
     ![剪贴板图片 (31).jpg](https://i.loli.net/2020/08/15/BHuxSFjIeUhQp9P.jpg)
-
 
     1.12.2 以上则不是 .lang 文件，而是 .json 文件。似乎 .json 文件并没有尾巴大小写的说法，全是小写。
 
