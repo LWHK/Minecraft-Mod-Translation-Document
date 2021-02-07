@@ -17,7 +17,7 @@
         - [Review](#Review)
         - [与原仓库同步](#与原仓库同步)
     - [向官方仓库提交（不推荐新手）](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E5%90%91%E5%8E%9F%E5%BA%93%E6%8F%90%E4%BA%A4%E4%B8%8D%E6%8E%A8%E8%8D%90%E6%96%B0%E6%89%8B)
-    - [向 CFPA 提交](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E5%90%91-cfpa-%E6%8F%90%E4%BA%A4%E4%BB%85%E9%99%90-1122)
+    - [向 CFPA 提交](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E5%90%91-cfpa-%E6%8F%90%E4%BA%A4)
       - [CFPA 仓库地址以及项目存放位置](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)
     - [通过 GitHub 建立翻译团体并进行翻译管理](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-github-%E5%BB%BA%E7%AB%8B%E7%BF%BB%E8%AF%91%E5%9B%A2%E4%BD%93%E5%B9%B6%E8%BF%9B%E8%A1%8C%E7%BF%BB%E8%AF%91%E7%AE%A1%E7%90%86)
   - [通过 Weblate](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-weblate)
@@ -80,7 +80,7 @@
 ![剪贴板图片 _2_.jpg](https://i.loli.net/2020/08/13/Drq6WykR9pYsfJ1.jpg)
 
 
-1 是英文的语言文件，而 2 是中文的语言文件，如果没有 2，就基本说明了这个模组没有中文的翻译（例外：1.12.2 的情况下有可能 CFPA 有而模组本体没有，为了防止撞车，请先阅读底部的 [一节](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)），你可以按照其英语文本进行翻译（建议阅读本节 [教程](https://harbinger.covertdragon.team/chapter-13/)；如果这是你的第一份翻译，请先查看其他有汉化的模组的语言文件，对照着中文与英文文件查看具体应该替换的部分，以避免出现失误）。翻译完之后，把文件改名为 2，也就是 zh_cn.lang，然后再将其放进上述的目录。这样，理论上来说你在游戏中就可以读取到翻译了！
+1 是英文的语言文件，而 2 是中文的语言文件，如果没有 2，就基本说明了这个模组没有中文的翻译（例外：1.12.2 和 1.16 的情况下有可能 CFPA 有而模组本体没有，为了防止撞车，请先阅读底部的 [一节](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)），你可以按照其英语文本进行翻译（建议阅读本节 [教程](https://harbinger.covertdragon.team/chapter-13/)；如果这是你的第一份翻译，请先查看其他有汉化的模组的语言文件，对照着中文与英文文件查看具体应该替换的部分，以避免出现失误）。翻译完之后，把文件改名为 2，也就是 zh_cn.lang，然后再将其放进上述的目录。这样，理论上来说你在游戏中就可以读取到翻译了！
 
 顺带一提，在 1.12.2 中，语言文件为 .lang 文件，但在 1.12.2 以上的版本中，则是 .json 文件。
 
@@ -106,30 +106,32 @@
 
     安装完成后，界面是这样的：
 
+
     ![剪贴板图片 _3_.jpg](https://i.loli.net/2020/08/14/GJAH54rwMs16q7u.jpg)
 
+
     在上面分别标注出了几个需要注意的地方。
-    
+
     现在开始进行工作区的搭建。你需要点进 Extension（扩展）管理，在顶部搜索栏中搜索 "Chinese (Simplified) Language Pack for Visual Studio Code"，单击第一个扩展，再单击 Install，稍待一会你就会发现你的界面已经变成了中文。
-    
+
     你还需要安装以下扩展：
-    
+
     1. Minecraft Lang Colorizer（zz5840.minecraft-lang-colorizer）（必装）
     2. Minecraft JSON Schemas（levertion.mcjson）（可选；目前用处不大）
-    
+
     第一个能使得 VSC 支持 .lang 文件的读取，第二个则还能支持一些 Minecraft 独有的类 .json 文件的显示（譬如 .mcmeta 文件）。这是安装了第一个扩展 Minecraft Lang Colorizer 之后的对比图：
 
-​    ![剪贴板图片 (33).jpg](https://i.loli.net/2020/08/15/ntAk6flIHih2BU8.jpg)
-​    
-​    ![剪贴板图片 (34).jpg](https://i.loli.net/2020/08/15/jwGKPog1ubNRWlz.jpg)
+    
+    ![剪贴板图片 (33).jpg](https://i.loli.net/2020/08/15/ntAk6flIHih2BU8.jpg)
 
+    ![剪贴板图片 (34).jpg](https://i.loli.net/2020/08/15/jwGKPog1ubNRWlz.jpg)
 
-​    
-​    考虑到很难找到一个能同时使 .lang 和 .json 文件的配色合适、文本易阅读的颜色主题，后期我们可能会在这里加入一些较好的现成主题。如果你有能力，当然也可以自己制作一个。建议安装 Material Icon Theme（pkief.material-icon-theme），它可以为你任务栏中的文件添加图标。
-​    
-​    需要注意的是，如果你安装了这个扩展而 .lang 文件配色等等并没有发生变化，你需要手动将一个 .lang 文件设置为 .lang 文件格式，之后 VSC 就会自动为你设置了。上方的图中圈出的位置就是修改文件读取格式的位置，如果你因为某些原因，想要以纯文本的形式读取 .lang 文件，那么你可以在图中被圈起的相应位置中进行修改。
-​    
-​    基本上，安装了这些之后，你就可以~~畅通无阻地~~进行你的汉化工作了！
+    
+    考虑到很难找到一个能同时使 .lang 和 .json 文件的配色合适、文本易阅读的颜色主题，后期我们可能会在这里加入一些较好的现成主题。如果你有能力，当然也可以自己制作一个。建议安装 Material Icon Theme（pkief.material-icon-theme），它可以为你任务栏中的文件添加图标。
+    
+    需要注意的是，如果你安装了这个扩展而 .lang 文件配色等等并没有发生变化，你需要手动将一个 .lang 文件设置为 .lang 文件格式，之后 VSC 就会自动为你设置了。上方的图中圈出的位置就是修改文件读取格式的位置，如果你因为某些原因，想要以纯文本的形式读取 .lang 文件，那么你可以在图中被圈起的相应位置中进行修改。
+
+    基本上，安装了这些之后，你就可以~~畅通无阻地~~进行你的汉化工作了！
 
 ### 词典与网站
 
@@ -156,12 +158,14 @@
 ### 进阶小技巧
 
 1. 替换重复率高的词
-   
+    
     汉化时你可能会遇上那种重复率很高，并且已经成为定番（几乎不可能更改）的词，例如 Red，Green 这种颜色词，并且这种词往往一次性出现 16 个（也就是原版的所有颜色）。这种一次性出现很多的重复词语，由人类进行手动翻译不仅浪费时间，还可能导致准确度的降低（例如 PHC 模组，数十种作物如果上下不统一就会闹出笑话来）。
 
     如果你不会代码，就有必要使用一些小工具来代劳了，我们推荐使用 [Quicker](https://getquicker.net/)，它的用处很大，这只是它的众多使用方法之一。如果不了解具体的使用方式可以自行搜索。
 
+
     ![剪贴板图片 (23).jpg](https://i.loli.net/2020/08/14/7NrBnyK9QxpcCLS.jpg)
+
 
     这是我（清秋）自己写出来的一个替换颜色的[小脚本](https://getquicker.net/sharedaction?code=62f16959-296c-4df6-9ee2-08d85d9ed340)，你可以将其复制至 Quicker。难度不高，你也可以自己尝试编写一下拥有类似功能的脚本。
 
@@ -171,18 +175,22 @@
 
     装了扩展之后，会在 VSC 的下方显示这个内容：
 
+
     ![剪贴板图片 (24).jpg](https://i.loli.net/2020/08/14/mjipLV2nzDTHhl8.jpg)
 
+
     单击之后就会提示你登录（请 [使用自己常用的 GitHub 账号](#注册账号) 登录，这样在安装有 git 相关的扩展后就可以以自己的账户来 commit 了），按提示一步步走并在最后单击 OK，右下角就会提示，已经将链接置入剪贴板。
-    
+
     发送给同伴后，同伴点进去，将会是这样的：
+
 
     ![剪贴板图片 (25).jpg](https://i.loli.net/2020/08/14/nMzhFQiCbmGxZPp.jpg)
 
+
     注意：你的同伴也需要登录！
-    
+
     然后只需单击“打开 Live Share for VS Code”，就可以完成了！
-    
+
     与同伴一起进行相关工作时请务必注意统一性。统一性十分重要，而保证统一性在大型模组或协作的翻译进程中尤为困难，因此请做好校对工作。~~（题外话：我（轩辕）曾在 [提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md) 一文的翻译中为统一性作了 [一点贡献](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/pull/71/files) 以保证读者对文章的正常引用，却忽视了上下文标题格式的统一性，导致文中出现了突兀的格式差异，而我在 pull request 被合并后才意识到此问题，更使得重复发起 pull request 成为难为之事，因而进退两难）~~
 
 3. 适当地添加空格，使文本更美观
@@ -203,8 +211,6 @@
 
 当前的这一部分只写给那些想要融入模组翻译圈子的人。如果你翻译了一个看上去从未有人翻译的模组，而且你也不介意让更多的人使用到你的翻译，那么请**务必**将你的翻译通过各种渠道投递至官方仓库或交给 CFPA 的人员。重复造轮子是对资源的浪费，我们相当感谢愿意无私、无偿地将汉化放出来的好心人。
 
-而对于已经加入 weblate 翻译 QQ 群的人，如果你想要向自动汉化内投递当前未收录的翻译项目，只能够通过 GitHub 的方式向 CFPA 仓库中发送 PR ，而没有其他办法。同时，你也可以在仓库内查看当前所收录的所有翻译项目。
-
 ### 通过 GitHub
 
 如果你想通过 GitHub 来进行汉化，那么首先你得了解 GitHub 是什么，以及它的相关操作。
@@ -223,7 +229,9 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 然后你大概会看见如下的内容：
 
+
 ![剪贴板图片 _4_.jpg](https://i.loli.net/2020/08/14/hIRCSKYHpFiw29D.jpg)
+
 
 如果你始终加载不出来且位于中国大陆，那你可能需要通过专线等方式跨境联网，可以依法向设置国际通信出入口局的电信业务经营者租用，具体请见这份[《通知》](http://www.miit.gov.cn/n1146295/n1652858/n1652930/n3757020/c5471946/content.html)。注意：未经电信主管部门批准，不得自行建立或租用专线（含虚拟专用网络 VPN）等其他信道开展跨境经营活动；如果你因为不听本文的警告建立非法信道而被国家依法惩处，本文作者不负责。信息来源：[环球网](https://m.huanqiu.com/article/9CaKrnK4hO1)。
 
@@ -231,7 +239,9 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 注册完毕后，你的界面将会变成这样的：
 
+
 ![剪贴板图片 (5).jpg](https://i.loli.net/2020/08/14/pHBjKSRUNaE7IOC.jpg)
+
 
 可能在一些小细节上有出入，但无伤大雅，大体一致即可。
 
@@ -247,13 +257,17 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 1. 在 [CurseForge](https://www.curseforge.com/minecraft/mc-mods) 上找到自己想要汉化的模组，这里随便以一个模组为例：
 
+
     ![剪贴板图片 _6_.jpg](https://i.loli.net/2020/08/15/gswCOIV4YepWZMo.jpg)
+
 
     这里以 JEI 做个例子，点进去之后，我们可以找到这个图标：
 
+
     ![剪贴板图片 (7).jpg](https://i.loli.net/2020/08/14/fSArFdPxZcRE5Hu.jpg)
 
-    点进这个图标，就可以跳转到这个模组对应的源码仓库了。一般情况下这个仓库位于 GitHub，但也有一些开发者会采用 GitLab 或 Gitee 这种其他与 GitHub 相似的代码托管网站。除非你已经大致摸清了 GitHub 的运作方式，否则不要轻易将 GitHub 的流程套用至其他的托管网站上，并且在遇到了 GitLab 等其他平台时请考虑不作汉化或向他人寻求帮助，如果真的很想翻译这一模组，你可以将它的英文文本发送至 CFPA 的 GitHub 仓库，然后在 Weblate 上进行翻译；也可在本地翻译完毕后，将翻译文本和你所使用的英文文本一同发送到 CFPA 的仓库中，这样可以最大限度地让玩家使用到你的翻译文本。
+
+    点进这个图标，就可以跳转到这个模组对应的源码仓库了。一般情况下这个仓库位于 GitHub，但也有一些开发者会采用 GitLab 或 Gitee 这种其他与 GitHub 相似的代码托管网站。
 
 2. Fork
 
@@ -262,7 +276,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
     
     ![剪贴板图片 (21).jpg](https://i.loli.net/2020/08/14/l9HDhCnoPpJmx7g.jpg)
 
-    
+
     我们单击右上角的 fork，将这份仓库 fork 为自己的。如果你不明白为什么需要这样做，你可以在阅读完成后到 [下一节](#Fork) 查看解释。
 
 3. 修改仓库的内容
@@ -271,15 +285,17 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
     一番查找之后：
 
-    
+
     ![剪贴板图片 _8_.jpg](https://i.loli.net/2020/08/14/lxRb3eGyh4W9CZj.jpg)
 
-    
+
     记住这个位置，你的文件应该上传到 lang 文件夹里，就和在模组里一样！其中的几个文件夹名字是不固定的，取决于模组的名字，相信你一眼就能明白哪些是不固定的了。
-    
+
     这里换了一个仓库作例子，单击圈内按钮，选择 upload file，就可以上传文件了！
 
-![剪贴板图片 _9_.jpg](https://i.loli.net/2020/08/14/rt6PKXvByfM1LVI.jpg)
+
+    ![剪贴板图片 _9_.jpg](https://i.loli.net/2020/08/14/rt6PKXvByfM1LVI.jpg)
+
 
 4. 拉取请求
 
@@ -288,8 +304,6 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
     我们先回到原仓库，依次单击：
 
     
-    
-
     ![剪贴板图片 (10).jpg](https://i.loli.net/2020/08/14/bCso5nykqIFQ3pU.jpg)
 
     ![剪贴板图片 (11).jpg](https://i.loli.net/2020/08/14/WEsk6LD8jHNifAt.jpg)
@@ -297,13 +311,12 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
     ![剪贴板图片 (12).jpg](https://i.loli.net/2020/08/14/m8W74nEaV1bHfUP.jpg)
 
     ![剪贴板图片 (13).jpg](https://i.loli.net/2020/08/14/xVdDraEycZeXMkU.jpg)
-    
 
     
-然后你会在页面的下方看到你和原仓库的对比，浏览且发现没问题之后，单击 create pull request，然后填上一些你想说的就好了。
-    
+    然后你会在页面的下方看到你和原仓库的对比，浏览且发现没问题之后，单击 create pull request，然后填上一些你想说的就好了。
+
     注意：在 pull request 的信息填写里，不要给国外的作者发中文，他们是看不懂的。你的目的是给他们发送汉化文件，**不是使用中文和他们聊天！**（不过可以用英文和他们聊.jpg）
-    
+
     遵照上述的流程，你就可以顺利将你的汉化提交至作者那边了！但是你还是需要稍微等待，毕竟作者也不可能一直守着电脑；等到作者有空的时候，他会回复你，并决定是否采用你的汉化文件。
 
 <a name="Fork">**_Fork_**</a>（[本节链接](#Fork)）
@@ -477,39 +490,37 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
     单击 all 进行 pull request 查看（注意：不仅可以访问到 origin 仓库的 pull request，还能访问到 upstream 仓库的 pull request；可能需要 [注册账号](#注册账号) 一节提到的建立国际信道的方法）
 
-    
-    
+
     ![剪贴板图片 _45_.jpg](https://i.loli.net/2020/08/22/9kSoQPAJq8N4Mdw.jpg)
 
     
-
     按下图的顺序单击之后，扩展会专门拉出一条分支，这条分支会与你网页端的 pull request 页面实时同步（虽然会因为网络原因而有一些延迟）。以下是图片：
-	
-	
 
+    
     ![剪贴板图片 _46_.jpg](https://i.loli.net/2020/08/22/5GLU8uCpmiAESnc.jpg)
 
-	
 
-	一些注意事项，如下图：
-	
-	
-	
-	![剪贴板图片 _47_.jpg](https://i.loli.net/2020/08/22/7HoLBTj3a2NitvM.jpg)
-	
-	![剪贴板图片 _48_.jpg](https://i.loli.net/2020/08/22/7PvIdqZAxCQekTX.jpg)
+    一些注意事项，如下图：
+    
 
-想要结束 review，必须得声明这一次的 review 的类型是 comment，request changes 还是 approve。也可以直接点进 pull request 的 description 并在其中进行评论以及确认 review 的操作。当然，手动前往网页端声明 review 类型也是可以的。
+    ![剪贴板图片 _47_.jpg](https://i.loli.net/2020/08/22/7HoLBTj3a2NitvM.jpg)
 
-如果网页端有文件的更新，扩展会提示你将这些改动 pull 到本地。
+    ![剪贴板图片 _48_.jpg](https://i.loli.net/2020/08/22/7PvIdqZAxCQekTX.jpg)
 
-我们很快就能发现，本地编辑器在语法难度上比网页端高了不止一点，比如我们常用的 suggest 语法，在网页端只需点一点按钮即可唤出，但在本地端极为麻烦，因为目前插件还没有推出这种简易输入的功能。
 
-这个时候就要发挥出本地的优势了。你可以借助第三方软件进行快速的为你输出特定的语法，我们个人使用的是 Quicker（在上文中亦有提及），我个人编写出了一个快速添加建议的脚本，只需选中你想要提出建议的行，然后使用动作，带有建议语法的文本就会写入你的剪贴板，你只需在 review 的输入框内粘贴这一文本即可，虽然不似网页端快捷方便，但也算是比较顺手好用的了。
+    想要结束 review，必须得声明这一次的 review 的类型是 comment，request changes 还是 approve。也可以直接点进 pull request 的 description 并在其中进行评论以及确认 review 的操作。
 
-这是 [快速添加 suggest 的脚本](https://getquicker.net/sharedaction?code=6c5136c4-0748-41ca-9ee0-08d85d9ed340)，选中文本后直接执行动作，相应的带语法的文本会被添加到剪贴板中。
+    当然，手动前往网页端声明 review 类型也是可以的。
 
-以下是用于替换原版中特定词的脚本，分别为 [替换原木](https://getquicker.net/sharedaction?code=5717e95f-c12e-43db-9ee1-08d85d9ed340) 和 [替换石质方块](https://getquicker.net/sharedaction?code=73bfacbd-69c8-41b8-1a2a-08d83f7686c1)，加上上文提及的 [替换颜色](https://getquicker.net/sharedaction?code=62f16959-296c-4df6-9ee2-08d85d9ed340) 脚本，共三个。
+    如果网页端有文件的更新，扩展会提示你将这些改动 pull 到本地。
+
+    我们很快就能发现，本地编辑器在语法难度上比网页端高了不止一点，比如我们常用的 suggest 语法，在网页端只需点一点按钮即可唤出，但在本地端极为麻烦，因为目前插件还没有推出这种简易输入的功能。
+
+    这个时候就要发挥出本地的优势了。你可以借助第三方软件进行快速的为你输出特定的语法，我们个人使用的是 Quicker（在上文中亦有提及），我个人编写出了一个快速添加建议的脚本，只需选中你想要提出建议的行，然后使用动作，带有建议语法的文本就会写入你的剪贴板，你只需在 review 的输入框内粘贴这一文本即可，虽然不似网页端快捷方便，但也算是比较顺手好用的了。
+
+    这是 [快速添加 suggest 的脚本](https://getquicker.net/sharedaction?code=6c5136c4-0748-41ca-9ee0-08d85d9ed340)，选中文本后直接执行动作，相应的带语法的文本会被添加到剪贴板中。
+
+    以下是用于替换原版中特定词的脚本，分别为 [替换原木](https://getquicker.net/sharedaction?code=5717e95f-c12e-43db-9ee1-08d85d9ed340) 和 [替换石质方块](https://getquicker.net/sharedaction?code=73bfacbd-69c8-41b8-1a2a-08d83f7686c1)，加上上文提及的 [替换颜色](https://getquicker.net/sharedaction?code=62f16959-296c-4df6-9ee2-08d85d9ed340) 脚本，共三个。
 
 <a name="与原仓库同步">**_与原仓库同步_**</a>（[本节链接](#与原仓库同步)）
 
@@ -519,7 +530,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 命令行在本地仓库的相关控制中极为有用，建议认真在网上找教程学习。但是，首先你得为你的计算机安装上 [Git](https://git-scm.com/download/win)。
 
-#### 向官方仓库库提交（不推荐新手）
+#### 向官方仓库提交（不推荐新手）
 
 原库提交，指的就是向模组的原仓库提交你的汉化。这一行为无异于宣称你开始负责本模组的汉化，所以不推荐新人这样做；只有在逐步积攒经验之后，一个人才有可能有能力承担起一个模组的官中负责者的任务。
 
@@ -529,19 +540,15 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 #### 向 CFPA 提交
 
-自动汉化模组的提交途径是我们最推荐新手使用的，因为自动汉化的维护者会帮你 review（逃）。提交手段与上述的并无二致，唯一要注意的是文件存放的位置。
+自动汉化更新模组的提交途径是我们最推荐新手使用的，因为这里的维护者会帮你 review（逃）。提交手段与上述的并无二致，唯一要注意的是文件存放的位置。**注意：CFPA 仅支持 1.12.2 和 1.16 两个版本。**
 
 <a name="cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE">**[CFPA 仓库地址](https://github.com/CFPAOrg/Minecraft-mod-Language-Package) 以及项目存放位置**</a>（[本节链接](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)）
 
-注意，所有的汉化项目都应该被放置到此路径下：
-
-![剪贴板图片 (20).jpg](https://i.loli.net/2020/08/14/89ACU1aY3XFGDhW.jpg)
-
-点进这里后，你会发现成吨的已经汉化过了的项目（感谢各位的辛勤付出！），你需要将你的文件上传至此处，但你必须适当的存放你的文件。还记得第一节中的模组的压缩包结构吗？assets\ModID\lang，你会发现，这里的每个项目也都是这样存放的，你需要手动为你的文件创建一个新的文件夹，并将文件夹命名为 ModID，然后在其中再次创建一个名为 lang 的文件夹，然后再把你的汉化文件放进去。这一操作本质上就是将模组文件夹的结构复刻到仓库里，只不过这一次，多了你新放进去的汉化文件。
+进入仓库后，你会发现成吨已经汉化过的项目（感谢各位的辛勤付出！），你需要将你的文件上传至此处，但你必须适当的存放你的文件。还记得第一节中的模组的压缩包结构吗？assets\ModID\lang，你会发现这里的每个项目都不是这样存放的，这里文本的存放位置下面有描述。
 
 注意，你最好把你所翻译的对应英语文本同样放进去，这样会方便后来者查看，而英语之外的其他语言文本则不用。
 
-以上演示的是旧版本的仓库，在新版本仓库里，主分支改名为 "main"，用于存放所有的汉化文件，路径也有了些许改变，以下为演示：
+**以上演示的是旧版本的仓库，**在 CFPA 仓库里，主分支名为 "main"（**不是 "1.12.2"！**），用于存放所有 1.12.2 的汉化文件；1.16 翻译则位于 "1.16" 分支中。以下为演示：
 
 
 ![剪贴板图片 _49_.jpg](https://i.loli.net/2020/08/31/8M5Y9PbwnTeAcWq.jpg)
@@ -549,7 +556,9 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 ![剪贴板图片 _50_.jpg](https://i.loli.net/2020/08/31/Src2WnxUIHpRL6h.jpg)
 
 
-注意：一定要在正确的位置放置你的文件，添加 CF 相关的 ID 目录的这一步是为了之后的爬虫能够进行最新文本的爬取而进行的额外设置，如果 ID 错误，那么爬虫将无法正常工作！
+概括可得文件位置为 /projects/1.12.2 或 1.16（勿忘使用正确分支）/assets/CF ID/ModID/lang/zh_cn.lang 或 zh_cn.json。如果模组没有 CF 页面，则应在该处填充 "1UNKNOWN"。
+
+注意：一定要在正确的位置放置你的文件，添加 CF 相关的 ID 目录的这一步是为了之后的爬虫进行最新文本的爬取而进行的额外设置，如果 ID 错误，那么爬虫将无法正常工作！
 
 其余的分支存放的是其他版本的文件，切记不要传错分支！
 
@@ -629,13 +638,17 @@ GitHub 有一个 organization 的设定，单击右上角的加号可以发起�
 
     这是一个错误的例子：
 
-![剪贴板图片 (30).jpg](https://i.loli.net/2020/08/15/JZAIQs3g5a7cqXu.jpg)
 
-这是一个正确的例子：
+    ![剪贴板图片 (30).jpg](https://i.loli.net/2020/08/15/JZAIQs3g5a7cqXu.jpg)
 
-![剪贴板图片 (31).jpg](https://i.loli.net/2020/08/15/BHuxSFjIeUhQp9P.jpg)
 
-1.12.2 以上则不是 .lang 文件，而是 .json 文件。似乎 .json 文件并没有尾巴大小写的说法，全是小写。
+    这是一个正确的例子：
+
+
+    ![剪贴板图片 (31).jpg](https://i.loli.net/2020/08/15/BHuxSFjIeUhQp9P.jpg)
+
+
+    1.12.2 以上则不是 .lang 文件，而是 .json 文件。似乎 .json 文件并没有尾巴大小写的说法，全是小写。
 
 2. 检查文件位置，这个无需多言。
 
