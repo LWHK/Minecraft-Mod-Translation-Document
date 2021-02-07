@@ -64,21 +64,15 @@
 
 右击你的模组文件（扩展名为 .jar 的压缩包），使用压缩软件打开。例如，我（清秋）使用的是 [Bandizip](https://www.bandizip.com/)（写教程的时候使用的是 360 压缩）（亦可使用 [7-Zip](https://www.7-zip.org/)），那么右击模组文件之后，会出现如下提示：
 
-
 ![剪贴板图片 _1_.jpg](https://i.loli.net/2020/08/13/Hg3AtWLTCj1lzs2.jpg)
-
 
 单击之后是这个样子的：
 
-
 ![剪贴板图片.jpg](https://i.loli.net/2020/08/13/lQYnw4gOu85SHXC.jpg)
-
 
 依次进入 assets\ModID\lang（有一些模组的文件结构与通常的不同，但是一般情况下语言文件都会位于一个名为 lang 的目录下，如果本文提到的位置并无语言文件，可以使用文件查找功能自行寻找）就能发现：
 
-
 ![剪贴板图片 _2_.jpg](https://i.loli.net/2020/08/13/Drq6WykR9pYsfJ1.jpg)
-
 
 1 是英文的语言文件，而 2 是中文的语言文件，如果没有 2，就基本说明了这个模组没有中文的翻译（例外：1.12.2 和 1.16 的情况下有可能 CFPA 有而模组本体没有，为了防止撞车，请先阅读底部的 [一节](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)），你可以按照其英语文本进行翻译（建议阅读本节 [教程](https://harbinger.covertdragon.team/chapter-13/)；如果这是你的第一份翻译，请先查看其他有汉化的模组的语言文件，对照着中文与英文文件查看具体应该替换的部分，以避免出现失误）。翻译完之后，把文件改名为 2，也就是 zh_cn.lang，然后再将其放进上述的目录。这样，理论上来说你在游戏中就可以读取到翻译了！
 
@@ -106,9 +100,7 @@
 
     安装完成后，界面是这样的：
 
-
     ![剪贴板图片 _3_.jpg](https://i.loli.net/2020/08/14/GJAH54rwMs16q7u.jpg)
-
 
     在上面分别标注出了几个需要注意的地方。
 
@@ -121,12 +113,10 @@
 
     第一个能使得 VSC 支持 .lang 文件的读取，第二个则还能支持一些 Minecraft 独有的类 .json 文件的显示（譬如 .mcmeta 文件）。这是安装了第一个扩展 Minecraft Lang Colorizer 之后的对比图：
 
-    
     ![剪贴板图片 (33).jpg](https://i.loli.net/2020/08/15/ntAk6flIHih2BU8.jpg)
 
     ![剪贴板图片 (34).jpg](https://i.loli.net/2020/08/15/jwGKPog1ubNRWlz.jpg)
 
-    
     考虑到很难找到一个能同时使 .lang 和 .json 文件的配色合适、文本易阅读的颜色主题，后期我们可能会在这里加入一些较好的现成主题。如果你有能力，当然也可以自己制作一个。建议安装 Material Icon Theme（pkief.material-icon-theme），它可以为你任务栏中的文件添加图标。
     
     需要注意的是，如果你安装了这个扩展而 .lang 文件配色等等并没有发生变化，你需要手动将一个 .lang 文件设置为 .lang 文件格式，之后 VSC 就会自动为你设置了。上方的图中圈出的位置就是修改文件读取格式的位置，如果你因为某些原因，想要以纯文本的形式读取 .lang 文件，那么你可以在图中被圈起的相应位置中进行修改。
@@ -163,9 +153,7 @@
 
     如果你不会代码，就有必要使用一些小工具来代劳了，我们推荐使用 [Quicker](https://getquicker.net/)，它的用处很大，这只是它的众多使用方法之一。如果不了解具体的使用方式可以自行搜索。
 
-
     ![剪贴板图片 (23).jpg](https://i.loli.net/2020/08/14/7NrBnyK9QxpcCLS.jpg)
-
 
     这是我（清秋）自己写出来的一个替换颜色的[小脚本](https://getquicker.net/sharedaction?code=62f16959-296c-4df6-9ee2-08d85d9ed340)，你可以将其复制至 Quicker。难度不高，你也可以自己尝试编写一下拥有类似功能的脚本。
 
@@ -175,17 +163,13 @@
 
     装了扩展之后，会在 VSC 的下方显示这个内容：
 
-
     ![剪贴板图片 (24).jpg](https://i.loli.net/2020/08/14/mjipLV2nzDTHhl8.jpg)
-
 
     单击之后就会提示你登录（请 [使用自己常用的 GitHub 账号](#注册账号) 登录，这样在安装有 git 相关的扩展后就可以以自己的账户来 commit 了），按提示一步步走并在最后单击 OK，右下角就会提示，已经将链接置入剪贴板。
 
     发送给同伴后，同伴点进去，将会是这样的：
 
-
     ![剪贴板图片 (25).jpg](https://i.loli.net/2020/08/14/nMzhFQiCbmGxZPp.jpg)
-
 
     注意：你的同伴也需要登录！
 
@@ -229,9 +213,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 然后你大概会看见如下的内容：
 
-
 ![剪贴板图片 _4_.jpg](https://i.loli.net/2020/08/14/hIRCSKYHpFiw29D.jpg)
-
 
 如果你始终加载不出来且位于中国大陆，那你可能需要通过专线等方式跨境联网，可以依法向设置国际通信出入口局的电信业务经营者租用，具体请见这份[《通知》](http://www.miit.gov.cn/n1146295/n1652858/n1652930/n3757020/c5471946/content.html)。注意：未经电信主管部门批准，不得自行建立或租用专线（含虚拟专用网络 VPN）等其他信道开展跨境经营活动；如果你因为不听本文的警告建立非法信道而被国家依法惩处，本文作者不负责。信息来源：[环球网](https://m.huanqiu.com/article/9CaKrnK4hO1)。
 
@@ -239,9 +221,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 注册完毕后，你的界面将会变成这样的：
 
-
 ![剪贴板图片 (5).jpg](https://i.loli.net/2020/08/14/pHBjKSRUNaE7IOC.jpg)
-
 
 可能在一些小细节上有出入，但无伤大雅，大体一致即可。
 
@@ -257,15 +237,11 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 1. 在 [CurseForge](https://www.curseforge.com/minecraft/mc-mods) 上找到自己想要汉化的模组，这里随便以一个模组为例：
 
-
     ![剪贴板图片 _6_.jpg](https://i.loli.net/2020/08/15/gswCOIV4YepWZMo.jpg)
-
 
     这里以 JEI 做个例子，点进去之后，我们可以找到这个图标：
 
-
     ![剪贴板图片 (7).jpg](https://i.loli.net/2020/08/14/fSArFdPxZcRE5Hu.jpg)
-
 
     点进这个图标，就可以跳转到这个模组对应的源码仓库了。一般情况下这个仓库位于 GitHub，但也有一些开发者会采用 GitLab 或 Gitee 这种其他与 GitHub 相似的代码托管网站。
 
@@ -273,9 +249,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
     这是 JEI 的仓库：
 
-    
     ![剪贴板图片 (21).jpg](https://i.loli.net/2020/08/14/l9HDhCnoPpJmx7g.jpg)
-
 
     我们单击右上角的 fork，将这份仓库 fork 为自己的。如果你不明白为什么需要这样做，你可以在阅读完成后到 [下一节](#Fork) 查看解释。
 
@@ -285,17 +259,13 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
     一番查找之后：
 
-
     ![剪贴板图片 _8_.jpg](https://i.loli.net/2020/08/14/lxRb3eGyh4W9CZj.jpg)
-
 
     记住这个位置，你的文件应该上传到 lang 文件夹里，就和在模组里一样！其中的几个文件夹名字是不固定的，取决于模组的名字，相信你一眼就能明白哪些是不固定的了。
 
     这里换了一个仓库作例子，单击圈内按钮，选择 upload file，就可以上传文件了！
 
-
     ![剪贴板图片 _9_.jpg](https://i.loli.net/2020/08/14/rt6PKXvByfM1LVI.jpg)
-
 
 4. 拉取请求
 
@@ -303,7 +273,6 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
     我们先回到原仓库，依次单击：
 
-    
     ![剪贴板图片 (10).jpg](https://i.loli.net/2020/08/14/bCso5nykqIFQ3pU.jpg)
 
     ![剪贴板图片 (11).jpg](https://i.loli.net/2020/08/14/WEsk6LD8jHNifAt.jpg)
@@ -312,7 +281,6 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
     ![剪贴板图片 (13).jpg](https://i.loli.net/2020/08/14/xVdDraEycZeXMkU.jpg)
 
-    
     然后你会在页面的下方看到你和原仓库的对比，浏览且发现没问题之后，单击 create pull request，然后填上一些你想说的就好了。
 
     注意：在 pull request 的信息填写里，不要给国外的作者发中文，他们是看不懂的。你的目的是给他们发送汉化文件，**不是使用中文和他们聊天！**（不过可以用英文和他们聊.jpg）
@@ -349,17 +317,13 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 这是一个成功 clone 的仓库在 GitHub 桌面版的样子：
 
-
 ![剪贴板图片 (27).jpg](https://i.loli.net/2020/08/14/aYhFyzlTfZCwMc4.jpg)
 
-
 更改之后的操作：
-
 
 ![剪贴板图片 (28).jpg](https://i.loli.net/2020/08/14/17qjE2IdklZN6Kb.jpg)
 
 ![剪贴板图片 (29).jpg](https://i.loli.net/2020/08/14/ZwgON6jv9pqBRun.jpg)
-
 
 如果你想要完善你的本地 git 操作，那么这两个扩展必不可少：
 
@@ -388,12 +352,9 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 实际上，这样做确实可以发起 pull request，但是这并不意味着你没有 fork 作者的仓库，我们可以看一个例子（保密起见，已隐去作者用户名，但这确实是同一个人）：
 
-
 ![剪贴板图片 (35).jpg](https://i.loli.net/2020/08/15/lsM8gC2kircKzJo.jpg)
 
-
 这是一个新手对一个原作者仓库连续发起的三个 pull request，可以肯定，这个新手肯定直接修改了原作者的仓库，并且修改了两次，还在自己 fork 来的仓库中修改了一次，最终一共发起了三次 pull request。我们可以看看这三个 pull request 都是从哪里发起的：
-
 
 ![剪贴板图片 (36).jpg](https://i.loli.net/2020/08/15/gchlAGPHXVQJ1Ib.jpg)
 
@@ -401,12 +362,9 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 ![剪贴板图片 (38).jpg](https://i.loli.net/2020/08/15/ELXPKZp8DTnmIi6.jpg)
 
-
 可以看到，这位新手对着原作者仓库的分支，连续用三个不同的分支向其发起了 pull request，而这些分支其实都是来源于他 fork 的仓库的：
 
-
 ![剪贴板图片 (39).jpg](https://i.loli.net/2020/08/15/GmjbJysNzXLUvAE.jpg)
-
 
 也就是说，在你打算修改原作者仓库的时候，GitHub 自动为你 fork 了原作者的仓库，并将你的改动应用到你的 fork 仓库的不同分支上，然后再从这些分支发起 pull request 到原作者的仓库那里。这样做实际上没有能够理解 pull request 的本质：对 pull request 的 merge 是实际上是两个分支之间的合并，而非两个仓库之间的合并，即便在同一个仓库，你也完全可以用一个分支对另一个分支发起 pull request。这在在 CFPA 单独翻译某个项目时非常有用，因为你的工作常常不连续，有可能这个模组翻译一点，那个模组翻译一点，此时最好的方法就是创建不同的分支，把你翻译的不同模组分别放入不同的分支内，这样可以**目标明确**地发起 pull request，而不会在单个 pull request 里塞入无关的内容。你应该在**工作开始前**就规划好内容分离的工作的提交。
 
@@ -420,45 +378,31 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 打开 pull request 页面之后，我们单击此处：
 
-
 ![剪贴板图片 (14).jpg](https://i.loli.net/2020/08/14/mXl5HjDuRLFNnEW.jpg)
-
 
 进入到如下界面：
 
-
 ![剪贴板图片 (15).jpg](https://i.loli.net/2020/08/14/QzmunFbEdf6pTtw.jpg)
-
 
 在本页面中，本次 pull request 的所有更改内容都会显示出来。将鼠标移至每一行前面，你将会发现多了一个小加号：
 
-
 ![剪贴板图片 (16).jpg](https://i.loli.net/2020/08/14/nemCb9WsfaMh4P2.jpg)
-
 
 单击这个加号，你就可以针对于这一行的内容进行评论，评论完之后，单击 start a review 即可.如果你只是单纯的想发表一下对于这一行的一些想法，那么你可以单击 add single comment，如果突然间没意见了，可以单击 cancel。如果你想对多行的内容进行评论，按住一个加号并上下拖拽即可选择多行内容。
 
-
 ![剪贴板图片 (17).jpg](https://i.loli.net/2020/08/14/1NycTqx657zrELv.jpg)
-
 
 完成了所有文件的查看之后，你可以单击屏幕右上角的这个。如果你觉得有很多地方需要更改，那么就选择 request changes（请求修改），如果你发现需要改的不多或者基本没得要改，你就选择 approve（赞成修改），如果你只是来划水的或者你觉得你的意见并不很重要，你可以选择 comment。
 
-
 ![剪贴板图片 (18).jpg](https://i.loli.net/2020/08/14/zG7aLPug1VXnxlI.jpg)
-
 
 有时候你需要特定的人帮助你 review 你的 pull request，这时候你可以在 pull request 里发送 @ 信息，或者在右侧指定他帮助你 pull request（注意：这一操作只有仓库主人才可以进行！如果你没有该仓库的权限，那么你是无法在右侧专门指定他人为你 review 的，此时你只能 @ 他过来；@ 的方式即输入 @ 后在后面跟上你要 @ 的人的 GitHub ID 并再在后面空一格）：
 
-
 ![剪贴板图片 (19).jpg](https://i.loli.net/2020/08/14/Q6DW2eMJPCmAUGS.jpg)
-
 
 这是 @ 的例子：
 
-
 ![剪贴板图片 (22).jpg](https://i.loli.net/2020/08/14/1bB2rZh4ivnKfud.jpg)
-
 
 再次警告：无论你觉得你的实力多强，只要你不是神，你就会犯错误，而且往往是低级的错误，这些时候如果没有人帮助你 review，那么你的错误将会被别人看到，被别的汉化者锤，如果你不想这样，请你一定要找人帮助你 review！！
 
@@ -490,23 +434,17 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
     单击 all 进行 pull request 查看（注意：不仅可以访问到 origin 仓库的 pull request，还能访问到 upstream 仓库的 pull request；可能需要 [注册账号](#注册账号) 一节提到的建立国际信道的方法）
 
-
     ![剪贴板图片 _45_.jpg](https://i.loli.net/2020/08/22/9kSoQPAJq8N4Mdw.jpg)
 
-    
     按下图的顺序单击之后，扩展会专门拉出一条分支，这条分支会与你网页端的 pull request 页面实时同步（虽然会因为网络原因而有一些延迟）。以下是图片：
 
-    
     ![剪贴板图片 _46_.jpg](https://i.loli.net/2020/08/22/5GLU8uCpmiAESnc.jpg)
-
 
     一些注意事项，如下图：
     
-
     ![剪贴板图片 _47_.jpg](https://i.loli.net/2020/08/22/7HoLBTj3a2NitvM.jpg)
 
     ![剪贴板图片 _48_.jpg](https://i.loli.net/2020/08/22/7PvIdqZAxCQekTX.jpg)
-
 
     想要结束 review，必须得声明这一次的 review 的类型是 comment，request changes 还是 approve。也可以直接点进 pull request 的 description 并在其中进行评论以及确认 review 的操作。
 
@@ -550,11 +488,9 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 **以上演示的是旧版本的仓库，**在 CFPA 仓库里，主分支名为 "main"（**不是 "1.12.2"！**），用于存放所有 1.12.2 的汉化文件；1.16 翻译则位于 "1.16" 分支中。以下为演示：
 
-
 ![剪贴板图片 _49_.jpg](https://i.loli.net/2020/08/31/8M5Y9PbwnTeAcWq.jpg)
 
 ![剪贴板图片 _50_.jpg](https://i.loli.net/2020/08/31/Src2WnxUIHpRL6h.jpg)
-
 
 概括可得文件位置为 /projects/1.12.2 或 1.16（勿忘使用正确分支）/assets/CF ID/ModID/lang/zh_cn.lang 或 zh_cn.json。如果模组没有 CF 页面，则应在该处填充 "1UNKNOWN"。
 
@@ -562,9 +498,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 其余的分支存放的是其他版本的文件，切记不要传错分支！
 
-
 ![剪贴板图片 _51_.jpg](https://i.loli.net/2020/08/31/MuL5hB6WYjH1IDF.jpg)
-
 
 #### 通过 GitHub 建立翻译团体并进行翻译管理
 
@@ -638,15 +572,11 @@ GitHub 有一个 organization 的设定，单击右上角的加号可以发起�
 
     这是一个错误的例子：
 
-
     ![剪贴板图片 (30).jpg](https://i.loli.net/2020/08/15/JZAIQs3g5a7cqXu.jpg)
-
 
     这是一个正确的例子：
 
-
     ![剪贴板图片 (31).jpg](https://i.loli.net/2020/08/15/BHuxSFjIeUhQp9P.jpg)
-
 
     1.12.2 以上则不是 .lang 文件，而是 .json 文件。似乎 .json 文件并没有尾巴大小写的说法，全是小写。
 
@@ -681,9 +611,7 @@ https://github.com/LWHK/LWHK-Simplified-Chinese-Translation/commit/0c8a8914f5f01
 
 在 VSC 中，下方导航条的右侧会显示出 VSC 当前打开该文件所使用的编码类型：
 
-
 ![剪贴板图片 (32).jpg](https://i.loli.net/2020/08/15/lkprt6uXONJfVmh.jpg)
-
 
 注意，无论是语言文件还是手册，编码格式一定得是 UTF-8，不能是其他的编码（这里体现出了记事本的弱点：不仅默认格式不是 UTF-8，就算调整为了 UTF-8 也可能是 with BOM 版本的）。有些模组自带手册，但是忘记定义了调用 Java 解码的字符集，此时 Java 就会调用你的系统默认的字符集进行解码。如果使用 UTF-8 进入游戏，则会通篇全为乱码。但是这**不是**你的问题。你所要做的就是在他的仓库的 issue 那里放上这个 [pull request](https://github.com/Electroblob77/Wizardry/pull/479)，并说明乱码问题可能与这个 pull request 相关，作者自然就会明白了。
 
