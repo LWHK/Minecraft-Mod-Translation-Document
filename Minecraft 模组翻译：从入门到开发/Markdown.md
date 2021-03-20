@@ -116,7 +116,7 @@
 
     ![剪贴板图片 (34).jpg](https://i.loli.net/2020/08/15/jwGKPog1ubNRWlz.jpg)
 
-    考虑到很难找到一个能同时使 .lang 和 .json 文件的配色合适、文本易阅读的颜色主题，后期我们可能会在这里加入一些较好的现成主题。如果你有能力，当然也可以自己制作一个。建议安装 Material Icon Theme（pkief.material-icon-theme），它可以为你任务栏中的文件添加图标。
+    考虑到很难找到一个能同时使 .lang 和 .json 文件的配色合适、文本易阅读的颜色主题，我（轩辕）比较喜欢 Navy and Ivory（evan-siegel.navy-and-ivory），不过它处理 .lua 文件略有一些小问题。后期我们可能会在这里加入更多较好的现成主题。如果你有能力，当然也可以自己制作一个。建议安装 Material Icon Theme（pkief.material-icon-theme），它可以为你任务栏中的文件添加图标。
     
     需要注意的是，如果你安装了这个扩展而 .lang 文件配色等等并没有发生变化，你需要手动将一个 .lang 文件设置为 .lang 文件格式，之后 VSC 就会自动为你设置了。上方的图中圈出的位置就是修改文件读取格式的位置，如果你因为某些原因，想要以纯文本的形式读取 .lang 文件，那么你可以在图中被圈起的相应位置中进行修改。
 
@@ -387,7 +387,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 ![剪贴板图片 (16).jpg](https://i.loli.net/2020/08/14/nemCb9WsfaMh4P2.jpg)
 
-单击这个加号，你就可以针对于这一行的内容进行评论，评论完之后，单击 start a review 即可.如果你只是单纯的想发表一下对于这一行的一些想法，那么你可以单击 add single comment，如果突然间没意见了，可以单击 cancel。如果你想对多行的内容进行评论，按住一个加号并上下拖拽即可选择多行内容。
+单击这个加号，你就可以针对于这一行的内容进行评论，评论完之后，单击 start a review 即可。如果你只是单纯的想发表一下对于这一行的一些想法，那么你可以单击 add single comment；如果突然间没意见了，可以单击 cancel。如果你想对多行的内容进行评论，按住一个加号并上下拖拽即可选择多行内容。
 
 ![剪贴板图片 (17).jpg](https://i.loli.net/2020/08/14/1NycTqx657zrELv.jpg)
 
@@ -427,7 +427,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 2. 本地 review
 
-    需要使用到之前提到的 VSC 扩展（按：或许其他的编辑器也有，但是我们都没用过）Github Pull Requests and Issues。
+    需要使用到之前提到的 VSC 扩展（按：或许其他的编辑器也有，但是我们都没用过）GitHub Pull Requests and Issues。
 
     安装了之后，你就可以在本地访问到远程仓库的 pull request 了：
 
