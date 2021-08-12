@@ -186,7 +186,8 @@
 
 1. 通过 GitHub
 2. 通过 Weblate
-3. 通过 CurseForge 或其他途径
+3. 通过 CFPA 工单系统
+4. 通过 CurseForge 或其他途径
 
 如果你作为一个新手，确实想要参与到翻译工作中，最好直接阅读 [通过 Weblate](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-weblate)，因为 CFPA 搭建的 Weblate 平台本身就是为新手设计的，使用它可以方便、快捷地进行翻译，不要浪费了 943 的一片良苦用心。
 
@@ -521,6 +522,11 @@ GitHub 有一个 organization 的设定，单击右上角的加号可以发起�
 
 可以访问 QQ 群 630943368 进行相关事项的咨询，由于上手难度真的太低了，这里不再赘述。
 
+### 通过 CFPA 工单系统
+
+为方便不会使用 GitHub 的玩家进行翻译投递，CFPA 组织特地创立了 [CFPA 工单系统](https://ticket.cyllive.cn/)，能够在不大量增加玩家的学习成本的情况下，将文本收录到 CFPA 的仓库中。
+
+具体事宜请进入工单系统内部进行查看。除此之外，工单系统还承接 CFPA 的各项业务请求，例如翻译反馈（机翻，错翻等）、翻译请求、其他事物咨询等。
 ### 通过 CurseForge 或其他途径
 
 顾名思义，在作者不开源的情况下，你必须向作者私信汉化文本（注意：最好以文件形式发送！）。如果你的位置在中国大陆以外，你可以使用 Twitter 或 Discord 等内容与作者取得联系；如果你在大陆内而没能找到其他路径向作者发送文件，你将只能使用 CurseForge 自身的私信（又称 PM 或 DM）功能来发送文件。
