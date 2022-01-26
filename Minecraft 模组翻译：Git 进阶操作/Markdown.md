@@ -6,7 +6,7 @@
 
 本篇教程着墨点在与 Git 相关的事项。在基础教程中，我们已经说明了如何在 Github 中注册帐号、如何向仓库投递翻译这两个问题。剩余的本地部署 Git、Github 桌面版（GH Desktop），Github 组织（Organization）等问题会在本篇教程中得到解决。
 
-来自 [LWHK Organization](https://github.com/LWHK)，本文作者：[清秋](https://github.com/TUsama)，[轩辕](https://github.com/WuzgXY-GitHub)
+来自 [裂文唬客](https://github.com/LWHK)，本文作者：[清秋](https://github.com/TUsama)，[轩辕](https://github.com/WuzgXY-GitHub)
 
 ## 在本地部署 Git
 

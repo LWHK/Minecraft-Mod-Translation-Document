@@ -58,7 +58,7 @@
 
 话不宜多，我们开始正题。
 
-来自 [LWHK Organization](https://github.com/LWHK)，本文作者：[清秋](https://github.com/TUsama)，[轩辕](https://github.com/WuzgXY-GitHub)
+来自 [裂文唬客](https://github.com/LWHK)，本文作者：[清秋](https://github.com/TUsama)，[轩辕](https://github.com/WuzgXY-GitHub)
 
 ## 找到语言文件
 

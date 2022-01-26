@@ -35,3 +35,20 @@ Git 设置多个远程仓库
 git reset --soft head~/commit ID
 
 git rebase -i head~/commit ID
+
+### MC 翻译机制
+
+1716976420 2022-01-10 23:53:39
+不过也确实没讲翻译文件是指把value翻译掉
+
+WuzgXY 2022-01-10 23:59:11
+建议再随手写一篇讲解翻译原理的，顺带着把各种问题讲了，比如撞 key、模组更新 key 导致失效等等
+
+WuzgXY 2022-01-11 0:01:34
+好写得很，实践检验多少次了都
+还有 Minecraft 1.15 之后的更新机制、Minecraft 加载语言文件时会汇总所有的 key 与 value 所以写哪都可以、#PARSE_ESCAPE 等等
+*先人
+
+
+5. 如何处理硬编码问题
+6. 如何处理因键中不含 ModID 出现的冲突问题
