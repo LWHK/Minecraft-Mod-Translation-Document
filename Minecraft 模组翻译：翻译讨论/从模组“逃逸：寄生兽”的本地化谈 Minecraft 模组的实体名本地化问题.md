@@ -127,7 +127,7 @@ entity.srparasites.rupter.name=Rupter
 
 ## 实践考察
 
-有了理论，那自然就是要将理论付诸于实践当中。我们可以展示部分目前一些玩家自制的译本，通过批判这样的译本，加深我们对以上内容的理解。你可以点击[此处](https://pan.baidu.com/s/1GtwgdJuoB18f5ablrzolUw?pwd=gwqh)下载到该译本，提取码为gwqh。
+有了理论，那自然就是要将理论付诸于实践当中。我们可以展示部分目前一些玩家自制的译本，通过批判这样的译本，加深我们对以上内容的理解。以下有摘录，你也可以点击[此处](https://pan.baidu.com/s/1GtwgdJuoB18f5ablrzolUw?pwd=gwqh)下载到该译本的完整版，提取码为gwqh。
 
 ### 译文构词法的考察
 
