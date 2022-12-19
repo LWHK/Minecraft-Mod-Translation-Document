@@ -1,10 +1,14 @@
+### 图床改为 GitHub
+
 ### 翻译团体一节的优化
 
-### 如何以裂文唬客的风格 review 及需要注意的内容
+### 如何以“裂文唬客”的风格 review 及需要注意的内容
 
 #### VSC Extension 之 GitHub Pull Requests and Issues
 
 ### 合适的主题推荐
+
+Navy and Ivory
 
 ### a 与 img 标签的善用
 
@@ -30,7 +34,7 @@ width 属性
 
 Git 设置多个远程仓库
 
-### commit管理
+### commit 管理
 
 git reset --soft head~/commit ID
 
@@ -48,7 +52,9 @@ WuzgXY 2022-01-11 0:01:34
 好写得很，实践检验多少次了都
 还有 Minecraft 1.15 之后的更新机制、Minecraft 加载语言文件时会汇总所有的 key 与 value 所以写哪都可以、#PARSE_ESCAPE 等等
 *先人
+实践之 NCO
 
 
 5. 如何处理硬编码问题
 6. 如何处理因键中不含 ModID 出现的冲突问题
+i18n.format("") 与 ==============================

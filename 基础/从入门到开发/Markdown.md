@@ -43,21 +43,23 @@
 > ……文学作品的基本特性并不是陈述事实或发布信息。然而任何执行传播功能的翻译所传播的只能是信息，也就是说，它传播的只是非本质的东西。
 > 这是拙劣译文的特征。但是人们普遍认为文学作品的实质是信息之外的东西。而即使拙劣的译者也承认，文学作品的精髓是某种深不可测的、神秘的、“诗意的”东西；翻译家若要再现这种东西，自己必须也是一个诗人。
 
-多数模组文本明显不是文学作品，然而对它的翻译追求却能与 Minecraft 翻译界公认应追求的翻译之标准（至少对于绝大多数的文本翻译而言也是如此）进行对照。对于文学作品的翻译而言，其基本特性并不是**陈述事实或发布信息**，但对于 MC 的翻译，精确描述和准确表达总是最重要的，因为若是缺失了这一要素，这些不够准确的翻译就会严重影响游戏的进程推进。因此在翻译中，“信”总是排在最先的，“达”是我们致力于追求的，“雅”则是力所能及者行之事，不能行则应退而求其次，无需强求。“信”首先要求译者对原版词汇烂熟于心，避免在翻译时使用了错误的翻译而引人发笑；其次要求了解一些约定俗成的词语的翻译，可于 [MCW](https://minecraft-zh.gamepedia.com/Minecraft_Wiki:%E8%AF%91%E5%90%8D%E6%A0%87%E5%87%86%E5%8C%96) 查到相关资料；此外由于各方机翻小能手整出的机翻中好笑的文本频频出现，机翻相关内容甚至成为了 [一个梗](https://wiki.biligame.com/mcplayer/%E6%9A%B4%E5%BE%92%E4%BA%A7%E5%8D%B5)。“达”则要求长文本翻译尽可能清新流畅，至少像是**人能说出来的**，而不是机器翻译的。我们曾经见到过一份文本，这份文本的作者在进行过大量机翻以及其后的阅读后已经不再能清晰地把握中文文字的脉络了，于是他自己原创出的这份文本都被我们误判为了机翻内容。毫无疑问，这种水平较低的译文是经验不足导致的，而这一经验指的远不止英语阅读的经验，更是将英语文本转变为有逻辑脉络的中文句子的经验。也就是说，翻译工作同时考校了你双边的实力。最后的“雅”则是那些有较高的语言素养的人才能够达到的，它要求译本能在艺术层面上被欣赏，鉴于我们自身水平较差，此处就不多在网络上逼逼赖赖了。
+多数模组文本明显不是文学作品，然而对它的翻译追求却能与 Minecraft 翻译界公认应追求的翻译之标准（至少对于绝大多数的文本翻译而言也是如此）进行对照。对于文学作品的翻译而言，其基本特性并不是**陈述事实或发布信息**，但对于 MC 的翻译，精确描述和准确表达总是最重要的，因为若是缺失了这一要素，这些不够准确的翻译就会严重影响游戏的进程推进。因此在翻译中，“信”总是排在最先的，“达”是我们致力于追求的，“雅”则是力所能及者行之事，不能行则应退而求其次，无需强求。“信”首先要求译者对原版词汇烂熟于心，避免在翻译时使用了错误的翻译而引人发笑；其次要求了解一些约定俗成的词语的翻译，可于 [MCW](https://minecraft-zh.gamepedia.com/Minecraft_Wiki:%E8%AF%91%E5%90%8D%E6%A0%87%E5%87%86%E5%8C%96) 查到相关资料；此外由于各方机翻小能手整出的机翻中好笑的文本频频出现，机翻相关内容甚至成为了[一个梗](https://wiki.biligame.com/mcplayer/%E6%9A%B4%E5%BE%92%E4%BA%A7%E5%8D%B5)。“达”则要求长文本翻译尽可能清新流畅，至少像是**人能说出来的**，而不是机器翻译的。我们曾经见到过一份文本，这份文本的作者在进行过大量机翻以及其后的阅读后已经不再能清晰地把握中文文字的脉络了，于是他自己原创出的这份文本都被我们误判为了机翻内容。毫无疑问，这种水平较低的译文是经验不足导致的，而这一经验指的远不止英语阅读的经验，更是将英语文本转变为有逻辑脉络的中文句子的经验。也就是说，翻译工作同时考校了你双边的实力。最后的“雅”则是那些有较高的语言素养的人才能够达到的，它要求译本能在艺术层面上被欣赏，鉴于我们自身水平较差，此处就不多在网络上逼逼赖赖了。
 
-然而哔哩吧啦了一大堆，本篇教程和“**如何汉化**”并无关联。如何翻译一个句子、一个词，这些不在本文的指导范围之内。当今的九年义务教育制度普及效果良好，如果你因为年龄不大而翻译得很烂，你还有很多机会可以接受更好的教育以及自我训练。本文真正希望解决的是那些类似于“**如何投交汉化文本**”以及“**除了自身的翻译水准，成为一个合格的 Minecraft 模组翻译者还需要学会哪些技能**”，甚至只是“**我对翻译有兴趣，我应该做哪些准备**”的问题。
+然而哔哩吧啦了一大堆，本篇教程和“**如何汉化**”并无关联。如何翻译一个句子、一个词，这些不在本文的指导范围之内，该类指导可在本仓库他处查看。当今的九年义务教育制度普及效果良好，如果你因为年龄不大而翻译得很烂，你还有很多机会可以接受更好的教育以及自我训练。本文真正希望解决的是那些类似于“**如何投交汉化文本**”以及“**除了自身的翻译水准，成为一个合格的 Minecraft 模组翻译者还需要学会哪些技能**”，甚至只是“**我对翻译有兴趣，我应该做哪些准备**”的问题。
 
-对于那些只是对翻译有兴趣，想看看翻译需要做哪些准备然而有些怕麻烦的人而言，仅看前面两章（[找到语言文件](#找到语言文件) 和 [搭建工作区域](#搭建工作区域)）即可。当然，最后一章的第一小节（[关于机翻的部分](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%9C%BA%E7%BF%BB%E5%B0%8F%E6%8A%80%E5%B7%A7%E6%9C%89%E6%89%8B%E5%B0%B1%E8%83%BD%E5%AD%A6%E5%BA%9F)）也得看，以尽可能避免出问题。在这之后，你可以根据自己的兴趣决定是否继续阅读。
+对于那些只是对翻译有兴趣，想看看翻译需要做哪些准备然而有些怕麻烦的人而言，仅看前面两章（[找到语言文件](#找到语言文件)和[搭建工作区域](#搭建工作区域)）即可。当然，最后一章的第一小节（[关于机翻的部分](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%9C%BA%E7%BF%BB%E5%B0%8F%E6%8A%80%E5%B7%A7%E6%9C%89%E6%89%8B%E5%B0%B1%E8%83%BD%E5%AD%A6%E5%BA%9F)）也得看，以尽可能避免出问题。在这之后，你可以根据自己的兴趣决定是否继续阅读。
 
 如果你想要认真参与到社区的翻译工作中或已经开始了为社区服务的翻译工作，但仍觉得自己的专业性有待提高，那么你可以看看其他的章节。掌握了 GitHub 的相关技巧，你就可以比较专业地管理你自己的翻译长期项目，甚至与他人合作了。
 
 提问之前，请先阅读[《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)。如果我们判断你的问题并未遵守此文中的建议，我们将不予回复。
 
-我们默认读者有对 [Minecraft](https://minecraft-zh.gamepedia.com/Minecraft) 及其 [模组](https://minecraft-zh.gamepedia.com/Mods) 的基本认知。如对模组内容有疑问，可以访问 [MC百科](https://www.mcmod.cn)。（仍抱有疑问的读者也可查看 [百科的模组简介](https://bbs.mcmod.cn/forum.php?mod=forumdisplay&fid=54&filter=typeid&typeid=57)）
+我们默认读者有对 [Minecraft](https://minecraft-zh.gamepedia.com/Minecraft) 及其[模组](https://minecraft-zh.gamepedia.com/Mods)的基本认知。如对模组内容有疑问，可以访问 [MC百科](https://www.mcmod.cn)。（仍抱有疑问的读者也可查看[百科的模组简介](https://bbs.mcmod.cn/forum.php?mod=forumdisplay&fid=54&filter=typeid&typeid=57)）
+
+本文完成较早，其时我们对自身翻译腔的认识尚有很大局限，故本文实际包含不少**说人话**的反面教材（也就是我们自己都在写翻译腔），请仔细甄别。
 
 话不宜多，我们开始正题。
 
-来自 [裂文唬客](https://github.com/LWHK)，本文作者：[清秋](https://github.com/TUsama)，[轩辕](https://github.com/WuzgXY-GitHub)
+来自[裂文唬客](https://github.com/LWHK)，本文作者：[清秋](https://github.com/TUsama)、[轩辕](https://github.com/WuzgXY-GitHub)
 
 ## 找到语言文件
 
@@ -73,7 +75,7 @@
 
 ![剪贴板图片 _2_.jpg](https://i.loli.net/2020/08/13/Drq6WykR9pYsfJ1.jpg)
 
-1 是英文的语言文件，而 2 是中文的语言文件，如果没有 2，就基本说明了这个模组没有中文的翻译（例外：1.12.2 和 1.16 的情况下有可能 CFPA 有而模组本体没有，为了防止撞车，请先阅读底部的 [一节](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)），你可以按照其英语文本进行翻译（建议阅读本节 [教程](https://harbinger.covertdragon.team/chapter-13/)；如果这是你的第一份翻译，请先查看其他有汉化的模组的语言文件，对照着中文与英文文件查看具体应该替换的部分，以避免出现失误）。翻译完之后，把文件改名为 2，也就是 zh_cn.lang，然后再将其放进上述的目录。这样，理论上来说你在游戏中就可以读取到翻译了！
+1 是英文的语言文件，而 2 是中文的语言文件，如果没有 2，就基本说明了这个模组没有中文的翻译（例外：1.12.2 和 1.16 的情况下有可能 CFPA 有而模组本体没有，为了防止撞车，请先阅读底部的[一节](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)），你可以按照其英语文本进行翻译（建议阅读本节[教程](https://harbinger.covertdragon.team/chapter-13/)；如果这是你的第一份翻译，请先查看其他有汉化的模组的语言文件，对照着中文与英文文件查看具体应该替换的部分，以避免出现失误）。翻译完之后，把文件改名为 2，也就是 zh_cn.lang，然后再将其放进上述的目录。这样，理论上来说你在游戏中就可以读取到翻译了！
 
 顺带一提，在 1.12.2 中，语言文件为 .lang 文件，但在 1.12.2 以上的版本中，则是 .json 文件。
 
@@ -89,7 +91,7 @@
 
 1. 轻量编辑器：[Notepad++（简称 Np++）](https://notepad-plus-plus.org/downloads/)（不再推荐）
 
-    原本我们想着说，如果不谈敏感话题，那么这款软件完全可以推荐，但是后来又发现作者在他的官网上已经到了非常嚣张的地步了，所以我们决定不再推荐。如果想使用轻量编辑器，换一个 [**Notepad3**](https://www.rizonesoft.com/downloads/notepad3/) 可能会好一些。（据传 [Sublime](https://www.sublimetext.com/) 也是一款不错的轻量编辑器，但我们都没有尝试过；如想查看 Np++ 的替代品及各替代品的差异，也可查看这篇 [文章](https://blog.csdn.net/leelight/article/details/103019863)）
+    原本我们想着说，如果不谈敏感话题，那么这款软件完全可以推荐，但是后来又发现作者在他的官网上已经到了非常嚣张的地步了，所以我们决定不再推荐。如果想使用轻量编辑器，换一个 [**Notepad3**](https://www.rizonesoft.com/downloads/notepad3/) 可能会好一些。（据传 [Sublime](https://www.sublimetext.com/) 也是一款不错的轻量编辑器，但我们都没有尝试过；如想了解 Np++ 的替代品及各替代品的差异，也可查看这篇[文章](https://blog.csdn.net/leelight/article/details/103019863)）
 
     之所以我们认为你可能需要一款轻量编辑器，是因为有时候其实你根本不需要这么多的功能。你只需要一定的语法高亮来看看排版、查查错误，再了解了解翻译的文本质量，如果这时候再搬出一些庞然大物，那就未免有点杀鸡用牛刀的意味了。
 
@@ -126,11 +128,11 @@
 
 如果你的词汇量无比丰富，那么你的翻译过程应该是基本顺畅的。但是实际上绝大多数人根本无法完全认得在翻译中见到的全部词汇，更何况还存在一些合成词甚至作者瞎编乱造的词，所以词典软件是必不可少的。
 
-我（清秋）使用的词典是 [**欧路词典**](https://dict.eudic.net/)。
+我（清秋）使用的词典是[**欧路词典**](https://dict.eudic.net/)。
 
 个人感觉还是不错的，安装了桌面版之后，打开划词翻译，打开 VSC，只需要选中你想查询的词，即可查出释义，非常好用。
 
-[**有道词典**](http://cidian.youdao.com/) 的桌面版也不错，然而和我的电脑适配有困难，出现了比较严重的 bug（无法进行文本复制），所以卸载了，但是有道的划词检索很快，不像欧陆词典有时候划词检索不出来，还会偶发地卡住。
+[**有道词典**](http://cidian.youdao.com/)的桌面版也不错，然而和我的电脑适配有困难，出现了比较严重的 bug（无法进行文本复制），所以卸载了，但是有道的划词检索很快，不像欧陆词典有时候划词检索不出来，还会偶发地卡住。
 
 如果你是重度开源受害者，或者对于上述两款软件都不满意，那么可以考虑 [**CopyTranslator**](https://github.com/CopyTranslator/CopyTranslator/releases)，复制即可搜索，方便快捷，不像其他的词典那样过于臃肿（因为对于纯粹的翻译而言，你并不需要例句与发音这些功能）。
 
@@ -164,7 +166,7 @@
 
     ![剪贴板图片 (24).jpg](https://i.loli.net/2020/08/14/mjipLV2nzDTHhl8.jpg)
 
-    单击之后就会提示你登录（请 [使用自己常用的 GitHub 账号](#注册账号) 登录，这样在安装有 git 相关的扩展后就可以以自己的账户来 commit 了），按提示一步步走并在最后单击 OK，右下角就会提示，已经将链接置入剪贴板。
+    单击之后就会提示你登录（请 [使用自己常用的 GitHub 账号](#注册账号)登录，这样在安装有 git 相关的扩展后就可以以自己的账户来 commit 了），按提示一步步走并在最后单击 OK，右下角就会提示，已经将链接置入剪贴板。
 
     发送给同伴后，同伴点进去，将会是这样的：
 
@@ -174,11 +176,11 @@
 
     然后只需单击“打开 Live Share for VS Code”，就可以完成了！
 
-    与同伴一起进行相关工作时请务必注意统一性。统一性十分重要，而保证统一性在大型模组或协作的翻译进程中尤为困难，因此请做好校对工作。~~（题外话：我（轩辕）曾在 [提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md) 一文的翻译中为统一性作了 [一点贡献](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/pull/71/files) 以保证读者对文章的正常引用，却忽视了上下文标题格式的统一性，导致文中出现了突兀的格式差异，而我在 pull request 被合并后才意识到此问题，更使得重复发起 pull request 成为难为之事，因而进退两难）~~
+    与同伴一起进行相关工作时请务必注意统一性。统一性十分重要，而保证统一性在大型模组或协作的翻译进程中尤为困难，因此请做好校对工作。~~（题外话：我（轩辕）曾在[《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)一文的翻译中为统一性作了[一点贡献](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/pull/71/files)以保证读者对文章的正常引用，却忽视了上下文标题格式的统一性，导致文中出现了突兀的格式差异，而我在 pull request 被合并后才意识到此问题，更使得重复发起 pull request 成为难为之事，因而进退两难）~~
 
 3. 适当地添加空格，使文本更美观
 
-    请阅读 [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-CN.md)。
+    请阅读[《中文文案排版指北》](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-CN.md)。
 
 ## 汉化提交途径
 
@@ -189,7 +191,7 @@
 3. 通过 CFPA 工单系统
 4. 通过 CurseForge 或其他途径
 
-如果你作为一个新手，确实想要参与到翻译工作中，最好直接阅读 [通过 Weblate](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-weblate)，因为 CFPA 搭建的 Weblate 平台本身就是为新手设计的，使用它可以方便、快捷地进行翻译，不要浪费了 943 的一片良苦用心。
+如果你作为一个新手，确实想要参与到翻译工作中，最好直接阅读[通过 Weblate](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-weblate) 一节，因为 CFPA 搭建的 Weblate 平台本身就是为新手设计的，使用它可以方便、快捷地进行翻译，不要浪费了 943 的一片良苦用心。
 
 如果你只是想单纯地为自己或周围的人进行汉化，那么提交汉化是完全没有必要的。我们曾见过一个人只为了自己和朋友能看就把一个模组机翻后交给原作者，我认为这种行为相当不妥，首先机翻本身就没有值得赞赏的点，而你甚至在意识到了它不妥的情况下仍然把机翻文本交给作者，这不是什么好的行为。
 
@@ -203,7 +205,7 @@
 
 本节将会告诉你如何注册 GitHub 账号，并带你了解 GitHub 的一些常用术语。本节的内容都是重中之重，很多汉化者都被卡在了这一步，所以在这一节里，我们会尽可能的配上图片，这样讲解的更为清晰明了。先申明，本人（清秋）没有编程经验，对于 GitHub 的操作难免也有疏漏的地方，所以也恳请各位看官斧正一二，感激不尽。
 
-对于某些地区的用户来说，GitHub 的速度奇慢无比。这时候必须通过其他手段解决这一问题，具体方法见 [下一节](#注册账号)。
+对于某些地区的用户来说，GitHub 的速度奇慢无比。这时候必须通过其他手段解决这一问题，具体方法见[下一节](#注册账号)。
 
 GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水平不足的人自行考量是否要请他人协助提交汉化。
 
@@ -251,7 +253,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
     ![剪贴板图片 (21).jpg](https://i.loli.net/2020/08/14/l9HDhCnoPpJmx7g.jpg)
 
-    我们单击右上角的 fork，将这份仓库 fork 为自己的。如果你不明白为什么需要这样做，你可以在阅读完成后到 [下一节](#Fork) 查看解释。
+    我们单击右上角的 fork，将这份仓库 fork 为自己的。如果你不明白为什么需要这样做，你可以在阅读完成后到[下一节](#Fork)查看解释。
 
 3. 修改仓库的内容
 
@@ -293,13 +295,13 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 你应该已经注意到了，你其实对别人的仓库是没有修改权限的。所以 fork 的操作就相当于，你将他的仓库抄了一遍，然后你在这个抄本上进行修改，这是可以的，因为这是你**自己**的抄本。
 
-我们引一段 [资料](https://blog.csdn.net/moduRooKie/article/details/82219255)：
+我们引一段[资料](https://blog.csdn.net/moduRooKie/article/details/82219255)：
 
-> ……你 fork 一个仓库，指的是**复制**它。特别是当你 fork 属于别人的仓库时，你将制作他们仓库的**完全一样的**副本，之后这个副本便变成**你的**了。
+> ……你 fork 一个仓库，指的是**复制**它。特别是当你 fork 属于别人的仓库时，你将**制作**他们仓库的**完全一样的**副本，之后这个副本便变成**你的**了。
 
 注意这里的用词，“变成**你的**”意味着你对于这个仓库有着完全的控制权，包括删除仓库，所以修改你自己的仓库也自然不在话下了。
 
-如果仍然未能理解这部分内容，请务必自行搜索并弄通这部分的概念与含义，因为此后的诸多行为都要以这部分为基础，如果未理解就去接着进行翻译工作很有可能误操作。建议阅读[《Git 工作流指南》](https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorials)当中的 [fork](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/workflow-forking.md) 与 [pull request](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/pull-request.md)（见下面的 [Pull request](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#pull-request)）两节。
+如果仍然未能理解这部分内容，请务必自行搜索并弄通这部分的概念与含义，因为此后的诸多行为都要以这部分为基础，如果未理解就去接着进行翻译工作很有可能误操作。建议阅读[《Git 工作流指南》](https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorials)当中的 [fork](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/workflow-forking.md) 与 [pull request](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/pull-request.md)（见下面的 [pull request](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#pull-request)）两节。
 
 <a name="%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81">_**将仓库 clone 到本地（可选，较为重要）**_</a>（[本节链接](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81)）
 
@@ -307,7 +309,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 这个时候，最好的解决方案就是将你负责的仓库拉取到本地，你只需要在你的本地就能够将一切任务处理完毕，无须上 GitHub 网页版，极为方便。
 
-这里有一份利用 [GitHub Desktop](https://desktop.github.com/) 将仓库 clone 到本地的 [教程](https://www.jianshu.com/p/1e45b93bd593)，只要安装了 GitHub 桌面版，执行教程的第二步，就可以将仓库拉取到本地了！接下来的任务就是进一步把你的仓库 clone 到本地，这样就根本无须打开 GitHub 网页版了，完全可以做到本地一站式解决！
+这里有一份利用 [GitHub Desktop](https://desktop.github.com/) 将仓库 clone 到本地的[教程](https://www.jianshu.com/p/1e45b93bd593)，只要安装了 GitHub 桌面版，执行教程的第二步，就可以将仓库拉取到本地了！接下来的任务就是进一步把你的仓库 clone 到本地，这样就根本无须打开 GitHub 网页版了，完全可以做到本地一站式解决！
 
 但是对于网络环境不好的人而言，这里还有一个极为严重的问题：在将仓库拉取到本地的过程中涉及到 clone 的操作，这一操作的实质就是将你挂载在 GitHub 上的仓库复制到本地上。一般情况下，只有早上八九点的时候才能以很快的速度进行 clone，一旦不在这个时间区域内，clone 的速度就只能听天由命了，而且绝大部分时候都慢得犹如龟爬，速度不高于 10 KiB/s。
 
@@ -344,7 +346,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 网上有极多的相关教程，如果觉得我们描述得不够清晰，那么请自行搜索。上述的[《Git 工作流指南》](https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorials)当中也有 [pull request](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/pull-request.md) 一节。
 
-这里还有一个比较清晰的 [教程](https://www.cnblogs.com/zhangjianbin/p/7774073.html)。
+这里还有一个比较清晰的[教程](https://www.cnblogs.com/zhangjianbin/p/7774073.html)。
 
 在熟练之后，我们很快就能发现在这里涉及的工作流程的实际样貌：Fork → 修改自己的仓库 → 发送 pull request。
 
@@ -406,7 +408,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 再次警告：无论你觉得你的实力多强，只要你不是神，你就会犯错误，而且往往是低级的错误，这些时候如果没有人帮助你 review，那么你的错误将会被别人看到，被别的汉化者锤，如果你不想这样，请你一定要找人帮助你 review！！
 
-最后放上一些例子，基本都是我们参与过的：[根源魔法](https://github.com/CFPAOrg/Minecraft-mod-Language-Package/pull/768)丨[Crossroads](https://github.com/CFPAOrg/Minecraft-mod-Language-Package/pull/779)丨[JEI 附魔信息](https://github.com/Phylogeny/JEIEnchantmentInfo/pull/1)丨[匠魂 2](https://github.com/SlimeKnights/TinkersConstruct/pull/4173)
+最后放上一些例子，基本都是我们参与过的：[根源魔法](https://github.com/CFPAOrg/Minecraft-mod-Language-Package/pull/768)丨[交错道途](https://github.com/CFPAOrg/Minecraft-mod-Language-Package/pull/779)丨[JEI 附魔信息](https://github.com/Phylogeny/JEIEnchantmentInfo/pull/1)丨[匠魂 2](https://github.com/SlimeKnights/TinkersConstruct/pull/4173)
 
 需要指出的是，无论你是属于某个翻译团体的合作者，还是单干的独行侠，抑或只是来看一看尝试一下的新手，对于含有大量非定番内容的汉化，你**都**应该叫人来 review；就算是不考验你能力的定番内容，你也照样有可能在翻译时输入了错别字。因此，除非你对自己的汉化有着完全的信心，或者汉化文本总共只有数行，review 都是必要的。前段时间匠魂的汉化发生了大的改动，我们两位也都去 review 了。我们想说的是，如果不考虑对使用范围极广的错误汉化作出修改可能带来的不便，如果你能给出你自己的完善的解释与说明，让我们搞得明白你作的修改都有什么含义，那就可以改，即使你生造出词来，让我们能理解得了并且有充足的理由支持你的行为，那也都可以改；但是如果你的翻译让人无法信服或是完全看不懂，你将有必要向 review 者作出有关你修改原因的解释。
 
@@ -418,13 +420,13 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
     我个人的解决方法是使用扩展 Stylus（[Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)丨[Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/styl-us/?src=search)）。教程我就不放了，如有需要请自行搜索。目标的主题是 [Material Dark GitHub](https://raw.githubusercontent.com/CharlieEtienne/material-github/master/material-github.user.css)，单击链接即可进行安装。安装之后你就会发现，你的 GitHub 变成暗色的啦！
 
-    在 GitHub 网页端进行 review，在功能上会比在本地 review 要更加丰富。一个是一些复杂的语法，在网页端只需点一点按钮便可以唤出；另一个是一些扩展，可以更好地帮助你说明 review 的内容。譬如这个 PR Review Priority（[Chrome](https://chrome.google.com/webstore/detail/pr-Review-priority/mcngolehbdnjjdgbcafgkgigjmplbmhb?utm_source=chrome-ntp-icon)丨[Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/pr-review-priority/?src=search)），你可以迅速地为你的每一条 review 标注你对于这一 review 的态度，上文的 [对 Crossroads 汉化的 review](https://github.com/CFPAOrg/Minecraft-mod-Language-Package/pull/779) 就是一个大规模运用的例子。在这一例子里，我大量运用了优先度的描述，这样 pull request 递交者就能够明白哪些 review 是比较重要的，哪些 review 是可以与我讨论而不会出现误会的。遗憾的是，这个扩展一旦安装便不能选择无优先度的设定；此外至少在火狐方面为有多人的、种类不同的 review 添加评论时会出现数据错乱的现象，只能通过编辑功能手动修改。
+    在 GitHub 网页端进行 review，在功能上会比在本地 review 要更加丰富。一个是一些复杂的语法，在网页端只需点一点按钮便可以唤出；另一个是一些扩展，可以更好地帮助你说明 review 的内容。譬如这个 PR Review Priority（[Chrome](https://chrome.google.com/webstore/detail/pr-Review-priority/mcngolehbdnjjdgbcafgkgigjmplbmhb?utm_source=chrome-ntp-icon)丨[Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/pr-review-priority/?src=search)），你可以迅速地为你的每一条 review 标注你对于这一 review 的态度，上文的 [对交错道途汉化的 review](https://github.com/CFPAOrg/Minecraft-mod-Language-Package/pull/779) 就是一个大规模运用的例子。在这一例子里，我大量运用了优先度的描述，这样 pull request 递交者就能够明白哪些 review 是比较重要的，哪些 review 是可以与我讨论而不会出现误会的。遗憾的是，这个扩展一旦安装便不能选择无优先度的设定；此外至少在火狐方面为有多人的、种类不同的 review 添加评论时会出现数据错乱的现象，只能通过编辑功能手动修改。
 
     在遇到了更改大量文件的 pull request 时，你会需要用到 [Github Turbo PR](https://chrome.google.com/webstore/detail/github-turbo-pr/bajlfgjogojcoiijmmjeppgmppcdbbfb?utm_source=chrome-ntp-icon)（很遗憾，并没有火狐的扩展）安装之后，只要在 file changes 页面单击扩展进行优化，你就会发现页面的流畅度可以得到大幅提升。然而这个扩展有一些问题，可以在安装页面上查询到，这里就不复述了。
 
     但无论如何，在网页端 review 总是有着各种各样的不便的，所以我们更推荐在本地进行 review。
 
-    **更新：现在 GitHub 已经可以选择 dark mode 了，请前往 [设置](https://github.com/settings/appearance) 选择 theme。**
+    **更新：现在 GitHub 已经可以选择暗色模式了，请前往[设置](https://github.com/settings/appearance)选择 theme。**
 
 2. 本地 review
 
@@ -432,7 +434,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
     安装了之后，你就可以在本地访问到远程仓库的 pull request 了：
 
-    单击 all 进行 pull request 查看（注意：不仅可以访问到 origin 仓库的 pull request，还能访问到 upstream 仓库的 pull request；可能需要 [注册账号](#注册账号) 一节提到的建立国际信道的方法）
+    单击 all 进行 pull request 查看（注意：不仅可以访问到 origin 仓库的 pull request，还能访问到 upstream 仓库的 pull request；可能需要[注册账号](#注册账号)一节提到的建立国际信道的方法）
 
     ![剪贴板图片 _45_.jpg](https://i.loli.net/2020/08/22/9kSoQPAJq8N4Mdw.jpg)
 
@@ -458,13 +460,13 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
     这是 [快速添加 suggest 的脚本](https://getquicker.net/sharedaction?code=6c5136c4-0748-41ca-9ee0-08d85d9ed340)，选中文本后直接执行动作，相应的带语法的文本会被添加到剪贴板中。
 
-    以下是用于替换原版中特定词的脚本，分别为 [替换原木](https://getquicker.net/sharedaction?code=5717e95f-c12e-43db-9ee1-08d85d9ed340) 和 [替换石质方块](https://getquicker.net/sharedaction?code=73bfacbd-69c8-41b8-1a2a-08d83f7686c1)，加上上文提及的 [替换颜色](https://getquicker.net/sharedaction?code=62f16959-296c-4df6-9ee2-08d85d9ed340) 脚本，共三个。
+    以下是用于替换原版中特定词的脚本，分别为[替换原木](https://getquicker.net/sharedaction?code=5717e95f-c12e-43db-9ee1-08d85d9ed340)和[替换石质方块](https://getquicker.net/sharedaction?code=73bfacbd-69c8-41b8-1a2a-08d83f7686c1)，加上上文提及的[替换颜色](https://getquicker.net/sharedaction?code=62f16959-296c-4df6-9ee2-08d85d9ed340)脚本，共三个。
 
 <a name="与原仓库同步">**_与原仓库同步_**</a>（[本节链接](#与原仓库同步)）
 
 很多时候，作者更新了仓库，然后你发现他新加入了一些物品，理所当然的，语言文件里也多出了这些新物品的条目。你很快就意识到了这一点：你的仓库落后于作者的仓库，如果你想翻译这些新的内容，那么，你必须把新的内容拉取到你的仓库。最简单的方法就是在你的仓库发起一个反向 pull request，不是你 pull request 对方，而是对方 pull request 你。如果你没能了解如何这么做，在**保证**你的修改已经**完全**被上交了的情况下，可以删掉自己的仓库再重新 fork。
 
-如果使用是本地操作，就得使用命令行进行 fetch + merge 了，请参考这篇 [教程](https://www.cnblogs.com/jjliu/p/11775845.html)。
+如果使用是本地操作，就得使用命令行进行 fetch + merge 了，请参考这篇[教程](https://www.cnblogs.com/jjliu/p/11775845.html)。
 
 命令行在本地仓库的相关控制中极为有用，建议认真在网上找教程学习。但是，首先你得为你的计算机安装上 [Git](https://git-scm.com/download/win)。
 
@@ -480,7 +482,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 自动汉化更新模组的提交途径是我们最推荐新手使用的，因为这里的维护者会帮你 review（逃）。提交手段与上述的并无二致，唯一要注意的是文件存放的位置。**注意：CFPA 仅支持 1.12.2 和 1.16 两个版本。**
 
-<a name="cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE">**[CFPA 仓库地址](https://github.com/CFPAOrg/Minecraft-mod-Language-Package) 以及项目存放位置**</a>（[本节链接](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)）
+<a name="cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE">**[CFPA 仓库地址](https://github.com/CFPAOrg/Minecraft-mod-Language-Package)以及项目存放位置**</a>（[本节链接](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)）
 
 进入仓库后，你会发现成吨已经汉化过的项目（感谢各位的辛勤付出！），你需要将你的文件上传至此处，但你必须适当的存放你的文件。还记得第一节中的模组的压缩包结构吗？assets\ModID\lang，你会发现这里的每个项目都不是这样存放的，这里文本的存放位置下面有描述。
 
@@ -504,21 +506,21 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 GitHub 有一个 organization 的设定，单击右上角的加号可以发起组织。组织的功能很多，你可以使用组织来建立仓库，也可以以组织的名义 fork 或发起 pull request。组织本身还有一个 project board，在那里建立的 project 可以由任何组织成员编辑。
 
-通过以组织之名建立中转仓库（我们的 [例子](https://github.com/LWHK/LWHK-Simplified-Chinese-Translation/)）管理需要帮助的汉化会变得轻松许多。你可以 fork 中转仓库至自己的账号下并在 fork 后的仓库中作修改，然后再发起面向中转仓库的 pull request。直接向作者的仓库 pull request 会带来一些问题，比如 review 过长时作者阅读不便、无法 review 完成后立刻 commit、需要控制及压缩 commit 数量、无法不通过 @ 来邀请他人 review 等等，而在中转仓库下这些问题都能得到解决。
+通过以组织之名建立中转仓库（我们的[例子](https://github.com/LWHK/LWHK-Simplified-Chinese-Translation/)）管理需要帮助的汉化会变得轻松许多。你可以 fork 中转仓库至自己的账号下并在 fork 后的仓库中作修改，然后再发起面向中转仓库的 pull request。直接向作者的仓库 pull request 会带来一些问题，比如 review 过长时作者阅读不便、无法 review 完成后立刻 commit、需要控制及压缩 commit 数量、无法不通过 @ 来邀请他人 review 等等，而在中转仓库下这些问题都能得到解决。
 
 除此之外，组织页面还可以作为一个向外界展示自己所在的翻译团体的平台使用。
 
 ### 通过 Weblate
 
-自动汉化更新模组的团队（CFPAOrg）以 [Weblate](https://weblate.org/is/) 为基础搭建了一个 [翻译平台](http://weblate-cn.exz.me:54943/)。上手难度极低，基本没有任何门槛，你只需要在对应的网站登录（账号请找管理员注册），选择自己想要翻译的模组，然后就可以开始轻松愉悦的翻译了！模组更新的新条目也会及时的被爬虫爬到库里，非常方便！
+自动汉化更新模组的团队（CFPAOrg）以 [Weblate](https://weblate.org/is/) 为基础搭建了一个[翻译平台](http://weblate-cn.exz.me:54943/)。上手难度极低，基本没有任何门槛，你只需要在对应的网站登录（账号请找管理员注册），选择自己想要翻译的模组，然后就可以开始轻松愉悦的翻译了！模组更新的新条目也会及时的被爬虫爬到库里，非常方便！
 
 但是首先：
 
 ![8](https://i.loli.net/2020/08/15/grfTWFHEuaQkKoj.png)
 
-其次，请尝试是否可以登上团队的 [官方网站](https://cfpa.team/)。
+其次，请尝试是否可以登上团队的[官方网站](https://cfpa.team/)。
 
-该网站为 CFPA 的介绍页，你可以在这里获得 CFPA 的详细信息。如果上不去，可以尝试前往大陆以外的地区或按照 [注册账号](#注册账号) 一节的内容合法使用国际信道。
+该网站为 CFPA 的介绍页，你可以在这里获得 CFPA 的详细信息。如果上不去，可以尝试前往大陆以外的地区或按照[注册账号](#注册账号)一节的内容合法使用国际信道。
 
 可以访问 QQ 群 630943368 进行相关事项的咨询，由于上手难度真的太低了，这里不再赘述。
 
@@ -526,7 +528,7 @@ GitHub 有一个 organization 的设定，单击右上角的加号可以发起�
 
 顾名思义，在作者不开源的情况下，你必须向作者私信汉化文本（注意：最好以文件形式发送！）。如果你的位置在中国大陆以外，你可以使用 Twitter 或 Discord 等内容与作者取得联系；如果你在大陆内而没能找到其他路径向作者发送文件，你将只能使用 CurseForge 自身的私信（又称 PM 或 DM）功能来发送文件。
 
-如果需要以本节提到的内容进行提交，并且你也有一个所属的翻译团体（CFPA 例外），你可以先将汉化文本以 pull request 的形式交至自己团体的库中让大家一起看一眼，顺便弄个 review 再将文件发给作者。这点将会在 [通过 GitHub 建立翻译团体并进行翻译管理](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-github-%E5%BB%BA%E7%AB%8B%E7%BF%BB%E8%AF%91%E5%9B%A2%E4%BD%93%E5%B9%B6%E8%BF%9B%E8%A1%8C%E7%BF%BB%E8%AF%91%E7%AE%A1%E7%90%86) 一节详细描述。
+如果需要以本节提到的内容进行提交，并且你也有一个所属的翻译团体（CFPA 例外），你可以先将汉化文本以 pull request 的形式交至自己团体的库中让大家一起看一眼，顺便弄个 review 再将文件发给作者。这点将会在[通过 GitHub 建立翻译团体并进行翻译管理](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-github-%E5%BB%BA%E7%AB%8B%E7%BF%BB%E8%AF%91%E5%9B%A2%E4%BD%93%E5%B9%B6%E8%BF%9B%E8%A1%8C%E7%BF%BB%E8%AF%91%E7%AE%A1%E7%90%86)一节详细描述。
 
 ## 一些注意事项
 
@@ -551,11 +553,11 @@ GitHub 有一个 organization 的设定，单击右上角的加号可以发起�
 
 > 我们批判的并不是机翻本身，而是明知机翻会带来差翻译而仍然使用机翻的这种行为。
 
-如果你的翻译当中包含了机翻的内容，请读读土球的一篇 [文章](https://www.mcbbs.net/thread-899249-1-1.html)，或许会对你有一些帮助；蝙蝠的一篇 [文章](https://www.mcbbs.net/thread-899199-1-1.html) 也很好。无论如何，纯粹的机翻都应是被抵制的，产出好翻译的始终是人，而不是机器翻译。并且，如果你已经具备一定的翻译鉴赏水平，希望在工作流中使用机器翻译+译后编辑的方式加快自身的工作速度，那么请在机器翻译时选用 [DeepL](https://www.deepl.com) 作为自己的首选工具。
+如果你的翻译当中包含了机翻的内容，请读读土球的一篇[文章](https://www.mcbbs.net/thread-899249-1-1.html)，或许会对你有一些帮助；蝙蝠的一篇[文章](https://www.mcbbs.net/thread-899199-1-1.html)也很好。无论如何，纯粹的机翻都应是被抵制的，产出好翻译的始终是人，而不是机器翻译。并且，如果你已经具备一定的翻译鉴赏水平，希望在工作流中使用机器翻译+译后编辑的方式加快自身的工作速度，那么请在机器翻译时选用 [DeepL](https://www.deepl.com) 作为自己的首选工具。
 
 ### 复杂文本格式翻译
 
-你可以在 [CFPA 相关教程](https://rules.cfpa.team/) 内查询到一些有关对部分非 lang 文件夹内的文本翻译的注意事项。
+你可以在 [CFPA 相关教程](https://rules.cfpa.team/)内查询到一些有关对部分非 lang 文件夹内的文本翻译的注意事项。
 
 ### 意外情况
 

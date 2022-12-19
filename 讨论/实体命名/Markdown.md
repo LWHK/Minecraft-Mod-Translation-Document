@@ -6,7 +6,7 @@
 
 回归我们的题目，在上文的基础上，我们会首先从词意、游戏内表现等方面的分析的角度去首先分析；然后再从语用习惯（译者以及玩家的）上进一步推进我们的分析，最终得出结论。
 
-来自 [裂文唬客](https://github.com/LWHK)，本文作者：[清秋](https://github.com/TUsama)，[轩辕](https://github.com/WuzgXY-GitHub)
+来自[裂文唬客](https://github.com/LWHK)，本文作者：[清秋](https://github.com/TUsama)、[轩辕](https://github.com/WuzgXY-GitHub)
 
 ## 对原始种以及适应种的本地化
 
