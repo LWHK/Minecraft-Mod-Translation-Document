@@ -1,5 +1,7 @@
 # 从虚构物质“Naquadah”的本地化谈 Minecraft 模组的材料名本地化问题
 
+https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/pull/1536
+
 刌民好，流髑好，可惜：1. 髑是头骨（参考卡卡狗）
 
 -ium、-ite、-ine、-on
@@ -9,7 +11,7 @@
 下界合金 Netherite：译者代为更改命名错误：合成出来 -ite 就和地里挖出奥利哈钢一样扯淡
 
 基于别的材料：~~钢~~铜银~~硅~~钠
-Orichalcum ~~奥利哈钢~~山铜、Mithril 秘银、<u>*Naquadah ~~硅岩~~纳夸达*</u>、Syrmorite 赛摩铜（YouTube 作者 Syrmor）、Valonite 法罗钠、Octine ~~辛烯~~炽炎铁（纯重命名）、Thallasium 赛蓝铁
+Orichalcum ~~奥利哈钢~~山铜、Mithril 秘银、<u>*Naquadah ~~硅岩~~纳夸达*</u>、Syrmorite 赛摩铜（YouTube 作者 Syrmor）、Valonite 法罗钠（Valon 瓦隆人）、Octine ~~辛烯~~炽炎铁（纯重命名）、Thallasium 赛蓝铁
     
 注意：<u>「镠」的翻译不可复制不可推广只可遇不可求</u>
 
