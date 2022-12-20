@@ -28,7 +28,7 @@ height 属性
 <br>
 width 属性
 
-### 建立于 GitHub organization 的长期翻译项目跟进
+### ~~建立于 GitHub organization 的长期翻译项目跟进~~
 
 ### 协同问题：三边负责人（作者、CFPA 负责人、译者）的沟通及三库同步问题
 

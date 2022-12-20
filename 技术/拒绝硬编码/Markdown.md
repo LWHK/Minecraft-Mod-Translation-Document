@@ -5,7 +5,7 @@
 I. 唯一原则：不要硬编码任何东西
 
 1. 不要硬编码文字
-E. g. Sushi Go Crafting, Patchouli Guidebook, 一个编码了上万条罗马数字的模组
+E. g. Sushi Go Crafting, Patchouli Guidebook, ToroQuest, 一个编码了上万条罗马数字的模组
 解决方案：使用 Minecraft 内置的 I18n 类、使用 ICU4J、自动罗马数字生成
 
 2. 不要硬编码文字到图像里
