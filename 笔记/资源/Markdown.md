@@ -8,9 +8,9 @@ WP:TNESE
 
 哔站反翻译腔
 
-https://github.com/Krasjet/Mod-Translation-Styleguide
+扬弃https://github.com/Krasjet/Mod-Translation-Styleguide
 
-https://github.com/Krasjet/Mod-Translation-Styleguide/blob/master/glossary.md
+扬弃https://github.com/Krasjet/Mod-Translation-Styleguide/blob/master/glossary.md
 
 ## 具体工具
 
