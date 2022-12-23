@@ -16,9 +16,13 @@
 
 [English Tools](https://www.englishtools.org/zh-cn/english-words-that-contain-letters)
 
-[Lyaiya](https://github.com/Lyaiya/Minecraft-Resource-Guide/tree/main/docs/%E7%BF%BB%E8%AF%91)
+[Lyaiya 易错词](https://github.com/Lyaiya/Minecraft-Resource-Guide/tree/main/docs/%E7%BF%BB%E8%AF%91)
+
+[Lyaiya 软编码](https://github.com/Lyaiya/Softcode/blob/master/src/main/resources/assets/softcode/lang/zh_cn.lang)
 
 [Martyr](https://www.mcbbs.net/thread-1389395-1-1.html)
+
+[找到 Minecraft 哈希后的语言文件](https://www.mcbbs.net/forum.php?mod=redirect&goto=findpost&ptid=732906&pid=12437439)
 
 [哔站：会心之语](https://space.bilibili.com/299655539/channel/collectiondetail?sid=853420)
 
