@@ -20,7 +20,9 @@ Examples of hardcoding tooltip:
 
 [*Sushi Go Crafting*](https://www.curseforge.com/minecraft/mc-mods/sushigocrafting)
 
-[*Patchouli Guidebook*](https://www.curseforge.com/minecraft/mc-mods/patchouli)
+[*Patchouli Guidebook*](https://www.curseforge.com/minecraft/mc-mods/patchouli) (hardcoding of ordinal numbers)
+
+![](images/patchouli_ordinal_number.png)
 
 Example of hardcoding book/lore entries:
 
@@ -29,6 +31,12 @@ Example of hardcoding book/lore entries:
 Example of hardcoding GUI texts:
 
 [*The One Probe*](https://www.curseforge.com/minecraft/mc-mods/the-one-probe)
+
+![](images/top_no_tool.png)
+
+![](images/top_pickaxe.png)
+
+![](images/top_waiting.png)
 
 **Solution:**
 
@@ -139,7 +147,9 @@ Examples not splitting Chinese texts correctly (the first line has no space, and
 
 *[Botania](https://www.curseforge.com/minecraft/mc-mods/botania)* (solved in later Minecraft versions with *Patchouli Guidebook*, but never in 1.12.2)
 
-*[Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering)* (it splitted lines well, but with an overflowed amount of charcaters, it created a new line every time meeting a space):
+*[Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering)* (it splitted lines well, but with an overflowed amount of charcaters, it created a new line every time meeting a space)
+
+![](images/immeng_line_splitting.jpg)
 
 Example and solution of showing locked researches in [*Thaumcraft*](https://www.curseforge.com/minecraft/mc-mods/thaumcraft):
 
