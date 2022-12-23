@@ -4,35 +4,31 @@
 
 ## 从入门到开发
 
+### 目录重构
+
+重写 anchor
+
+https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md 这个是不是能删掉啊
+
 ### 图床改为 GitHub
+
+img alt/height/width 皆可引入
 
 ### 翻译团体一节的优化
 
 ### 如何以“裂文唬客”的风格 review 及需要注意的内容
+
+#### 怎么揪机翻
+
+##### 调色盘
+
+##### 百种机翻软件在手
 
 #### VSC Extension 之 GitHub Pull Requests and Issues
 
 ### 合适的主题推荐
 
 Navy and Ivory
-
-### a 与 img 标签的善用
-
-#### a
-
-title 属性
-<br>
-target="_blank"
-<br>
-有空时重写 anchors
-
-#### img
-
-alt 属性
-<br?
-height 属性
-<br>
-width 属性
 
 ### ~~建立于 GitHub organization 的长期翻译项目跟进~~
 
@@ -48,8 +44,7 @@ git rebase -i head~/commit ID
 
 ### MC 翻译机制
 
-1716976420 2022-01-10 23:53:39
-不过也确实没讲翻译文件是指把value翻译掉
+翻译文件是指把**值**翻译掉，而不是**键**
 
 WuzgXY 2022-01-10 23:59:11
 建议再随手写一篇讲解翻译原理的，顺带着把各种问题讲了，比如撞 key、模组更新 key 导致失效等等
@@ -60,8 +55,8 @@ WuzgXY 2022-01-11 0:01:34
 实践之 NCO
 
 
-5. 如何处理硬编码问题
-6. 如何处理因键中不含 ModID 出现的冲突问题
+1. 如何处理硬编码问题
+2. 如何处理因键中不含 ModID 出现的冲突问题
 i18n.format("") 与 ==============================
 
 ## 《积累》

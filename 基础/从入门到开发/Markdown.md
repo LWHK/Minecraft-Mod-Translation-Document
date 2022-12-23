@@ -1,5 +1,7 @@
 # Minecraft 模组翻译：从入门到开发
 
+本文完成较早，其时我们对自身翻译腔的认识尚有很大局限，故本文实际正是**说人话**的反面教材（也就是我们自己都在写翻译腔），请仔细甄别。另外，不少内容也亟待更新，敬请稍候。
+
 - [前言](#前言)
 - [找到语言文件](#找到语言文件)
 - [搭建工作区域](#搭建工作区域)
@@ -7,30 +9,31 @@
   - [词典与网站](#词典与网站)
   - [进阶小技巧](#进阶小技巧)
 - [汉化提交途径](#汉化提交途径)
-  - [通过 GitHub](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-github)
-    - [GitHub 入门](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#github-%E5%85%A5%E9%97%A8)
+  - [通过 GitHub](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-github)
+    - [GitHub 入门](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#github-%E5%85%A5%E9%97%A8)
       - [注册账号](#注册账号)
       - [相关概念与工作流程](#相关概念与工作流程)
         - [Fork](#Fork)
-        - [将仓库 clone 到本地（可选，较为重要）](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81)
-        - [Pull request](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#pull-request)
+        - [将仓库 clone 到本地（可选，较为重要）](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81)
+        - [Pull request](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#pull-request)
         - [Review](#Review)
         - [与原仓库同步](#与原仓库同步)
-    - [向官方仓库提交](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E5%90%91%E5%AE%98%E6%96%B9%E4%BB%93%E5%BA%93%E6%8F%90%E4%BA%A4)
-    - [向 CFPA 提交](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E5%90%91-cfpa-%E6%8F%90%E4%BA%A4)
-      - [CFPA 仓库地址以及项目存放位置](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)
-    - [通过 GitHub 建立翻译团体并进行翻译管理](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-github-%E5%BB%BA%E7%AB%8B%E7%BF%BB%E8%AF%91%E5%9B%A2%E4%BD%93%E5%B9%B6%E8%BF%9B%E8%A1%8C%E7%BF%BB%E8%AF%91%E7%AE%A1%E7%90%86)
-  - [通过 Weblate](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-weblate)
-  - [通过 CurseForge 或其他途径](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-curseforge-%E6%88%96%E5%85%B6%E4%BB%96%E9%80%94%E5%BE%84)
+    - [向官方仓库提交](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E5%90%91%E5%AE%98%E6%96%B9%E4%BB%93%E5%BA%93%E6%8F%90%E4%BA%A4)
+    - [向 CFPA 提交](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E5%90%91-cfpa-%E6%8F%90%E4%BA%A4)
+      - [CFPA 仓库地址以及项目存放位置](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)
+    - [通过 GitHub 建立翻译团体并进行翻译管理](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-github-%E5%BB%BA%E7%AB%8B%E7%BF%BB%E8%AF%91%E5%9B%A2%E4%BD%93%E5%B9%B6%E8%BF%9B%E8%A1%8C%E7%BF%BB%E8%AF%91%E7%AE%A1%E7%90%86)
+  - [通过 Weblate](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-weblate)
+  - [通过 CurseForge 或其他途径](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-curseforge-%E6%88%96%E5%85%B6%E4%BB%96%E9%80%94%E5%BE%84)
 - [一些注意事项](#一些注意事项)
-  - [每天一个机翻小技巧，有手就能学废](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%9C%BA%E7%BF%BB%E5%B0%8F%E6%8A%80%E5%B7%A7%E6%9C%89%E6%89%8B%E5%B0%B1%E8%83%BD%E5%AD%A6%E5%BA%9F)
+  - [每天一个机翻小技巧，有手就能学废](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%9C%BA%E7%BF%BB%E5%B0%8F%E6%8A%80%E5%B7%A7%E6%9C%89%E6%89%8B%E5%B0%B1%E8%83%BD%E5%AD%A6%E5%BA%9F)
+  - [语言文件格式](#语言文件格式)
   - [复杂文本格式翻译](#复杂文本格式翻译)
   - [意外情况](#意外情况)
     - [不加载](#不加载)
       - [完全不加载](#完全不加载)
       - [部分不加载](#部分不加载)
     - [文字乱码](#文字乱码)
-- [本文格式指引](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E6%9C%AC%E6%96%87%E6%A0%BC%E5%BC%8F%E6%8C%87%E5%BC%95%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98)
+- [本文格式指引](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E6%9C%AC%E6%96%87%E6%A0%BC%E5%BC%8F%E6%8C%87%E5%BC%95%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98)
 
 ## 前言
 
@@ -43,19 +46,17 @@
 > ……文学作品的基本特性并不是陈述事实或发布信息。然而任何执行传播功能的翻译所传播的只能是信息，也就是说，它传播的只是非本质的东西。
 > 这是拙劣译文的特征。但是人们普遍认为文学作品的实质是信息之外的东西。而即使拙劣的译者也承认，文学作品的精髓是某种深不可测的、神秘的、“诗意的”东西；翻译家若要再现这种东西，自己必须也是一个诗人。
 
-多数模组文本明显不是文学作品，然而对它的翻译追求却能与 Minecraft 翻译界公认应追求的翻译之标准（至少对于绝大多数的文本翻译而言也是如此）进行对照。对于文学作品的翻译而言，其基本特性并不是**陈述事实或发布信息**，但对于 MC 的翻译，精确描述和准确表达总是最重要的，因为若是缺失了这一要素，这些不够准确的翻译就会严重影响游戏的进程推进。因此在翻译中，“信”总是排在最先的，“达”是我们致力于追求的，“雅”则是力所能及者行之事，不能行则应退而求其次，无需强求。“信”首先要求译者对原版词汇烂熟于心，避免在翻译时使用了错误的翻译而引人发笑；其次要求了解一些约定俗成的词语的翻译，可于 [MCW](https://minecraft-zh.gamepedia.com/Minecraft_Wiki:%E8%AF%91%E5%90%8D%E6%A0%87%E5%87%86%E5%8C%96) 查到相关资料；此外由于各方机翻小能手整出的机翻中好笑的文本频频出现，机翻相关内容甚至成为了[一个梗](https://wiki.biligame.com/mcplayer/%E6%9A%B4%E5%BE%92%E4%BA%A7%E5%8D%B5)。“达”则要求长文本翻译尽可能清新流畅，至少像是**人能说出来的**，而不是机器翻译的。我们曾经见到过一份文本，这份文本的作者在进行过大量机翻以及其后的阅读后已经不再能清晰地把握中文文字的脉络了，于是他自己原创出的这份文本都被我们误判为了机翻内容。毫无疑问，这种水平较低的译文是经验不足导致的，而这一经验指的远不止英语阅读的经验，更是将英语文本转变为有逻辑脉络的中文句子的经验。也就是说，翻译工作同时考校了你双边的实力。最后的“雅”则是那些有较高的语言素养的人才能够达到的，它要求译本能在艺术层面上被欣赏，鉴于我们自身水平较差，此处就不多在网络上逼逼赖赖了。
+多数模组文本明显不是文学作品，然而对它的翻译追求却能与 Minecraft 翻译界公认应追求的翻译之标准（至少对于绝大多数的文本翻译而言也是如此）进行对照。对于文学作品的翻译而言，其基本特性**并不是陈述事实或发布信息**，但对于 MC 的翻译，精确描述和准确表达总是最重要的，因为若是缺失了这一要素，这些不够准确的翻译就会严重影响游戏的进程推进。因此在翻译中，“信”总是排在最先的，“达”是我们致力于追求的，“雅”则是力所能及者行之事，不能行则应退而求其次，无需强求。“信”首先要求译者对原版词汇烂熟于心，避免在翻译时使用了错误的翻译而引人发笑；其次要求了解一些约定俗成的词语的翻译，可于 [MCW](https://minecraft-zh.gamepedia.com/Minecraft_Wiki:%E8%AF%91%E5%90%8D%E6%A0%87%E5%87%86%E5%8C%96) 查到相关资料；此外由于各方机翻小能手整出的机翻中好笑的文本频频出现，机翻相关内容甚至成为了[一个梗](https://wiki.biligame.com/mcplayer/%E6%9A%B4%E5%BE%92%E4%BA%A7%E5%8D%B5)。“达”则要求长文本翻译尽可能清新流畅，至少像是**人能说出来的**，而不是机器翻译的。我们曾经见到过一份文本，这份文本的作者在进行过大量机翻以及其后的阅读后已经不再能清晰地把握中文文字的脉络了，于是他自己原创出的这份文本都被我们误判为了机翻内容。毫无疑问，这种水平较低的译文是经验不足导致的，而这一经验指的远不止英语阅读的经验，更是将英语文本转变为有逻辑脉络的中文句子的经验。也就是说，翻译工作同时考校了你双边的实力。最后的“雅”则是那些有较高的语言素养的人才能够达到的，它要求译本能在艺术层面上被欣赏，鉴于我们自身水平较差，此处就不多在网络上逼逼赖赖了。
 
 然而哔哩吧啦了一大堆，本篇教程和“**如何汉化**”并无关联。如何翻译一个句子、一个词，这些不在本文的指导范围之内，该类指导可在本仓库他处查看。当今的九年义务教育制度普及效果良好，如果你因为年龄不大而翻译得很烂，你还有很多机会可以接受更好的教育以及自我训练。本文真正希望解决的是那些类似于“**如何投交汉化文本**”以及“**除了自身的翻译水准，成为一个合格的 Minecraft 模组翻译者还需要学会哪些技能**”，甚至只是“**我对翻译有兴趣，我应该做哪些准备**”的问题。
 
-对于那些只是对翻译有兴趣，想看看翻译需要做哪些准备然而有些怕麻烦的人而言，仅看前面两章（[找到语言文件](#找到语言文件)和[搭建工作区域](#搭建工作区域)）即可。当然，最后一章的第一小节（[关于机翻的部分](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%9C%BA%E7%BF%BB%E5%B0%8F%E6%8A%80%E5%B7%A7%E6%9C%89%E6%89%8B%E5%B0%B1%E8%83%BD%E5%AD%A6%E5%BA%9F)）也得看，以尽可能避免出问题。在这之后，你可以根据自己的兴趣决定是否继续阅读。
+对于那些只是对翻译有兴趣，想看看翻译需要做哪些准备然而有些怕麻烦的人而言，仅看前面两章（[找到语言文件](#找到语言文件)和[搭建工作区域](#搭建工作区域)）即可。当然，最后一章的第一小节（[关于机翻的部分](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%9C%BA%E7%BF%BB%E5%B0%8F%E6%8A%80%E5%B7%A7%E6%9C%89%E6%89%8B%E5%B0%B1%E8%83%BD%E5%AD%A6%E5%BA%9F)）也得看，以尽可能避免出问题。在这之后，你可以根据自己的兴趣决定是否继续阅读。
 
 如果你想要认真参与到社区的翻译工作中或已经开始了为社区服务的翻译工作，但仍觉得自己的专业性有待提高，那么你可以看看其他的章节。掌握了 GitHub 的相关技巧，你就可以比较专业地管理你自己的翻译长期项目，甚至与他人合作了。
 
-提问之前，请先阅读[《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)。如果我们判断你的问题并未遵守此文中的建议，我们将不予回复。
+提问之前，请先阅读[《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)。如果我们判断你的问题并未遵循此文中的建议，恐将不予回复。
 
 我们默认读者有对 [Minecraft](https://minecraft-zh.gamepedia.com/Minecraft) 及其[模组](https://minecraft-zh.gamepedia.com/Mods)的基本认知。如对模组内容有疑问，可以访问 [MC百科](https://www.mcmod.cn)。（仍抱有疑问的读者也可查看[百科的模组简介](https://bbs.mcmod.cn/forum.php?mod=forumdisplay&fid=54&filter=typeid&typeid=57)）
-
-本文完成较早，其时我们对自身翻译腔的认识尚有很大局限，故本文实际包含不少**说人话**的反面教材（也就是我们自己都在写翻译腔），请仔细甄别。
 
 话不宜多，我们开始正题。
 
@@ -65,17 +66,17 @@
 
 右击你的模组文件（扩展名为 .jar 的压缩包），使用压缩软件打开。例如，我（清秋）使用的是 [Bandizip](https://www.bandizip.com/)（写教程的时候使用的是 360 压缩）（亦可使用 [7-Zip](https://www.7-zip.org/)），那么右击模组文件之后，会出现如下提示：
 
-![剪贴板图片 _1_.jpg](https://i.loli.net/2020/08/13/Hg3AtWLTCj1lzs2.jpg)
+![剪贴板图片 _1_.jpg](images/Hg3AtWLTCj1lzs2.jpg)
 
 单击之后是这个样子的：
 
-![剪贴板图片.jpg](https://i.loli.net/2020/08/13/lQYnw4gOu85SHXC.jpg)
+![剪贴板图片.jpg](images/lQYnw4gOu85SHXC.jpg)
 
 依次进入 assets\ModID\lang（有一些模组的文件结构与通常的不同，但是一般情况下语言文件都会位于一个名为 lang 的目录下，如果本文提到的位置并无语言文件，可以使用文件查找功能自行寻找）就能发现：
 
-![剪贴板图片 _2_.jpg](https://i.loli.net/2020/08/13/Drq6WykR9pYsfJ1.jpg)
+![剪贴板图片 _2_.jpg](images/Drq6WykR9pYsfJ1.jpg)
 
-1 是英文的语言文件，而 2 是中文的语言文件，如果没有 2，就基本说明了这个模组没有中文的翻译（例外：1.12.2 和 1.16 的情况下有可能 CFPA 有而模组本体没有，为了防止撞车，请先阅读底部的[一节](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)），你可以按照其英语文本进行翻译（建议阅读本节[教程](https://harbinger.covertdragon.team/chapter-13/)；如果这是你的第一份翻译，请先查看其他有汉化的模组的语言文件，对照着中文与英文文件查看具体应该替换的部分，以避免出现失误）。翻译完之后，把文件改名为 2，也就是 zh_cn.lang，然后再将其放进上述的目录。这样，理论上来说你在游戏中就可以读取到翻译了！
+1 是英文的语言文件，而 2 是中文的语言文件，如果没有 2，就基本说明了这个模组没有中文的翻译（例外：1.12.2 和 1.16 的情况下有可能 CFPA 有而模组本体没有，为了防止撞车，请先阅读底部的[一节](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)），你可以按照其英语文本进行翻译（建议阅读本节[教程](https://harbinger.covertdragon.team/chapter-13/)；如果这是你的第一份翻译，请先查看其他有汉化的模组的语言文件，对照着中文与英文文件查看具体应该替换的部分，以避免出现失误）。翻译完之后，把文件改名为 2，也就是 zh_cn.lang，然后再将其放进上述的目录。这样，理论上来说你在游戏中就可以读取到翻译了！
 
 顺带一提，在 1.12.2 中，语言文件为 .lang 文件，但在 1.12.2 以上的版本中，则是 .json 文件。
 
@@ -101,7 +102,7 @@
 
     安装完成后，界面是这样的：
 
-    ![剪贴板图片 _3_.jpg](https://i.loli.net/2020/08/14/GJAH54rwMs16q7u.jpg)
+    ![剪贴板图片 _3_.jpg](images/GJAH54rwMs16q7u.jpg)
 
     在上面分别标注出了几个需要注意的地方。
 
@@ -114,11 +115,11 @@
 
     第一个能使得 VSC 支持 .lang 文件的读取，第二个则还能支持一些 Minecraft 独有的类 .json 文件的显示（譬如 .mcmeta 文件）。这是安装了第一个扩展 Minecraft Lang Colorizer 之后的对比图：
 
-    ![剪贴板图片 (33).jpg](https://i.loli.net/2020/08/15/ntAk6flIHih2BU8.jpg)
+    ![剪贴板图片 (33).jpg](images/ntAk6flIHih2BU8.jpg)
 
-    ![剪贴板图片 (34).jpg](https://i.loli.net/2020/08/15/jwGKPog1ubNRWlz.jpg)
+    ![剪贴板图片 (34).jpg](images/jwGKPog1ubNRWlz.jpg)
 
-    考虑到很难找到一个能同时使 .lang 和 .json 文件的配色合适、文本易阅读的颜色主题，我（轩辕）比较喜欢 Navy and Ivory（evan-siegel.navy-and-ivory），不过它处理 .lua 文件略有一些小问题。后期我们可能会在这里加入更多较好的现成主题。如果你有能力，当然也可以自己制作一个。建议安装 Material Icon Theme（pkief.material-icon-theme），它可以为你任务栏中的文件添加图标。
+    考虑到很难找到一个能同时使 .lang 和 .json 文件的配色合适、文本易阅读的颜色主题，我（轩辕）比较喜欢 Navy and Ivory（evan-siegel.navy-and-ivory），不过它处理代码文件略有问题：关键字和注释颜色相同。后期我们可能会在这里加入更多较好的现成主题。如果你有能力，当然也可以自己制作一个。建议安装 Material Icon Theme（pkief.material-icon-theme），它可以为你任务栏中的文件添加图标。
     
     需要注意的是，如果你安装了这个扩展而 .lang 文件配色等等并没有发生变化，你需要手动将一个 .lang 文件设置为 .lang 文件格式，之后 VSC 就会自动为你设置了。上方的图中圈出的位置就是修改文件读取格式的位置，如果你因为某些原因，想要以纯文本的形式读取 .lang 文件，那么你可以在图中被圈起的相应位置中进行修改。
 
@@ -154,7 +155,7 @@
 
     如果你不会代码，就有必要使用一些小工具来代劳了，我们推荐使用 [Quicker](https://getquicker.net/)，它的用处很大，这只是它的众多使用方法之一。如果不了解具体的使用方式可以自行搜索。
 
-    ![剪贴板图片 (23).jpg](https://i.loli.net/2020/08/14/7NrBnyK9QxpcCLS.jpg)
+    ![剪贴板图片 (23).jpg](images/7NrBnyK9QxpcCLS.jpg)
 
     这是我（清秋）自己写出来的一个替换颜色的[小脚本](https://getquicker.net/sharedaction?code=62f16959-296c-4df6-9ee2-08d85d9ed340)，你可以将其复制至 Quicker。难度不高，你也可以自己尝试编写一下拥有类似功能的脚本。
 
@@ -164,13 +165,13 @@
 
     装了扩展之后，会在 VSC 的下方显示这个内容：
 
-    ![剪贴板图片 (24).jpg](https://i.loli.net/2020/08/14/mjipLV2nzDTHhl8.jpg)
+    ![剪贴板图片 (24).jpg](images/mjipLV2nzDTHhl8.jpg)
 
     单击之后就会提示你登录（请 [使用自己常用的 GitHub 账号](#注册账号)登录，这样在安装有 git 相关的扩展后就可以以自己的账户来 commit 了），按提示一步步走并在最后单击 OK，右下角就会提示，已经将链接置入剪贴板。
 
     发送给同伴后，同伴点进去，将会是这样的：
 
-    ![剪贴板图片 (25).jpg](https://i.loli.net/2020/08/14/nMzhFQiCbmGxZPp.jpg)
+    ![剪贴板图片 (25).jpg](images/nMzhFQiCbmGxZPp.jpg)
 
     注意：你的同伴也需要登录！
 
@@ -191,7 +192,7 @@
 3. 通过 CFPA 工单系统
 4. 通过 CurseForge 或其他途径
 
-如果你作为一个新手，确实想要参与到翻译工作中，最好直接阅读[通过 Weblate](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-weblate) 一节，因为 CFPA 搭建的 Weblate 平台本身就是为新手设计的，使用它可以方便、快捷地进行翻译，不要浪费了 943 的一片良苦用心。
+如果你作为一个新手，确实想要参与到翻译工作中，最好直接阅读[通过 Weblate](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-weblate) 一节，因为 CFPA 搭建的 Weblate 平台本身就是为新手设计的，使用它可以方便、快捷地进行翻译，不要浪费了 943 的一片良苦用心。
 
 如果你只是想单纯地为自己或周围的人进行汉化，那么提交汉化是完全没有必要的。我们曾见过一个人只为了自己和朋友能看就把一个模组机翻后交给原作者，我认为这种行为相当不妥，首先机翻本身就没有值得赞赏的点，而你甚至在意识到了它不妥的情况下仍然把机翻文本交给作者，这不是什么好的行为。
 
@@ -215,7 +216,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 然后你大概会看见如下的内容：
 
-![剪贴板图片 _4_.jpg](https://i.loli.net/2020/08/14/hIRCSKYHpFiw29D.jpg)
+![剪贴板图片 _4_.jpg](images/hIRCSKYHpFiw29D.jpg)
 
 如果你始终加载不出来且位于中国大陆，那你可能需要通过专线等方式跨境联网，可以依法向设置国际通信出入口局的电信业务经营者租用，具体请见这份[《通知》](http://www.miit.gov.cn/n1146295/n1652858/n1652930/n3757020/c5471946/content.html)。注意：未经电信主管部门批准，不得自行建立或租用专线（含虚拟专用网络 VPN）等其他信道开展跨境经营活动；如果你因为不听本文的警告建立非法信道而被国家依法惩处，本文作者不负责。信息来源：[环球网](https://m.huanqiu.com/article/9CaKrnK4hO1)。或者你也可以通过一些方便的工具，单独对 GitHub 等网站进行加速，例如 [dev-sidecar](https://gitee.com/docmirror/dev-sidecar#dev-sidecar)。如果你对此工具的安装根证书行为存有疑虑，那你可以使用 [FastGithub](https://github.com/dotnetcore/FastGithub)。
 
@@ -223,7 +224,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 注册完毕后，你的界面将会变成这样的：
 
-![剪贴板图片 (5).jpg](https://i.loli.net/2020/08/14/pHBjKSRUNaE7IOC.jpg)
+![剪贴板图片 (5).jpg](images/pHBjKSRUNaE7IOC.jpg)
 
 可能在一些小细节上有出入，但无伤大雅，大体一致即可。
 
@@ -239,11 +240,11 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 1. 在 [CurseForge](https://www.curseforge.com/minecraft/mc-mods) 上找到自己想要汉化的模组，这里随便以一个模组为例：
 
-    ![剪贴板图片 _6_.jpg](https://i.loli.net/2020/08/15/gswCOIV4YepWZMo.jpg)
+    ![剪贴板图片 _6_.jpg](images/gswCOIV4YepWZMo.jpg)
 
     这里以 JEI 做个例子，点进去之后，我们可以找到这个图标：
 
-    ![剪贴板图片 (7).jpg](https://i.loli.net/2020/08/14/fSArFdPxZcRE5Hu.jpg)
+    ![剪贴板图片 (7).jpg](images/fSArFdPxZcRE5Hu.jpg)
 
     点进这个图标，就可以跳转到这个模组对应的源码仓库了。一般情况下这个仓库位于 GitHub，但也有一些开发者会采用 GitLab 或 Gitee 这种其他与 GitHub 相似的代码托管网站。
 
@@ -251,7 +252,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
     这是 JEI 的仓库：
 
-    ![剪贴板图片 (21).jpg](https://i.loli.net/2020/08/14/l9HDhCnoPpJmx7g.jpg)
+    ![剪贴板图片 (21).jpg](images/l9HDhCnoPpJmx7g.jpg)
 
     我们单击右上角的 fork，将这份仓库 fork 为自己的。如果你不明白为什么需要这样做，你可以在阅读完成后到[下一节](#Fork)查看解释。
 
@@ -261,13 +262,13 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
     一番查找之后：
 
-    ![剪贴板图片 _8_.jpg](https://i.loli.net/2020/08/14/lxRb3eGyh4W9CZj.jpg)
+    ![剪贴板图片 _8_.jpg](images/lxRb3eGyh4W9CZj.jpg)
 
     记住这个位置，你的文件应该上传到 lang 文件夹里，就和在模组里一样！其中的几个文件夹名字是不固定的，取决于模组的名字，相信你一眼就能明白哪些是不固定的了。
 
     这里换了一个仓库作例子，单击圈内按钮，选择 upload file，就可以上传文件了！
 
-    ![剪贴板图片 _9_.jpg](https://i.loli.net/2020/08/14/rt6PKXvByfM1LVI.jpg)
+    ![剪贴板图片 _9_.jpg](images/rt6PKXvByfM1LVI.jpg)
 
 4. 拉取请求
 
@@ -275,13 +276,13 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
     我们先回到原仓库，依次单击：
 
-    ![剪贴板图片 (10).jpg](https://i.loli.net/2020/08/14/bCso5nykqIFQ3pU.jpg)
+    ![剪贴板图片 (10).jpg](images/bCso5nykqIFQ3pU.jpg)
 
-    ![剪贴板图片 (11).jpg](https://i.loli.net/2020/08/14/WEsk6LD8jHNifAt.jpg)
+    ![剪贴板图片 (11).jpg](images/WEsk6LD8jHNifAt.jpg)
 
-    ![剪贴板图片 (12).jpg](https://i.loli.net/2020/08/14/m8W74nEaV1bHfUP.jpg)
+    ![剪贴板图片 (12).jpg](images/m8W74nEaV1bHfUP.jpg)
 
-    ![剪贴板图片 (13).jpg](https://i.loli.net/2020/08/14/xVdDraEycZeXMkU.jpg)
+    ![剪贴板图片 (13).jpg](images/xVdDraEycZeXMkU.jpg)
 
     然后你会在页面的下方看到你和原仓库的对比，浏览且发现没问题之后，单击 create pull request，然后填上一些你想说的就好了。
 
@@ -301,9 +302,9 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 注意这里的用词，“变成**你的**”意味着你对于这个仓库有着完全的控制权，包括删除仓库，所以修改你自己的仓库也自然不在话下了。
 
-如果仍然未能理解这部分内容，请务必自行搜索并弄通这部分的概念与含义，因为此后的诸多行为都要以这部分为基础，如果未理解就去接着进行翻译工作很有可能误操作。建议阅读[《Git 工作流指南》](https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorials)当中的 [fork](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/workflow-forking.md) 与 [pull request](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/pull-request.md)（见下面的 [pull request](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#pull-request)）两节。
+如果仍然未能理解这部分内容，请务必自行搜索并弄通这部分的概念与含义，因为此后的诸多行为都要以这部分为基础，如果未理解就去接着进行翻译工作很有可能误操作。建议阅读[《Git 工作流指南》](https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorials)当中的 [fork](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/workflow-forking.md) 与 [pull request](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/pull-request.md)（见下面的 [pull request](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#pull-request)）两节。
 
-<a name="%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81">_**将仓库 clone 到本地（可选，较为重要）**_</a>（[本节链接](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81)）
+<a name="%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81">_**将仓库 clone 到本地（可选，较为重要）**_</a>（[本节链接](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81)）
 
 在你同时参与了多个项目的汉化之后，你会遇到一个严峻的事实：一旦作者们更新勤奋，每天打开浏览器、登上 GitHub 时，你就得开始手忙脚乱的跳网页、找位置了。打开自己的仓库、做好跟进、发 pull request，等等，这有时候要你开四五个页面，才能开到你想要的那个仓库位置。一个仓库还好，如果有十多个乃至更多，那就太累人了；此外 GitHub 网页版在部分地区的加载速度并不快。
 
@@ -319,13 +320,13 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 这是一个成功 clone 的仓库在 GitHub 桌面版的样子：
 
-![剪贴板图片 (27).jpg](https://i.loli.net/2020/08/14/aYhFyzlTfZCwMc4.jpg)
+![剪贴板图片 (27).jpg](images/aYhFyzlTfZCwMc4.jpg)
 
 更改之后的操作：
 
-![剪贴板图片 (28).jpg](https://i.loli.net/2020/08/14/17qjE2IdklZN6Kb.jpg)
+![剪贴板图片 (28).jpg](images/17qjE2IdklZN6Kb.jpg)
 
-![剪贴板图片 (29).jpg](https://i.loli.net/2020/08/14/ZwgON6jv9pqBRun.jpg)
+![剪贴板图片 (29).jpg](images/ZwgON6jv9pqBRun.jpg)
 
 如果你想要完善你的本地 git 操作，那么这两个扩展必不可少：
 
@@ -336,7 +337,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 如果你并不想花时间熟悉 GitHub 桌面版的操作，你可以简单地将需要跟进汉化的仓库添加至浏览器的书签栏，这样也可以在一定程度上提高效率。但是应注意，如果你参与了帕秋莉手册或其他多目录多文本的翻译工作，使用网页端进行翻译是相当不明智的，因为巨量的页面变动将会让你感到手忙脚乱。
 
-<a name="pull-request">**_Pull request_**</a>（[本节链接](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#pull-request)）
+<a name="pull-request">**_Pull request_**</a>（[本节链接](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#pull-request)）
 
 什么是 **pull request**？
 
@@ -354,19 +355,19 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 实际上，这样做确实可以发起 pull request，但是这并不意味着你没有 fork 作者的仓库，我们可以看一个例子（保密起见，已隐去作者用户名，但这确实是同一个人）：
 
-![剪贴板图片 (35).jpg](https://i.loli.net/2020/08/15/lsM8gC2kircKzJo.jpg)
+![剪贴板图片 (35).jpg](images/lsM8gC2kircKzJo.jpg)
 
 这是一个新手对一个原作者仓库连续发起的三个 pull request，可以肯定，这个新手肯定直接修改了原作者的仓库，并且修改了两次，还在自己 fork 来的仓库中修改了一次，最终一共发起了三次 pull request。我们可以看看这三个 pull request 都是从哪里发起的：
 
-![剪贴板图片 (36).jpg](https://i.loli.net/2020/08/15/gchlAGPHXVQJ1Ib.jpg)
+![剪贴板图片 (36).jpg](images/gchlAGPHXVQJ1Ib.jpg)
 
-![剪贴板图片 (37).jpg](https://i.loli.net/2020/08/15/EALgGz5cJSlZ1RW.jpg)
+![剪贴板图片 (37).jpg](images/EALgGz5cJSlZ1RW.jpg)
 
-![剪贴板图片 (38).jpg](https://i.loli.net/2020/08/15/ELXPKZp8DTnmIi6.jpg)
+![剪贴板图片 (38).jpg](images/ELXPKZp8DTnmIi6.jpg)
 
 可以看到，这位新手对着原作者仓库的分支，连续用三个不同的分支向其发起了 pull request，而这些分支其实都是来源于他 fork 的仓库的：
 
-![剪贴板图片 (39).jpg](https://i.loli.net/2020/08/15/GmjbJysNzXLUvAE.jpg)
+![剪贴板图片 (39).jpg](images/GmjbJysNzXLUvAE.jpg)
 
 也就是说，在你打算修改原作者仓库的时候，GitHub 自动为你 fork 了原作者的仓库，并将你的改动应用到你的 fork 仓库的不同分支上，然后再从这些分支发起 pull request 到原作者的仓库那里。这样做实际上没有能够理解 pull request 的本质：对 pull request 的 merge 是实际上是两个分支之间的合并，而非两个仓库之间的合并，即便在同一个仓库，你也完全可以用一个分支对另一个分支发起 pull request。这在 CFPA 单独翻译某个项目时非常有用，因为你的工作常常不连续，有可能这个模组翻译一点，那个模组翻译一点，此时最好的方法就是创建不同的分支，把你翻译的不同模组分别放入不同的分支内，这样可以**目标明确**地发起 pull request，而不会在单个 pull request 里塞入无关的内容。你应该在**工作开始前**就规划好内容分离的工作的提交。
 
@@ -380,31 +381,31 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 打开 pull request 页面之后，我们单击此处：
 
-![剪贴板图片 (14).jpg](https://i.loli.net/2020/08/14/mXl5HjDuRLFNnEW.jpg)
+![剪贴板图片 (14).jpg](images/mXl5HjDuRLFNnEW.jpg)
 
 进入到如下界面：
 
-![剪贴板图片 (15).jpg](https://i.loli.net/2020/08/14/QzmunFbEdf6pTtw.jpg)
+![剪贴板图片 (15).jpg](images/QzmunFbEdf6pTtw.jpg)
 
 在本页面中，本次 pull request 的所有更改内容都会显示出来。将鼠标移至每一行前面，你将会发现多了一个小加号：
 
-![剪贴板图片 (16).jpg](https://i.loli.net/2020/08/14/nemCb9WsfaMh4P2.jpg)
+![剪贴板图片 (16).jpg](images/nemCb9WsfaMh4P2.jpg)
 
 单击这个加号，你就可以针对于这一行的内容进行评论，评论完之后，单击 start a review 即可。如果你只是单纯的想发表一下对于这一行的一些想法，那么你可以单击 add single comment；如果突然间没意见了，可以单击 cancel。如果你想对多行的内容进行评论，按住一个加号并上下拖拽即可选择多行内容。
 
-![剪贴板图片 (17).jpg](https://i.loli.net/2020/08/14/1NycTqx657zrELv.jpg)
+![剪贴板图片 (17).jpg](images/1NycTqx657zrELv.jpg)
 
 完成了所有文件的查看之后，你可以单击屏幕右上角的这个。如果你觉得有很多地方需要更改，那么就选择 request changes（请求修改），如果你发现需要改的不多或者基本没得要改，你就选择 approve（赞成修改），如果你只是来划水的或者你觉得你的意见并不很重要，你可以选择 comment。
 
-![剪贴板图片 (18).jpg](https://i.loli.net/2020/08/14/zG7aLPug1VXnxlI.jpg)
+![剪贴板图片 (18).jpg](images/zG7aLPug1VXnxlI.jpg)
 
 有时候你需要特定的人帮助你 review 你的 pull request，这时候你可以在 pull request 里发送 @ 信息，或者在右侧指定他帮助你 pull request（注意：这一操作只有仓库主人才可以进行！如果你没有该仓库的权限，那么你是无法在右侧专门指定他人为你 review 的，此时你只能 @ 他过来；@ 的方式即输入 @ 后在后面跟上你要 @ 的人的 GitHub ID 并再在后面空一格）：
 
-![剪贴板图片 (19).jpg](https://i.loli.net/2020/08/14/Q6DW2eMJPCmAUGS.jpg)
+![剪贴板图片 (19).jpg](images/Q6DW2eMJPCmAUGS.jpg)
 
 这是 @ 的例子：
 
-![剪贴板图片 (22).jpg](https://i.loli.net/2020/08/14/1bB2rZh4ivnKfud.jpg)
+![剪贴板图片 (22).jpg](images/1bB2rZh4ivnKfud.jpg)
 
 再次警告：无论你觉得你的实力多强，只要你不是神，你就会犯错误，而且往往是低级的错误，这些时候如果没有人帮助你 review，那么你的错误将会被别人看到，被别的汉化者锤，如果你不想这样，请你一定要找人帮助你 review！！
 
@@ -436,17 +437,17 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
     单击 all 进行 pull request 查看（注意：不仅可以访问到 origin 仓库的 pull request，还能访问到 upstream 仓库的 pull request；可能需要[注册账号](#注册账号)一节提到的建立国际信道的方法）
 
-    ![剪贴板图片 _45_.jpg](https://i.loli.net/2020/08/22/9kSoQPAJq8N4Mdw.jpg)
+    ![剪贴板图片 _45_.jpg](images/9kSoQPAJq8N4Mdw.jpg)
 
     按下图的顺序单击之后，扩展会专门拉出一条分支，这条分支会与你网页端的 pull request 页面实时同步（虽然会因为网络原因而有一些延迟）。以下是图片：
 
-    ![剪贴板图片 _46_.jpg](https://i.loli.net/2020/08/22/5GLU8uCpmiAESnc.jpg)
+    ![剪贴板图片 _46_.jpg](images/5GLU8uCpmiAESnc.jpg)
 
     一些注意事项，如下图：
     
-    ![剪贴板图片 _47_.jpg](https://i.loli.net/2020/08/22/7HoLBTj3a2NitvM.jpg)
+    ![剪贴板图片 _47_.jpg](images/7HoLBTj3a2NitvM.jpg)
 
-    ![剪贴板图片 _48_.jpg](https://i.loli.net/2020/08/22/7PvIdqZAxCQekTX.jpg)
+    ![剪贴板图片 _48_.jpg](images/7PvIdqZAxCQekTX.jpg)
 
     想要结束 review，必须得声明这一次的 review 的类型是 comment，request changes 还是 approve。也可以直接点进 pull request 的 description 并在其中进行评论以及确认 review 的操作。
 
@@ -482,7 +483,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 自动汉化更新模组的提交途径是我们最推荐新手使用的，因为这里的维护者会帮你 review（逃）。提交手段与上述的并无二致，唯一要注意的是文件存放的位置。**注意：CFPA 仅支持 1.12.2 和 1.16 两个版本。**
 
-<a name="cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE">**[CFPA 仓库地址](https://github.com/CFPAOrg/Minecraft-mod-Language-Package)以及项目存放位置**</a>（[本节链接](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)）
+<a name="cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE">**[CFPA 仓库地址](https://github.com/CFPAOrg/Minecraft-mod-Language-Package)以及项目存放位置**</a>（[本节链接](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)）
 
 进入仓库后，你会发现成吨已经汉化过的项目（感谢各位的辛勤付出！），你需要将你的文件上传至此处，但你必须适当的存放你的文件。还记得第一节中的模组的压缩包结构吗？assets\ModID\lang，你会发现这里的每个项目都不是这样存放的，这里文本的存放位置下面有描述。
 
@@ -490,9 +491,9 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 **以上演示的是旧版本的仓库，**在 CFPA 仓库里，主分支名为 "main"（**不是 "1.12.2"！**），用于存放所有 1.12.2 的汉化文件；1.16 翻译则位于 "1.16" 分支中。以下为演示：
 
-![剪贴板图片 _49_.jpg](https://i.loli.net/2020/08/31/8M5Y9PbwnTeAcWq.jpg)
+![剪贴板图片 _49_.jpg](images/8M5Y9PbwnTeAcWq.jpg)
 
-![剪贴板图片 _50_.jpg](https://i.loli.net/2020/08/31/Src2WnxUIHpRL6h.jpg)
+![剪贴板图片 _50_.jpg](images/Src2WnxUIHpRL6h.jpg)
 
 概括可得文件位置为 /projects/1.12.2 或 1.16（勿忘使用正确分支）/assets/CF ID/ModID/lang/zh_cn.lang 或 zh_cn.json。如果模组没有 CF 页面，则应在该处填充 "1UNKNOWN"。
 
@@ -500,7 +501,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 其余的分支存放的是其他版本的文件，切记不要传错分支！
 
-![剪贴板图片 _51_.jpg](https://i.loli.net/2020/08/31/MuL5hB6WYjH1IDF.jpg)
+![剪贴板图片 _51_.jpg](images/MuL5hB6WYjH1IDF.jpg)
 
 #### 通过 GitHub 建立翻译团体并进行翻译管理
 
@@ -516,7 +517,7 @@ GitHub 有一个 organization 的设定，单击右上角的加号可以发起�
 
 但是首先：
 
-![8](https://i.loli.net/2020/08/15/grfTWFHEuaQkKoj.png)
+![8](images/grfTWFHEuaQkKoj.png)
 
 其次，请尝试是否可以登上团队的[官方网站](https://cfpa.team/)。
 
@@ -528,7 +529,7 @@ GitHub 有一个 organization 的设定，单击右上角的加号可以发起�
 
 顾名思义，在作者不开源的情况下，你必须向作者私信汉化文本（注意：最好以文件形式发送！）。如果你的位置在中国大陆以外，你可以使用 Twitter 或 Discord 等内容与作者取得联系；如果你在大陆内而没能找到其他路径向作者发送文件，你将只能使用 CurseForge 自身的私信（又称 PM 或 DM）功能来发送文件。
 
-如果需要以本节提到的内容进行提交，并且你也有一个所属的翻译团体（CFPA 例外），你可以先将汉化文本以 pull request 的形式交至自己团体的库中让大家一起看一眼，顺便弄个 review 再将文件发给作者。这点将会在[通过 GitHub 建立翻译团体并进行翻译管理](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-github-%E5%BB%BA%E7%AB%8B%E7%BF%BB%E8%AF%91%E5%9B%A2%E4%BD%93%E5%B9%B6%E8%BF%9B%E8%A1%8C%E7%BF%BB%E8%AF%91%E7%AE%A1%E7%90%86)一节详细描述。
+如果需要以本节提到的内容进行提交，并且你也有一个所属的翻译团体（CFPA 例外），你可以先将汉化文本以 pull request 的形式交至自己团体的库中让大家一起看一眼，顺便弄个 review 再将文件发给作者。这点将会在[通过 GitHub 建立翻译团体并进行翻译管理](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-github-%E5%BB%BA%E7%AB%8B%E7%BF%BB%E8%AF%91%E5%9B%A2%E4%BD%93%E5%B9%B6%E8%BF%9B%E8%A1%8C%E7%BF%BB%E8%AF%91%E7%AE%A1%E7%90%86)一节详细描述。
 
 ## 一些注意事项
 
@@ -536,11 +537,11 @@ GitHub 有一个 organization 的设定，单击右上角的加号可以发起�
 
 ### 每天一个机翻小技巧，有手就能学废
 
-![机翻对联.png](https://i.loli.net/2020/09/18/mjyGc2KEdYNMDBT.png)
+![机翻对联.png](images/mjyGc2KEdYNMDBT.png)
 
-![机翻1.png](https://i.loli.net/2020/09/18/rmPsH53tKNicloa.png)
+![机翻1.png](images/rmPsH53tKNicloa.png)
 
-![机翻2.png](https://i.loli.net/2020/09/18/78PG2qhmRQelHWu.png)
+![机翻2.png](images/78PG2qhmRQelHWu.png)
 
 **不允许机翻！！！**
 
@@ -555,9 +556,21 @@ GitHub 有一个 organization 的设定，单击右上角的加号可以发起�
 
 如果你的翻译当中包含了机翻的内容，请读读土球的一篇[文章](https://www.mcbbs.net/thread-899249-1-1.html)，或许会对你有一些帮助；蝙蝠的一篇[文章](https://www.mcbbs.net/thread-899199-1-1.html)也很好。无论如何，纯粹的机翻都应是被抵制的，产出好翻译的始终是人，而不是机器翻译。并且，如果你已经具备一定的翻译鉴赏水平，希望在工作流中使用机器翻译+译后编辑的方式加快自身的工作速度，那么请在机器翻译时选用 [DeepL](https://www.deepl.com) 作为自己的首选工具。
 
+### 语言文件格式
+
+我们写好之前，你可以在 [CFPA 相关教程](https://rules.cfpa.team/)内查询到语言文件内部不应改变的格式。
+
+我（轩辕）认为，只要不在游戏里显示出来，在语言文件里**用注释**写上你的大名无伤大雅但是毫无意义。如果你的初衷是这么给自己摆门面，我劝你尽早反思一下还要不要干下去祸害别人：这样的工作态度很难产出好作品。不过如果出于优化文本、期待后人联系的目的，我觉得完全无妨。
+
+#### .json 翻译
+
+#### .lang 翻译
+
 ### 复杂文本格式翻译
 
 你可以在 [CFPA 相关教程](https://rules.cfpa.team/)内查询到一些有关对部分非 lang 文件夹内的文本翻译的注意事项。
+
+#### 帕秋莉
 
 ### 意外情况
 
@@ -571,15 +584,15 @@ GitHub 有一个 organization 的设定，单击右上角的加号可以发起�
 
 1. 检查文件名是否正确。
    
-   一般而言，在 1.12.2 中，中文文件可能会有两种名字，一种为 zh_cn.lang，一种为 zh_CN.lang。它们看似只有尾巴的大小写差异，但实际上，如果英语语言文件的尾巴是大写的，然后你放了一个小写尾巴的中文文件进去，它是**不会加载的**。中文文件的尾巴的大小写必须跟随英文文件尾巴的大小写。具体原因请参见 [本文](https://harbinger.covertdragon.team/chapter-13/)。
+   一般而言，在 1.12.2 中，中文文件可能会有两种名字，一种为 zh_cn.lang，一种为 zh_CN.lang。它们看似只有尾巴的大小写差异，但实际上，如果英语语言文件的尾巴是大写的，然后你放了一个小写尾巴的中文文件进去，它是**不会加载的**。中文文件的尾巴的大小写必须跟随英文文件尾巴的大小写。具体原因请参见[本文](https://harbinger.covertdragon.team/chapter-13/)。
 
     这是一个错误的例子：
 
-    ![剪贴板图片 (30).jpg](https://i.loli.net/2020/08/15/JZAIQs3g5a7cqXu.jpg)
+    ![剪贴板图片 (30).jpg](images/JZAIQs3g5a7cqXu.jpg)
 
     这是一个正确的例子：
 
-    ![剪贴板图片 (31).jpg](https://i.loli.net/2020/08/15/BHuxSFjIeUhQp9P.jpg)
+    ![剪贴板图片 (31).jpg](images/BHuxSFjIeUhQp9P.jpg)
 
     1.12.2 以上则不是 .lang 文件，而是 .json 文件。似乎 .json 文件并没有尾巴大小写的说法，全是小写。
 
@@ -614,7 +627,7 @@ https://github.com/LWHK/LWHK-Simplified-Chinese-Translation/commit/0c8a8914f5f01
 
 在 VSC 中，下方导航条的右侧会显示出 VSC 当前打开该文件所使用的编码类型：
 
-![剪贴板图片 (32).jpg](https://i.loli.net/2020/08/15/lkprt6uXONJfVmh.jpg)
+![剪贴板图片 (32).jpg](images/lkprt6uXONJfVmh.jpg)
 
 注意，无论是语言文件还是手册，编码格式一定得是 UTF-8，不能是其他的编码（这里体现出了记事本的弱点：不仅默认格式不是 UTF-8，就算调整为了 UTF-8 也可能是 with BOM 版本的）。有些模组自带手册，但是忘记定义了调用 Java 解码的字符集，此时 Java 就会调用你的系统默认的字符集进行解码。如果使用 UTF-8 进入游戏，则会通篇全为乱码。但是这**不是**你的问题。你所要做的就是在他的仓库的 issue 那里放上这个 [pull request](https://github.com/Electroblob77/Wizardry/pull/479)，并说明乱码问题可能与这个 pull request 相关，作者自然就会明白了。
 
@@ -626,6 +639,6 @@ https://github.com/LWHK/LWHK-Simplified-Chinese-Translation/commit/0c8a8914f5f01
 
 #### 本文格式指引（四级标题）
 
-<a name="本文格式指引（五级标题）">**本文格式指引（五级标题）**</a>（[本节链接](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E6%9C%AC%E6%96%87%E6%A0%BC%E5%BC%8F%E6%8C%87%E5%BC%95%EF%BC%88%E4%BA%94%E7%BA%A7%E6%A0%87%E9%A2%98%EF%BC%89)）
+<a name="apapapapapap">**本文格式指引（五级标题）**</a>（[本节链接](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#apapapapapap)）
 
-<a name="本文格式指引（六级标题）">**_本文格式指引（六级标题）_**</a>（[本节链接](https://github.com/LWHK/Passages/blob/master/Minecraft%20%E6%A8%A1%E7%BB%84%E7%BF%BB%E8%AF%91%EF%BC%9A%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E6%9C%AC%E6%96%87%E6%A0%BC%E5%BC%8F%E6%8C%87%E5%BC%95%EF%BC%88%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98%EF%BC%89)）
+<a name="alalalalal">**_本文格式指引（六级标题）_**</a>（[本节链接](https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#alalalalal)）

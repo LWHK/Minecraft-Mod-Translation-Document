@@ -21,3 +21,7 @@
 [Martyr](https://www.mcbbs.net/thread-1389395-1-1.html)
 
 [哔站：会心之语](https://space.bilibili.com/299655539/channel/collectiondetail?sid=853420)
+
+## 代码文档
+
+[Harbinger](https://harbinger.covertdragon.team/chapter-13/)
