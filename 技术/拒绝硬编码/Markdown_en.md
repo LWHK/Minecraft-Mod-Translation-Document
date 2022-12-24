@@ -1,12 +1,12 @@
 # Do Never Use Hardcode in I18n
 
-*Not finished yet, still many images haven't added*
+*Not finished yet. There's lack of many pictures*
 
-"Hardcoding" means you embed something, especially texts in this passage, into codes or otherwhere, where they are not changable through language file, resource packs or configuration.
+"Hardcoding" means you embed something, especially texts in this passage, into source code or otherwhere, where they are not changable through language file, resource packs, configuration or other files which are able to be easily customized.
 
-I am a native Chinese speaker, and I have hosted or participated in translating a few mods into Chinese including *NuclearCraft: Overhauled* and it's dependents, *The Undergarden*, *Farmer's Delight*, *Sushi Go Crafting*, *The Lord of the Rings* and else. In this progress, I noted many mods ignoring or rejecting internatiionalization, nor caring about speakers of other languages who do not understand English as well.
+I am a native Chinese speaker, and I have hosted or participated in translating a few mods into Chinese, including *NuclearCraft: Overhauled* and its addons, *The Undergarden*, *Farmer's Delight*, *Sushi Go Crafting*, *The Lord of the Rings* and others. In my translation experience, I noticed that many mods ignore, or even reject to internationalization. This greatly reduces gaming experience of non-English speakers who do not understand English well.
 
-A good mod should consider about localizing, and use no hardcode. If you are not a chauvinist, and you ever want your mod get localized, receive language files and be spread over non-native speakers of English while gaining more downloads, you should care about i18n.
+A good mod should consider about localizing, and use no hardcode. If you are not a Chauvinist, and you ever want your mod get localized, receive language files and be spread over non-native speakers of English while gaining more downloads, you should care about i18n.
 
 I will show examples of not obeying internationalizing standards enough. Most examples are in 1.12.2, but that does not matter. Some problems have been fixed, but most are not. All copyrights belongs to modders themselves, and I will delete them if with tort. There are endless examples, and these are just some drops in the ocean. The solutions listed here are not the final answer either. There are endless problems on the way making i18n, and no individual can solve them independently. I am just asking for some care for my language here.
 
@@ -14,11 +14,13 @@ I will show examples of not obeying internationalizing standards enough. Most ex
 
 ### Do Not Hardcode Strings
 
-All strings should be translatable. This includes all the item/block names ~~(no one would hardcode these, right?)~~, descriptions and tooltips, book/lore entries, GUI texts and all other strings.
+All strings should be translatable. This includes all the item/block names ~~(no one would try to hardcode these becuase of Forge, right?)~~, descriptions and tooltips, book/lore entries, GUI texts and all other strings.
 
 Examples of hardcoding tooltip:
 
 [*Sushi Go Crafting*](https://www.curseforge.com/minecraft/mc-mods/sushigocrafting)
+
+![](images/sushi_ingredient.png)
 
 [*Patchouli Guidebook*](https://www.curseforge.com/minecraft/mc-mods/patchouli) (hardcoding of ordinal numbers)
 
@@ -27,6 +29,8 @@ Examples of hardcoding tooltip:
 Example of hardcoding book/lore entries:
 
 [*The Lord of the Rings Legacy*](https://www.curseforge.com/minecraft/mc-mods/the-lord-of-the-rings-mod-legacy/) (not exactly hardcoding though, but no i18n)
+
+![](images/lotr_uncustomizable_text.png)
 
 Example of hardcoding GUI texts:
 
@@ -60,15 +64,19 @@ b. Invent a way to render formatted and localizable texts floating over the imag
 
 ### Do Not Hardcode Rules **Piecing Together Texts and Pluralizing Words**
 
-Each language has its own rule transforming words. `Iron Sword` in Spanish is "Sword of iron" (`Espada de hierro`; it has different sequence and capitalization of words), and in Chinese is "ironsword" (`铁剑`; there is lack of capitalization and space). It is unacceptable to most people seeing `de hierro Espada` and `铁 剑` as they are ugly or grammatically wrong. So you can not use text rules like `I18n.format(key_name_iron) + " " + I18n.format(key_name_sword)`.
+Each language has its own rule transforming words. `Iron Sword` in Spanish is "Sword of iron" (`Espada de hierro`; it has different sequence and capitalization of words), and in Chinese is "ironsword" (`铁剑`; there is lack of capitalization and space). It is unacceptable to most people seeing `de hierro Espada` and `铁 剑` as they are ugly or grammatically wrong. So you can not use text rules like `I18n.translateToLocal(key_name_iron) + " " + I18n.translateToLocal(key_name_sword)`.
 
-Example of ugly space:
+Example of space which should not exist:
 
-[*Tetra*](https://www.curseforge.com/minecraft/mc-mods/tetra)
+[*LibVulpes*](https://www.curseforge.com/minecraft/mc-mods/libvulpes) (already fixed in 2017)
+
+![](images/libvulpes_space.png)
 
 Example of unchangable pluralization:
 
 [*ToroQuest Revamped*](https://cursefire.com/minecraft/mc-mods/toroquest-revamped)
+
+![](images/toro_plural.png) (`绿宝石s` means "emerald**s**")
 
 Solution **?**:
 
@@ -145,21 +153,21 @@ Most books in Minecraft split a long string into lines by a half-width space: `-
 
 Examples not splitting Chinese texts correctly (the first line has no space, and the second one has space every 12 characters, which were added manually with RegEx; those spaces make localization workspaces messy):
 
-*[Botania](https://www.curseforge.com/minecraft/mc-mods/botania)* (solved in later Minecraft versions with *Patchouli Guidebook*, but never in 1.12.2)
+[*Botania*](https://www.curseforge.com/minecraft/mc-mods/botania) (solved in later Minecraft versions with *Patchouli Guidebook*, but never in 1.12.2)
 
-*[Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering)* (it splitted lines well, but with an overflowed amount of charcaters, it created a new line every time meeting a space)
+[*Immersive Engineering*](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering) (it splitted lines well, but with an overflowed amount of charcaters, it created a new line every time meeting a space)
 
 ![](images/immeng_line_splitting.jpg)
 
 Example and solution of showing locked researches in [*Thaumcraft*](https://www.curseforge.com/minecraft/mc-mods/thaumcraft):
 
-[*Thaumcraft Localization Optimizer](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-localization-optimizer)
+[*Thaumcraft Localization Optimizer*](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-localization-optimizer)
 
 **Solution:**
 
 a. Optimize your own renderer or use renderer by Minecraft.
 
-b. Ask players to install [WrapFix](https://www.curseforge.com/minecraft/mc-mods/wrapfix) or such third-party mods.
+b. Ask players to install [*WrapFix*](https://www.curseforge.com/minecraft/mc-mods/wrapfix) or such third-party mods.
 
 # Some Other Suggestions and Problems on I18n
 
@@ -167,19 +175,27 @@ b. Ask players to install [WrapFix](https://www.curseforge.com/minecraft/mc-mods
 
 Examples not changable via resource packs:
 
-[*ChromatiCraft*](https://www.curseforge.com/minecraft/mc-mods/chromaticraft)
+[*ChromatiCraft*](https://www.curseforge.com/minecraft/mc-mods/chromaticraft) (working as intended)
 
 [*The Lord of the Rings Legacy*](https://www.curseforge.com/minecraft/mc-mods/the-lord-of-the-rings-mod-legacy/)
 
 ## Ensure No Exceptions Happening
 
-### Definition Ratio and GUI Scale Problem
+### Definition Ratio and GUI Scale Problem of Unicode Font
 
 I guess this might happen when Unicode font is enabled, but I have not studied on this well.
 
 Example of unclear characters (both in Chinese and English):
 
 [*NuclearCraft Reactor Builder*](https://www.curseforge.com/minecraft/mc-mods/nuclearcraft-reactor-builder)
+
+![](images/ncrb_resolution.png)
+
+Example of not considering Unicode font:
+
+[*The Lord of the Rings Legacy*](https://www.curseforge.com/minecraft/mc-mods/the-lord-of-the-rings-mod-legacy/)
+
+![](images/lotr_unicode_font.png)
 
 ### Use UTF-8 without BOM Encoding
 
@@ -189,7 +205,9 @@ Example of not using UTF-8 and solution:
 
 [*Electroblob's Wizardry*](https://github.com/Electroblob77/Wizardry/pull/479)
 
-## Include ModID in Translation Keys
+![](images/electroblob_utf.png)
+
+## Add the ModID into Translation Keys
 
 If you do not, your keys are likely to conflict with other mods, and override those or get overrided by those. Some even conflict with vanilla Minecraft. If you are sure that your key will never conflict (such as `item.no.one.would.use.this.key.i.am.pretty.sure.sjkdsnxjakyxdnga.name`, then you can leave it behind.
 
@@ -202,3 +220,5 @@ Example of mod of key conflict and solution:
 Example of enumming:
 
 [*So Many Enchantments*](https://www.curseforge.com/minecraft/mc-mods/so-many-enchantments)
+
+![](images/sme_enum.png)
