@@ -1,4 +1,4 @@
-# Do Never Use Hardcode in I18n
+# Never Use Hardcode in I18n
 
 *Not finished yet. There's lack of many pictures*
 
