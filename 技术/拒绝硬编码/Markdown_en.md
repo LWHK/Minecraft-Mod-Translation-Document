@@ -155,9 +155,9 @@ Most books in Minecraft split a long string into lines by a half-width space: `-
 
 ![](images/patchouli_ordinal_number.png)
 
-[*Immersive Engineering*](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering) (it splitted lines well, but with an overflowed amount of charcaters, it created a new line every time meeting a space)
+[*Immersive Engineering*](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering) (fixed; it splitted lines well, but with an overflowed amount of charcaters, it created a new line every time meeting a space; [something like this](https://github.com/BluSunrize/ImmersiveEngineering/commit/de5ccd69710603e857781be4a83a17b7d6e9d88b) caused crash in Japanese too)
 
-![](images/immeng_line_splitting.png) (fixed; sorry for unclear image; [something like this](https://github.com/BluSunrize/ImmersiveEngineering/commit/de5ccd69710603e857781be4a83a17b7d6e9d88b) caused crash in Japanese too)
+![](images/immeng_line_splitting.png) (sorry for unclear image)
 
 #### Example and solution of showing locked researches in [*Thaumcraft*](https://www.curseforge.com/minecraft/mc-mods/thaumcraft)
 
