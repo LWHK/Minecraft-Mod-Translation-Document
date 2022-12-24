@@ -88,7 +88,7 @@ Solution **?**:
 
 ~~a~~. Add many keys which describe rule of piecing together strings for every type of tool, armor and so on, into all language files as described before, then call each of them. In this way, every type of item gets an independent rule piecing together texts, instead of sharing a common one. **BUT:**
 
-`Stone` `Pickaxe` and `Axe` have the same attributive word in English: `Stone`. But in Czech, there are two different "Stone": `Kamenný` and `Kamenná`, respectively before `krumpáč` (pickaxe) and `sekera` (axe). Also, `Chainmail Helmet` and `Iron Helmet` are both `Helmet` in English, but in German they are `Kettenhaube` and `Eisenhelm`. This solution cannot solve the problem of `Kettenhaube` and `Eisenhelm`. If you set a rule as `key.modid.text.rule.helmet` you will find no rule there matches both words in German.
+`Stone Pickaxe` and `Stone Axe` have the same attributive word in English: `Stone`. But in Czech, there are two different prefixes: `Kamenný` and `Kamenná`, respectively before `krumpáč` (pickaxe) and `sekera` (axe). Also, `Chainmail Helmet` and `Iron Helmet` are both `Helmet` in English, but in German they are `Kettenhaube` and `Eisenhelm`. This solution cannot solve the problem of `Kettenhaube` and `Eisenhelm`. If you set a rule as `key.modid.text.rule.helmet` you will find no rule there matches both words in German.
 
 I do not understand why the same word `Helmet` turns into different words `haube` and `helm`, and `Stone` turns into `Kamenný` and `Kamenná` either. Maybe because of grammar genders, maybe because of arrogant translators, but this problem exists anyway.
 
