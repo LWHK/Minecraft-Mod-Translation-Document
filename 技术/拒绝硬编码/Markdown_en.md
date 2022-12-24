@@ -34,11 +34,7 @@ Example of hardcoding GUI texts:
 
 [*The One Probe*](https://www.curseforge.com/minecraft/mc-mods/the-one-probe)
 
-![](images/top_no_tool.png)
-
-![](images/top_pickaxe.png)
-
-![](images/top_waiting.png)
+![](images/top_untranslatable.png)
 
 **Solution:**
 
@@ -161,7 +157,7 @@ Examples not splitting Chinese texts correctly (the first line has no space, and
 
 [*Immersive Engineering*](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering) (it splitted lines well, but with an overflowed amount of charcaters, it created a new line every time meeting a space)
 
-![](images/immeng_line_splitting.jpg)
+![](images/immeng_line_splitting.png) (fixed; sorry for unclear image; [something like this](https://github.com/BluSunrize/ImmersiveEngineering/commit/de5ccd69710603e857781be4a83a17b7d6e9d88b) caused crash in Japanese too)
 
 Example and solution of showing locked researches in [*Thaumcraft*](https://www.curseforge.com/minecraft/mc-mods/thaumcraft):
 
@@ -191,7 +187,7 @@ I guess this might happen when Unicode font is enabled, but I have not studied o
 
 Example of unclear characters:
 
-[*NuclearCraft Reactor Builder*](https://www.curseforge.com/minecraft/mc-mods/nuclearcraft-reactor-builder) (at the middle of the right there is the normal resolution on my device)
+[*NuclearCraft Reactor Builder*](https://www.curseforge.com/minecraft/mc-mods/nuclearcraft-reactor-builder) (with Chinese charatcers in the normal resolution on my device)
 
 ![](images/ncrb_resolution.png)
 
@@ -208,8 +204,6 @@ You can use `#PARSE_ESCAPES` in `.lang` files to get to [Java Properties](https:
 Example of not using UTF-8 and solution:
 
 [*Electroblob's Wizardry*](https://github.com/Electroblob77/Wizardry/pull/479)
-
-![](images/electroblob_utf.png)
 
 ## Add the ModID into Translation Keys
 
