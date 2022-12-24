@@ -1,18 +1,18 @@
 # Never Use Hardcode in I18n
 
-"Hardcoding" means you embed something, especially texts in this passage, into source code or otherwhere, where they are not changable through language file, resource packs, configuration or other files which are able to be easily customized.
+"Hardcoding" means to embed something, especially texts in this passage, into source code or otherwhere, where they are not changable through language file, resource packs, configuration or other files which are able to be easily customized by players or localizers.
 
-I am a native Chinese speaker, and I have hosted or participated in translating a few mods into Chinese, including *NuclearCraft: Overhauled* and its addons, *The Undergarden*, *Farmer's Delight*, *Sushi Go Crafting*, *The Lord of the Rings* and others. In my translation experience, I noticed that many mods ignore, or even reject to internationalization. This greatly reduces gaming experience of non-English speakers who do not understand English well.
+I am a native Chinese speaker, and I have hosted or participated in translating a few mods into Chinese, including *NuclearCraft: Overhauled* and its addons, *Sushi Go Crafting*, *The Lord of the Rings* and others. In my translating experience, I noticed that many mods ignore, or even reject to internationalization. This greatly reduces gaming experience of non-English speakers who do not understand English well.
 
-A good mod should consider about localizing, and use no hardcode. If you are not a Chauvinist, and you ever want your mod get localized, receive language files and be spread over non-native speakers of English while gaining more downloads, you should care about i18n.
+A good mod should care about localizing, and use no hardcode. If you are not a Chauvinist, you should consider about i18n. I18n makes players around the world able to share the same nice gaming experience, and it creates a more friendly environment of a mod.
 
-I will show examples of not obeying internationalizing standards enough. Most examples are in 1.12.2, but that does not matter. Some problems have been fixed, but most are not. All copyrights belongs to modders themselves, and I will delete them if with tort. There are endless examples, and these are just some drops in the ocean. The solutions listed here are not the final answer either. There are endless problems on the way making i18n, and no individual can solve them independently. I am just asking for some care for my language here.
+I will show some examples of not obeying i18n standards enough. Most examples are in 1.12.2, but that does not matter. Some problems have been fixed, but others are not. All copyrights belongs to modders themselves, and I will delete them if there is tort. These examples are just some drops in the ocean, amd the solutions listed here are not the final answer either. There are endless problems on the way making i18n, and no individual can solve them independently.
 
-## The Only Principle: **Do Not Hardcode ANYTHING**
+## The Only Principle: Do Not Hardcode ANYTHING
 
 ### Do Not Hardcode Strings
 
-All strings should be translatable. This includes all the item/block names ~~(no one would try to hardcode these becuase of Forge, right?)~~, descriptions and tooltips, book/lore entries, GUI texts and all other strings.
+All strings should be translatable. This includes all the item/block names ~~(no one is able to hardcode these becuase of *Forge*, right?)~~, descriptions and tooltips, book/lore entries, GUI texts and all other strings.
 
 #### Examples of hardcoding tooltip
 
@@ -38,13 +38,13 @@ All strings should be translatable. This includes all the item/block names ~~(no
 
 #### Solution
 
-a. Use `setTranslationKey()`, `I18n.format()`/`I18n.translateToLocal()`, `TextComponentTranslation()` or any other methods defined by Minecraft or yourself.
+a. Use `setTranslationKey()`, `I18n.format()`/`I18n.translateToLocal()`, `TextComponentTranslation()` or any other method defined by Minecraft or yourself.
 
-b. Use ICU4J when processing ordinal numbers or other regular strings.
+b. Use ICU4J to process ordinal numbers or other strings with regular transformation between languages. ICU4J is included in Minecraft.
 
-### Do Not Hardcode Texts **into** Pictures
+### Do Not Hardcode Texts into Pictures
 
-It's not unacceptable to embed texts into pictures, but please at least make them localizable, like what *Patchouli Guidebook* does for images in books.
+It's not unacceptable to embed texts into pictures, but you should at least make them localizable, like what *Patchouli Guidebook* does for images in books.
 
 #### Example of hardcodig text into picture
 
@@ -60,7 +60,7 @@ b. Invent a way to render formatted and localizable texts floating over the imag
 
 ### Do Not Hardcode Rules **Piecing Together Texts and Pluralizing Words**
 
-Each language has its own rule transforming words. `Iron Sword` in Spanish is "Sword of iron" (`Espada de hierro`; it has different sequence and capitalization of words), and in Chinese is "ironsword" (`铁剑`; there is lack of capitalization and space). It is unacceptable to most people seeing `de hierro Espada` and `铁 剑` as they are ugly or grammatically wrong. So you can not use text rules like `I18n.translateToLocal(key_name_iron) + " " + I18n.translateToLocal(key_name_sword)`.
+Each language has its own rule transforming words. `Iron Sword` in Spanish is "Sword of iron" (`Espada de hierro`; it has different sequence and capitalization of words), and in Chinese is "ironsword" (`铁剑`; there is lack of capitalization and space). It is unacceptable to most people seeing `de hierro Espada` and `铁 剑` as they are ugly or grammatically wrong. So you cannot use text rules like `I18n.translateToLocal(key_name_iron) + " " + I18n.translateToLocal(key_name_sword)`.
 
 #### Example of space which should not exist
 
@@ -76,7 +76,7 @@ Each language has its own rule transforming words. `Iron Sword` in Spanish is "S
 
 #### Solution *?*
 
-~~a~~. Add a key into all language files, such as `key.modid.text.rule=%1$s %2$s`, then use `String.format(I18n.translateToLocal("key.modid.text.rule"), I18n.translateToLocal(key_name_iron), I18n.translateToLocal(key_name_sword))`, so that Spanish localizers should be able to change the value to `%2$s %1$s` and so as `%s%s` for Chinese localizers. **BUT:**
+~~a~~. Add a key into all language files, such as `key.modid.text.rule=%1$s %2$s`, then use `String.format(I18n.translateToLocal("key.modid.text.rule"), I18n.translateToLocal(key_name_iron), I18n.translateToLocal(key_name_sword))`, so that Spanish localizers should be able to change the value to `%2$s %1$s` and so to Chinese localizers as `%s%s`. **BUT:**
 
 In Spanish, `(Material) Horse Armor` is actually `Armadura (material) para caballo`. This creates a problem to localizers: if you add `para caballo` into `key.modid.text.rule`, name of every tool or armor will contain `para caballo`; and if you add `para caballo` into the keys for materials, it will come to the same result.
 
@@ -84,13 +84,13 @@ In Spanish, `(Material) Horse Armor` is actually `Armadura (material) para cabal
 
 ~~a~~. Add many keys which describe rule of piecing together strings for every type of tool, armor and so on, into all language files as described before, then call each of them. In this way, every type of item gets an independent rule piecing together texts, instead of sharing a common one. **BUT:**
 
-`Stone Pickaxe` and `Stone Axe` have the same attributive word in English: `Stone`. But in Czech, there are two different prefixes: `Kamenný` and `Kamenná`, respectively before `krumpáč` (pickaxe) and `sekera` (axe). Also, `Chainmail Helmet` and `Iron Helmet` are both `Helmet` in English, but in German they are `Kettenhaube` and `Eisenhelm`. This solution cannot solve the problem of `Kettenhaube` and `Eisenhelm`. If you set a rule as `key.modid.text.rule.helmet` you will find no rule there matches both words in German.
+`Stone Pickaxe` and `Stone Axe` have the same attributive word in English: `Stone`. But in Czech, there are two different prefixes: `Kamenný` and `Kamenná`, respectively before `krumpáč` (pickaxe) and `sekera` (axe). Also, `Chainmail Helmet` and `Iron Helmet` are both `Helmet` in English, but in German they are `Kettenhaube` and `Eisenhelm`. This solution cannot solve the problem of Czech, German and other similar languages. If you set a rule as `key.modid.text.rule.helmet` you will find no rule there matches both words in German.
 
-I do not understand why the same word `Helmet` turns into different words `haube` and `helm`, and `Stone` turns into `Kamenný` and `Kamenná` either. Maybe because of grammar genders, maybe because translators chose to make them more detailed, but this problem exists anyway.
+I do not understand why the same word `Helmet` turns into different words `haube` and `helm`, or why `Stone` turns into `Kamenný` and `Kamenná`. Maybe that is because of grammar genders, or because translators chose to make names more detailed, but this problem exists anyway, so it has to be dealed with.
 
 #### Solution
 
-a. From *LibVulpes*: Introduce a function to check if there is a specific kind of key existing. If true, use its value as the string to output, else you simply piece strings together and output
+a. From *LibVulpes*: Introduce a function to check if there is a specific kind of key existing. If true, use its value as the of item name, else you simply piece strings together and output:
 
 ```java
 // Not completely true codes, only for demonstration
@@ -115,7 +115,7 @@ tile.libvulpes.ore.Steel=钢矿石 (not really)
 // Output: 钛齿轮, etc.
 ```
 
-This way of solution solves the problem very well and is highly recommended. In English and some other language files the workspace is still as clean as before, and in all languages the output item name is grammatically and visually correct. But if there is a need of generating strings from configuration files, and you have to piece strings from many places together, you can check this
+This way of solution solves the problem very well and is highly recommended. In English and some other language files the workspace is still as clean as before, and in all languages the item name is grammatically and visually correct in game. But if there is a need of generating strings from configuration files, and you have to piece strings from many places together, you can check this:
 
 b. From [*NuclearCraft: Overhauled*](https://www.curseforge.com/minecraft/mc-mods/nuclearcraft-overhauled): Introduce a key allowing localizer to customize the translating method in language file with `JS_ENGINE.eval()`. It is also easy for English itself to pluralize in this way, and it is highly recommended too.
 
@@ -139,19 +139,17 @@ nc.sf.conductor0=%s反应堆连接器
 // There is no plural form of nouns in Chinese
 ```
 
-This mod has other string formatter features, including logical process of `and`, `or` and `no`. It can deal with some forms of grammar genders also, as its customizable strings include both attributive and objective words.I believe you can learn much by reading [its code](https://github.com/tomdodd4598/NuclearCraft/blob/1.12.2o/src/main/java/nc/util/I18nHelper.java).
+This mod has other string formatter features, including logical process of `and`, `or` and `no`. It can deal with some forms of grammar genders also, as its customizable strings include both attributive and objective words. I believe you can learn much by reading [its code](https://github.com/tomdodd4598/NuclearCraft/blob/1.12.2o/src/main/java/nc/util/I18nHelper.java).
 
-Are these all above **enough**?
-
-Well, `سيف حديدي` is `Iron Sword` in South Africa Arabic, and it is written from right to left (RTL). With mixing this into a text, you do not know what is going to happen. I do not know either, though I know ICU4J has function to deal with this. Considering that there is currently not many localizations from RTL languages, and even Minecraft didn't make this well, this problem is complex and not that important. What is notable, is that there will always be exceptions in i18n and l10n, so the only way with completely no problem is allow localizers to change the whole string instead piecing some strings together.
+And are these all above **enough**? Well, `سيف حديدي` is `Iron Sword` in South Africa Arabic, and it is written from right to left (RTL). With mixing this into a text, you do not know what is going to happen. I do not know either, though I know ICU4J is designed to deal with this. Considering that there is currently not so many localizations from RTL languages, and even Minecraft didn't show RTL texts well, this problem is complex and not that important. What is notable, is that there will always be exceptions in i18n and l10n, so the only way with completely no problem, is to allow localizers to change the whole string instead piecing some strings together.
 
 ### Do Not Hardcode Text Process Mechanics
 
-Most books in Minecraft split a long string into lines by a half-width space: `-> <-`. But in Chinese and Japanese, there is no such space completely. So when processing some specific characters, you should consider about whether there is and whether it is used as you want in other languages. You may not choose the quotation mark `'` as a grammar symbol, because it is widely used in French such as `d'avoir`, and it would not be a good choice to make your renderer depend on punctuation marks because they work in different ways in different languages and some language may not have them: double quote `"` does not exist in Russian, and all half-width marks (such as `.`) are full-width (such as `。`) in Chinese and Japanese (for difference between half-width and full-width, you can check [Wikipedia](https://en.wikipedia.org/wiki/Halfwidth_and_fullwidth_forms)). Ironically, Minecraft itself supports full-width marks badly until these years, but that does not mean it is useless to consider about them: though supported not that good, they are still supported and exist in all texts in both languages, and there are also third-party full-width fix resource packs.
+Most books in Minecraft mods split a long string into lines by a half-width space: `-> <-`. But in Chinese and Japanese, there is no such space completely. So when processing any specific character, you should consider about whether there is such charatcer, and whether it is used as you thought in other languages. You may not choose the quotation mark `'` as a grammar symbol, because it is widely used in French such as `d'avoir`, and it would not be a good choice to make your renderer depend on punctuation marks because they work in different ways in different languages and some language may not have them: double quote `"` does not exist in Russian, and all half-width marks (such as `.`) are full-width (such as `。`) in Chinese and Japanese (for difference between half-width and full-width, you can check [Wikipedia](https://en.wikipedia.org/wiki/Halfwidth_and_fullwidth_forms)). Ironically, Minecraft itself supports full-width marks badly until recent years, but that does not mean it is useless to consider about them: though supported not that good, they are still supported and exist in texts, and there are also third-party resource packs fixed full-width problems.
 
-#### Examples not splitting Chinese texts correctly (the first line has no space, and the second one has space every 12 characters, which were added manually with RegEx; those spaces make localization workspaces messy)
+#### Examples not splitting Chinese texts correctly
 
-[*Botania*](https://www.curseforge.com/minecraft/mc-mods/botania) (solved in later Minecraft versions with *Patchouli Guidebook*, but never in 1.12.2)
+[*Botania*](https://www.curseforge.com/minecraft/mc-mods/botania) (solved in later Minecraft versions with *Patchouli Guidebook*, but never in 1.12.2; the first line has no space in file, and the second one has in-game invisible space every 12 characters, which were added manually or with RegEx; those spaces make localization workspaces messy and unmaintainable)
 
 ![](images/botania_line_splitting.png)
 
@@ -187,7 +185,8 @@ I guess this might happen when Unicode font is enabled, but I have not studied o
 
 #### Example of unclear characters
 
-[*NuclearCraft Reactor Builder*](https://www.curseforge.com/minecraft/mc-mods/nuclearcraft-reactor-builder) (with Chinese charatcers in the normal resolution on my device)
+[*NuclearCraft Reactor Builder*](https://www.curseforge.com/minecraft/mc-mods/nuclearcraft-reactor-builder) (with Chinese charatcers in the normal resolution on my device; obviously it contains some hardcode strings too
+)
 
 ![](images/ncrb_resolution.png)
 
