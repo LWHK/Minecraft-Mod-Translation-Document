@@ -54,9 +54,11 @@ Example of hardcodig text into picture:
 
 [*Arcane Archives*](https://www.curseforge.com/minecraft/mc-mods/arcane-archives)
 
+![](images/archives_image.png)
+
 **Solution:**
 
-a. Put resources into a folder named with language code such as `en_us`, and invent a way to hot-reload pictures when switching in languages (recommended), like *Patchouli Guidebook*.
+a. Put resources into a folder named with language code such as `en_us`, and invent a way to hot-reload pictures when switching to another language in game (recommended), like *Patchouli Guidebook*.
 
 b. Invent a way to render formatted and localizable texts floating over the image.
 
@@ -74,7 +76,7 @@ Example of unchangable pluralization:
 
 [*ToroQuest Revamped*](https://cursefire.com/minecraft/mc-mods/toroquest-revamped)
 
-![](images/toro_plural.png) (`绿宝石s` means "emerald**s**")
+![](images/toro_plural.png) (`绿宝石s` refers to "emerald**s**")
 
 Solution **?**:
 
@@ -84,7 +86,7 @@ Solution **?**:
 
 Solution **?**:
 
-~~b~~. Add many keys which describe rule of piecing together strings for every tool, armor and so on, into all language files as described before, then call each of them. In this way, every type of item gets an independent rule piecing together texts, instead of sharing a common one. **BUT:**
+~~a~~. Add many keys which describe rule of piecing together strings for every tool, armor and so on, into all language files as described before, then call each of them. In this way, every type of item gets an independent rule piecing together texts, instead of sharing a common one. **BUT:**
 
 This did not solve the problem of `Kettenhaube` and `Eisenhelm`. If you set a rule as `key.modid.text.rule.helmet` you will find there is no rule matches both word in German.
 
@@ -111,13 +113,13 @@ material.Steel.name=Steel
 tile.libvulpes.gear.Titanium=钛齿轮
 tile.libvulpes.gear.Steel=钢齿轮
 tile.libvulpes.ore.Titanium=钛矿石
-tile.libvulpes.ore.Steel=钢矿石 (such string will never be called actually)
+tile.libvulpes.ore.Steel=钢矿石 (not really)
 // Output: 钛齿轮, etc.
 ```
 
 This way of solution solves the problem very well and is highly recommended. In English and some other language files the workspace is still as clean as before, and in all languages the output item name is grammatically and visually correct. But if there is a need of generating strings from configuration files, and you have to piece strings from many places together, you can check this:
 
-b. From *NuclearCraft: Overhauled*: Introduce a key allowing localizer to customize the translating method in language file with `JS_ENGINE.eval()`. It is also easy for English itself to pluralize in this way, and it is highly recommended too.
+b. From [*NuclearCraft: Overhauled*](https://www.curseforge.com/minecraft/mc-mods/nuclearcraft-overhauled): Introduce a key allowing localizer to customize the translating method in language file with `JS_ENGINE.eval()`. It is also easy for English itself to pluralize in this way, and it is highly recommended too.
 
 ```java
 public static int getPluralRule(int count) throws ScriptException
@@ -152,6 +154,8 @@ Most books in Minecraft split a long string into lines by a half-width space: `-
 Examples not splitting Chinese texts correctly (the first line has no space, and the second one has space every 12 characters, which were added manually with RegEx; those spaces make localization workspaces messy):
 
 [*Botania*](https://www.curseforge.com/minecraft/mc-mods/botania) (solved in later Minecraft versions with *Patchouli Guidebook*, but never in 1.12.2)
+
+![](images/patchouli_ordinal_number.png)
 
 [*Immersive Engineering*](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering) (it splitted lines well, but with an overflowed amount of charcaters, it created a new line every time meeting a space)
 
@@ -197,7 +201,7 @@ Example of not considering Unicode font:
 
 ### Use UTF-8 without BOM Encoding
 
-You can use `#PARSE_ESCAPES` in `.lang` files to get to [Java Properties](https://docs.oracle.com/javase/8/docs/api/java/util/Properties.html#load-java.io.Reader) features.
+You can use `#PARSE_ESCAPES` in `.lang` files to get to [Java Properties](https://docs.oracle.com/javase/8/docs/api/java/util/Properties.html#load-java.io.Reader) features. If you do not use UTF-8 and call the default encoding of the client system, it might crash.
 
 Example of not using UTF-8 and solution:
 
@@ -207,7 +211,7 @@ Example of not using UTF-8 and solution:
 
 ## Add the ModID into Translation Keys
 
-If you do not, your keys are likely to conflict with other mods, and override those or get overrided by those. Some even conflict with vanilla Minecraft. If you are sure that your key will never conflict (such as `item.no.one.would.use.this.key.i.am.pretty.sure.sjkdsnxjakyxdnga.name`, then you can leave it behind.
+If you do not, your keys are likely to conflict with other mods, and override those or get overrided by those. Some even conflict with vanilla Minecraft. If you are sure that your key will never conflict (such as `item.no.one.would.use.this.key.i.am.pretty.sure.asdgdsafgasfd.name`), then you can leave it behind.
 
 Example of mod of key conflict and solution:
 
