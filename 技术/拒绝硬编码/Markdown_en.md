@@ -86,7 +86,7 @@ In Spanish, `(Material) Horse Armor` is actually `Armadura (material) para cabal
 
 `Stone Pickaxe` and `Stone Axe` have the same attributive word in English: `Stone`. But in Czech, there are two different prefixes: `Kamenný` and `Kamenná`, respectively before `krumpáč` (pickaxe) and `sekera` (axe). Also, `Chainmail Helmet` and `Iron Helmet` are both `Helmet` in English, but in German they are `Kettenhaube` and `Eisenhelm`. This solution cannot solve the problem of `Kettenhaube` and `Eisenhelm`. If you set a rule as `key.modid.text.rule.helmet` you will find no rule there matches both words in German.
 
-I do not understand why the same word `Helmet` turns into different words `haube` and `helm`, and `Stone` turns into `Kamenný` and `Kamenná` either. Maybe because of grammar genders, maybe because of arrogant translators, but this problem exists anyway.
+I do not understand why the same word `Helmet` turns into different words `haube` and `helm`, and `Stone` turns into `Kamenný` and `Kamenná` either. Maybe because of grammar genders, maybe because translators chose to make them more detailed, but this problem exists anyway.
 
 #### Solution
 
