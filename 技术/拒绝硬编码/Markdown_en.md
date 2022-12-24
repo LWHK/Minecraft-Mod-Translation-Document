@@ -185,9 +185,9 @@ Examples not changable via resource packs:
 
 I guess this might happen when Unicode font is enabled, but I have not studied on this well.
 
-Example of unclear characters (both in Chinese and English):
+Example of unclear characters:
 
-[*NuclearCraft Reactor Builder*](https://www.curseforge.com/minecraft/mc-mods/nuclearcraft-reactor-builder)
+[*NuclearCraft Reactor Builder*](https://www.curseforge.com/minecraft/mc-mods/nuclearcraft-reactor-builder) (at the middle of the right there is the normal resolution on my device)
 
 ![](images/ncrb_resolution.png)
 
