@@ -153,7 +153,7 @@ Most books in Minecraft split a long string into lines by a half-width space: `-
 
 [*Botania*](https://www.curseforge.com/minecraft/mc-mods/botania) (solved in later Minecraft versions with *Patchouli Guidebook*, but never in 1.12.2)
 
-![](images/patchouli_ordinal_number.png)
+![](images/botania_line_splitting.png)
 
 [*Immersive Engineering*](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering) (fixed; it splitted lines well, but with an overflowed amount of charcaters, it created a new line every time meeting a space; [something like this](https://github.com/BluSunrize/ImmersiveEngineering/commit/de5ccd69710603e857781be4a83a17b7d6e9d88b) caused crash in Japanese too)
 
