@@ -1,7 +1,5 @@
 # Never Use Hardcode in I18n
 
-*Not finished yet. There's lack of many pictures*
-
 "Hardcoding" means you embed something, especially texts in this passage, into source code or otherwhere, where they are not changable through language file, resource packs, configuration or other files which are able to be easily customized.
 
 I am a native Chinese speaker, and I have hosted or participated in translating a few mods into Chinese, including *NuclearCraft: Overhauled* and its addons, *The Undergarden*, *Farmer's Delight*, *Sushi Go Crafting*, *The Lord of the Rings* and others. In my translation experience, I noticed that many mods ignore, or even reject to internationalization. This greatly reduces gaming experience of non-English speakers who do not understand English well.
