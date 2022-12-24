@@ -82,13 +82,15 @@ Solution **?**:
 
 ~~a~~. Add a key into all language files, such as `key.modid.text.rule=%1$s %2$s`, then use `String.format(I18n.translateToLocal("key.modid.text.rule"), I18n.translateToLocal(key_name_iron), I18n.translateToLocal(key_name_sword))`, so that Spanish localizers should be able to change the value to `%2$s %1$s` and so as `%s%s` for Chinese localizers. **BUT:**
 
-`Chainmail Helmet` and `Iron Helmet` are both `Helmet`, but in German they are `Kettenhaube` and `Eisenhelm`, where `Helmet` turned into `haube` and `helm`, this is determined by their grammar genders: `haube` is feminine, and `helm` is masculine.
+In Spanish, `(Material) Horse Armor` is actually `Armadura (material) para caballo`. This creates a problem to localizers: if you add `para caballo` into `key.modid.text.rule`, name of every tool or armor will contain `para caballo`; and if you add `para caballo` into the keys for materials, it will come to the same result.
 
 Solution **?**:
 
-~~a~~. Add many keys which describe rule of piecing together strings for every tool, armor and so on, into all language files as described before, then call each of them. In this way, every type of item gets an independent rule piecing together texts, instead of sharing a common one. **BUT:**
+~~a~~. Add many keys which describe rule of piecing together strings for every type of tool, armor and so on, into all language files as described before, then call each of them. In this way, every type of item gets an independent rule piecing together texts, instead of sharing a common one. **BUT:**
 
-This did not solve the problem of `Kettenhaube` and `Eisenhelm`. If you set a rule as `key.modid.text.rule.helmet` you will find there is no rule matches both word in German.
+`Stone` `Pickaxe` and `Axe` have the same attributive word in English: `Stone`. But in Czech, there are two different "Stone": `Kamenný` and `Kamenná`, respectively before `krumpáč` (pickaxe) and `sekera` (axe). Also, `Chainmail Helmet` and `Iron Helmet` are both `Helmet` in English, but in German they are `Kettenhaube` and `Eisenhelm`. This solution cannot solve the problem of `Kettenhaube` and `Eisenhelm`. If you set a rule as `key.modid.text.rule.helmet` you will find no rule there matches both words in German.
+
+I do not understand why the same word `Helmet` turns into different words `haube` and `helm`, and `Stone` turns into `Kamenný` and `Kamenná` either. Maybe because of grammar genders, maybe because of arrogant translators, but this problem exists anyway.
 
 **Solution:**
 
