@@ -46,21 +46,46 @@ git rebase -i head~/commit ID
 
 翻译文件是指把**值**翻译掉，而不是**键**
 
-WuzgXY 2022-01-10 23:59:11
-建议再随手写一篇讲解翻译原理的，顺带着把各种问题讲了，比如撞 key、模组更新 key 导致失效等等
+撞 key、模组更新 key 导致失效
 
-WuzgXY 2022-01-11 0:01:34
-好写得很，实践检验多少次了都
-还有 Minecraft 1.15 之后的更新机制、Minecraft 加载语言文件时会汇总所有的 key 与 value 所以写哪都可以、#PARSE_ESCAPE 等等
-实践之 NCO
+Minecraft 1.15 之后的更新机制、Minecraft 加载语言文件时会汇总所有的 key 与 value 所以写哪都可以
 
+实践之 NCO 拼合
 
-1. 如何处理硬编码问题
-2. 如何处理因键中不含 ModID 出现的冲突问题
 i18n.format("") 与 ==============================
 
 ## 《积累》
 
 ### 翻译理论
 
-优化
+优化细化
+
+## 资源
+
+标签化。加描述。
+
+### 工具
+
+- [Saladict 沙拉查词](https://saladict.crimx.com/)
+- [Minecraft Mods Translator](https://github.com/Maz-T/Minecraft-Mods-Translator) - 简易 CAT 工具。
+- [汉化小工具](https://tt.nullpointer.icu/) - LANG 转 JSON，JSON 更新，JSON 补全。
+- [Octotree](https://www.octotree.io/) - 树型展示 GitHub 项目文件结构，懒加载，独立收藏系统。
+
+### 词典
+
+- [剑桥词典](https://dictionary.cambridge.org/zhs/%E8%AF%8D%E5%85%B8/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/)丨[谷歌词典](https://chrome.google.com/webstore/detail/google-dictionary-by-goog/mgijmajocgfcbeboacabfgobmjgjcoja?hl=zh-CN)
+- [词源在线](https://www.etymonline.com/cn)
+
+### MC 相关翻译资源
+
+- [Minecraft Wiki:译名标准化](https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki:%E8%AF%91%E5%90%8D%E6%A0%87%E5%87%86%E5%8C%96) - 原版词汇中英对照。
+- [Minecraft Wiki:译名标准化/历史](https://minecraft.fandom.com/zh/wiki/Minecraft_Wiki:%E8%AF%91%E5%90%8D%E6%A0%87%E5%87%86%E5%8C%96/%E5%8E%86%E5%8F%B2) - 原版词汇变更历史。
+- [Minecraft 模组翻译参考词典](https://dict.mcmod.cn/) - 以英文检索本仓库中的翻译条目。
+- [MCBBS 的翻译讨论](https://www.mcbbs.net/forum.php?mod=forumdisplay&fid=1015&page=1&filter=typeid&typeid=2250) - 原版翻译讨论、投票、公告。
+- [MC百科社群的翻译讨论](https://bbs.mcmod.cn/forum.php?mod=forumdisplay&fid=31&filter=typeid&typeid=116) - 模组翻译讨论，零散汉化发布。
+
+### 其他
+
+- [术语在线](https://www.termonline.cn/index) - 全国科学技术名词审定委员会审定的术语。
+- [CNKI 翻译助手](https://dict.cnki.net/index) - 学科词典聚合和机器翻译。
+- [WantWords 反向词典](https://wantwords.net/) - 寻找相似词，词穷拯救者。
