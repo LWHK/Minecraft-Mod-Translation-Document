@@ -38,7 +38,7 @@ All strings should be translatable. This includes all the item/block names ~~(no
 
 #### Solution
 
-a. Use `setTranslationKey()`, `I18n.format()`/`I18n.translateToLocal()`, `TextComponentTranslation()` or any other method defined by Minecraft or yourself.
+a. Use `setTranslationKey()`, `I18n.format()`~~/`I18n.translateToLocal()`~~, `TextComponentTranslation()` or any other method defined by Minecraft or yourself.
 
 b. Use ICU4J to process ordinal numbers or other strings with regular transformation between languages. ICU4J is included in Minecraft.
 
@@ -60,7 +60,7 @@ b. Invent a way to render formatted and localizable texts floating over the imag
 
 ### Do Not Hardcode Rules **Piecing Together Texts and Pluralizing Words**
 
-Each language has its own rule transforming words. `Iron Sword` in Spanish is "Sword of iron" (`Espada de hierro`; it has different sequence and capitalization of words), and in Chinese is "ironsword" (`铁剑`; there is lack of capitalization and space). It is unacceptable to most people seeing `de hierro Espada` and `铁 剑` as they are ugly or grammatically wrong. So you cannot use text rules like `I18n.translateToLocal(key_name_iron) + " " + I18n.translateToLocal(key_name_sword)`.
+Each language has its own rule transforming words. `Iron Sword` in Spanish is "Sword of iron" (`Espada de hierro`; it has different sequence and capitalization of words), and in Chinese is "ironsword" (`铁剑`; there is lack of capitalization and space). It is unacceptable to most people seeing `de hierro Espada` and `铁 剑` as they are ugly or grammatically wrong. So you cannot use text rules like `I18n.format(key_name_iron) + " " + I18n.format(key_name_sword)`.
 
 #### Example of space which should not exist
 
@@ -76,7 +76,7 @@ Each language has its own rule transforming words. `Iron Sword` in Spanish is "S
 
 #### Solution *?*
 
-~~a~~. Add a key into all language files, such as `key.modid.text.rule=%1$s %2$s`, then use `String.format(I18n.translateToLocal("key.modid.text.rule"), I18n.translateToLocal(key_name_iron), I18n.translateToLocal(key_name_sword))`, so that Spanish localizers should be able to change the value to `%2$s %1$s` and so to Chinese localizers as `%s%s`. **BUT:**
+~~a~~. Add a key into all language files, such as `key.modid.text.rule=%1$s %2$s`, then use `String.format(I18n.format("key.modid.text.rule"), I18n.format(key_name_iron), I18n.format(key_name_sword))`, so that Spanish localizers should be able to change the value to `%2$s %1$s` and so to Chinese localizers as `%s%s`. **BUT:**
 
 In Spanish, `(Material) Horse Armor` is actually `Armadura (material) para caballo`. This creates a problem to localizers: if you add `para caballo` into `key.modid.text.rule`, name of every tool or armor will contain `para caballo`; and if you add `para caballo` into the keys for materials, it will come to the same result.
 
@@ -97,8 +97,8 @@ a. From *LibVulpes*: Introduce a function to check if there is a specific kind o
 
 String translate = "tile." + MODID + "." + itemType + "." + material + ".name";
 if (I18n.canTranslate(translate))
-    return I18n.translateToLocal(translate);
-return ("" + I18n.translateToLocal("material." + material + ".name") + " " + I18n.translateToLocal("type." + itemType + ".name")).trim();
+    return I18n.format(translate);
+return ("" + I18n.format("material." + material + ".name") + " " + I18n.format("type." + itemType + ".name")).trim();
 
 // en_us.lang
 type.gear.name=Gear
