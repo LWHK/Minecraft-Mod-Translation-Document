@@ -10,13 +10,13 @@
 
 https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md 这个是不是能删掉啊
 
-### 图床改为 GitHub
+### 图
 
 img alt/height/width 皆可引入
 
 ### 翻译团体一节的优化
 
-### 如何以“裂文唬客”的风格 review 及需要注意的内容
+### 如何以“裂文”、“唬客”的风格 review 及需要注意的内容
 
 #### 怎么揪机翻
 
@@ -48,7 +48,7 @@ git rebase -i head~/commit ID
 
 撞 key、模组更新 key 导致失效
 
-Minecraft 1.15 之后的更新机制、Minecraft 加载语言文件时会汇总所有的 key 与 value 所以写哪都可以
+Minecraft 1.15 之后的更新机制、Minecraft 加载语言文件时会汇总所有的 key 与 value 所以写哪都可以（讲一下第三方万用包）
 
 实践之 NCO 拼合
 

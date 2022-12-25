@@ -10,9 +10,9 @@
 
 扬弃[旧指南](https://github.com/Krasjet/Mod-Translation-Styleguide)
 
-扬弃[旧指南译名表](https://github.com/Krasjet/Mod-Translation-Styleguide/blob/master/glossary.md)
-
 ## 具体工具
+
+扬弃[旧指南译名表](https://github.com/Krasjet/Mod-Translation-Styleguide/blob/master/glossary.md)
 
 [English Tools](https://www.englishtools.org/zh-cn/english-words-that-contain-letters)
 
