@@ -9,23 +9,23 @@
   - [词典与网站](#词典与网站)
   - [进阶小技巧](#进阶小技巧)
 - [汉化提交途径](#汉化提交途径)
-  - [通过 GitHub](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-github)
-    - [GitHub 入门](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#github-%E5%85%A5%E9%97%A8)
+  - [通过 GitHub](#%E9%80%9A%E8%BF%87-github)
+    - [GitHub 入门](#github-%E5%85%A5%E9%97%A8)
       - [注册账号](#注册账号)
       - [相关概念与工作流程](#相关概念与工作流程)
         - [Fork](#Fork)
-        - [将仓库 clone 到本地（可选，较为重要）](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81)
-        - [Pull request](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#pull-request)
+        - [将仓库 clone 到本地（可选，较为重要）](#clone)
+        - [Pull request](#pull-request)
         - [Review](#Review)
         - [与原仓库同步](#与原仓库同步)
-    - [向官方仓库提交](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E5%90%91%E5%AE%98%E6%96%B9%E4%BB%93%E5%BA%93%E6%8F%90%E4%BA%A4)
-    - [向 CFPA 提交](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E5%90%91-cfpa-%E6%8F%90%E4%BA%A4)
-      - [CFPA 仓库地址以及项目存放位置](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)
-    - [通过 GitHub 建立翻译团体并进行翻译管理](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-github-%E5%BB%BA%E7%AB%8B%E7%BF%BB%E8%AF%91%E5%9B%A2%E4%BD%93%E5%B9%B6%E8%BF%9B%E8%A1%8C%E7%BF%BB%E8%AF%91%E7%AE%A1%E7%90%86)
-  - [通过 Weblate](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-weblate)
-  - [通过 CurseForge 或其他途径](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-curseforge-%E6%88%96%E5%85%B6%E4%BB%96%E9%80%94%E5%BE%84)
+    - [向官方仓库提交](#%E5%90%91%E5%AE%98%E6%96%B9%E4%BB%93%E5%BA%93%E6%8F%90%E4%BA%A4)
+    - [向 CFPA 提交](#%E5%90%91-cfpa-%E6%8F%90%E4%BA%A4)
+      - [CFPA 仓库地址以及项目存放位置](#cfpa)
+    - [通过 GitHub 建立翻译团体并进行翻译管理](#%E9%80%9A%E8%BF%87-github-%E5%BB%BA%E7%AB%8B%E7%BF%BB%E8%AF%91%E5%9B%A2%E4%BD%93%E5%B9%B6%E8%BF%9B%E8%A1%8C%E7%BF%BB%E8%AF%91%E7%AE%A1%E7%90%86)
+  - [通过 Weblate](#%E9%80%9A%E8%BF%87-weblate)
+  - [通过 CurseForge 或其他途径](#%E9%80%9A%E8%BF%87-curseforge-%E6%88%96%E5%85%B6%E4%BB%96%E9%80%94%E5%BE%84)
 - [一些注意事项](#一些注意事项)
-  - [每天一个机翻小技巧，有手就能学废](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%9C%BA%E7%BF%BB%E5%B0%8F%E6%8A%80%E5%B7%A7%E6%9C%89%E6%89%8B%E5%B0%B1%E8%83%BD%E5%AD%A6%E5%BA%9F)
+  - [每天一个机翻小技巧，有手就能学废](#%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%9C%BA%E7%BF%BB%E5%B0%8F%E6%8A%80%E5%B7%A7%E6%9C%89%E6%89%8B%E5%B0%B1%E8%83%BD%E5%AD%A6%E5%BA%9F)
   - [语言文件格式](#语言文件格式)
   - [复杂文本格式翻译](#复杂文本格式翻译)
   - [意外情况](#意外情况)
@@ -33,7 +33,7 @@
       - [完全不加载](#完全不加载)
       - [部分不加载](#部分不加载)
     - [文字乱码](#文字乱码)
-- [本文格式指引](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E6%9C%AC%E6%96%87%E6%A0%BC%E5%BC%8F%E6%8C%87%E5%BC%95%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98)
+- [本文格式指引](#%E6%9C%AC%E6%96%87%E6%A0%BC%E5%BC%8F%E6%8C%87%E5%BC%95%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98)
 
 ## 前言
 
@@ -62,7 +62,7 @@
 
 然而讲完了这些，本篇教程和“具体文本**如何翻译**”的关联也就到此为止。如何翻译一个句子、一个词，这些不在本文的指导范围之内，该类指导可在本仓库他处查看。当今义务教育制度普及良好，如果你因为年龄不大而翻译得很烂，你还有很多机会接受更好的教育以及自我训练。本文真正希望解决的是那些类似于“**如何投交汉化文本**”以及“**除了自身的翻译水准，成为一个合格的 Minecraft 模组翻译者还需要学会哪些技能**”，甚至只是“**我对翻译有兴趣，我应该做哪些准备**”的问题。
 
-如果你只是对翻译有兴趣，想看看翻译需要做哪些准备，同时也有些怕麻烦，仅看前面两章（[找到语言文件](#找到语言文件)和[搭建工作区域](#搭建工作区域)）即可。当然，最后一章[关于机翻的部分](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%9C%BA%E7%BF%BB%E5%B0%8F%E6%8A%80%E5%B7%A7%E6%9C%89%E6%89%8B%E5%B0%B1%E8%83%BD%E5%AD%A6%E5%BA%9F)也应看看，尽可能避免出这种问题。此后，你可以根据兴趣决定是否继续阅读。
+如果你只是对翻译有兴趣，想看看翻译需要做哪些准备，同时也有些怕麻烦，仅看前面两章（[找到语言文件](#找到语言文件)和[搭建工作区域](#搭建工作区域)）即可。当然，最后一章[关于机翻的部分](#%E6%AF%8F%E5%A4%A9%E4%B8%80%E4%B8%AA%E6%9C%BA%E7%BF%BB%E5%B0%8F%E6%8A%80%E5%B7%A7%E6%9C%89%E6%89%8B%E5%B0%B1%E8%83%BD%E5%AD%A6%E5%BA%9F)也应看看，尽可能避免出这种问题。此后，你可以根据兴趣决定是否继续阅读。
 
 如果你想要认真参与或已经开始了社区的翻译工作，但仍觉得自己的专业性有待提高，那么你可以看看其他章节。掌握了 GitHub 的相关技巧，你就可以更加专业地管理你自己的长期翻译项目甚至与他人合作处理同一项目了。
 
@@ -88,7 +88,7 @@
 
 ![剪贴板图片 _2_.jpg](images/Drq6WykR9pYsfJ1.jpg)
 
-1 是英文的语言文件，而 2 是中文的语言文件，如果没有 2，就基本说明了这个模组没有中文的翻译（例外：1.12.2、1.16 和 1.18 的情况下有可能 CFPA 有而模组本体没有，为防撞车请见[下文](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)），你便可以开始按其英语文本翻译了。翻译完成后，把包含翻译的文件改名为图中 2 的名称，也就是 `zh_cn.lang`，然后再将其放进上述的目录。这样，理论上讲你就能在游戏里读取到翻译了！
+1 是英文的语言文件，而 2 是中文的语言文件，如果没有 2，就基本说明了这个模组没有中文的翻译（例外：1.12.2、1.16 和 1.18 的情况下有可能 CFPA 有而模组本体没有，为防撞车请见[下文](#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)），你便可以开始按其英语文本翻译了。翻译完成后，把包含翻译的文件改名为图中 2 的名称，也就是 `zh_cn.lang`，然后再将其放进上述的目录。这样，理论上讲你就能在游戏里读取到翻译了！
 
 如果这是你的第一份翻译，请先查看其他已汉化模组的语言文件，对照着中文与英文文件查看具体应该替换的部分（即：应当翻译键值而非键名）。在 1.12.2 中，语言文件为 `.lang` 文件，但在 1.12.2 以上的版本中，则是 `.json` 文件。这一部分详见[格式规范](../规范/Markdown.md)。
 
@@ -204,7 +204,7 @@
 3. 通过 CFPA 工单系统
 4. 通过 CurseForge 或其他途径
 
-如果你作为一个新手，确实想要参与到翻译工作中，最好直接阅读[通过 Weblate](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-weblate) 一节，因为 CFPA 搭建的 Weblate 平台本身就是为新手设计的，使用它可以方便、快捷地进行翻译，不要浪费了 943 的一片良苦用心。
+如果你作为一个新手，确实想要参与到翻译工作中，最好直接阅读[通过 Weblate](#%E9%80%9A%E8%BF%87-weblate) 一节，因为 CFPA 搭建的 Weblate 平台本身就是为新手设计的，使用它可以方便、快捷地进行翻译，不要浪费了 943 的一片良苦用心。
 
 如果你只是想单纯地为自己或周围的人进行汉化，那么提交汉化是完全没有必要的。我们曾见过一个人只为了自己和朋友能看就把一个模组机翻后交给原作者，我认为这种行为相当不妥，首先机翻本身就没有值得赞赏的点，而你甚至在意识到了它不妥的情况下仍然把机翻文本交给作者，这不是什么好的行为。
 
@@ -314,9 +314,9 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 注意这里的用词，“变成**你的**”意味着你对于这个仓库有着完全的控制权，包括删除仓库，所以修改你自己的仓库也自然不在话下了。
 
-如果仍然未能理解这部分内容，请务必自行搜索并弄通这部分的概念与含义，因为此后的诸多行为都要以这部分为基础，如果未理解就去接着进行翻译工作很有可能误操作。建议阅读[《Git 工作流指南》](https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorials)当中的 [fork](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/workflow-forking.md) 与 [pull request](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/pull-request.md)（见下面的 [pull request](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#pull-request)）两节。
+如果仍然未能理解这部分内容，请务必自行搜索并弄通这部分的概念与含义，因为此后的诸多行为都要以这部分为基础，如果未理解就去接着进行翻译工作很有可能误操作。建议阅读[《Git 工作流指南》](https://github.com/oldratlee/translations/tree/master/git-workflows-and-tutorials)当中的 [fork](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/workflow-forking.md) 与 [pull request](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/pull-request.md)（见下面的 [pull request](#pull-request)）两节。
 
-<a name="%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81">_**将仓库 clone 到本地（可选，较为重要）**_</a>（[本节链接](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E5%B0%86%E4%BB%93%E5%BA%93-clone-%E5%88%B0%E6%9C%AC%E5%9C%B0%E5%8F%AF%E9%80%89%E8%BE%83%E4%B8%BA%E9%87%8D%E8%A6%81)）
+<a name="clone">_**将仓库 clone 到本地（可选，较为重要）**_</a>（[本节链接](#clone)）
 
 在你同时参与了多个项目的汉化之后，你会遇到一个严峻的事实：一旦作者们更新勤奋，每天打开浏览器、登上 GitHub 时，你就得开始手忙脚乱的跳网页、找位置了。打开自己的仓库、做好跟进、发 pull request，等等，这有时候要你开四五个页面，才能开到你想要的那个仓库位置。一个仓库还好，如果有十多个乃至更多，那就太累人了；此外 GitHub 网页版在部分地区的加载速度并不快。
 
@@ -349,7 +349,7 @@ GitHub 没有国际化支持，不懂英文将寸步难行，因此请英语水�
 
 如果你并不想花时间熟悉 GitHub 桌面版的操作，你可以简单地将需要跟进汉化的仓库添加至浏览器的书签栏，这样也可以在一定程度上提高效率。但是应注意，如果你参与了帕秋莉手册或其他多目录多文本的翻译工作，使用网页端进行翻译是相当不明智的，因为巨量的页面变动将会让你感到手忙脚乱。
 
-<a name="pull-request">**_Pull request_**</a>（[本节链接](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#pull-request)）
+<a name="pull-request">**_Pull request_**</a>（[本节链接](#pull-request)）
 
 什么是 **pull request**？
 
@@ -495,7 +495,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 自动汉化更新模组的提交途径是我们最推荐新手使用的，因为这里的维护者会帮你 review（逃）。提交手段与上述的并无二致，唯一要注意的是文件存放的位置。**注意：CFPA 仅支持 1.12.2 和 1.16 两个版本。**
 
-<a name="cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE">**[CFPA 仓库地址](https://github.com/CFPAOrg/Minecraft-mod-Language-Package)以及项目存放位置**</a>（[本节链接](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#cfpa-%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80%E4%BB%A5%E5%8F%8A%E9%A1%B9%E7%9B%AE%E5%AD%98%E6%94%BE%E4%BD%8D%E7%BD%AE)）
+<a name="cfpa">**[CFPA 仓库地址](https://github.com/CFPAOrg/Minecraft-mod-Language-Package)以及项目存放位置**</a>（[本节链接](#cfpa)）
 
 进入仓库后，你会发现成吨已经汉化过的项目（感谢各位的辛勤付出！），你需要将你的文件上传至此处，但你必须适当的存放你的文件。还记得第一节中的模组的压缩包结构吗？assets\ModID\lang，你会发现这里的每个项目都不是这样存放的，这里文本的存放位置下面有描述。
 
@@ -541,7 +541,7 @@ GitHub 有一个 organization 的设定，单击右上角的加号可以发起�
 
 顾名思义，在作者不开源的情况下，你必须向作者私信汉化文本（注意：最好以文件形式发送！）。如果你的位置在中国大陆以外，你可以使用 Twitter 或 Discord 等内容与作者取得联系；如果你在大陆内而没能找到其他路径向作者发送文件，你将只能使用 CurseForge 自身的私信（又称 PM 或 DM）功能来发送文件。
 
-如果需要以本节提到的内容进行提交，并且你也有一个所属的翻译团体（CFPA 例外），你可以先将汉化文本以 pull request 的形式交至自己团体的库中让大家一起看一眼，顺便弄个 review 再将文件发给作者。这点将会在[通过 GitHub 建立翻译团体并进行翻译管理](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#%E9%80%9A%E8%BF%87-github-%E5%BB%BA%E7%AB%8B%E7%BF%BB%E8%AF%91%E5%9B%A2%E4%BD%93%E5%B9%B6%E8%BF%9B%E8%A1%8C%E7%BF%BB%E8%AF%91%E7%AE%A1%E7%90%86)一节详细描述。
+如果需要以本节提到的内容进行提交，并且你也有一个所属的翻译团体（CFPA 例外），你可以先将汉化文本以 pull request 的形式交至自己团体的库中让大家一起看一眼，顺便弄个 review 再将文件发给作者。这点将会在[通过 GitHub 建立翻译团体并进行翻译管理](#%E9%80%9A%E8%BF%87-github-%E5%BB%BA%E7%AB%8B%E7%BF%BB%E8%AF%91%E5%9B%A2%E4%BD%93%E5%B9%B6%E8%BF%9B%E8%A1%8C%E7%BF%BB%E8%AF%91%E7%AE%A1%E7%90%86)一节详细描述。
 
 ## 一些注意事项
 
@@ -651,6 +651,6 @@ https://github.com/LWHK/LWHK-Simplified-Chinese-Translation/commit/0c8a8914f5f01
 
 #### 本文格式指引（四级标题）
 
-<a name="apapapapapap">**本文格式指引（五级标题）**</a>（[本节链接](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#apapapapapap)）
+<a name="apapapapapap">**本文格式指引（五级标题）**</a>（[本节链接](#apapapapapap)）
 
-<a name="alalalalal">**_本文格式指引（六级标题）_**</a>（[本节链接](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md#alalalalal)）
+<a name="alalalalal">**_本文格式指引（六级标题）_**</a>（[本节链接](#alalalalal)）
