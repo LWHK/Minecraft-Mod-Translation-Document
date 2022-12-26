@@ -38,7 +38,7 @@ All strings should be translatable. This includes all the item/block names ~~(no
 
 #### Solution
 
-a. Use `setTranslationKey()`, `I18n.format()`~~/`I18n.translateToLocal()`~~, `TextComponentTranslation()` or any other method defined by Minecraft or yourself.
+a. Use `setTranslationKey()`, `I18n.format()`~~/`I18n.translateToLocal()` (not after 1.12.2)~~, `TextComponentTranslation()` or any other method defined by Minecraft or yourself.
 
 b. Use ICU4J to process ordinal numbers or other strings with regular transformation between languages. ICU4J is included in Minecraft.
 
