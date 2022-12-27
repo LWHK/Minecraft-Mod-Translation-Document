@@ -12,13 +12,13 @@
 
 该指南所涉甚广，具有一定价值，但如下几条或需改进：
 
+https://github.com/Krasjet/Mod-Translation-Styleguide/blob/52c8c18c32da9564cad9e85c047023edafcbf49b/README.md?plain=1#L61-L71 （与原版相冲突）
+
 https://github.com/Krasjet/Mod-Translation-Styleguide/blob/52c8c18c32da9564cad9e85c047023edafcbf49b/README.md?plain=1#L96-L99
 
 https://github.com/Krasjet/Mod-Translation-Styleguide/blob/52c8c18c32da9564cad9e85c047023edafcbf49b/README.md?plain=1#L112 （与 CFPA 的存在相冲突）
 
 https://github.com/Krasjet/Mod-Translation-Styleguide/blob/52c8c18c32da9564cad9e85c047023edafcbf49b/README.md?plain=1#L116
-
-https://github.com/Krasjet/Mod-Translation-Styleguide/blob/52c8c18c32da9564cad9e85c047023edafcbf49b/README.md?plain=1#L61-L71
 
 ## 具体工具
 
