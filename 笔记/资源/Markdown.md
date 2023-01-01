@@ -10,7 +10,7 @@
 
 扬弃[旧指南](https://github.com/Krasjet/Mod-Translation-Styleguide)
 
-该指南所涉甚广，具有一定价值，但如下几条或需改进：
+该指南所涉甚广，具有一定价值，但不成架构，且如下几条或需改进：
 
 https://github.com/Krasjet/Mod-Translation-Styleguide/blob/52c8c18c32da9564cad9e85c047023edafcbf49b/README.md?plain=1#L61-L71 （与原版相冲突）
 
@@ -35,6 +35,8 @@ https://github.com/Krasjet/Mod-Translation-Styleguide/blob/52c8c18c32da9564cad9e
 [找到 Minecraft 哈希后的语言文件](https://www.mcbbs.net/forum.php?mod=redirect&goto=findpost&ptid=732906&pid=12437439)
 
 [哔站：会心之语](https://space.bilibili.com/299655539/channel/collectiondetail?sid=853420)
+
+[.lang 向 .json 转换器](https://www.tterrag.com/lang2json/)
 
 ## 代码文档
 

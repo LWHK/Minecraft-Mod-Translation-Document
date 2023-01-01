@@ -268,8 +268,6 @@ do 进行
 
 -ability 可……性
 
-a 一个 -> 属于/不译
-
 meaning that 意味着
 
 to do 来/以
@@ -278,7 +276,9 @@ make 使
 
 let us begin 让我们开始
 
-considering 考虑到
+a 一个 -> 属于/不译
+
+considering 考虑到 -> 既然
 
 be/get done 被 ->
 
@@ -335,6 +335,8 @@ be/get done 被 ->
 用**户**
 
 玩**家**
+
+观**众**
 
 *弱属性限定：*
 

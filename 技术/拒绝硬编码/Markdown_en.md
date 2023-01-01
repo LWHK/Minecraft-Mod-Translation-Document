@@ -211,24 +211,3 @@ If you do not, your keys are likely to conflict with other mods, and override th
 #### Example of mod of key conflict and solution
 
 [*Mekanism*](https://github.com/mekanism/Mekanism/issues/4698)
-
-## Why Do You Enum Thousands of Roman Numerals in Language File?
-
-#### Example of enumming
-
-[*So Many Enchantments*](https://www.curseforge.com/minecraft/mc-mods/so-many-enchantments)
-
-```
-// ......
-enchantment.level.3994=MMMCMXCIV
-enchantment.level.3995=MMMCMXCV
-enchantment.level.3996=MMMCMXCVI
-enchantment.level.3997=MMMCMXCVII
-enchantment.level.3998=MMMCMXCVIII
-enchantment.level.3999=MMMCMXCIX
-enchantment.level.4000=4000
-enchantment.level.4001=4001
-enchantment.level.4002=4002
-enchantment.level.4003=4003
-// ......
-```
