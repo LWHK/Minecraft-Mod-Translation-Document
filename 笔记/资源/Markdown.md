@@ -36,6 +36,8 @@ https://github.com/Krasjet/Mod-Translation-Styleguide/blob/52c8c18c32da9564cad9e
 
 [哔站：会心之语](https://space.bilibili.com/299655539/channel/collectiondetail?sid=853420)
 
+[译员的自我修养](https://space.bilibili.com/1696967578)
+
 [.lang 向 .json 转换器](https://www.tterrag.com/lang2json/)
 
 ## 代码文档

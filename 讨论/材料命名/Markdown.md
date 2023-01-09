@@ -2,6 +2,10 @@
 
 *未开工*
 
+Carobbi + -ite
+
+Sugi + l + -ite
+
 我们有没有资格造字？
 
 https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/pull/1536
