@@ -1,5 +1,7 @@
 # Minecraft 模组翻译可用资源
 
+*未完工*
+
 [提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
 
 ## 宏观指南
@@ -10,7 +12,7 @@
 
 扬弃[旧指南](https://github.com/Krasjet/Mod-Translation-Styleguide)
 
-该指南所涉甚广，具有一定价值，但不成架构，且如下几条或需改进：
+该指南所涉甚广，具有较高价值，但不成架构，且如下几条或需改进：
 
 https://github.com/Krasjet/Mod-Translation-Styleguide/blob/52c8c18c32da9564cad9e85c047023edafcbf49b/README.md?plain=1#L61-L71 （与原版相冲突）
 
@@ -19,6 +21,34 @@ https://github.com/Krasjet/Mod-Translation-Styleguide/blob/52c8c18c32da9564cad9e
 https://github.com/Krasjet/Mod-Translation-Styleguide/blob/52c8c18c32da9564cad9e85c047023edafcbf49b/README.md?plain=1#L112 （与 CFPA 的存在相冲突）
 
 https://github.com/Krasjet/Mod-Translation-Styleguide/blob/52c8c18c32da9564cad9e85c047023edafcbf49b/README.md?plain=1#L116
+
+原理：https://github.com/friendlyhj/friendlyhj/blob/main/docs/Minecraft%20%E8%AF%AD%E8%A8%80%E6%96%87%E4%BB%B6%E5%8A%A0%E8%BD%BD%E6%B5%81%E7%A8%8B.md
+
+胡适《文学改良刍议》：重要指导，白话须大体遵照［不用完全，四大名著也没有完全遵守（但那是因为人家写得好）］；仿古则按条忤逆，基本上每一条都做到才算达到仿古的门槛。不然写出来的所谓「古文」纯粹闹笑话。
+
+> 一曰，须言之有物。
+> 
+> 二曰，不摹仿古人。
+> 
+> 三曰，须讲求文法。
+> 
+> 四曰，不作无病之呻吟。
+> 
+> 五曰，务去滥调套语。
+> 
+> 六曰，不用典。
+> 
+> 七曰，不讲对仗。
+> 
+> 八曰，不避俗字俗语。
+> 
+> 各条内容略，详见 https://zh.wikisource.org/zh-hans/文學改良芻議
+
+反面教材：
+
+> 于淡水湖畔集芦苇，浸之以钾碱水，得色白纤维。
+> 
+> 用双板压之，静置，掘之以得白纸。
 
 ## 具体工具
 
