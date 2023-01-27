@@ -1,6 +1,6 @@
 # TODO
 
-写个目录
+写个目录；每个里面多弄点目录
 
 ## 从入门到开发
 
@@ -10,7 +10,7 @@
 
 重写 anchor
 
-https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md 这个是不是能删掉啊
+链接里的 https://github.com/LWHK/Passages/blob/master/%E5%9F%BA%E7%A1%80/%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E5%BC%80%E5%8F%91/Markdown.md 是不是能删掉啊
 
 ### 图
 
