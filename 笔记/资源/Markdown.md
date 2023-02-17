@@ -70,6 +70,8 @@ https://github.com/Krasjet/Mod-Translation-Styleguide/blob/52c8c18c32da9564cad9e
 
 [.lang 向 .json 转换器](https://www.tterrag.com/lang2json/)
 
+[Mojang glossary](https://docs.google.com/spreadsheets/d/1xxDvR2MrPUaxXwNfn-oJX-fBerEsZkfo/)
+
 ## 代码文档
 
 [Harbinger](https://harbinger.covertdragon.team/chapter-13/)
