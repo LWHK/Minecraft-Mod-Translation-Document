@@ -396,14 +396,14 @@ Orichalcum ~~奥利哈钢~~山铜、Mithril 秘银、<u>*Naquadah ~~硅岩~~纳�
 注意：<u>「镠」的翻译不可复制不可推广只可遇不可求</u>
 
 **金属机翻四大天王**，*斜体表示本人未考据这一译名是否合理*
-| 原名      | 译名 | 原名来源      | 译名英文 | 现名 |
+| 原名      |原名来源      | 译名 |  译名英文 | 现名 |
 | --- | --- | --- | --- | --- |
-| Ludicrite| 镥| Ludicrous + -ite| Lutetium| 镠（取荒谬意）|
-| Iesnium   | 铱| 作者随机攒的音节| Iridium| 艾瑟金属（「铘」是比较合理的普通音译，不过氛围及本义较为契合，但又因读音不合最终弃用） |
-| Therium   | 钍| 我没考据| Thorium| *空灵* |
-| Thallasium   | 铊| 我没考据| Thallium| *赛蓝铁* |
-| Devoritium   | 泥盆纪| 我没考据，Devour？| Devon(shire)ian | *噬法* |
-| <del>Neptunium</del>   | 镎| 海王 Neptune      | Neptunium       | 海王 如 海王锭；用镎只能说译者作者都不太行|
+| Ludicrite|Ludicrous + -ite| 镥|  Lutetium| 镠（取荒谬意）|
+| Iesnium   |作者随机攒的音节| 铱|  Iridium| 艾瑟金属（「铘」是比较合理的普通音译，不过氛围及本义较为契合，但又因读音不合最终弃用） |
+| Therium   | 我没考据| 钍| Thorium| *空灵* |
+| Thallasium   |我没考据| 铊|  Thallium| *赛蓝铁* |
+| Devoritium   | 我没考据，Devour？| 泥盆纪| Devon(shire)ian | *噬法* |
+| <del>Neptunium</del>   | 海神 Neptune      | 镎| Neptunium       | 海王 如 海王锭；用镎只能说译者作者都不太行|
 
 ### 222
 
