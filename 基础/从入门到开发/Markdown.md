@@ -118,7 +118,7 @@
 
     在上面分别标注出了几个需要注意的地方。
 
-    现在开始进行工作区的搭建。你需要点进 Extension（扩展）管理，在顶部搜索栏中搜索 "Chinese (Simplified) Language Pack for Visual Studio Code"，单击第一个扩展，再单击 Install，稍待一会你就会发现你的界面已经变成了中文。
+    现在开始搭建工作区。你需要点进 Extension（扩展）管理，在顶部搜索栏中搜索 "Chinese (Simplified) Language Pack for Visual Studio Code"，单击第一个扩展，再单击 Install，稍待一会你就会发现你的界面已经变成了中文。
 
     你还需要安装以下扩展：
 
@@ -135,7 +135,7 @@
     
     需要注意的是，如果你安装了这个扩展而 `.lang` 文件配色等等并没有发生变化，你需要手动将一个 `.lang` 文件设置为 `.lang` 文件格式，之后 VSC 就会自动为你设置了。上方的图中圈出的位置就是修改文件读取格式的位置，如果你因为某些原因，想要以纯文本的形式读取 `.lang` 文件，那么你也可以在图中被圈起的相应位置中进行修改。
 
-    基本上，安装了这些之后，你就可以*畅通无阻地*进行你的汉化工作了！
+    基本上，安装了这些之后，你就可以*畅通无阻地*开始汉化了！
 
 ### 词典与网站
 
@@ -145,7 +145,7 @@
 
 个人感觉还是不错的，安装了桌面版之后，打开划词翻译，打开 VSC，只需要选中你想查询的词，即可查出释义，非常好用。
 
-[**有道词典**](http://cidian.youdao.com/)的桌面版也不错，然而和我的电脑适配有困难，出现了比较严重的 bug（无法进行文本复制），所以卸载了，但是有道的划词检索很快，不像欧陆词典有时候划词检索不出来，还会偶发地卡住。
+[**有道词典**](http://cidian.youdao.com/)的桌面版也不错，然而和我的电脑适配有困难，出现了比较严重的 bug（无法复制文本），所以卸载了，但是有道的划词检索很快，不像欧陆词典有时候划词检索不出来，还会偶发地卡住。
 
 如果你是重度开源受害者，或者对于上述两款软件都不满意，那么可以考虑 [**CopyTranslator**](https://github.com/CopyTranslator/CopyTranslator/releases)，复制即可搜索，方便快捷，不像其他的词典那样过于臃肿（因为对于纯粹的翻译而言，你并不需要例句与发音这些功能）。
 
@@ -189,7 +189,7 @@
 
     然后只需单击“打开 Live Share for VS Code”，就可以完成了！
 
-    与同伴一起进行相关工作时请务必注意统一性。统一性十分重要，而保证统一性在大型模组或协作的翻译进程中尤为困难，因此请做好校对工作。~~（题外话：我（轩辕）曾在[《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)一文的翻译中为统一性作了[一点贡献](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/pull/71/files)以保证读者对文章的正常引用，却忽视了上下文标题格式的统一性，导致文中出现了突兀的格式差异，而我在 pull request 被合并后才意识到此问题，更使得重复发起 pull request 成为难为之事，因而进退两难）~~
+    与同伴一起工作时请务必注意统一性。统一性十分重要，而保证统一性在大型模组或协作的翻译进程中尤为困难，因此请做好校对工作。~~（题外话：我（轩辕）曾在[《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)一文的翻译中为统一性作了[一点贡献](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/pull/71/files)以保证读者对文章的正常引用，却忽视了上下文标题格式的统一性，导致文中出现了突兀的格式差异，而我在 pull request 被合并后才意识到此问题，更使得重复发起 pull request 成为难为之事，因而进退两难）~~
 
 3. 适当地添加空格，使文本更美观
 
