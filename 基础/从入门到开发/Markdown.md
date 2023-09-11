@@ -41,14 +41,25 @@
 
 本文的目的就是写出上述的内容 —— 当前版本下，制作与提交汉化的流程。我们会尽力写清自己所了解的，以便后来者查阅学习。
 
-在此之前还要说明一点。如果你的英语还很差，你的热情再高，我们也仍然不建议你参与汉化。有些人可能觉得翻译工作查一查词典、找一找语法书或是背一背单词就完事了，然而这么想其实是完全不对的；如果你有这种想法，你的水平尚需提高。我们可以引用本雅明[《译作者的任务》](https://www.douban.com/note/740749770/)阐明这一点：
+在此之前还要说明一点。如果你的英语还很差，你的热情再高，我们也仍然不建议你参与汉化。有些人可能觉得翻译工作查一查词典、找一找语法书或是背一背单词就完事了，然而这么想其实是完全不对的；如果你有这种想法，你的水平尚需提高。韩刚老师在他的 CATTI 笔译教科书中，是这样描述翻译的：
 
-> ……文学作品的基本特性并不是陈述事实或发布信息。然而任何执行传播功能的翻译所传播的只能是信息，也就是说，它传播的只是非本质的东西。
-> 这是拙劣译文的特征。但是人们普遍认为文学作品的实质是信息之外的东西。而即使拙劣的译者也承认，文学作品的精髓是某种深不可测的、神秘的、“诗意的”东西；翻译家若要再现这种东西，自己必须也是一个诗人。
+> 笔译需要站得高，才能“译”得远！笔译绝不能停留在表面，而是要深入分析，清晰传达，真正做到“深入浅出”！
+> 
+> The right approach to translation is to go beyond what is said into what is implied, and to say what is implied in a clear, simple way!
 
-多数模组文本明显不是文学作品，然而对它的翻译追求却能与公认的翻译标准相对照。对文学翻译而言，其基本特性**并不是陈述事实或发布信息**；但对于 Minecraft 的翻译，精确的表达总是最重要的。若非如此，这些不够准确的翻译就会严重影响游戏进程推进。因此，在严复提出的“译者三难”中（注意：这不是严谨完整的翻译理论），“信”总是排在最先的，“达”是我们致力于追求的，“雅”则是力所能及者行之事，不能行则应退而求其次，无需也不可强求。
 
-“信”首先要求译者对原版词汇烂熟于心，避免误翻引人发笑，对此可于 [Minecraft Wiki](https://minecraft-zh.gamepedia.com/Minecraft_Wiki:%E8%AF%91%E5%90%8D%E6%A0%87%E5%87%86%E5%8C%96) 查到相关资料。其次要求了解一些约定俗成的词语的翻译，上述页面也包含相关信息。
+然而，话虽如此，Minecraft 中的本地化基本都是字典式翻译，尤其是在科技类模组中。浩浩荡荡几千行，但是其中可供译者琢磨的内容几乎没有：绝大多数都是一些含义已然确定的词语，例如化学、机械、物理相关的词汇，获取这些词汇的翻译不依赖于译者的斟字酌句，而是依赖于各领域内的工具书。这种情况下的笔译都是“苦力活”，而非真正意义上的“写作”的笔译。
+
+对于这类领域下模组的本地化工作，总是需要译者尽心尽力地去查阅相关领域的资料，以精确、专业的角度去制作本地化。若非如此，这些不够准确的翻译就会严重影响游戏进程推进。
+
+然而，并非所有模组皆为如此。众所周知，Minecraft 中的模组除却科技类，还有魔法类以及冒险类两种。这两类模组在本地化上的难点侧重与科技类模组大相径庭，但总结起来，无外乎以下两点：
+
+1. 生造词。此两类模组会在原文中或多或少地使用到生造词。如何翻译生造词，是需要译者稍微考量的。
+2. 语法结构较复杂的长文本。此两类中的某些模组很喜欢在指导书内写故事，涉及到的文体以及语法与一般科技类模组的指导书更显复杂（例如星辉魔法），文风更偏向文艺（例如神秘遗物）。把握这类文体的翻译需要译者一定的功底。
+
+以上所做之辨析，只是对庞大的 Minecraft 模组社区的一次本地化草描，根据各个模组的特色，它们的本地化工作也会迎来各式各样的困难。那么，针对这以上浩瀚繁复的情况，我们是否有一个总体上把握的原则呢。是有的，我们不妨用大家耳熟能详的严复“译者三难”来解释（注意：这不是严谨完整的翻译理论）：在 Minecraft 领域（我可以说，在游戏本地化领域皆是如此）中，“信”总是排在最先的，译者在遇到“信”与“达”“雅”不可兼得的情况下，完全可以为了“信”而放弃另外两者。这是因为游戏本地化，当头便是要将“含义准确”牢记心中。译文失准，势必要影响游戏本身的可玩性，这便犯了大忌；“达”是我们致力于追求的，流畅通达的译文，是引领玩家走入游戏世界的钥匙，是玩家享受游戏内容的催化剂，虽不是不可或缺，但译者总是应该极力争取；“雅”则是力所能及者行之事，不能行则应退而求其次，无需也不可强求。
+
+回到 Minecraft 模组翻译中来。“信”首先要求译者对原版词汇烂熟于心，避免误翻引人发笑，对此可于 [Minecraft Wiki](https://minecraft-zh.gamepedia.com/Minecraft_Wiki:%E8%AF%91%E5%90%8D%E6%A0%87%E5%87%86%E5%8C%96) 查到相关资料。其次要求了解一些约定俗成的词语的翻译，上述页面也包含相关信息。
 
 此外，由于各方机翻小能手整出的愚蠢文本频频出现，机翻相关内容甚至成了[梗](https://wiki.biligame.com/mcplayer/%E6%9A%B4%E5%BE%92%E4%BA%A7%E5%8D%B5)，看看它既能会心一笑，又能了解一下挂到城墙上的感觉，避免重蹈覆辙。
 
@@ -191,11 +202,19 @@
 
     与同伴一起工作时请务必注意统一性。统一性十分重要，而保证统一性在大型模组或协作的翻译进程中尤为困难，因此请做好校对工作。~~（题外话：我（轩辕）曾在[《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)一文的翻译中为统一性作了[一点贡献](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/pull/71/files)以保证读者对文章的正常引用，却忽视了上下文标题格式的统一性，导致文中出现了突兀的格式差异，而我在 pull request 被合并后才意识到此问题，更使得重复发起 pull request 成为难为之事，因而进退两难）~~
 
+    当然，这并不是共同翻译的唯一解法。实际上，网络里有很多可供自由译者使用的翻译平台，平台的功能较之 VSC 更为的复杂，但也更为完善，例如术语标记、翻译记忆库等。此处推荐两处平台：
+
+    [ParaTranz](https://paratranz.cn/projects)
+
+    [Crowdin](https://crowdin.com/)
+
+    它们的使用方法因篇幅过长，不在本篇中讨论，若读者感兴趣可自行百度。
+
 3. 适当地添加空格，使文本更美观
 
     请阅读[《中文文案排版指北》](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-CN.md)。
 
-4. 使用合适的工具来翻译
+4. 使用更专业的工具来翻译
 
   请阅读[进阶内容](https://github.com/LWHK/Minecraft-Mod-Translation-Document/blob/b11351bbbd2cf5f6a685ed16acae03bfd416ab71/%E6%8A%80%E6%9C%AF/%E4%B8%93%E4%B8%9A%E5%B7%A5%E5%85%B7%E7%AE%80%E4%BB%8B/Markdown.md#L197)。
   
@@ -432,9 +451,7 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
 1. 在网页端 review
 
-    GitHub 网页端的默认主题是亮色的，简直就是文本查阅的噩梦环境。在 GitHub 上保持亮色 review 不出十分钟，我（清秋）就开始意识模糊了。为了保护自己的眼睛，我必须找到一种适合我这种编程外行的方法，来改变 GitHub 的主题颜色。
-
-    我个人的解决方法是使用扩展 Stylus（[Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)丨[Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/styl-us/?src=search)）。教程我就不放了，如有需要请自行搜索。目标的主题是 [Material Dark GitHub](https://raw.githubusercontent.com/CharlieEtienne/material-github/master/material-github.user.css)，单击链接即可进行安装。安装之后你就会发现，你的 GitHub 变成暗色的啦！
+    GitHub 网页端的默认主题是亮色的，简直就是文本查阅的噩梦环境。在 GitHub 上保持亮色 review 不出十分钟，高对比度的阅读环境会对阅读者的眼睛产生严重的伤害。所以，我们相当建议译者以及审核使用 GitHub 的暗色模式，来进行日常的工作。若想如此，请前往[设置](https://github.com/settings/appearance)选择 theme。
 
     在 GitHub 网页端进行 review，在功能上会比在本地 review 要更加丰富。一个是一些复杂的语法，在网页端只需点一点按钮便可以唤出；另一个是一些扩展，可以更好地帮助你说明 review 的内容。譬如这个 PR Review Priority（[Chrome](https://chrome.google.com/webstore/detail/pr-Review-priority/mcngolehbdnjjdgbcafgkgigjmplbmhb?utm_source=chrome-ntp-icon)丨[Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/pr-review-priority/?src=search)），你可以迅速地为你的每一条 review 标注你对于这一 review 的态度，上文的 [对交错道途汉化的 review](https://github.com/CFPAOrg/Minecraft-mod-Language-Package/pull/779) 就是一个大规模运用的例子。在这一例子里，我大量运用了优先度的描述，这样 pull request 递交者就能够明白哪些 review 是比较重要的，哪些 review 是可以与我讨论而不会出现误会的。遗憾的是，这个扩展一旦安装便不能选择无优先度的设定；此外至少在火狐方面为有多人的、种类不同的 review 添加评论时会出现数据错乱的现象，只能通过编辑功能手动修改。
 
@@ -442,10 +459,9 @@ Pull request 翻译过来就是“拉取请求”。我们在 fork 的仓库里�
 
     但无论如何，在网页端 review 总是有着各种各样的不便的，所以我们更推荐在本地进行 review。
 
-    **更新：现在 GitHub 已经可以选择暗色模式了，请前往[设置](https://github.com/settings/appearance)选择 theme。**
 
 2. 本地 review
-    （注意：本节涉及到的相关图片现已大部分过时，可以部分参考）
+    （注意：本节涉及到的相关图片为老版本插件，现版本插件的外观元素与图片中的略有出入，但核心操作逻辑没变，依然可以参考）
     需要使用到之前提到的 VSC 扩展（按：或许其他的编辑器也有，但是我们都没用过）GitHub Pull Requests and Issues。
 
     安装了之后，你就可以在本地访问到远程仓库的 pull request 了：
